@@ -1,0 +1,37 @@
+body {
+  background-color: #f9f6f3;
+}
+.logo-img {
+  width: 120px;
+  height: 40px;
+}
+.Navbar{
+    top: 20px;
+}
+.nbar {
+  background-color: #F0EBE5;
+  height: 80px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 16px;
+
+}
+.nav-link {
+  /* font-family: Fixel Text; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #1d1d1b;
+}
+
+.F-btn, .F-btn:hover {
+  width: Hug (187px) px;
+  height: Fixed (48px) px;
+  padding: 4px 24px 4px 24px;
+  gap: 8px;
+  border-radius: 56px;
+  background-color: #1D1D1B;
+}
+.D-app, .D-app:hover{
+  color: #F8F8F8;
+}

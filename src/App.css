@@ -64,15 +64,22 @@ body {
   text-align: left;
   color: #1d1d1b;
 }
-
-.btn {
+.hero-2 {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.hero-cont{
+  margin-top: 10px;
+}
+.btn-1 {
   width: 203px;
   height: 56px;
   padding: 4px 32px 4px 32px;
   gap: 8px;
   border-radius: 56px;
   background-color: #1d1d1b;
-  color:#f8f8f8 ;
+  color: #f8f8f8;
   /* font-family: Fixel Text; */
   font-size: 16px;
   font-weight: 500;
@@ -93,7 +100,20 @@ body {
   left: 1300px;
   top: 510px;
 }
-
+.img-4 {
+  position: absolute;
+  left: 1025px;
+  top: 145px;
+}
+.card-1 {
+  background-color: #ffffff;
+  width: 392px;
+  margin: 15px;
+  height: 212px;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 24px;
+}
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
     border: none;
@@ -101,8 +121,8 @@ body {
 
   .img-2 {
     position: absolute;
-    left: 5px;
-    top: 860px;
+    left: 6px;
+    top: 510px;
   }
   .img-1 {
     width: 70%;
@@ -113,7 +133,7 @@ body {
   .img-1 {
     position: absolute;
     left: 100px;
-    top: 750px;
+    top: 400px;
   }
   .img-2 {
     width: 42%;
@@ -124,9 +144,68 @@ body {
   .img-3 {
     position: absolute;
     left: 150px;
-    top: 950px;
+    top: 600px;
   }
   .img-3 {
     width: 30%;
+  }
+  .img-4 {
+    position: absolute;
+    left: 320px;
+    top: 145px;
+  }
+  .img-4 {
+    width: 10%;
+  }
+  .img-cont {
+    margin-top: -00px;
+  }
+  .hero h2 {
+    /* font-family: Fixel Text; */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .hero span {
+    /* font-family: Fixel Text; */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .hero p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .hero-2 {
+    margin-top: 300px;
+  }
+  .hero-2Img {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    /* padding: 10px; */
+    /* margin-top: 20px; */
+  }
+  .card-1 {
+    margin: 10px;
+    display: flex;
+  }
+  .card-1 {
+    width: 343px;
+    height: 102px;
+    padding: 16px;
+    border-radius: 16px;
+  }
+  .card-1 h6 {
+    /* font-family: Fixel Text; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .card-1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
   }
 }

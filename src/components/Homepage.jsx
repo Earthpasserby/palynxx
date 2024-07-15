@@ -49,6 +49,8 @@ const Homepage = () => {
       <Container className="hero">
         <Row>
           <Col sm={8}>
+            <img src="./arrow.png" alt="palynx-img" className="img-4" />
+
             <h2>
               <span>Discover</span> Your City and Make New Friends with Ease
             </h2>
@@ -56,13 +58,43 @@ const Homepage = () => {
               Connect with people with like minds, similar interests, goals and
               motivations and make plans all with Palynx.
             </p>
-            <button className="btn">Download the App</button>
+            <button className="btn btn-1">Download the App</button>
           </Col>
-          <Col sm={4}>
+          <Col sm={4} className="img-cont">
             <img src="./content.png" alt="palynx-img" className="img-1" />
             <img src="./Underline.png" alt="palynx-img" className="img-3" />
-
             <img src="./card.png" alt="palynx-img" className="img-2" />
+          </Col>
+        </Row>
+      </Container>
+      <Container className="hero-2">
+        <Row className="">
+          <Col sm={4} className="card-1">
+            <img src="./search.png" alt="palynx-img" className="hero-2Img" />
+            <div className="hero-cont">
+              <h6>Find events close to you</h6>
+              <p>
+                You don’t need to go far, all events around your location will
+                be shown.
+              </p>
+            </div>
+          </Col>
+          <Col sm={4} className="card-1">
+            <img src="./prof.png" alt="palynx-img" className="hero-2Img" />
+            <div className="hero-cont">
+              <h6>Meet people & connect</h6>
+              <p>
+                We recommend events and people that are specifically tailored to
+                you.
+              </p>
+            </div>
+          </Col>
+          <Col sm={4} className="card-1">
+            <img src="./file.png" alt="palynx-img" className="hero-2Img" />
+            <div className="hero-cont">
+              <h6>Share memories</h6>
+              <p>Get to know more about your connections and share memories.</p>
+            </div>
           </Col>
         </Row>
       </Container>

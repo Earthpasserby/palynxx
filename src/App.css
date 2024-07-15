@@ -1,19 +1,19 @@
 body {
   background-color: #f9f6f3;
 }
+/*Homepage*/
 .logo-img {
   width: 120px;
   height: 40px;
 }
-.Navbar{
-    top: 20px;
+.Navbar {
+  top: 15px;
 }
 .nbar {
-  background-color: #F0EBE5;
+  background-color: #f0ebe5;
   height: 80px;
   padding: 16px 24px 16px 24px;
   border-radius: 16px;
-
 }
 .nav-link {
   /* font-family: Fixel Text; */
@@ -24,14 +24,109 @@ body {
   color: #1d1d1b;
 }
 
-.F-btn, .F-btn:hover {
+.F-btn,
+.F-btn:hover {
   width: Hug (187px) px;
   height: Fixed (48px) px;
   padding: 4px 24px 4px 24px;
   gap: 8px;
   border-radius: 56px;
-  background-color: #1D1D1B;
+  background-color: #1d1d1b;
 }
-.D-app, .D-app:hover{
-  color: #F8F8F8;
+.D-app,
+.D-app:hover {
+  color: #f8f8f8;
+}
+.hero {
+  margin-top: 61.46px;
+}
+.hero h2 {
+  /* font-family: Fixel Text; */
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 84px;
+  text-align: left;
+  color: #1d1d1b;
+}
+.hero span {
+  /* font-family: Fixel Text; */
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 84px;
+  text-align: left;
+  color: #fa8f42;
+}
+.hero p {
+  /* font-family: Fixel Text; */
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  color: #1d1d1b;
+}
+
+.btn {
+  width: 203px;
+  height: 56px;
+  padding: 4px 32px 4px 32px;
+  gap: 8px;
+  border-radius: 56px;
+  background-color: #1d1d1b;
+  color:#f8f8f8 ;
+  /* font-family: Fixel Text; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+.Nav-Toggle {
+  font-size: 30px;
+  color: #1d1d1b;
+}
+.img-2 {
+  position: absolute;
+  left: 1067px;
+  top: 369px;
+}
+.img-3 {
+  position: absolute;
+  left: 1300px;
+  top: 510px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 992px) {
+  .Nav-Toggle {
+    border: none;
+  }
+
+  .img-2 {
+    position: absolute;
+    left: 5px;
+    top: 860px;
+  }
+  .img-1 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-1 {
+    position: absolute;
+    left: 100px;
+    top: 750px;
+  }
+  .img-2 {
+    width: 42%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-3 {
+    position: absolute;
+    left: 150px;
+    top: 950px;
+  }
+  .img-3 {
+    width: 30%;
+  }
 }

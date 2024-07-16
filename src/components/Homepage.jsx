@@ -68,7 +68,7 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container className="hero-2">
-        <Row className="">
+        <Row className="justify-content-center">
           <Col sm={4} className="card-1">
             <img src="./search.png" alt="palynx-img" className="hero-2Img" />
             <div className="hero-cont">
@@ -99,7 +99,7 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container className="hero-3">
-        <Row>
+        <Row className="justify-content-center">
           <h4>
             <span>Explore</span> Your City{" "}
           </h4>
@@ -113,20 +113,24 @@ const Homepage = () => {
           </p>
           <Col sm={4} className="card-2">
             <img src="./view.png" alt="palynx-img" className="img-fluid" />
+            <div>
+              <h6>Sea & Romantic dinner</h6>
+              <p>New York, NY - August 12</p>
+            </div>
           </Col>
           <Col sm={4} className="card-2">
-            <img
-              src="./yatch.png"
-              alt="palynx-img"
-              className="img-5 img-fluid"
-            />
+            <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
+            <div>
+              <h6>Yacht day & Friend’s party</h6>
+              <p>New York, NY - August 18</p>
+            </div>
           </Col>
           <Col sm={4} className="card-2">
-            <img
-              src="./bale.png"
-              alt="palynx-img"
-              className="img-5 img-fluid"
-            />
+            <img src="./bale.png" alt="palynx-img" className="img-fluid" />
+            <div>
+              <h6>Beginner & Intermediate Ballet Class</h6>
+              <p>New York, NY - August 24</p>
+            </div>
           </Col>
         </Row>
       </Container>

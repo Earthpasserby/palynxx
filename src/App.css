@@ -66,7 +66,7 @@ body {
 }
 .hero-2 {
   margin-top: 150px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 .hero-cont {
@@ -132,6 +132,7 @@ body {
   font-weight: 600;
   line-height: 62.4px;
   color: #1d1d1b;
+  padding-left: 70px;
 }
 .hero-3 span {
   /* font-family: Fixel Text; */
@@ -146,22 +147,26 @@ body {
   font-weight: 400;
   line-height: 32px;
   color: #1d1d1b;
+  padding-left: 70px;
+
 }
-.img-5{
+.img-5 {
   width: 223px;
   height: 81px;
 }
-.img-5{
- position: absolute;
- left: 1420px;
+.img-5 {
+  position: absolute;
+  left: 1420px;
 }
-.card-2{
+
+.card-2 {
   width: 360px;
-height: 317px;
-padding: 8px 8px 12px 8px;
-gap: 12px;
-border-radius: 32px;
-border: 3px #f2eee9;
+  height: 317px;
+  padding: 8px 8px 12px 8px;
+  gap: 12px;
+  border-radius: 32px;
+  border: 3px solid #f2eee9;
+  margin: 15px;
 }
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .Nav-Toggle {
@@ -260,4 +265,15 @@ border: 3px #f2eee9;
   .hero-cont {
     margin-top: 0;
   }
+/*Explore component */
+.hero-3 h4 {
+  
+  padding-left: 0;
+}
+
+.hero-3 p {
+  
+  padding-left: 0;
+
+}
 }

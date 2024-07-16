@@ -190,7 +190,37 @@ body {
   position: absolute;
   left: 640px
 }
+.btn-4 {
+  position: absolute;
+  left: 1055px
+}
+.btn-5 {
+  position: absolute;
+  left: 1390px
+}
 .btn-3{
+  font-family: Fixel Text;
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+text-align: left;
+background-color: #fff5db;
+color: #1d1d1b;
+border-radius: 56px;
+margin-top: 10px;
+}
+.btn-4{
+  font-family: Fixel Text;
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+text-align: left;
+background-color: #fff5db;
+color: #1d1d1b;
+border-radius: 56px;
+margin-top: 10px;
+}
+.btn-5{
   font-family: Fixel Text;
 font-size: 14px;
 font-weight: 500;
@@ -301,9 +331,45 @@ margin-top: 10px;
   /*Explore component */
   .hero-3 h4 {
     padding-left: 0;
+    font-size: 24px;
   }
-
+    .hero-3 span {
+    font-size: 24px;
+  }
   .hero-3 p {
     padding-left: 0;
+    font-size: 16px;
   }
+  .hero-3 {
+  height: 1400px;
+  
+}
+.btn-3 {
+  position: absolute;
+  left: 220px
+}
+.btn-4 {
+  position: absolute;
+  left: 245px
+}
+.btn-5 {
+  position: absolute;
+  left: 190px
+}
+.img-5 {
+ width:100px;
+ height:35px ;
+}
+.img-5 {
+  position: absolute;
+  left: 270px;
+}
+.hero-3{
+  width:343px ;
+}
+.card-2 {
+  width: 311px;
+  height: 270px;
+ 
+}
 }

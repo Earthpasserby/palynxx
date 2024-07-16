@@ -8,49 +8,49 @@ import Slider from "react-slick";
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Homepage = () => {
-  // let sliderRef = useRef(null);
-  // const next = () => {
-  //   sliderRef.slickNext();
-  // };
-  // const previous = () => {
-  //   sliderRef.slickPrev();
-  // };
+  let sliderRef = useRef(null);
+  const next = () => {
+    sliderRef.slickNext();
+  };
+  const previous = () => {
+    sliderRef.slickPrev();
+  };
 
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 3,
-  //   initialSlide: 0,
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 0,
 
-  //   responsive: [
-  //     {
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 3,
-  //         slidesToScroll: 2,
-  //         infinite: true,
-  //         dots: false,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2,
-  //         initialSlide: 1,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 390,
-  //       settings: {
-  //         slidesToShow: 3,
-  //         slidesToScroll: 1,
-  //       },
-  //     },
-  //   ],
-  // };
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 390,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -151,7 +151,7 @@ const Homepage = () => {
           <img
             src="./underline1.png"
             alt="palynx-img"
-            className="img-5 img-fluid"
+            className="underline1 img-fluid"
           />
           <p>
             Discover new places, hidden gems, and popular hotspots in your city.
@@ -182,18 +182,22 @@ const Homepage = () => {
           </Col>
         </Row>
       </Container>
-      {/* <Container className="hero-4 ">
+      <Container className="hero-4 ">
         <Row className="justify-content-center">
           <Col sm={5} className="hero4-1">
             <h5>
               Last-minute <span>hangout</span> option for any spontaneous plans
             </h5>
-            <img src="./minute.png" alt="palynx-img" className="img-fluid" />
+            <img
+              src="./minute.png"
+              alt="palynx-img"
+              className="img-fluid Img4"
+            />
           </Col>
           <img
             src="./Underline.png"
             alt="palynx-img"
-            className="img-fluid ff"
+            className="img-fluid Under-line"
           />
           <Col sm={7} className="hero4-2">
             <h5>
@@ -217,18 +221,23 @@ const Homepage = () => {
             />
           </Col>
         </Row>
-      </Container> */}
-      {/* <Container>
+      </Container>
+      <Container className="hero-5">
+        <div className="">
+          <h4 className="">
+            Create, Contribute, Like & <span>Share</span>
+          </h4>
+          <div className="float-end">
+            <span id="left" className="Icon" onClick={previous}>
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </span>
+            <span id="right" className="Icon mx-4" onClick={next}>
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </span>
+          </div>
+        </div>
         <Row>
-          <div className="slider-container mt-5">
-            <div className="float-end mt-3  mb-5">
-              <span id="left" className="Icon" onClick={previous}>
-                <i class="bi bi-arrow-left-circle-fill"></i>
-              </span>
-              <span id="right" className="Icon mx-4" onClick={next}>
-                <i class="bi bi-arrow-right-circle-fill"></i>
-              </span>
-            </div>
+          <div className="slider-container">
             <Slider
               ref={(slider) => {
                 sliderRef = slider;
@@ -266,7 +275,7 @@ const Homepage = () => {
             </Slider>
           </div>
         </Row>
-      </Container> */}
+      </Container>
     </>
   );
 };

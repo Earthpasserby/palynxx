@@ -2,6 +2,7 @@ body {
   background-color: #f9f6f3;
 }
 /*Homepage*/
+
 .logo-img {
   width: 120px;
   height: 40px;
@@ -147,13 +148,13 @@ body {
   color: #1d1d1b;
   padding-left: 70px;
 }
-.img-5 {
+.underline1{
   width: 223px;
   height: 81px;
 }
-.img-5 {
+.underline1 {
   position: absolute;
-  left: 1420px;
+  left: 1265px;
 }
 .card-2Cont {
   margin-top: 10px;
@@ -186,15 +187,15 @@ body {
 }
 .btn-3 {
   position: absolute;
-  left: 640px;
+  left: 470px;
 }
 .btn-4 {
   position: absolute;
-  left: 1055px;
+  left: 890px;
 }
 .btn-5 {
   position: absolute;
-  left: 1390px;
+  left: 1230px;
 }
 .btn-3 {
   font-family: Fixel Text;
@@ -267,36 +268,37 @@ body {
   line-height: 48px;
   color: #fa8f42;
 }
-.hero4-1 img {
-  width: 330px;
-  /* top: 132.38px; */
-  left: 356.92px;
+.Img4 {
+  width: 350px;
+  left: 256.92px;
   position: absolute;
+  margin-top: -20px;
 }
 .Img3 {
-  width: 370px;
-  left: 1200.92px;
+  width: 420px;
+  left: 970px;
   position: absolute;
+  margin-top: -45px;
 }
 .Img2 {
   position: absolute;
-  left: 983px;
+  left: 760px;
   margin-top: 200px;
 }
 .Img1 {
   position: absolute;
-  left: 1010px;
+  left: 800px;
   margin-top: 70px;
 }
-.ff {
+.Under-line {
   width: 221px;
   height: 30px;
   position: absolute;
-  left: 735px;
-  bottom: -1225px;
+  left: 570px;
+  margin-top: 450px;
 }
 .Slide-card {
-  width: 444px;
+  /* width: 444px; */
   height: 569px;
   top: 2424px;
   left: 1496px;
@@ -305,8 +307,8 @@ body {
   border-radius: 40px;
   background-color: #ffffff;
 }
-.Slide-card {
-  /* margin: 20px; */
+.slider-container{
+  margin-top: 150px;
 }
 /* .Slide-card{
   width: 420px !important;
@@ -317,6 +319,17 @@ body {
 } */
 .pic-slide{
   width: 430px;
+}
+/* slides carousel*/
+.hero-5 h4{
+  font-family: Fixel Text;
+font-size: 48px;
+font-weight: 600;
+line-height: 62.4px;
+text-align: left;
+}
+.hero-5 h4{
+  padding-top: 50px;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 992px) {
@@ -451,6 +464,14 @@ body {
     position: absolute;
     left: 270px;
   }
+  .underline1 {
+  position: absolute;
+  left: 275px;
+}
+.underline1{
+   width: 100px;
+  height: 40px;
+}
   .hero-3 {
     width: 343px;
   }
@@ -507,7 +528,7 @@ body {
     width: 120px;
     margin-top: -10px;
   }
-  .ff {
+  .Under-line {
     display: none;
   }
   .slider-container {
@@ -538,5 +559,8 @@ body {
   }
   .slider-container {
     overflow: hidden;
+  }
+   .Under-line {
+    display: none;
   }
 }

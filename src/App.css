@@ -249,9 +249,9 @@ body {
   border-radius: 40px;
   background-color: #ffffff;
   margin-left: 15px;
-
 }
-.hero4-1 h5, .hero4-2 h5 {
+.hero4-1 h5,
+.hero4-2 h5 {
   font-family: Fixel Text;
   font-size: 32px;
   font-weight: 600;
@@ -259,7 +259,8 @@ body {
   color: #1d1d1b;
   padding: 30px;
 }
-.hero4-1 span, .hero4-2 span {
+.hero4-1 span,
+.hero4-2 span {
   font-family: Fixel Text;
   font-size: 32px;
   font-weight: 600;
@@ -286,6 +287,13 @@ body {
   position: absolute;
   left: 1010px;
   margin-top: 70px;
+}
+.ff {
+  width: 221px;
+  height: 30px;
+  position: absolute;
+  left: 735px;
+  bottom: -1225px;
 }
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .Nav-Toggle {
@@ -426,48 +434,56 @@ body {
     width: 311px;
     height: 270px;
   }
-  .hero4-1 h5, .hero4-2 h5 {
-  font-size: 20px;
-}
-.hero4-1 span, .hero4-2 span {
-  font-size: 20px;
-}
-.hero4-1 {
-  width: 343px;
-  height: 400px;
-  gap: 416px;
-  border-radius: 16px;
-  margin-left: 0;
-}
-.hero4-2 {
-  width:343px;
-  height: 400px;
-  gap: 416px;
-  border-radius: 16px;
-  margin-top: 5px;
-  margin-left: 0;
-}
-.hero4-1 img {
-  width: 275px;
-  margin-top: -50px;
-  left: 56.92px;
-  position: absolute;
-}
-.Img3 {
-  width: 270px;
-  left: 80px;
-  margin-top: -50px;
-  position: absolute;
-}
-.Img2 {
-  position: absolute;
-  left: 83px;
-  width: 150px;
-  margin-top: 200px;
-}
-.Img1 {
-  position: absolute;
-  left: 1010px;
-  margin-top: 70px;
-}
+  .hero4-1 h5 {
+    font-size: 18px;
+  }
+  .hero4-2 h5,
+  .hero4-2 span {
+    font-size: 18px;
+  }
+  .hero4-1 span {
+    font-size: 18px;
+  }
+  .hero4-1 {
+    width: 343px;
+    height: 400px;
+    gap: 416px;
+    border-radius: 16px;
+    margin-left: 0;
+  }
+  .hero4-2 {
+    width: 343px;
+    height: 400px;
+    gap: 416px;
+    border-radius: 16px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .hero4-1 img {
+    width: 275px;
+    margin-top: -50px;
+    left: 56.92px;
+    position: absolute;
+  }
+  .Img3 {
+    width: 265px;
+    left: 80px;
+    margin-top: 10px;
+    position: absolute;
+  }
+  .Img2 {
+    position: absolute;
+    left: 150px;
+    width: 180px;
+    margin-top: -45px;
+  }
+  .Img1 {
+    position: absolute;
+    left: 65px;
+    width: 120px;
+    margin-top: -10px;
+  }
+  .ff {
+    display: none;
+  }
 }

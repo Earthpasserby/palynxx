@@ -145,6 +145,11 @@ const Homepage = () => {
             </h5>
             <img src="./minute.png" alt="palynx-img" className="img-fluid" />
           </Col>
+          <img
+            src="./Underline.png"
+            alt="palynx-img"
+            className="img-fluid ff"
+          />
           <Col sm={7} className="hero4-2">
             <h5>
               <span>Host</span> events and <span>find</span> attendees

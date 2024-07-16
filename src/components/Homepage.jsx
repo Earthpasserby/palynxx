@@ -98,7 +98,7 @@ const Homepage = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="hero-3">
+      <Container className="hero-3 ">
         <Row className="justify-content-center">
           <h4>
             <span>Explore</span> Your City{" "}
@@ -134,6 +134,37 @@ const Homepage = () => {
               <h6>Beginner & Intermediate Ballet Class</h6>
               <pre>New York, NY - August 24</pre>
             </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="hero-4 ">
+        <Row className="">
+          <Col sm={5} className="hero4-1">
+            <h5>
+              Last-minute <span>hangout</span> option for any spontaneous plans
+            </h5>
+            <img src="./minute.png" alt="palynx-img" className="img-fluid" />
+          </Col>
+          <Col sm={7} className="hero4-2">
+            <h5>
+              <span>Host</span> events and <span>find</span> attendees
+            </h5>
+            <img
+              src="./company.png"
+              alt="palynx-img"
+              className="img-fluid Img1"
+            />
+            <img
+              src="./following.png"
+              alt="palynx-img"
+              className="img-fluid Img2"
+            />
+
+            <img
+              src="./Event Details.png"
+              alt="palynx-img"
+              className="img-fluid Img3"
+            />
           </Col>
         </Row>
       </Container>

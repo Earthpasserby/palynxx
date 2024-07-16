@@ -188,48 +188,104 @@ body {
 }
 .btn-3 {
   position: absolute;
-  left: 640px
+  left: 640px;
 }
 .btn-4 {
   position: absolute;
-  left: 1055px
+  left: 1055px;
 }
 .btn-5 {
   position: absolute;
-  left: 1390px
+  left: 1390px;
 }
-.btn-3{
+.btn-3 {
   font-family: Fixel Text;
-font-size: 14px;
-font-weight: 500;
-line-height: 14px;
-text-align: left;
-background-color: #fff5db;
-color: #1d1d1b;
-border-radius: 56px;
-margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 56px;
+  margin-top: 10px;
 }
-.btn-4{
+.btn-4 {
   font-family: Fixel Text;
-font-size: 14px;
-font-weight: 500;
-line-height: 14px;
-text-align: left;
-background-color: #fff5db;
-color: #1d1d1b;
-border-radius: 56px;
-margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 56px;
+  margin-top: 10px;
 }
-.btn-5{
+.btn-5 {
   font-family: Fixel Text;
-font-size: 14px;
-font-weight: 500;
-line-height: 14px;
-text-align: left;
-background-color: #fff5db;
-color: #1d1d1b;
-border-radius: 56px;
-margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 56px;
+  margin-top: 10px;
+}
+.hero-4 {
+  margin-top: 20px;
+}
+
+
+.hero4-1 {
+  /* width: 500px; */
+  height: 500px;
+  padding: 32px 0px 0px 0px;
+  gap: 48px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.hero4-2 {
+  /* width: 700px; */
+  height: 500px;
+  padding: 32px 0px 0px 0px;
+  gap: 48px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.hero4-1 h5, .hero4-2 h5 {
+  font-family: Fixel Text;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #1d1d1b;
+}
+.hero4-1 span, .hero4-2 span {
+  font-family: Fixel Text;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fa8f42;
+}
+.hero4-1 img {
+  width: 400px;
+  /* top: 132.38px; */
+  /* left: 356.92px; */
+  /* position: absolute; */
+}
+.Img3 {
+  width: 400px;
+  left: 1175.92px;
+  position: absolute;
+}
+.Img2 {
+  position: absolute;
+  left: 983px;
+  margin-top: 200px;
+}
+.Img1 {
+  position: absolute;
+  left: 1010px;
+  margin-top: 70px;
 }
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .Nav-Toggle {
@@ -333,7 +389,7 @@ margin-top: 10px;
     padding-left: 0;
     font-size: 24px;
   }
-    .hero-3 span {
+  .hero-3 span {
     font-size: 24px;
   }
   .hero-3 p {
@@ -341,35 +397,33 @@ margin-top: 10px;
     font-size: 16px;
   }
   .hero-3 {
-  height: 1400px;
-  
-}
-.btn-3 {
-  position: absolute;
-  left: 220px
-}
-.btn-4 {
-  position: absolute;
-  left: 245px
-}
-.btn-5 {
-  position: absolute;
-  left: 190px
-}
-.img-5 {
- width:100px;
- height:35px ;
-}
-.img-5 {
-  position: absolute;
-  left: 270px;
-}
-.hero-3{
-  width:343px ;
-}
-.card-2 {
-  width: 311px;
-  height: 270px;
- 
-}
+    height: 1150px;
+  }
+  .btn-3 {
+    position: absolute;
+    left: 220px;
+  }
+  .btn-4 {
+    position: absolute;
+    left: 245px;
+  }
+  .btn-5 {
+    position: absolute;
+    left: 190px;
+  }
+  .img-5 {
+    width: 100px;
+    height: 35px;
+  }
+  .img-5 {
+    position: absolute;
+    left: 270px;
+  }
+  .hero-3 {
+    width: 343px;
+  }
+  .card-2 {
+    width: 311px;
+    height: 270px;
+  }
 }

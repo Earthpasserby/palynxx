@@ -138,7 +138,7 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container className="hero-4 ">
-        <Row className="">
+        <Row className="justify-content-center">
           <Col sm={5} className="hero4-1">
             <h5>
               Last-minute <span>hangout</span> option for any spontaneous plans

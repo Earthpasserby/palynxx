@@ -334,8 +334,36 @@ const Homepage = () => {
       </Container>
       <Container className="hero-7">
         <Row>
-          <Col sm={7}></Col>
-          <Col sm={5}></Col>
+          <Col sm={7}>
+            <h4>
+              Download <span>Palynx Today!</span>
+            </h4>
+            <p>
+              Start your journey of exploration and connection. Download Palynx
+              now and take the first step towards discovering your city and
+              making meaningful connections.
+            </p>
+            {/* <img
+              src="./arow.png"
+              alt="palynx-img"
+              className="img-fluid arow"
+            /> */}
+            <button className="btn btn-1 download-btn d-flex">
+              <img
+                src="./apple.png"
+                alt="palynx-img"
+                className="img-fluid apple"
+              />
+              Download on the App Store
+            </button>
+          </Col>
+          <Col sm={5} className="mb-4">
+            <img
+              src="./download.png"
+              alt="palynx-img"
+              className="img-fluid download"
+            />
+          </Col>
         </Row>
       </Container>
     </>

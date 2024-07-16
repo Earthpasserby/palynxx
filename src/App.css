@@ -381,14 +381,74 @@ body {
   left: 1200px;
   margin-top: -53px;
 }
-.btn-img{
+.btn-img {
   position: absolute;
   margin-top: 410px;
 }
-.Line{
+.Line {
   position: absolute;
   left: 340px;
   margin-top: 380px;
+}
+
+/*Download palynx*/
+
+.hero-7 {
+  padding: 48px 48px 0px 48px;
+  gap: 48px;
+  border-radius: 40px;
+  background-color: #ff763c;
+  height: 450px;
+  margin-top: 100px;
+}
+.hero-7 h4 {
+  font-family: Fixel Text;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  text-align: left;
+  color: #ffffff;
+}
+.hero-7 span {
+  font-family: Fixel Text;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  text-align: left;
+  color: #1d1d1b;
+}
+.hero-7 p {
+  font-family: Fixel Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #1d1d1b;
+  text-align: left;
+  width: 560px;
+  height: 96px;
+}
+.apple {
+  width: 28px;
+  height: 32px;
+  margin-left: -20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.download-btn {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  padding-top: 10px;
+}
+.download {
+  position: absolute;
+  margin-top: -95px;
+}
+.arow {
+  position: absolute;
+  left: 700px;
 }
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
@@ -610,9 +670,10 @@ body {
   .sec-1 img {
     margin-left: 9px;
   }
-  .sec-1 h5, p{
+  .sec-1 h5,
+  p {
     font-size: 16px;
-    margin-top: -5px
+    margin-top: -5px;
   }
   .highlight1 {
     position: absolute;
@@ -653,13 +714,13 @@ body {
     width: 260px;
     height: 341px;
   }
-  .btn-img{
-  position: absolute;
-  margin-top: 235px;
-}
-.Line{
-  display: none;
-}
+  .btn-img {
+    position: absolute;
+    margin-top: 235px;
+  }
+  .Line {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {

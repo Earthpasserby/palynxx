@@ -89,19 +89,19 @@ body {
   font-size: 30px;
   color: #1d1d1b;
 }
-.img-2 {
+.img-cont2 {
   position: absolute;
-  left: 1067px;
+  left: 900px;
   top: 369px;
 }
-.img-3 {
+.img-cont3 {
   position: absolute;
-  left: 1300px;
+  left: 1150px;
   top: 510px;
 }
 .img-4 {
   position: absolute;
-  left: 1025px;
+  left: 870px;
   top: 145px;
 }
 .card-1 {
@@ -295,39 +295,62 @@ body {
   left: 735px;
   bottom: -1225px;
 }
-@media only screen and (min-width: 360px) and (max-width: 768px) {
+.Slide-card {
+  width: 444px;
+  height: 569px;
+  top: 2424px;
+  left: 1496px;
+  padding: 72px 72px 0px 72px;
+  gap: 8px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.Slide-card {
+  /* margin: 20px; */
+}
+/* .Slide-card{
+  width: 420px !important;
+  height: 10%;
+  margin-right: 1125px !important;
+  border-radius: 24px;
+  background-color: #fdf4ee;
+} */
+.pic-slide{
+  width: 430px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
     border: none;
   }
-
-  .img-2 {
+  .img-cont2 {
     position: absolute;
     left: 6px;
-    top: 510px;
+    top: 560px;
   }
-  .img-1 {
-    width: 70%;
+  .img-cont1 {
+    width: 282.15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .img-1 {
+  .img-cont1 {
     position: absolute;
-    left: 100px;
+    left: 70px;
     top: 400px;
   }
-  .img-2 {
+  .img-cont2 {
     width: 42%;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .img-3 {
+  .img-cont3 {
     position: absolute;
     left: 150px;
-    top: 600px;
+    top: 625px;
   }
-  .img-3 {
+  .img-cont3 {
     width: 30%;
   }
   .img-4 {
@@ -339,7 +362,8 @@ body {
     width: 10%;
   }
   .img-cont {
-    margin-top: -00px;
+    margin-top: 50px;
+    
   }
   .hero h2 {
     /* font-family: Fixel Text; */
@@ -485,5 +509,34 @@ body {
   }
   .ff {
     display: none;
+  }
+  .slider-container {
+    display: block;
+  }
+  .Slide-card {
+    width: 80px !important;
+    height: 150px !important;
+    margin-right: 0 !important;
+    border-radius: 24px;
+    background-color: #fdf4ee;
+  }
+  .pic-slide {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Slide-card {
+    width: 99% !important;
+    height: 100% !important;
+    margin-right: 13px !important;
+    border-radius: 24px;
+  }
+  .pic-slide {
+    width: 100%;
+    height: 100%;
+  }
+  .slider-container {
+    overflow: hidden;
   }
 }

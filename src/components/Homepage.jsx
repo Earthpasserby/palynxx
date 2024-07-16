@@ -1,10 +1,56 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Container, Navbar, Nav, Col, Row } from "react-bootstrap";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Homepage = () => {
+  // let sliderRef = useRef(null);
+  // const next = () => {
+  //   sliderRef.slickNext();
+  // };
+  // const previous = () => {
+  //   sliderRef.slickPrev();
+  // };
+
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 3,
+  //   initialSlide: 0,
+
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 2,
+  //         infinite: true,
+  //         dots: false,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 600,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 2,
+  //         initialSlide: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 390,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //   ],
+  // };
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -50,7 +96,6 @@ const Homepage = () => {
         <Row>
           <Col sm={8}>
             <img src="./arrow.png" alt="palynx-img" className="img-4" />
-
             <h2>
               <span>Discover</span> Your City and Make New Friends with Ease
             </h2>
@@ -61,9 +106,9 @@ const Homepage = () => {
             <button className="btn btn-1">Download the App</button>
           </Col>
           <Col sm={4} className="img-cont">
-            <img src="./content.png" alt="palynx-img" className="img-1" />
-            <img src="./Underline.png" alt="palynx-img" className="img-3" />
-            <img src="./card.png" alt="palynx-img" className="img-2" />
+            <img src="./content.png" alt="palynx-img" className="img-cont1" />
+            <img src="./card.png" alt="palynx-img" className="img-cont2" />
+            <img src="./Underline.png" alt="palynx-img" className="img-cont3" />
           </Col>
         </Row>
       </Container>
@@ -101,7 +146,7 @@ const Homepage = () => {
       <Container className="hero-3 ">
         <Row className="justify-content-center">
           <h4>
-            <span>Explore</span> Your City{" "}
+            <span>Explore</span> Your City
           </h4>
           <img
             src="./underline1.png"
@@ -137,7 +182,7 @@ const Homepage = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="hero-4 ">
+      {/* <Container className="hero-4 ">
         <Row className="justify-content-center">
           <Col sm={5} className="hero4-1">
             <h5>
@@ -172,7 +217,56 @@ const Homepage = () => {
             />
           </Col>
         </Row>
-      </Container>
+      </Container> */}
+      {/* <Container>
+        <Row>
+          <div className="slider-container mt-5">
+            <div className="float-end mt-3  mb-5">
+              <span id="left" className="Icon" onClick={previous}>
+                <i class="bi bi-arrow-left-circle-fill"></i>
+              </span>
+              <span id="right" className="Icon mx-4" onClick={next}>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </span>
+            </div>
+            <Slider
+              ref={(slider) => {
+                sliderRef = slider;
+              }}
+              {...settings}
+            >
+              <div class="Slide-card">
+                <img
+                  src="./tick.png"
+                  alt="Ticket-img"
+                  className="pic-slide w-75"
+                />
+              </div>
+              <div className="Slide-card">
+                <img
+                  src="./Ticket.png"
+                  alt="barcode-img"
+                  className="pic-slide w-75"
+                />
+              </div>
+              <div className="Slide-card">
+                <img
+                  src="./c33.png"
+                  alt="palynx-img"
+                  className="pic-slide w-75"
+                />
+              </div>
+              <div className="Slide-card">
+                <img
+                  src="./filled.png"
+                  alt="palynx-product"
+                  className="pic-slide w-75"
+                />
+              </div>
+            </Slider>
+          </div>
+        </Row>
+      </Container> */}
     </>
   );
 };

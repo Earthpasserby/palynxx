@@ -276,6 +276,68 @@ const Homepage = () => {
           </div>
         </Row>
       </Container>
+      <Container className="hero-6">
+        <Row>
+          <Col md={5} className="section1">
+            <img src="./lady.png" alt="palynx-img" className="img-fluid lady" />
+            <div>
+              <button className="btn btn-1 btn-img">Download the App</button>
+            </div>
+            <img
+              src="./Highlight.png"
+              alt="palynx-img"
+              className="img-fluid Line"
+            />
+          </Col>
+          <Col md={7} className="section2">
+            <h4>
+              Why Choose <span> Palynx</span>?
+            </h4>
+            <img
+              src="./Highlight1.png"
+              alt="palynx-img"
+              className="img-fluid highlight1"
+            />
+            <div className="sec-1 d-flex">
+              <img src="./star1.png" alt="palynx-img" className="img-fluid" />
+              <div>
+                <h5>User-Friendly Interface</h5>
+                <p>
+                  Intuitive design makes it easy for anyone to navigate and use.
+                </p>
+              </div>
+            </div>
+            <div className="sec-1 d-flex">
+              <img src="./guide1.png" alt="palynx-img" className="img-fluid" />
+              <div>
+                <h5>Secure and Private</h5>
+                <p>Your data is protected with top-notch security measures.</p>
+              </div>
+            </div>
+            <div className="sec-1 d-flex">
+              <img
+                src="./recycle1.png"
+                alt="palynx-img"
+                className="img-fluid"
+              />
+
+              <div>
+                <h5>Real-Time Updates</h5>
+                <p>
+                  Stay informed with real-time notifications about events and
+                  friend activities.
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="hero-7">
+        <Row>
+          <Col sm={7}></Col>
+          <Col sm={5}></Col>
+        </Row>
+      </Container>
     </>
   );
 };

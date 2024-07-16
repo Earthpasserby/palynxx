@@ -98,6 +98,38 @@ const Homepage = () => {
           </Col>
         </Row>
       </Container>
+      <Container className="hero-3">
+        <Row>
+          <h4>
+            <span>Explore</span> Your City{" "}
+          </h4>
+          <img
+            src="./underline1.png"
+            alt="palynx-img"
+            className="img-5 img-fluid"
+          />
+          <p>
+            Discover new places, hidden gems, and popular hotspots in your city.
+          </p>
+          <Col sm={4} className="card-2">
+            <img src="./view.png" alt="palynx-img" className="img-fluid" />
+          </Col>
+          <Col sm={4} className="card-2">
+            <img
+              src="./yatch.png"
+              alt="palynx-img"
+              className="img-5 img-fluid"
+            />
+          </Col>
+          <Col sm={4} className="card-2">
+            <img
+              src="./bale.png"
+              alt="palynx-img"
+              className="img-5 img-fluid"
+            />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };

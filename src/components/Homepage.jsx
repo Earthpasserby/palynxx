@@ -113,23 +113,26 @@ const Homepage = () => {
           </p>
           <Col sm={4} className="card-2">
             <img src="./view.png" alt="palynx-img" className="img-fluid" />
-            <div>
+            <button className="btn btn-3">Romantic</button>
+            <div className="card-2Cont">
               <h6>Sea & Romantic dinner</h6>
-              <p>New York, NY - August 12</p>
+              <pre>New York, NY - August 12</pre>
             </div>
           </Col>
           <Col sm={4} className="card-2">
             <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-            <div>
+            <button className="btn btn-4">party</button>
+            <div className="card-2Cont">
               <h6>Yacht day & Friend’s party</h6>
-              <p>New York, NY - August 18</p>
+              <pre>New York, NY - August 18</pre>
             </div>
           </Col>
           <Col sm={4} className="card-2">
             <img src="./bale.png" alt="palynx-img" className="img-fluid" />
-            <div>
+            <button className="btn btn-5">Dance classes</button>
+            <div className="card-2Cont">
               <h6>Beginner & Intermediate Ballet Class</h6>
-              <p>New York, NY - August 24</p>
+              <pre>New York, NY - August 24</pre>
             </div>
           </Col>
         </Row>

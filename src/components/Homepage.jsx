@@ -343,11 +343,8 @@ const Homepage = () => {
               now and take the first step towards discovering your city and
               making meaningful connections.
             </p>
-            {/* <img
-              src="./arow.png"
-              alt="palynx-img"
-              className="img-fluid arow"
-            /> */}
+            <img src="./arow.png" alt="palynx-img" className="img-fluid arow" />
+            <img src="./aroww.png" alt="palynx-img" className="img-fluid aroww" />
             <button className="btn btn-1 download-btn d-flex">
               <img
                 src="./apple.png"

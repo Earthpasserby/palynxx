@@ -449,6 +449,10 @@ body {
 .arow {
   position: absolute;
   left: 700px;
+  margin-top: -40px;
+}
+.aroww {
+  display: none;
 }
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
@@ -720,6 +724,48 @@ body {
   }
   .Line {
     display: none;
+  }
+  /*Download palynx*/
+  .hero-7 {
+    width: 343px;
+    height: 640px;
+  }
+  .hero-7 h4 {
+    font-size: 24px;
+    width: 311px;
+    margin-left: -20px;
+  }
+  .hero-7 span {
+    font-size: 24px;
+    width: 311px;
+  }
+  .hero-7 p {
+    font-size: 16px;
+    width: 311px;
+    margin-left: -20px;
+  }
+  .download-btn {
+    font-size: 14px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -30px;
+  }
+  .download {
+    width: 311px;
+    height: 312.5px;
+    position: absolute;
+    left: 10px;
+    margin-top: 100px;
+  }
+  .arow {
+    display: none;
+  }
+  .aroww {
+    display: block;
+    position: absolute;
+    left: 260px;
+    margin-top: -5px;
+   
   }
 }
 

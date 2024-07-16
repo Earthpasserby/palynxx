@@ -21,7 +21,7 @@ const Homepage = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     initialSlide: 0,
 
     responsive: [
@@ -30,7 +30,7 @@ const Homepage = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 2,
-          infinite: true,
+          infinite: false,
           dots: false,
         },
       },

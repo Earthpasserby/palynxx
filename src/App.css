@@ -454,6 +454,36 @@ body {
 .aroww {
   display: none;
 }
+
+/*Blog on Homepage*/
+.hero-8 {
+  margin-top: 100px;
+}
+.hero-8 h5 {
+  font-family: Fixel Text;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  text-align: left;
+  color: #1d1d1b;
+}
+.hero-8 span {
+  font-family: Fixel Text;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  text-align: left;
+  color: #f1454f;
+}
+.hero-8Card {
+  width: 392px;
+  height: 360px;
+  padding: 8px 8px 16px 8px;
+  gap: 16px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  margin: 10px;
+}
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
     border: none;
@@ -765,7 +795,6 @@ body {
     position: absolute;
     left: 260px;
     margin-top: -5px;
-   
   }
 }
 

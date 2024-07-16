@@ -223,11 +223,11 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container className="hero-5">
-        <div className="">
+        <div className="d-flex justify-content-between">
           <h4 className="">
             Create, Contribute, Like & <span>Share</span>
           </h4>
-          <div className="float-end">
+          <div className="mt-5">
             <span id="left" className="Icon" onClick={previous}>
               <i class="bi bi-arrow-left-circle-fill"></i>
             </span>
@@ -344,7 +344,11 @@ const Homepage = () => {
               making meaningful connections.
             </p>
             <img src="./arow.png" alt="palynx-img" className="img-fluid arow" />
-            <img src="./aroww.png" alt="palynx-img" className="img-fluid aroww" />
+            <img
+              src="./aroww.png"
+              alt="palynx-img"
+              className="img-fluid aroww"
+            />
             <button className="btn btn-1 download-btn d-flex">
               <img
                 src="./apple.png"
@@ -361,6 +365,21 @@ const Homepage = () => {
               className="img-fluid download"
             />
           </Col>
+        </Row>
+      </Container>
+      <Container className="hero-8">
+        <div className="d-flex justify-content-between">
+          <h5>
+            Discover More with the Palynx <span> Blog</span>
+          </h5>
+          <div>
+            <button className="btn btn-1  ">More</button>
+          </div>
+        </div>
+        <Row className="d-flex justify-content-center">
+          <Col sm={4} className="hero-8Card"></Col>
+          <Col sm={4} className="hero-8Card"></Col>
+          <Col sm={4} className="hero-8Card"></Col>
         </Row>
       </Container>
     </>

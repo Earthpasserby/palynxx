@@ -441,9 +441,8 @@ body {
   line-height: 16px;
   text-align: left;
   padding-top: 10px;
-  background-color: #1d1d1b ;
+  background-color: #1d1d1b;
   color: #ffffff;
-
 }
 .download {
   position: absolute;
@@ -680,6 +679,110 @@ body {
   margin: 3px;
   color: #fff;
 }
+/*Blog*/
+.Blogheader {
+  margin-top: 50px;
+}
+.Blogheader h3 {
+  font-family: Fixel Text;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  text-align: left;
+  color: #1d1d1b;
+}
+.Blogheader span {
+  font-family: Fixel Text;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  text-align: left;
+  color: #f1454f;
+}
+.Bloghero {
+  height: 560px;
+  padding: 48px 0px 0px 0px;
+  gap: 32px;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 40px;
+}
+.Bloghero h5 {
+  font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  /* text-align: left; */
+  color: #1d1d1b;
+}
+.rrow1 {
+  position: absolute;
+  left: 480px;
+  margin-top: -30px;
+}
+.blogRow {
+  margin-top: 15px;
+}
+.blogRow pre {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #6941c6;
+}
+.blogRow h6 {
+  font-family: Fixel Text;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #101828;
+}
+.blog-icon {
+  position: absolute;
+  left: 530px;
+  margin-top: -35px;
+}
+.blogCol {
+  height: 1221px;
+  padding: 48px 0px 0px 0px;
+  gap: 64px;
+  border-radius: 40px;
+  background-color: #fff;
+  margin-top: 100px;
+}
+.blog-icon1 {
+  position: absolute;
+  left: 350px;
+  margin-top: -25px;
+}
+.blogCol h4{
+    font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  /* text-align: left; */
+  color: #1d1d1b;
+  margin-left: 50px;
+}
+.hrline{
+  margin-top: 100px;
+}
+.blogCol pre {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #6941c6;
+}
+/* .blog-img{
+width: 500px;
+height: 252px;
+} */
+
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
     border: none;
@@ -1092,9 +1195,24 @@ body {
     width: 343px;
     height: 31px;
   }
-  .icon{
+  .icon {
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+  .download-btn2 {
+    margin-left: -20px;
+  }
+  .foter {
+    margin-top: 30px;
+    width: 190px;
+    /* margin-left: 10px; */
+  }
+  .tr {
+    margin-left: -60px;
+  }
+  /*Blog*/
+  .preM {
+    margin-top: 20px;
   }
 }
 

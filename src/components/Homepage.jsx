@@ -547,7 +547,7 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container fluid className="footer">
-        <Container>
+        <Container className="tr">
           <Row class="g-5">
             <Col sm={3}>
               <img

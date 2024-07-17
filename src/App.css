@@ -549,33 +549,65 @@ body {
   border: 1px solid #e7e1db;
   background-color: transparent;
 }
-
-/* Custom styles for the Accordion button */
-.custom-accordion-button {
-  background-color: #f8f9fa; /* Change to desired background color */
-  color: #343a40; /* Change to desired text color */
-  border: none; /* Remove border */
-  font-weight: bold; /* Make text bold */
-  border-radius: 5px; /* Add border radius */
-  padding: 10px; /* Add padding */
-  margin-bottom: 10px; /* Add margin */
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+.accordion {
+  margin-top: 20px;
 }
-
-.custom-accordion-button:hover {
-  background-color: #e9ecef; /* Change to desired hover background color */
-  color: #212529; /* Change to desired hover text color */
+.cardfooter {
+  width: 600px;
+  height: 300px;
+  padding: 40px 0px 0px 0px;
+  gap: 32px;
+  border-radius: 32px;
+  background-color: #ffffff;
+  margin: 30px;
 }
-
-.custom-accordion-button:focus {
-  box-shadow: none; /* Remove focus outline */
+.cardfooter h2 {
+  font-family: Fixel Text;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  color: #1d1d1b;
 }
-
-.custom-accordion-button.collapsed {
-  background-color: #fff; /* Change background color when collapsed */
-  color: #343a40; /* Change text color when collapsed */
+.cardfooter span {
+  font-family: Fixel Text;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  color: #f1454f;
 }
-
+.cardfooter p {
+  font-family: Fixel Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #1d1d1b;
+}
+.drop {
+  position: absolute;
+  left: 730px;
+  width: 104.8px;
+  height: 87.32px;
+}
+.btn-icon {
+  width: 88px;
+  height: 56px;
+  padding: 9.33px 0px 15.94px 0px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: 1px solid #e3dbd2;
+  margin: 3px;
+  color: #FA8F42;
+}
+/* .icon {
+  width: 22.5px;
+  height: 22.19px;
+  top: 15.17px;
+  left: 33.33px;
+  margin: 1px;
+} */
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
     border: none;

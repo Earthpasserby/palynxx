@@ -6,6 +6,10 @@ import { Container, Navbar, Nav, Col, Row } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Homepage = () => {
@@ -438,13 +442,14 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container className="hero-9">
+        <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
         <h5>
           Frequently asked<span> questions </span>
         </h5>
-        <Row>
+        <Row className="accordion">
           <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header className="accordionHeader bg-0">
+            <Accordion.Item eventKey="0" class="rounded-3  border ">
+              <Accordion.Header class="bg-transparent">
                 What is Palynx?
               </Accordion.Header>
               <Accordion.Body>
@@ -457,8 +462,8 @@ const Homepage = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1" className="mt-2">
-              <Accordion.Header className="accordionHeader">
+            <Accordion.Item eventKey="1" className="mt-2 rounded-3  border">
+              <Accordion.Header class="accordionHeader bg-transparent">
                 Connecting with Palynx
               </Accordion.Header>
               <Accordion.Body>
@@ -471,8 +476,11 @@ const Homepage = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2" className="mt-2">
-              <Accordion.Header className="accordionHeader">
+            <Accordion.Item
+              eventKey="2"
+              className="mt-2 rounded-3  border border"
+            >
+              <Accordion.Header class="accordionHeader h-25">
                 Do more with Palynx
               </Accordion.Header>
               <Accordion.Body>
@@ -486,6 +494,47 @@ const Homepage = () => {
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col sm={6} className="cardfooter">
+            {/* <img src="./line.png" alt="palynx-img" className="img-fluid" /> */}
+            <div>
+              <h2>
+                Get in<span> Touch</span>
+              </h2>
+              <p>
+                Have questions or need support?Reach out to our friendly support
+                team at
+              </p>
+            </div>
+          </Col>
+          <Col sm={6} className="cardfooter">
+            <div>
+              <h2>
+                We are <span>Social</span>
+              </h2>
+              <p>
+                Follow us on social media to stay updated with the latest news,
+                events, and features!
+              </p>
+              <div className="icon d-flex">
+                <button className="btn btn-icon">
+                  <BiLogoLinkedin />
+                </button>
+                <button className="btn btn-icon">
+                  <BsInstagram />
+                </button>
+                <button className="btn btn-icon">
+                  <FaFacebookF />
+                </button>
+                <button className="btn btn-icon">
+                  <FaXTwitter />
+                </button>
+              </div>
+            </div>
+          </Col>
         </Row>
       </Container>
     </>

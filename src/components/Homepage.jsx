@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Accordion from "react-bootstrap/Accordion";
 import { Container, Navbar, Nav, Col, Row } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -368,18 +369,123 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container className="hero-8">
+        <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
         <div className="d-flex justify-content-between">
           <h5>
             Discover More with the Palynx <span> Blog</span>
           </h5>
           <div>
-            <button className="btn btn-1  ">More</button>
+            <button className="btn btn-2 ">
+              More <i class="bi bi-arrow-right"></i>
+            </button>
           </div>
         </div>
         <Row className="d-flex justify-content-center">
-          <Col sm={4} className="hero-8Card"></Col>
-          <Col sm={4} className="hero-8Card"></Col>
-          <Col sm={4} className="hero-8Card"></Col>
+          <Col sm={4} className="hero-8Card">
+            <div>
+              <img
+                src="./party.png"
+                alt="palynx-img"
+                className="img-fluid party"
+              />
+              <div className="discoverp">
+                <h6>Top 10 Hidden Gems in Your City</h6>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafes to secret parks, uncover
+                  places that only locals know about.
+                </p>
+                <pre>02/05/2024 . 12 min read</pre>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4} className="hero-8Card">
+            <div>
+              <img
+                src="./pitch.png"
+                alt="palynx-img"
+                className="img-fluid pitch"
+              />
+              <div className="discoverp">
+                <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
+                <p>
+                  Building meaningful connections is easier than you think.
+                  Learn how to find and connect with individuals who share your
+                  interests and passions.
+                </p>
+                <pre>02/05/2024 . 12 min read</pre>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4} className="hero-8Card">
+            <div>
+              <img
+                src="./diary.png"
+                alt="palynx-img"
+                className="img-fluid diary"
+              />
+              <div className="discoverp">
+                <h6>Top 10 Hidden Gems in Your City</h6>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafes to secret parks, uncover
+                  places that only locals know about.
+                </p>
+                <pre>02/05/2024 . 12 min read</pre>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="hero-9">
+        <h5>
+          Frequently asked<span> questions </span>
+        </h5>
+        <Row>
+          <Accordion>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header className="accordionHeader bg-0">
+                What is Palynx?
+              </Accordion.Header>
+              <Accordion.Body>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1" className="mt-2">
+              <Accordion.Header className="accordionHeader">
+                Connecting with Palynx
+              </Accordion.Header>
+              <Accordion.Body>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="2" className="mt-2">
+              <Accordion.Header className="accordionHeader">
+                Do more with Palynx
+              </Accordion.Header>
+              <Accordion.Body>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </Row>
       </Container>
     </>

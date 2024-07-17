@@ -154,7 +154,7 @@ body {
 }
 .underline1 {
   position: absolute;
-  left: 1265px;
+  left: 1350px;
 }
 .card-2Cont {
   margin-top: 10px;
@@ -187,15 +187,15 @@ body {
 }
 .btn-3 {
   position: absolute;
-  left: 470px;
+  left: 560px;
 }
 .btn-4 {
   position: absolute;
-  left: 890px;
+  left: 980px;
 }
 .btn-5 {
   position: absolute;
-  left: 1230px;
+  left: 1310px;
 }
 .btn-3 {
   font-family: Fixel Text;
@@ -294,7 +294,7 @@ body {
   width: 221px;
   height: 30px;
   position: absolute;
-  left: 570px;
+  left: 630px;
   margin-top: 450px;
 }
 .Slide-card {
@@ -387,7 +387,7 @@ body {
 }
 .Line {
   position: absolute;
-  left: 340px;
+  left: 430px;
   margin-top: 380px;
 }
 
@@ -441,6 +441,9 @@ body {
   line-height: 16px;
   text-align: left;
   padding-top: 10px;
+  background-color: #1d1d1b ;
+  color: #ffffff;
+
 }
 .download {
   position: absolute;
@@ -643,7 +646,7 @@ body {
   margin-right: auto;
   color: #1d1d1b;
 }
-.download-btn {
+.download-btn2 {
   font-family: Fixel Text;
   font-size: 16px;
   font-weight: 500;
@@ -1021,6 +1024,19 @@ body {
     width: 284px;
     height: 380px;
   }
+  .cardfooter {
+    width: 343px;
+    /* height: 187px; */
+  }
+  .cardfooter h2 {
+    font-size: 24px;
+  }
+  .cardfooter span {
+    font-size: 24px;
+  }
+  .cardfooter p {
+    font-size: 16px;
+  }
   /*footer*/
   .footer {
     height: 639px;
@@ -1030,6 +1046,7 @@ body {
     height: 26px;
     font-size: 16px;
     color: #fff;
+    margin-top: 1px;
   }
   .footer p a {
     width: 311px;
@@ -1038,6 +1055,46 @@ body {
     color: #fff;
     text-decoration: none;
     margin-top: 20px;
+  }
+  .btn-icon2 {
+    margin: 0;
+  }
+  .icon {
+    margin-top: -12px;
+  }
+  .foter h6 {
+    font-size: 12px;
+    line-height: 19.2px;
+    font-weight: 400px;
+  }
+  .arrow2 {
+    position: absolute;
+    left: 160px;
+  }
+  .arrow33 {
+    display: none;
+  }
+  .btn-icon {
+    width: 71.75px;
+    height: 48px;
+    padding: 4.33px 0px 15.94px 0px;
+    border: 1px solid #e3dbd2;
+    margin: 3px;
+    color: #fa8f42;
+  }
+  .hero-9 h5 {
+    font-size: 24px;
+    width: 343px;
+    height: 31px;
+  }
+  .hero-9 span {
+    font-size: 24px;
+    width: 343px;
+    height: 31px;
+  }
+  .icon{
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 }
 

@@ -597,7 +597,7 @@ const Homepage = () => {
               <p>
                 <a href="#">Download App</a>
               </p>
-              <button className="btn btn-1 download-btn d-flex">
+              <button className="btn btn-1 download-btn2 d-flex">
                 <img
                   src="./bapple.png"
                   alt="palynx-img"

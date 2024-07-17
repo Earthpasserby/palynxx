@@ -3,10 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Container, Navbar, Nav, Col, Row, Card } from "react-bootstrap";
 import { GoArrowUpRight } from "react-icons/go";
+import { GoArrowLeft } from "react-icons/go";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Blogcategory = () => {
@@ -51,7 +53,29 @@ const Blogcategory = () => {
           </Container>
         </Navbar>
       </Container>
-
+      <Container>
+        <Link to="/Blog" className="BlogbackLink">
+          <div className="leftArrow mt-5">
+            <GoArrowLeft className="Leftarrow" />
+          </div>
+        </Link>
+      </Container>
+      <Container className="BlogcategoryHead mt-5">
+        <div className="d-flex justify-content-between">
+          <div className="d-flex Blog-category">
+            <Link to="/Blog" className="bg-cat">
+              <p className="">Blog</p>
+            </Link>
+            <FaAngleRight className="mx-2 mt-1" />
+            <Link to="/Blogcategory" className="bg-cat">
+              <p className="">Cateory</p>
+            </Link>
+          </div>
+          <div className="">
+            <p>11 Jan 2022. 5 min read</p>
+          </div>
+        </div>
+      </Container>
       <Container className="blogCad">
         <Row className="d-flex justify-content-center">
           <Col sm={6} className="cardfooter">

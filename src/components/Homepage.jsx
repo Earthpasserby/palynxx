@@ -10,6 +10,8 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Homepage = () => {
@@ -379,9 +381,11 @@ const Homepage = () => {
             Discover More with the Palynx <span> Blog</span>
           </h5>
           <div>
-            <button className="btn btn-2 ">
-              More <i class="bi bi-arrow-right"></i>
-            </button>
+            <Link to="/Blog">
+              <button className="btn btn-2 ">
+                More <i class="bi bi-arrow-right"></i>
+              </button>
+            </Link>
           </div>
         </div>
         <Row className="d-flex justify-content-center">

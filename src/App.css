@@ -758,8 +758,8 @@ body {
   left: 350px;
   margin-top: -25px;
 }
-.blogCol h4{
-    font-family: Fixel Text;
+.blogCol h4 {
+  font-family: Fixel Text;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -767,7 +767,7 @@ body {
   color: #1d1d1b;
   margin-left: 50px;
 }
-.hrline{
+.hrline {
   margin-top: 100px;
 }
 .blogCol pre {
@@ -777,6 +777,9 @@ body {
   line-height: 20px;
   text-align: left;
   color: #6941c6;
+}
+.Linkk{
+  text-decoration: none;
 }
 /* .blog-img{
 width: 500px;
@@ -1213,6 +1216,19 @@ height: 252px;
   /*Blog*/
   .preM {
     margin-top: 20px;
+  }
+  .Bloghero{
+    height:1300px;
+  }
+  .blogCol {
+    height: 2600px;
+    margin-top: 70px;
+  }
+  .blogCad {
+    margin-top: 50px;
+  }
+  .pagination {
+    margin-left: -40px;
   }
 }
 

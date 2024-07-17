@@ -145,180 +145,198 @@ const Blog = () => {
         <h4>All blog posts</h4>
         <Row className="p-5">
           <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+            <Link to="/Blogcategory" className="Linkk">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid blog-img" />
 
-              <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <GoArrowUpRight className="blog-icon1" />
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
           <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+            <Link to="/Blogcategory" className="Linkk">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid blog-img" />
 
-              <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <GoArrowUpRight className="blog-icon1" />
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
           <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+            <Link to="/Blogcategory" className="Linkk">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid blog-img" />
 
-              <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <GoArrowUpRight className="blog-icon1" />
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
         </Row>
         <Row className="p-5">
           <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+            <Link to="/Blogcategory" className="Linkk">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid blog-img" />
 
-              <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <GoArrowUpRight className="blog-icon1" />
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
           <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+            <Link to="/Blogcategory" className="Linkk">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid blog-img" />
 
-              <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <GoArrowUpRight className="blog-icon1" />
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
           <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+            <Link to="/Blogcategory" className="Linkk">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid blog-img" />
 
-              <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <GoArrowUpRight className="blog-icon1" />
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
           <hr className="hrline" />
           <div>
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  Previous
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  1
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  2
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  3
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  ...
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  8
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  9
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  10
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  Next
-                </a>
-              </li>
+            <ul className="pagination d-flex justify-content-between">
+              <div>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    Previous
+                  </a>
+                </li>
+              </div>
+              <div className="d-flex">
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    1
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    2
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    3
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    ...
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    8
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    9
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    10
+                  </a>
+                </li>
+              </div>
+              <div>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    Next
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
         </Row>
       </Container>
-      <Container>
+      <Container className="blogCad">
         <Row className="d-flex justify-content-center">
           <Col sm={6} className="cardfooter">
             <img

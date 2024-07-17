@@ -497,9 +497,13 @@ const Homepage = () => {
         </Row>
       </Container>
       <Container>
-        <Row>
+        <Row className="d-flex justify-content-center">
           <Col sm={6} className="cardfooter">
-            {/* <img src="./line.png" alt="palynx-img" className="img-fluid" /> */}
+            <img
+              src="./arrow.png"
+              alt="palynx-img"
+              className="img-fluid arrow2"
+            />
             <div>
               <h2>
                 Get in<span> Touch</span>
@@ -533,9 +537,80 @@ const Homepage = () => {
                   <FaXTwitter />
                 </button>
               </div>
+              <img
+                src="./arrow33.png"
+                alt="palynx-img"
+                className="img-fluid arrow33"
+              />
             </div>
           </Col>
         </Row>
+      </Container>
+      <Container fluid className="footer">
+        <Container>
+          <Row class="g-5">
+            <Col sm={3}>
+              <img
+                src="./palynxwlogo.png"
+                alt="logo"
+                className="logo-img b-ff"
+              />
+              <p className="text-white">Discover, Connect, Plan</p>
+              <div className="icon d-flex">
+                <button className="btn btn-icon2">
+                  <BiLogoLinkedin />
+                </button>
+                <button className="btn btn-icon2">
+                  <BsInstagram />
+                </button>
+                <button className="btn btn-icon2">
+                  <FaFacebookF />
+                </button>
+                <button className="btn btn-icon2">
+                  <FaXTwitter />
+                </button>
+              </div>
+            </Col>
+            <Col sm={3} className="">
+              <p>
+                <a href="#">About us</a>
+              </p>
+              <p>
+                <a href="#">Blog</a>
+              </p>
+              <p>
+                <a href="#">FAQs</a>
+              </p>
+              <p>
+                <a href="#">Contact</a>
+              </p>
+            </Col>
+            <Col sm={3}>
+              <p>
+                <a href="#">Terms of Service</a>
+              </p>
+              <p>
+                <a href="#">Privacy Policy</a>
+              </p>
+            </Col>
+            <Col sm={3}>
+              <p>
+                <a href="#">Download App</a>
+              </p>
+              <button className="btn btn-1 download-btn d-flex">
+                <img
+                  src="./bapple.png"
+                  alt="palynx-img"
+                  className="img-fluid apple1"
+                />
+                Download on the App Store
+              </button>
+            </Col>
+          </Row>
+          <div className="d-flex justify-content-center foter">
+            <h6>All rights reserved Palynx © 2024</h6>
+          </div>
+        </Container>
       </Container>
     </>
   );

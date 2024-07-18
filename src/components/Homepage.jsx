@@ -14,7 +14,6 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Homepage = () => {
@@ -474,11 +473,14 @@ const Homepage = () => {
         </h5>
         <Row className="accordion">
           <Accordion>
-            <Accordion.Item eventKey="0" class="rounded-3  border ">
-              <Accordion.Header class="bg-transparent">
+            <Accordion.Item
+              eventKey="0"
+              className="border border-0 bg-transparent accordionItem"
+            >
+              <Accordion.Header className="accordionHeader">
                 What is Palynx?
               </Accordion.Header>
-              <Accordion.Body>
+              <Accordion.Body className="accordionBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -488,11 +490,14 @@ const Homepage = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1" className="mt-2 rounded-3  border">
-              <Accordion.Header class="accordionHeader bg-transparent">
+            <Accordion.Item
+              eventKey="1"
+              className="mt-2 border border-0 bg-transparent"
+            >
+              <Accordion.Header className="accordionHeader">
                 Connecting with Palynx
               </Accordion.Header>
-              <Accordion.Body>
+              <Accordion.Body className="accordionBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -504,12 +509,12 @@ const Homepage = () => {
             </Accordion.Item>
             <Accordion.Item
               eventKey="2"
-              className="mt-2 rounded-3  border border"
+              className="mt-2  border border-0 bg-transparent"
             >
-              <Accordion.Header class="accordionHeader h-25">
+              <Accordion.Header className="accordionHeader">
                 Do more with Palynx
               </Accordion.Header>
-              <Accordion.Body>
+              <Accordion.Body className="accordionBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

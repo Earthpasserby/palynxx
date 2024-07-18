@@ -9,9 +9,14 @@ body {
   color: #343a40; /* Change text color */
   font-weight: bold; /* Make text bold */
   border: none; /* Remove border */
-  padding: 10px; /* Add padding */
+  /* Add padding */
   transition: background-color 0.3s ease; /* Smooth transition for background color */
+  padding: 14px 28px 14px 28px;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid #e7e1db;
 }
+
 
 .accordionHeader:hover {
   background-color: rgba(
@@ -25,13 +30,19 @@ body {
 
 .accordionHeader:focus {
   box-shadow: none; /* Remove focus outline */
+  background-color: #fff !important; /* Change background color when collapsed */
+  border: none !important;
 }
 
 .accordionHeader.collapsed {
-  background-color: transparent; /* Change background color when collapsed */
+  background-color: #fff !important; /* Change background color when collapsed */
+  border: none !important;
   color: #343a40; /* Change text color when collapsed */
 }
-
+.accordionBody{
+  background-color: #fff !important;
+  margin-top: 10px;
+}
 .accordion-button {
   background-color: transparent !important; /* Make background transparent */
   border: none; /* Remove border */
@@ -57,12 +68,16 @@ body {
 .accordion-button::after {
   width: 40px;
   height: 40px;
-  /* background-color: red; */
-  /* border-radius: 56px; */
+  background-color: red;
+  border-radius: 56px;
   text-align: center;
   font-weight: 900; /* Font Awesome solid */
   color: blue !important; /* Change icon color for collapsed state */
   transition: transform 0.2s, color 0.2s; /* Smooth transition for rotation and color */
+}
+.accordion-{
+  position: absolute;
+  right: 20px;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -621,12 +636,12 @@ body {
   text-align: left;
   color: #1d1d1b;
 }
-.accordionHeader {
+/* .accordionHeader {
   gap: 24px;
   border-radius: 20px;
   border: 1px solid #e7e1db;
   background-color: transparent;
-}
+} */
 .accordion {
   margin-top: 20px;
 }

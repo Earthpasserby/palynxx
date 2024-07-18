@@ -44,9 +44,9 @@ const Blogcategory = () => {
               </Nav>
               <Nav>
                 <button className="btn F-btn">
-                  <Nav.Link href="#" className="D-app">
+                  <Nav href="#" className="D-app">
                     Download the App
-                  </Nav.Link>
+                  </Nav>
                 </button>
               </Nav>
             </Navbar.Collapse>

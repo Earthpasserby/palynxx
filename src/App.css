@@ -23,18 +23,17 @@ body {
   line-height: 16px;
   color: #1d1d1b;
 }
- .nav-link {
+.nav-link {
   margin-right: 10px;
   margin-left: 60px;
 }
 .nav-link:last-child {
   margin-right: 0; /* Remove right margin from the last link */
-  margin-left:0;
 }
 
 .F-btn,
 .F-btn:hover {
-  width:187px;
+  width: 187px;
   height: 48px;
   padding: 4px 24px 4px 24px;
   gap: 8px;
@@ -808,7 +807,7 @@ width: 500px;
 height: 252px;
 } */
 /*Blogcategory*/
-.bet-icon{
+.bet-icon {
   margin-top: 4px;
 }
 .leftArrow {
@@ -924,7 +923,7 @@ height: 252px;
   font-size: 20px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(to right,  #ffe5a4, #ff763c);
+  background: linear-gradient(to right, #ffe5a4, #ff763c);
   cursor: pointer;
   position: absolute;
   width: 48px;
@@ -952,12 +951,35 @@ height: 252px;
   padding-right: 170px;
   margin-top: 70px;
 }
-
-@media only screen and (min-width: 360px) and (max-width: 992px) {
-   .nav-link {
-  margin-right: 0;
-  margin-left: 0;
+.mobile-pagin {
+  display: none;
 }
+.pagination, .page-link, .page-icon {
+  border: none; /* Remove border from page links */
+  background-color: transparent; /* Ensure background is transparent */
+  color: #1d1d1b;
+
+}
+
+.pagination .page-item {
+  border: none; /* Remove border from page items */
+  background-color: transparent;
+}
+
+.pagination .page-item.active .page-link  {
+  border: none; /* Remove border from active page links */
+  background-color: #FFF5DB; /* Ensure active background is transparent */
+  color: #1d1d1b;
+}
+.webpagin-Icon{
+  width: 24px;
+height: 24px;
+}
+@media only screen and (min-width: 360px) and (max-width: 992px) {
+  .nav-link {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .Nav-Toggle {
     border: none;
   }
@@ -1384,6 +1406,21 @@ height: 252px;
     margin-left: -60px;
   }
   /*Blog*/
+  .Blogheader h3 {
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #1d1d1b;
+  }
+  .Blogheader span {
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+  }
   .preM {
     margin-top: 20px;
   }
@@ -1415,6 +1452,13 @@ height: 252px;
   .blogCat-row4 {
     padding-left: 0;
     padding-right: 0;
+  }
+  .web-pagin {
+    display: none;
+  }
+  .mobile-pagin {
+    display: block;
+    margin-left: 20px;
   }
   .fk {
     padding-left: 10px;

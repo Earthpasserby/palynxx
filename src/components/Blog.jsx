@@ -7,6 +7,8 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { GoArrowRight } from "react-icons/go";
+import { GoArrowLeft } from "react-icons/go";
 // import Pagination from "react-bootstrap/Pagination";
 import { Link } from "react-router-dom";
 
@@ -43,9 +45,9 @@ const Blog = () => {
               </Nav>
               <Nav>
                 <button className="btn F-btn">
-                  <Nav.Link href="#" className="D-app">
+                  <Nav href="#" className="D-app">
                     Download the App
-                  </Nav.Link>
+                  </Nav>
                 </button>
               </Nav>
             </Navbar.Collapse>
@@ -279,17 +281,18 @@ const Blog = () => {
             </Link>
           </Col>
           <hr className="hrline" />
-          <div>
+          <div className="web-pagin">
             <ul className="pagination d-flex justify-content-between">
               <div>
                 <li class="page-item">
                   <a class="page-link" href="#">
+                    <GoArrowLeft className="webpagin-Icon" />
                     Previous
                   </a>
                 </li>
               </div>
               <div className="d-flex">
-                <li class="page-item">
+                <li class="page-item active">
                   <a class="page-link" href="#">
                     1
                   </a>
@@ -329,6 +332,42 @@ const Blog = () => {
                 <li class="page-item">
                   <a class="page-link" href="#">
                     Next
+                    <GoArrowRight className="webpagin-Icon" />
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div className="mobile-pagin">
+            <ul className="pagination d-flex justify-content-between">
+              <div>
+                <li class="page-item">
+                  <a class="page-link page-icon" href="#">
+                    <GoArrowLeft />
+                  </a>
+                </li>
+              </div>
+              <div className="d-flex">
+                <li class="page-item active">
+                  <a class="page-link" href="#">
+                    1
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    ...
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    10
+                  </a>
+                </li>
+              </div>
+              <div>
+                <li className="page-item border border-0">
+                  <a class="page-link page-icon" href="#">
+                    <GoArrowRight />
                   </a>
                 </li>
               </div>

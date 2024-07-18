@@ -122,31 +122,39 @@ const Homepage = () => {
       </Container>
       <Container className="hero-2">
         <Row className="justify-content-center">
-          <Col sm={4} className="card-1">
-            <img src="./search.png" alt="palynx-img" className="hero-2Img" />
-            <div className="hero-cont">
-              <h6>Find events close to you</h6>
-              <p>
-                You don’t need to go far, all events around your location will
-                be shown.
-              </p>
+          <Col sm={4}>
+            <div className="card-1">
+              <img src="./search.png" alt="palynx-img" className="hero-2Img" />
+              <div className="hero-cont">
+                <h6>Find events close to you</h6>
+                <p>
+                  You don’t need to go far, all events around your location will
+                  be shown.
+                </p>
+              </div>
             </div>
           </Col>
-          <Col sm={4} className="card-1">
-            <img src="./prof.png" alt="palynx-img" className="hero-2Img" />
-            <div className="hero-cont">
-              <h6>Meet people & connect</h6>
-              <p>
-                We recommend events and people that are specifically tailored to
-                you.
-              </p>
+          <Col sm={4}>
+            <div className="card-1">
+              <img src="./prof.png" alt="palynx-img" className="hero-2Img" />
+              <div className="hero-cont">
+                <h6>Meet people & connect</h6>
+                <p>
+                  We recommend events and people that are specifically tailored
+                  to you.
+                </p>
+              </div>
             </div>
           </Col>
-          <Col sm={4} className="card-1">
-            <img src="./file.png" alt="palynx-img" className="hero-2Img" />
-            <div className="hero-cont">
-              <h6>Share memories</h6>
-              <p>Get to know more about your connections and share memories.</p>
+          <Col sm={4}>
+            <div className="card-1">
+              <img src="./file.png" alt="palynx-img" className="hero-2Img" />
+              <div className="hero-cont">
+                <h6>Share memories</h6>
+                <p>
+                  Get to know more about your connections and share memories.
+                </p>
+              </div>
             </div>
           </Col>
         </Row>
@@ -192,41 +200,46 @@ const Homepage = () => {
       </Container>
       <Container className="hero-4 ">
         <Row className="justify-content-center">
-          <Col sm={5} className="hero4-1">
-            <h5>
-              Last-minute <span>hangout</span> option for any spontaneous plans
-            </h5>
-            <img
-              src="./minute.png"
-              alt="palynx-img"
-              className="img-fluid Img4"
-            />
+          <Col sm={5}>
+            <div className="hero4-1">
+              <h5>
+                Last-minute <span>hangout</span> option for any spontaneous
+                plans
+              </h5>
+              <img
+                src="./minute.png"
+                alt="palynx-img"
+                className="img-fluid Img4"
+              />
+            </div>
           </Col>
           <img
             src="./Underline.png"
             alt="palynx-img"
             className="img-fluid Under-line"
           />
-          <Col sm={7} className="hero4-2">
-            <h5>
-              <span>Host</span> events and <span>find</span> attendees
-            </h5>
-            <img
-              src="./company.png"
-              alt="palynx-img"
-              className="img-fluid Img1"
-            />
-            <img
-              src="./following.png"
-              alt="palynx-img"
-              className="img-fluid Img2"
-            />
+          <Col sm={7}>
+            <div className="hero4-2">
+              <h5>
+                <span>Host</span> events and <span>find</span> attendees
+              </h5>
+              <img
+                src="./company.png"
+                alt="palynx-img"
+                className="img-fluid Img1"
+              />
+              <img
+                src="./following.png"
+                alt="palynx-img"
+                className="img-fluid Img2"
+              />
 
-            <img
-              src="./Event Details.png"
-              alt="palynx-img"
-              className="img-fluid Img3"
-            />
+              <img
+                src="./Event Details.png"
+                alt="palynx-img"
+                className="img-fluid Img3"
+              />
+            </div>
           </Col>
         </Row>
       </Container>
@@ -244,7 +257,7 @@ const Homepage = () => {
             </span>
           </div>
         </div>
-        <Row>
+        {/* <Row>
           <div className="slider-container">
             <Slider
               ref={(slider) => {
@@ -282,7 +295,7 @@ const Homepage = () => {
               </div>
             </Slider>
           </div>
-        </Row>
+        </Row> */}
       </Container>
       <Container className="hero-6">
         <Row>

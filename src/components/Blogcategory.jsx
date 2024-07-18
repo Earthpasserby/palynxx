@@ -97,7 +97,7 @@ const Blogcategory = () => {
         <Row>
           <img src="./bigparty.png" alt="logo" className="bigparty-img" />
           <Container>
-            <Row className="blogCat-row1 p-5">
+            <Row className="blogCat-row1">
               <h5>Introduction</h5>
               <p>
                 Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
@@ -120,7 +120,7 @@ const Blogcategory = () => {
               />
               <p className="mx-3 mt-2">Big Pitch</p>
             </Row>
-            <Row className="blogCat-row2 p-5">
+            <Row className="blogCat-row2">
               <h5>
                 Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum,
                 nulla odio nisl vitae. In aliquet pellentesque aenean hac
@@ -154,7 +154,7 @@ const Blogcategory = () => {
                 sed mauris vestibulum.
               </p>
             </Row>
-            <Row className="blogCat-row3 p-5">
+            <Row className="blogCat-row3">
               <h5>Conclusion</h5>
               <p className="mt-4">
                 Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus
@@ -179,7 +179,7 @@ const Blogcategory = () => {
               </p>
             </Row>
 
-            <Row className="blogCat-row4 p-5">
+            <Row className="blogCat-row4">
               <h6>Share this post</h6>
               <div className="d-flex justify-content-between">
                 <div className="blogCat-icon d-flex">
@@ -316,7 +316,7 @@ const Blogcategory = () => {
                 alt="palynx-img"
                 className="img-fluid arrow2"
               />
-              <div>
+              <div className="fk">
                 <h2>
                   Get in<span> Touch</span>
                 </h2>
@@ -324,26 +324,26 @@ const Blogcategory = () => {
                   Have questions or need support?Reach out to our friendly
                   support team at
                 </p>
-              </div>
-              <div className="Blog-form">
-                <form action="#">
-                  <div className="form-box">
-                    <input
-                      type="text"
-                      name="EmailAddress"
-                      placeholder="Support@palynx.com"
-                    />
-                    <button type="submit">
-                      <GoArrowUpRight className="" />
-                    </button>
-                  </div>
-                </form>
+                <div className="Blog-form">
+                  <form action="#">
+                    <div className="form-box">
+                      <input
+                        type="text"
+                        name="EmailAddress"
+                        placeholder="Support@palynx.com"
+                      />
+                      <button type="submit">
+                        <GoArrowUpRight className="" />
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </Col>
           <Col sm={6}>
             <div className="cardfooter">
-              <div>
+              <div className="fk">
                 <h2>
                   We are <span>Social</span>
                 </h2>

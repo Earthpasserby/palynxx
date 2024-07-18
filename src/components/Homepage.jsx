@@ -531,7 +531,7 @@ const Homepage = () => {
                     alt="palynx-img"
                     className="img-fluid arrow2"
                   />
-                  <div>
+                  <div className="fk">
                     <h2>
                       Get in<span> Touch</span>
                     </h2>
@@ -539,26 +539,26 @@ const Homepage = () => {
                       Have questions or need support?Reach out to our friendly
                       support team at
                     </p>
-                  </div>
-                  <div className="Blog-form">
-                    <form action="#">
-                      <div className="form-box">
-                        <input
-                          type="text"
-                          name="EmailAddress"
-                          placeholder="Support@palynx.com"
-                        />
-                        <button type="submit">
-                          <GoArrowUpRight className="" />
-                        </button>
-                      </div>
-                    </form>
+                    <div className="Blog-form">
+                      <form action="#">
+                        <div className="form-box">
+                          <input
+                            type="text"
+                            name="EmailAddress"
+                            placeholder="Support@palynx.com"
+                          />
+                          <button type="submit">
+                            <GoArrowUpRight className="" />
+                          </button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </Col>
               <Col sm={6}>
                 <div className="cardfooter">
-                  <div>
+                  <div className="fk">
                     <h2>
                       We are <span>Social</span>
                     </h2>

@@ -67,7 +67,7 @@ const Blogcategory = () => {
               <Link to="/Blog" className="bg-cat">
                 <p className="">Blog</p>
               </Link>
-              <FaAngleRight className="" />
+              <FaAngleRight className="bet-icon" />
               <Link to="/Blogcategory" className="bg-cat">
                 <p className="">Cateory</p>
               </Link>
@@ -96,7 +96,7 @@ const Blogcategory = () => {
             </div>
           </div>
         </Row>
-        <Row>
+        <Row className="mt-4">
           <img src="./bigparty.png" alt="logo" className="bigparty-img" />
           <Container>
             <Row className="blogCat-row1">

@@ -17,21 +17,30 @@ body {
   border-radius: 16px;
 }
 .nav-link {
-  /* font-family: Fixel Text; */
+  font-family: Fixel Text;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  text-align: left;
   color: #1d1d1b;
 }
+ .nav-link {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+.nav-link:last-child {
+  margin-right: 0; /* Remove right margin from the last link */
+  margin-left:0;
+}
+
 .F-btn,
 .F-btn:hover {
-  width: Hug (187px) px;
-  height: Fixed (48px) px;
+  width:187px;
+  height: 48px;
   padding: 4px 24px 4px 24px;
   gap: 8px;
   border-radius: 56px;
   background-color: #1d1d1b;
+  color: #f8f8f8;
 }
 .D-app,
 .D-app:hover {
@@ -354,7 +363,7 @@ body {
   font-weight: 600;
   line-height: 62.4px;
   text-align: left;
-  color: #fa8f42;
+  color: #f1454f;
 }
 .sec-1 {
   width: 740px;
@@ -395,7 +404,8 @@ body {
   padding: 48px 48px 0px 48px;
   gap: 48px;
   border-radius: 40px;
-  background-color: #ff763c;
+  background: linear-gradient(to bottom, #ff763c, #ffe5a4);
+  /* background-color: ; */
   height: 450px;
   margin-top: 100px;
 }
@@ -798,6 +808,9 @@ width: 500px;
 height: 252px;
 } */
 /*Blogcategory*/
+.bet-icon{
+  margin-top: 4px;
+}
 .leftArrow {
   width: 56px;
   height: 56px;
@@ -911,7 +924,7 @@ height: 252px;
   font-size: 20px;
   border: none;
   border-radius: 50px;
-  background: #ff0000;
+  background: linear-gradient(to right,  #ffe5a4, #ff763c);
   cursor: pointer;
   position: absolute;
   width: 48px;
@@ -941,6 +954,10 @@ height: 252px;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 992px) {
+   .nav-link {
+  margin-right: 0;
+  margin-left: 0;
+}
   .Nav-Toggle {
     border: none;
   }

@@ -64,7 +64,7 @@ const Homepage = () => {
   return (
     <>
       <Container fluid>
-        <Navbar collapseOnSelect expand="lg" className="Navbar" >
+        <Navbar collapseOnSelect expand="lg" className="Navbar">
           <Container className="nbar">
             <Navbar.Brand href="#home">
               <img src="./palynx-logo.png" alt="logo" className="logo-img" />

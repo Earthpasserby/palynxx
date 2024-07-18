@@ -403,57 +403,63 @@ const Homepage = () => {
           </div>
         </div>
         <Row className="d-flex justify-content-center">
-          <Col sm={4} className="hero-8Card">
-            <div>
-              <img
-                src="./party.png"
-                alt="palynx-img"
-                className="img-fluid party"
-              />
-              <div className="discoverp">
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-                <pre>02/05/2024 . 12 min read</pre>
+          <Col sm={4}>
+            <div className="hero-8Card">
+              <div>
+                <img
+                  src="./party.png"
+                  alt="palynx-img"
+                  className="img-fluid party"
+                />
+                <div className="discoverp">
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                  <pre>02/05/2024 . 12 min read</pre>
+                </div>
               </div>
             </div>
           </Col>
-          <Col sm={4} className="hero-8Card">
-            <div>
-              <img
-                src="./pitch.png"
-                alt="palynx-img"
-                className="img-fluid pitch"
-              />
-              <div className="discoverp">
-                <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
-                <p>
-                  Building meaningful connections is easier than you think.
-                  Learn how to find and connect with individuals who share your
-                  interests and passions.
-                </p>
-                <pre>02/05/2024 . 12 min read</pre>
+          <Col sm={4}>
+            <div className="hero-8Card">
+              <div>
+                <img
+                  src="./pitch.png"
+                  alt="palynx-img"
+                  className="img-fluid pitch"
+                />
+                <div className="discoverp">
+                  <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
+                  <p>
+                    Building meaningful connections is easier than you think.
+                    Learn how to find and connect with individuals who share
+                    your interests and passions.
+                  </p>
+                  <pre>02/05/2024 . 12 min read</pre>
+                </div>
               </div>
             </div>
           </Col>
-          <Col sm={4} className="hero-8Card">
-            <div>
-              <img
-                src="./diary.png"
-                alt="palynx-img"
-                className="img-fluid diary"
-              />
-              <div className="discoverp">
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-                <pre>02/05/2024 . 12 min read</pre>
+          <Col sm={4}>
+            <div className="hero-8Card">
+              <div>
+                <img
+                  src="./diary.png"
+                  alt="palynx-img"
+                  className="img-fluid diary"
+                />
+                <div className="discoverp">
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <p>
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                  <pre>02/05/2024 . 12 min read</pre>
+                </div>
               </div>
             </div>
           </Col>

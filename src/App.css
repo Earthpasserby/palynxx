@@ -274,25 +274,25 @@ body {
 }
 .Img3 {
   width: 420px;
-  left: 970px;
+  left: 1100px;
   position: absolute;
   margin-top: -45px;
 }
 .Img2 {
   position: absolute;
-  left: 760px;
+  left: 890px;
   margin-top: 200px;
 }
 .Img1 {
   position: absolute;
-  left: 800px;
+  left: 950px;
   margin-top: 70px;
 }
 .Under-line {
   width: 221px;
   height: 30px;
   position: absolute;
-  left: 630px;
+  left: 670px;
   margin-top: 450px;
 }
 .Slide-card {
@@ -476,13 +476,13 @@ body {
   color: #f1454f;
 }
 .hero-8Card {
-  width: 392px;
+  /* width: 392px; */
   height: 400px;
   padding: 8px 8px 16px 8px;
   gap: 16px;
   border-radius: 24px;
   background-color: #ffffff;
-  margin: 10px;
+  margin: 12px;
 }
 .dash {
   position: absolute;
@@ -493,7 +493,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
-  text-align: left;
+  /* text-align: left; */
   color: #1d1d1b;
 }
 .hero-8Card p {
@@ -501,7 +501,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-  text-align: left;
+  /* text-align: left; */
   color: #1d1d1b;
 }
 .discoverp {

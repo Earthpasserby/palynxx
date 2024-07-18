@@ -616,19 +616,19 @@ body {
   left: 1350px;
   margin-top: -120px;
 }
-.fk{
+.fk {
   width: 520px;
-height: 132px;
-padding-left: 50px;
-padding-right: 50px;
+  height: 132px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.fk p{
+.fk p {
   font-family: Fixel Text;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-text-align: left;
-color: #1d1d1b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #1d1d1b;
 }
 /* .icon {
   width: 22.5px;
@@ -919,27 +919,26 @@ height: 252px;
   left: 245px;
   border-radius: 40px;
 }
-.blogCat-row1{
+.blogCat-row1 {
   padding-left: 170px;
   padding-right: 170px;
   margin-top: 50px;
 }
-.blogCat-row2{
- padding-left: 170px;
+.blogCat-row2 {
+  padding-left: 170px;
   padding-right: 170px;
   margin-top: 70px;
 }
-.blogCat-row3{
- padding-left: 170px;
+.blogCat-row3 {
+  padding-left: 170px;
   padding-right: 170px;
   margin-top: 70px;
 }
-.blogCat-row4{
- padding-left: 170px;
+.blogCat-row4 {
+  padding-left: 170px;
   padding-right: 170px;
   margin-top: 70px;
 }
-
 
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
@@ -1384,8 +1383,74 @@ height: 252px;
   .pagination {
     margin-left: -40px;
   }
-}
+  .blogCat-row1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blogCat-row2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blogCat-row3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blogCat-row4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .fk {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
+  .fk p {
+    font-family: Fixel Text;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #1d1d1b;
+    width: 311px;
+    /* height: 52px; */
+  }
+
+  .BlogcategoryHead {
+    height: 3400px;
+  }
+  .blog-catHeader {
+    font-size: 16px;
+  }
+  .bg-cat2 {
+    margin-left: 12px;
+    width: 160px;
+    font-family: Fixel Text;
+    font-size: 12px;
+  }
+  .BlogCont-con {
+    display: block;
+  }
+
+  .blogCat-icon {
+    /* width: 208px; */
+    margin-top: 29px;
+    display: flex;
+  }
+  .BlogCont-con h5 {
+    font-family: Fixel Text;
+    font-size: 16px !important;
+    line-height: 25.6px !important;
+    width: 311px !important;
+    height: 52px !important;
+  }
+}
+.BlogCont-con h5 {
+  font-family: Fixel Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
 @media screen and (max-width: 600px) {
   .Slide-card {
     width: 99% !important;

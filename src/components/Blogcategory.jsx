@@ -61,39 +61,41 @@ const Blogcategory = () => {
         </Link>
       </Container>
       <Container className="BlogcategoryHead mt-5">
-        <div className="d-flex justify-content-between">
-          <div className="d-flex Blog-category">
-            <Link to="/Blog" className="bg-cat">
-              <p className="">Blog</p>
-            </Link>
-            <FaAngleRight className="mx-2 mt-1" />
-            <Link to="/Blogcategory" className="bg-cat">
-              <p className="">Cateory</p>
-            </Link>
+        <Row>
+          <div className="d-flex justify-content-between">
+            <div className="d-flex Blog-category">
+              <Link to="/Blog" className="bg-cat">
+                <p className="">Blog</p>
+              </Link>
+              <FaAngleRight className="" />
+              <Link to="/Blogcategory" className="bg-cat">
+                <p className="">Cateory</p>
+              </Link>
+            </div>
+            <div className="bg-cat2">
+              <p>11 Jan 2022. 5 min read</p>
+            </div>
           </div>
-          <div className="">
-            <p>11 Jan 2022. 5 min read</p>
+          <div className="BlogCont-con d-flex justify-content-between">
+            <h5 className="">
+              How to Meet Like-Minded People: Tips and Tricks
+            </h5>
+            <div className="blogCat-icon">
+              <button className="btn btn-icon3">
+                <BsInstagram />
+              </button>
+              <button className="btn btn-icon3">
+                <BiLogoLinkedin />
+              </button>
+              <button className="btn btn-icon3">
+                <FaXTwitter />
+              </button>
+              <button className="btn btn-icon3">
+                <FaFacebookF />
+              </button>
+            </div>
           </div>
-        </div>
-        <div className="d-flex justify-content-between">
-          <h5 className="blog-catHeader">
-            How to Meet Like-Minded People: Tips and Tricks
-          </h5>
-          <div className="blogCat-icon d-flex">
-            <button className="btn btn-icon3">
-              <BsInstagram />
-            </button>
-            <button className="btn btn-icon3">
-              <BiLogoLinkedin />
-            </button>
-            <button className="btn btn-icon3">
-              <FaXTwitter />
-            </button>
-            <button className="btn btn-icon3">
-              <FaFacebookF />
-            </button>
-          </div>
-        </div>
+        </Row>
         <Row>
           <img src="./bigparty.png" alt="logo" className="bigparty-img" />
           <Container>

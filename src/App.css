@@ -1,6 +1,75 @@
 body {
   background-color: #f9f6f3;
 }
+/* customStyles.css */
+
+/* Custom styles for the Accordion Header (toggle button) */
+.accordionHeader {
+  background-color: transparent !important; /* Make background transparent */
+  color: #343a40; /* Change text color */
+  font-weight: bold; /* Make text bold */
+  border: none; /* Remove border */
+  padding: 10px; /* Add padding */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.accordionHeader:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.05
+  ); /* Change to desired hover background color */
+  color: #212529; /* Change to desired hover text color */
+}
+
+.accordionHeader:focus {
+  box-shadow: none; /* Remove focus outline */
+}
+
+.accordionHeader.collapsed {
+  background-color: transparent; /* Change background color when collapsed */
+  color: #343a40; /* Change text color when collapsed */
+}
+
+.accordion-button {
+  background-color: transparent !important; /* Make background transparent */
+  border: none; /* Remove border */
+  font-weight: 600; /* Make text bold */
+  padding: 10px; /* Add padding */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.05
+  ); /* Change to desired active background color */
+  color: #212529; /* Change to desired active text color */
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Remove focus outline */
+}
+
+.accordion-button::after {
+  width: 40px;
+  height: 40px;
+  /* background-color: red; */
+  /* border-radius: 56px; */
+  text-align: center;
+  font-weight: 900; /* Font Awesome solid */
+  color: blue !important; /* Change icon color for collapsed state */
+  transition: transform 0.2s, color 0.2s; /* Smooth transition for rotation and color */
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg); /* Rotate the icon when expanded */
+  padding: 28px 0px 0px 0px;
+  color: blue !important;
+}
 /*Homepage*/
 
 .logo-img {
@@ -954,11 +1023,12 @@ height: 252px;
 .mobile-pagin {
   display: none;
 }
-.pagination, .page-link, .page-icon {
+.pagination,
+.page-link,
+.page-icon {
   border: none; /* Remove border from page links */
   background-color: transparent; /* Ensure background is transparent */
   color: #1d1d1b;
-
 }
 
 .pagination .page-item {
@@ -966,14 +1036,14 @@ height: 252px;
   background-color: transparent;
 }
 
-.pagination .page-item.active .page-link  {
+.pagination .page-item.active .page-link {
   border: none; /* Remove border from active page links */
-  background-color: #FFF5DB; /* Ensure active background is transparent */
+  background-color: #fff5db; /* Ensure active background is transparent */
   color: #1d1d1b;
 }
-.webpagin-Icon{
+.webpagin-Icon {
   width: 24px;
-height: 24px;
+  height: 24px;
 }
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .nav-link {

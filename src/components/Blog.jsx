@@ -337,51 +337,69 @@ const Blog = () => {
         </Row>
       </Container>
       <Container className="blogCad">
-        <Row className="d-flex justify-content-center">
-          <Col sm={6} className="cardfooter">
-            <img
-              src="./arrow.png"
-              alt="palynx-img"
-              className="img-fluid arrow2"
-            />
-            <div>
-              <h2>
-                Get in<span> Touch</span>
-              </h2>
-              <p>
-                Have questions or need support?Reach out to our friendly support
-                team at
-              </p>
+        <Row className="d-flex justify-content-center mt-5">
+          <Col sm={6}>
+            <div className="cardfooter">
+              <img
+                src="./arrow.png"
+                alt="palynx-img"
+                className="img-fluid arrow2"
+              />
+              <div>
+                <h2>
+                  Get in<span> Touch</span>
+                </h2>
+                <p>
+                  Have questions or need support?Reach out to our friendly
+                  support team at
+                </p>
+              </div>
+              <div className="Blog-form">
+                <form action="#">
+                  <div className="form-box">
+                    <input
+                      type="text"
+                      name="EmailAddress"
+                      placeholder="Support@palynx.com"
+                    />
+                    <button type="submit">
+                      <GoArrowUpRight className="" />
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
           </Col>
-          <Col sm={6} className="cardfooter">
-            <div>
-              <h2>
-                We are <span>Social</span>
-              </h2>
-              <p>
-                Follow us on social media to stay updated with the latest news,
-                events, and features!
-              </p>
-              <div className="icon d-flex">
-                <button className="btn btn-icon">
-                  <BiLogoLinkedin />
-                </button>
-                <button className="btn btn-icon">
-                  <BsInstagram />
-                </button>
-                <button className="btn btn-icon">
-                  <FaFacebookF />
-                </button>
-                <button className="btn btn-icon">
-                  <FaXTwitter />
-                </button>
+          <Col sm={6}>
+            <div className="cardfooter">
+              <div>
+                <h2>
+                  We are <span>Social</span>
+                </h2>
+                <p>
+                  Follow us on social media to stay updated with the latest
+                  news, events, and features!
+                </p>
+                <div className="icon d-flex">
+                  <button className="btn btn-icon">
+                    <BiLogoLinkedin />
+                  </button>
+                  <button className="btn btn-icon">
+                    <BsInstagram />
+                  </button>
+                  <button className="btn btn-icon">
+                    <FaFacebookF />
+                  </button>
+                  <button className="btn btn-icon">
+                    <FaXTwitter />
+                  </button>
+                </div>
+                <img
+                  src="./arrow33.png"
+                  alt="palynx-img"
+                  className="img-fluid arrow33"
+                />
               </div>
-              <img
-                src="./arrow33.png"
-                alt="palynx-img"
-                className="img-fluid arrow33"
-              />
             </div>
           </Col>
         </Row>

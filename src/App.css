@@ -555,13 +555,13 @@ body {
   margin-top: 20px;
 }
 .cardfooter {
-  width: 600px;
+  /* width: 600px; */
   height: 300px;
   padding: 40px 0px 0px 0px;
   gap: 32px;
   border-radius: 32px;
   background-color: #ffffff;
-  margin: 20px;
+  margin: 1px;
 }
 .cardfooter h2 {
   font-family: Fixel Text;
@@ -785,7 +785,7 @@ body {
 width: 500px;
 height: 252px;
 } */
- /*Blogcategory*/
+/*Blogcategory*/
 .leftArrow {
   width: 56px;
   height: 56px;
@@ -794,32 +794,120 @@ height: 252px;
   border-radius: 56px;
   background-color: #fff;
 }
-.Leftarrow{
-  font-size: 30px ;
+.Leftarrow {
+  font-size: 30px;
   margin-left: 14px;
-
 }
- .leftArrow{
+.leftArrow {
   text-decoration: none;
   color: #1d1d1b;
 }
-.BlogcategoryHead{
-  height: 2770px;
+.BlogcategoryHead {
+  height: 2790px;
   border-radius: 40px;
   padding: 48px;
   background-color: #fff;
 }
-.Blog-category p{
+.Blog-category p {
   font-family: Fixel Text;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-align: center;
-color: #1d1d1b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #1d1d1b;
 }
-.bg-cat{
-text-decoration: none;
+.bg-cat {
+  text-decoration: none;
 }
+.btn-icon3 {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  gap: 8px;
+  border-radius: 64px;
+  border: 1px solid #e3dbd2;
+  border-radius: 40px;
+  margin: 3px;
+  color: #fa8f42;
+}
+.blog-catHeader {
+  font-family: Fixel Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #1d1d1b;
+  width: 768px;
+  height: 96px;
+}
+.blogcat-Tag {
+  /* width: 83px; */
+  height: 34px;
+  padding: 4px 16px 12px 16px;
+  border-radius: 40px;
+  background-color: #f0ebe5;
+  margin: 2px;
+}
+.blogcat-Tag a {
+  width: 51px;
+  height: 10px;
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: #1d1d1b;
+  text-decoration: none;
+}
+.hrline1 {
+  margin-top: 30px;
+}
+.avatar {
+  width: 56px;
+  height: 56px;
+}
+.Blog-form {
+  width: 293px;
+  height: 56px;
+}
+.form-box {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+  padding-top: 30px;
+}
+
+.form-box input {
+  color: #1d1d1b;
+  padding: 15px 10px;
+  border-radius: 50px;
+  outline: none;
+  background: #ffff;
+  width: 100%;
+  border: 1px solid #8f8f8f;
+  height: 50px;
+  text-align: center;
+  font-family: Fixel Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.form-box button {
+  color: #fff;
+  padding: 1px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  background: #ff0000;
+  cursor: pointer;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 245px;
+  border-radius: 40px;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .Nav-Toggle {
     border: none;

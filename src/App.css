@@ -1152,7 +1152,7 @@ height: 252px;
   .hero {
     width: 343px;
   }
-  .Heroo img{
+  .Heroo img {
     position: relative;
     top: 15px;
   }
@@ -1239,16 +1239,16 @@ height: 252px;
     position: absolute;
     left: 220px;
   }
-  .Btn-3{
+  .Btn-3 {
     position: relative;
     top: -200px;
     left: -30px;
   }
-   .Btn-5{
+  .Btn-5 {
     position: relative;
     top: -200px;
     left: -30px;
-   width: 410px;
+    width: 410px;
   }
   .btn-4 {
     position: absolute;
@@ -1277,7 +1277,7 @@ height: 252px;
   .hero-3 {
     /* width: 343px; */
   }
-  .Hero-3{
+  .Hero-3 {
     position: relative;
     top: -80px;
     left: -30px;
@@ -1308,7 +1308,7 @@ height: 252px;
     margin-top: 5px;
     margin-left: -15px;
   }
-  .hero4-col{
+  .hero4-col {
     position: relative;
     margin-left: -30px !important;
   }
@@ -1396,8 +1396,12 @@ height: 252px;
   .section1 {
     width: 343px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -15px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+  .section2 {
+    margin-left: -10px;
   }
   .section1 img {
     /* width: 260px; */
@@ -1410,6 +1414,9 @@ height: 252px;
     margin-top: -47px;
     left: 50px;
   }
+  .Lady {
+    position: relative;
+  }
   .lady {
     width: 260px;
     height: 341px;
@@ -1417,9 +1424,16 @@ height: 252px;
   .btn-img {
     position: absolute;
     margin-top: 235px;
+    left: 20px;
+  }
+  .sect-Btn {
+    position: relative;
   }
   .Line {
     display: none;
+  }
+  .higlight {
+    position: relative;
   }
   /*Download palynx*/
   .hero-7 {
@@ -1448,10 +1462,13 @@ height: 252px;
   }
   .download {
     width: 311px;
-    height: 312.5px;
+    height: 250px;
     position: absolute;
-    left: 10px;
+    left: 20px;
     margin-top: 100px;
+  }
+  .down-Img {
+    position: relative;
   }
   .arow {
     display: none;
@@ -1461,6 +1478,10 @@ height: 252px;
     position: absolute;
     left: 260px;
     margin-top: -5px;
+  }
+  .Down-arrow {
+    position: relative;
+    left: -70px;
   }
 
   /*Discover palynx*/
@@ -1489,10 +1510,28 @@ height: 252px;
   }
   .hero-8Card p {
     font-size: 14px;
+    width: 335px;
   }
   .hero-8Card {
-    /* width: 284px; */
-    /* height: 380px; */
+    width: 343px;
+    height: 380px;
+    margin-left: -15px;
+  }
+  .hero-8Header {
+    width: 343px;
+  }
+  .hero-8Header h5 {
+    width: 221px;
+    height: 62px;
+    font-size: 24px;
+  }
+  .hero9-drop{
+    width: 343px;
+    /* margin-left: 30px; */
+  }
+  .accordion{
+    /* width: 343px; */
+    /* margin-left: 10px; */
   }
   .cardfooter {
     /* width: 343px; */
@@ -1517,7 +1556,7 @@ height: 252px;
   .footer {
     height: 639px;
     width: 343px;
-    margin-left: -3px;
+    /* margin-left: -3px; */
   }
   .footer p {
     width: 311px;
@@ -1548,6 +1587,10 @@ height: 252px;
   .arrow2 {
     position: absolute;
     left: 200px;
+  }
+  .Cardfooter-arrow {
+    position: relative;
+    left: -30px;
   }
   .arrow33 {
     display: none;
@@ -1637,7 +1680,7 @@ height: 252px;
   .blogCad {
     margin-top: 50px;
     width: 343px;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-right: 5px;
     overflow: hidden;
   }

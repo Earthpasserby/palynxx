@@ -353,21 +353,25 @@ const Home = () => {
           <Row className="">
             <Col md={5} xs={6}>
               <div className="section1">
-                <img
-                  src="./lady.png"
-                  alt="palynx-img"
-                  className="img-fluid lady"
-                />
-                <div>
+                <div className="Lady">
+                  <img
+                    src="./lady.png"
+                    alt="palynx-img"
+                    className="img-fluid lady"
+                  />
+                </div>
+                <div className="sect-Btn">
                   <button className="btn btn-1 btn-img">
                     Download the App
                   </button>
                 </div>
-                <img
-                  src="./Highlight.png"
-                  alt="palynx-img"
-                  className="img-fluid Line"
-                />
+                <div className="High-line">
+                  <img
+                    src="./Highlight.png"
+                    alt="palynx-img"
+                    className="img-fluid Line"
+                  />
+                </div>
               </div>
             </Col>
             <Col md={7} xs={12}>
@@ -375,11 +379,13 @@ const Home = () => {
                 <h4>
                   Why Choose <span> Palynx</span>?
                 </h4>
-                <img
-                  src="./Highlight1.png"
-                  alt="palynx-img"
-                  className="img-fluid highlight1"
-                />
+                <div className="higlight">
+                  <img
+                    src="./Highlight1.png"
+                    alt="palynx-img"
+                    className="img-fluid highlight1"
+                  />
+                </div>
                 <div className="sec-1 d-flex">
                   <img
                     src="./star1.png"
@@ -442,11 +448,13 @@ const Home = () => {
                 alt="palynx-img"
                 className="img-fluid arow"
               />
-              <img
-                src="./aroww.png"
-                alt="palynx-img"
-                className="img-fluid aroww"
-              />
+              <div className="Down-arrow">
+                <img
+                  src="./aroww.png"
+                  alt="palynx-img"
+                  className="img-fluid aroww"
+                />
+              </div>
               <button className="btn btn-1 download-btn d-flex">
                 <img
                   src="./apple.png"
@@ -457,26 +465,30 @@ const Home = () => {
               </button>
             </Col>
             <Col md={5} xs={12} className="mb-4">
-              <img
-                src="./download.png"
-                alt="palynx-img"
-                className="img-fluid download"
-              />
+              <div className="down-Img">
+                <img
+                  src="./download.png"
+                  alt="palynx-img"
+                  className="img-fluid download"
+                />
+              </div>
             </Col>
           </Row>
         </Container>
         <Container className="hero-8">
-          <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
-          <div className="d-flex justify-content-between">
-            <h5>
-              Discover More with the Palynx <span> Blog</span>
-            </h5>
-            <div>
-              <Link to="/Blog">
-                <button className="btn btn-2 ">
-                  More <i class="bi bi-arrow-right"></i>
-                </button>
-              </Link>
+          <div className="hero-8Header">
+            <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
+            <div className="d-flex justify-content-between">
+              <h5>
+                Discover More with the Palynx <span> Blog</span>
+              </h5>
+              <div>
+                <Link to="/Blog">
+                  <button className="btn btn-2 ">
+                    More <i class="bi bi-arrow-right"></i>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <Row className="d-flex justify-content-center">
@@ -543,69 +555,69 @@ const Home = () => {
           </Row>
         </Container>
         <Container className="hero-9">
-          <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
-          <h5>
-            Frequently asked<span> questions </span>
-          </h5>
-          <Row>
-            <Row className="accordion">
-              <Accordion>
-                <Accordion.Item
-                  eventKey="0"
-                  className="border border-0 bg-transparent accordionItem"
-                >
-                  <Accordion.Header className="accordionHeader">
-                    What is Palynx?
-                  </Accordion.Header>
-                  <Accordion.Body className="accordionBody">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item
-                  eventKey="1"
-                  className="mt-2 border border-0 bg-transparent"
-                >
-                  <Accordion.Header className="accordionHeader">
-                    Connecting with Palynx
-                  </Accordion.Header>
-                  <Accordion.Body className="accordionBody">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item
-                  eventKey="2"
-                  className="mt-2  border border-0 bg-transparent"
-                >
-                  <Accordion.Header className="accordionHeader">
-                    Do more with Palynx
-                  </Accordion.Header>
-                  <Accordion.Body className="accordionBody">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </Row>
+          <div className="hero9-drop">
+            <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
+            <h5>
+              Frequently asked<span> questions </span>
+            </h5>
+          </div>
+          <Row className="accordion">
+            <Accordion>
+              <Accordion.Item
+                eventKey="0"
+                className="border border-0 bg-transparent accordionItem"
+              >
+                <Accordion.Header className="accordionHeader">
+                  What is Palynx?
+                </Accordion.Header>
+                <Accordion.Body className="accordionBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item
+                eventKey="1"
+                className="mt-2 border border-0 bg-transparent"
+              >
+                <Accordion.Header className="accordionHeader">
+                  Connecting with Palynx
+                </Accordion.Header>
+                <Accordion.Body className="accordionBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item
+                eventKey="2"
+                className="mt-2  border border-0 bg-transparent"
+              >
+                <Accordion.Header className="accordionHeader">
+                  Do more with Palynx
+                </Accordion.Header>
+                <Accordion.Body className="accordionBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </Row>
         </Container>
         <Container>
@@ -614,11 +626,13 @@ const Home = () => {
               <Row className="d-flex justify-content-center mt-5">
                 <Col md={6} xs={12}>
                   <div className="cardfooter">
-                    <img
-                      src="./arrow.png"
-                      alt="palynx-img"
-                      className="img-fluid arrow2"
-                    />
+                    <div className="Cardfooter-arrow">
+                      <img
+                        src="./arrow.png"
+                        alt="palynx-img"
+                        className="img-fluid arrow2"
+                      />
+                    </div>
                     <div className="fk">
                       <h2>
                         Get in<span> Touch</span>

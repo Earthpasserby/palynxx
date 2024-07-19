@@ -309,78 +309,82 @@ const Blogcategory = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="blogCad">
-        <Row className="d-flex justify-content-center mt-5">
-          <Col sm={6}>
-            <div className="cardfooter">
-              <img
-                src="./arrow.png"
-                alt="palynx-img"
-                className="img-fluid arrow2"
-              />
-              <div className="fk">
-                <h2>
-                  Get in<span> Touch</span>
-                </h2>
-                <p>
-                  Have questions or need support?Reach out to our friendly
-                  support team at
-                </p>
-                <div className="Blog-form">
-                  <form action="#">
-                    <div className="form-box">
-                      <input
-                        type="text"
-                        name="EmailAddress"
-                        placeholder="Support@palynx.com"
-                      />
-                      <button type="submit">
-                        <GoArrowUpRight className="" />
+      <Container>
+        <Row className="d-flex justify-content-center">
+          <Container className="blogCad">
+            <Row className="d-flex justify-content-center mt-5">
+              <Col md={6} xs={12}>
+                <div className="cardfooter">
+                  <img
+                    src="./arrow.png"
+                    alt="palynx-img"
+                    className="img-fluid arrow2"
+                  />
+                  <div className="fk">
+                    <h2>
+                      Get in<span> Touch</span>
+                    </h2>
+                    <p>
+                      Have questions or need support?Reach out to our friendly
+                      support team at
+                    </p>
+                    <div className="Blog-form">
+                      <form action="#">
+                        <div className="form-box">
+                          <input
+                            type="text"
+                            name="EmailAddress"
+                            placeholder="Support@palynx.com"
+                          />
+                          <button type="submit">
+                            <GoArrowUpRight className="" />
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col md={6} xs={12}>
+                <div className="cardfooter">
+                  <div className="fk">
+                    <h2>
+                      We are <span>Social</span>
+                    </h2>
+                    <p>
+                      Follow us on social media to stay updated with the latest
+                      news, events, and features!
+                    </p>
+                    <div className="icon d-flex">
+                      <button className="btn btn-icon">
+                        <BiLogoLinkedin />
+                      </button>
+                      <button className="btn btn-icon">
+                        <BsInstagram />
+                      </button>
+                      <button className="btn btn-icon">
+                        <FaFacebookF />
+                      </button>
+                      <button className="btn btn-icon">
+                        <FaXTwitter />
                       </button>
                     </div>
-                  </form>
+                    <img
+                      src="./arrow33.png"
+                      alt="palynx-img"
+                      className="img-fluid arrow33"
+                    />
+                  </div>
                 </div>
-              </div>
-            </div>
-          </Col>
-          <Col sm={6}>
-            <div className="cardfooter">
-              <div className="fk">
-                <h2>
-                  We are <span>Social</span>
-                </h2>
-                <p>
-                  Follow us on social media to stay updated with the latest
-                  news, events, and features!
-                </p>
-                <div className="icon d-flex">
-                  <button className="btn btn-icon">
-                    <BiLogoLinkedin />
-                  </button>
-                  <button className="btn btn-icon">
-                    <BsInstagram />
-                  </button>
-                  <button className="btn btn-icon">
-                    <FaFacebookF />
-                  </button>
-                  <button className="btn btn-icon">
-                    <FaXTwitter />
-                  </button>
-                </div>
-                <img
-                  src="./arrow33.png"
-                  alt="palynx-img"
-                  className="img-fluid arrow33"
-                />
-              </div>
-            </div>
-          </Col>
+              </Col>
+            </Row>
+          </Container>
         </Row>
       </Container>
       <Container fluid className="footer">
         <Container className="tr">
           <Row class="g-5">
-            <Col sm={3}>
+            <Col md={3} xs={12}>
               <img
                 src="./palynxwlogo.png"
                 alt="logo"
@@ -402,7 +406,7 @@ const Blogcategory = () => {
                 </button>
               </div>
             </Col>
-            <Col sm={3} className="">
+            <Col md={3} xs={12} className="">
               <p>
                 <a href="#">About us</a>
               </p>
@@ -416,7 +420,7 @@ const Blogcategory = () => {
                 <a href="#">Contact</a>
               </p>
             </Col>
-            <Col sm={3}>
+            <Col md={3} xs={12}>
               <p>
                 <a href="#">Terms of Service</a>
               </p>
@@ -424,7 +428,7 @@ const Blogcategory = () => {
                 <a href="#">Privacy Policy</a>
               </p>
             </Col>
-            <Col sm={3}>
+            <Col md={3} xs={12}>
               <p>
                 <a href="#">Download App</a>
               </p>

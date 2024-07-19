@@ -61,7 +61,11 @@ const Homepage = () => {
     ],
   };
   const [expanded, setExpanded] = useState(false);
+  const [activeKey, setActiveKey] = useState(null);
 
+    const toggleAccordion = (key) => {
+      setActiveKey(activeKey === key ? null : key);
+    };
   return (
     <>
       <Container fluid>

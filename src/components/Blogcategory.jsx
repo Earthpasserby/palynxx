@@ -61,7 +61,7 @@ const Blogcategory = () => {
         </Link>
       </Container>
       <Container className="BlogcategoryHead mt-5">
-        <Row>
+        <Row className="bn">
           <Col md={12} xs={8}>
             <div className="d-flex justify-content-between bloG-cat1">
               <div className="d-flex Blog-category">
@@ -103,9 +103,13 @@ const Blogcategory = () => {
           </Col>
         </Row>
         <Row className="mt-4">
-          <img src="./bigparty.png" alt="logo" className="bigparty-img" />
           <Container>
             <Row className="blogCat-row1">
+              <img
+                src="./bigparty.png"
+                alt="logo"
+                className="img-fluid bigparty-img"
+              />
               <h5>Introduction</h5>
               <p>
                 Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
@@ -164,7 +168,7 @@ const Blogcategory = () => {
             </Row>
             <Row className="blogCat-row3">
               <h5>Conclusion</h5>
-              <p className="mt-4">
+              <p className="mt-2">
                 Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus
                 id scelerisque est ultricies ultricies. Duis est sit sed leo
                 nisl, blandit elit sagittis. Quisque tristique consequat quam
@@ -204,17 +208,17 @@ const Blogcategory = () => {
                     <FaFacebookF />
                   </button>
                 </div>
-                <div className="d-flex">
-                  <p className="blogcat-Tag">
+                <div className="d-flex blogcat-Icon">
+                  <p className="blogcat-Tag tag1">
                     <a href="#">Tag one</a>
                   </p>
-                  <p className="blogcat-Tag">
+                  <p className="blogcat-Tag tag2">
                     <a href="#">Tag two</a>
                   </p>
-                  <p className="blogcat-Tag">
+                  <p className="blogcat-Tag tag3">
                     <a href="#">Tag three</a>
                   </p>
-                  <p className="blogcat-Tag">
+                  <p className="blogcat-Tag tag4">
                     <a href="#">Tag four</a>
                   </p>
                 </div>
@@ -222,7 +226,11 @@ const Blogcategory = () => {
               <hr className="hrline1" />
               <div className="d-flex justify-space-between Blogd">
                 <div>
-                  <img src="./Avatar Image.png" className="img-fluid avatar" />
+                  <img
+                    src="./Avatar Image.png"
+                    className="img-fluid avatar"
+                    alt="Avatar"
+                  />
                 </div>
                 <div className="mx-4">
                   <p>John Dukes</p>

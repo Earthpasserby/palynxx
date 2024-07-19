@@ -222,9 +222,9 @@ body {
   border-radius: 40px;
   background-color: #ffffff;
 }
-.Hero-3{
+.Hero-3 {
   position: relative;
-  left:-280px ;
+  left: -280px;
   top: -70px;
 }
 .hero-3 h4 {
@@ -291,7 +291,7 @@ body {
   position: absolute;
   left: 540px;
 }
-.Btn-3{
+.Btn-3 {
   position: relative;
   left: -300px;
   top: -230px;
@@ -300,7 +300,7 @@ body {
   position: absolute;
   left: 985px;
 }
-.Btn-4{
+.Btn-4 {
   position: relative;
   left: -710px;
   top: -230px;
@@ -311,10 +311,10 @@ body {
   width: 120px;
 }
 .Btn-5 {
-    position: relative;
-    top: -230px;
-    left: -1125px;
-  }
+  position: relative;
+  top: -230px;
+  left: -1125px;
+}
 .btn-3 {
   font-family: Fixel Text;
   font-size: 14px;
@@ -1551,11 +1551,11 @@ height: 252px;
     height: 62px;
     font-size: 24px;
   }
-  .hero9-drop{
+  .hero9-drop {
     width: 343px;
     /* margin-left: 30px; */
   }
-  .accordion{
+  .accordion {
     /* width: 343px; */
     /* margin-left: 10px; */
   }
@@ -1614,7 +1614,7 @@ height: 252px;
     position: absolute;
     left: 200px;
   }
-  .cardfooter-arrow2{
+  .cardfooter-arrow2 {
     position: relative;
     left: -30px;
   }
@@ -1689,7 +1689,7 @@ height: 252px;
     margin-top: 20px;
   }
   .Bloghero {
-    height: 1450px;
+    height: 1350px;
     width: 343px;
     /* margin-left: -4px; */
   }
@@ -1718,6 +1718,29 @@ height: 252px;
     position: absolute;
     left: 250px;
   }
+  .tag1, .tag2 {
+    width: 67px;
+    height: 32px;
+  }
+   .tag3 {
+    width: 76px;
+    height: 32px;
+  }
+    .tag4 {
+    width: 69px;
+    height: 32px;
+  }
+  .blogcat-Tag a{
+    font-size: 10px;
+    
+  }
+  .blogcat-Icon {
+    position: absolute;
+    margin-top: 50px;
+  }
+  .hrline1{
+    margin-top: 50px;
+  }
   .pagination {
     margin-left: -40px;
   }
@@ -1728,14 +1751,22 @@ height: 252px;
   .blogCat-row2 {
     padding-left: 0;
     padding-right: 0;
+    margin-top: 20px;
+    width: 311px;
+    margin-left: -30px;
   }
   .blogCat-row3 {
     padding-left: 0;
     padding-right: 0;
+    width: 311px;
+    margin-left: -30px;
+    margin-top: 20px;
   }
   .blogCat-row4 {
     padding-left: 0;
     padding-right: 0;
+      width: 311px;
+    margin-left: -30px;
   }
   .web-pagin {
     display: none;
@@ -1759,64 +1790,72 @@ height: 252px;
     width: 311px;
     /* height: 52px; */
   }
-  .bloG-cat1{
+  .bloG-cat1 {
     position: relative;
     left: -59px;
   }
-.bet-icon{
-  position: absolute;
-  left: 80px;
-  margin-top: -1px;
-}
-.bgcat{
-  position: absolute;
-  left: -50px;
-}
-.bgcat p{
+  .bet-icon {
+    position: absolute;
+    left: 80px;
+    margin-top: -1px;
+  }
+  .bgcat {
+    position: absolute;
+    left: -50px;
+  }
+  .bgcat p {
     font-family: Fixel Text;
     font-size: 12px;
-}
-.bgcat2{
-  position: absolute;
-  left: 0px;
-}
-.bgcat2 p{
-     font-family: Fixel Text;
+  }
+  .bgcat2 {
+    position: absolute;
+    left: 0px;
+  }
+  .bgcat2 p {
+    font-family: Fixel Text;
     font-size: 12px;
-}
-.bg-cat2 {
+  }
+  .bg-cat2 {
     position: absolute;
     left: 170px;
     margin-top: 5px;
   }
-  .bg-cat2 p{
-     font-family: Fixel Text;
+  .bg-cat2 p {
+    font-family: Fixel Text;
     font-size: 12px;
   }
   .BlogcategoryHead {
-    height: 3400px;
+    height: 3000px;
     width: 343px;
+  }
+  .bn {
+    width: 311px;
+    margin-left: -30px;
+  }
+  .blogCat-row1 {
+    width: 311px;
+    margin-left: -30px;
   }
   .blog-catHeader {
     font-size: 16px;
   }
-  .bigparty-img{
-    margin-top: 110px;
+  .bigparty-img {
+    margin-top: 60px;
   }
   .BlogCont-con {
     position: absolute;
     margin-top: 20px;
   }
   .BlogCont-con h5 {
-  font-family: Fixel Text;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 48px;
-  text-align: left;
-  width: 30px;
-  height: 52px;
-  margin-top: 40px;
-}
+    font-family: Fixel Text;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    width: 30px;
+    height: 52px;
+    margin-top: 40px;
+  }
 
   .blogCat-icon {
     /* width: 208px; */

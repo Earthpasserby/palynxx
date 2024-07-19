@@ -118,8 +118,10 @@ const Home = () => {
         </Container>
         <Container className="hero">
           <Row>
-            <Col xs={12} md={8}  className="">
-              <img src="./arrow.png" alt="palynx-img" className="img-4" />
+            <Col xs={12} md={8} className="">
+              <div className="Heroo">
+                <img src="./arrow.png" alt="palynx-img" className="img-4" />
+              </div>
               <h2>
                 <span>Discover</span> Your City and Make New Friends with Ease
               </h2>
@@ -127,17 +129,24 @@ const Home = () => {
                 Connect with people with like minds, similar interests, goals
                 and motivations and make plans all with Palynx.
               </p>
-              <button className="btn btn-1">Download the App</button>
+              <button className="btn btn-1 homebtn-1">Download the App</button>
             </Col>
             <Col xs={12} md={4} className="img-cont ">
-              <img src="./content.png" alt="palynx-img" className="img-cont1" />
-              <img src="./card.png" alt="palynx-img" className="img-cont2" />
-              <img
-                src="./Underline.png"
-                alt="palynx-img"
-                className="img-cont3"
-              />
+              <div className="hero4-col">
+                <img
+                  src="./content.png"
+                  alt="palynx-img"
+                  className="img-cont1"
+                />
+                <img src="./card.png" alt="palynx-img" className="img-cont2" />
+                <img
+                  src="./Underline.png"
+                  alt="palynx-img"
+                  className="img-cont3"
+                />
+              </div>
             </Col>
+            <button className="btn btn-1 homebtn-2">Download the App</button>
           </Row>
         </Container>
         <Container className="hero-2">
@@ -188,11 +197,13 @@ const Home = () => {
             <h4>
               <span>Explore</span> Your City
             </h4>
-            <img
-              src="./underline1.png"
-              alt="palynx-img"
-              className="underline1 img-fluid"
-            />
+            <div className="Hero-3">
+              <img
+                src="./underline1.png"
+                alt="palynx-img"
+                className="underline1 img-fluid"
+              />
+            </div>
             <p>
               Discover new places, hidden gems, and popular hotspots in your
               city.
@@ -200,7 +211,9 @@ const Home = () => {
             <Col md={4} xs={12}>
               <div className="card-2">
                 <img src="./view.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn btn-3">Romantic</button>
+                <div className="Btn-3">
+                  <button className="btn btn-3">Romantic</button>
+                </div>
                 <div className="card-2Cont">
                   <h6>Sea & Romantic dinner</h6>
                   <pre>New York, NY - August 12</pre>
@@ -210,7 +223,9 @@ const Home = () => {
             <Col md={4} xs={12}>
               <div className="card-2">
                 <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn btn-4">party</button>
+                <div className="Btn-3">
+                  <button className="btn btn-4">party</button>
+                </div>
                 <div className="card-2Cont">
                   <h6>Yacht day & Friend’s party</h6>
                   <pre>New York, NY - August 18</pre>
@@ -220,7 +235,9 @@ const Home = () => {
             <Col md={4} xs={12}>
               <div className="card-2">
                 <img src="./bale.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn btn-5">Dance classes</button>
+                <div className="Btn-5">
+                  <button className="btn btn-5">Dance classes</button>
+                </div>
                 <div className="card-2Cont">
                   <h6>Beginner & Intermediate Ballet Class</h6>
                   <pre>New York, NY - August 24</pre>
@@ -237,11 +254,13 @@ const Home = () => {
                   Last-minute <span>hangout</span> option for any spontaneous
                   plans
                 </h5>
-                <img
-                  src="./minute.png"
-                  alt="palynx-img"
-                  className="img-fluid Img4"
-                />
+                <div className="hero4-col">
+                  <img
+                    src="./minute.png"
+                    alt="palynx-img"
+                    className="img-fluid Img4"
+                  />
+                </div>
               </div>
             </Col>
             <img
@@ -254,22 +273,24 @@ const Home = () => {
                 <h5>
                   <span>Host</span> events and <span>find</span> attendees
                 </h5>
-                <img
-                  src="./company.png"
-                  alt="palynx-img"
-                  className="img-fluid Img1"
-                />
-                <img
-                  src="./following.png"
-                  alt="palynx-img"
-                  className="img-fluid Img2"
-                />
+                <div className="hero4-col">
+                  <img
+                    src="./company.png"
+                    alt="palynx-img"
+                    className="img-fluid Img1"
+                  />
+                  <img
+                    src="./following.png"
+                    alt="palynx-img"
+                    className="img-fluid Img2"
+                  />
 
-                <img
-                  src="./Event Details.png"
-                  alt="palynx-img"
-                  className="img-fluid Img3"
-                />
+                  <img
+                    src="./Event Details.png"
+                    alt="palynx-img"
+                    className="img-fluid Img3"
+                  />
+                </div>
               </div>
             </Col>
           </Row>

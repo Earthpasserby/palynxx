@@ -155,7 +155,7 @@ body {
   font-weight: 400;
   line-height: 38.4px;
   text-align: left;
-  width:777px ;
+  width: 777px;
   color: #1d1d1b;
 }
 .hero-2 {
@@ -1067,6 +1067,9 @@ height: 252px;
   width: 24px;
   height: 24px;
 }
+.homebtn-2 {
+  display: none;
+}
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   .nav-link {
     margin-right: 0;
@@ -1077,19 +1080,28 @@ height: 252px;
   }
   .img-cont2 {
     position: absolute;
-    left: 6px;
-    top: 560px;
+    left: 10px;
+    top: 520px;
+  }
+  .homebtn-1 {
+    display: none;
+  }
+  .homebtn-2 {
+    display: block;
+    margin-top: 400px;
+    width: 343px;
+    text-align: center;
   }
   .img-cont1 {
-    width: 282.15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 282px;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
   }
   .img-cont1 {
     position: absolute;
     left: 70px;
-    top: 400px;
+    top: 330px;
   }
   .img-cont2 {
     width: 42%;
@@ -1100,44 +1112,78 @@ height: 252px;
   .img-cont3 {
     position: absolute;
     left: 150px;
-    top: 625px;
+    top: 590px;
   }
   .img-cont3 {
     width: 30%;
   }
   .img-4 {
     position: absolute;
-    left: 320px;
-    top: 145px;
+    left: 300px;
+    top: 140px;
   }
   .img-4 {
     width: 10%;
   }
   .img-cont {
-    margin-top: 50px;
+    width: 343px;
+    margin-top: -320px;
     margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
   }
   .hero h2 {
     /* font-family: Fixel Text; */
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
+    width: 330px;
+    height: 72px;
   }
   .hero span {
     /* font-family: Fixel Text; */
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
+    width: 330px;
+    height: 72px;
+  }
+  .hero {
+    width: 343px;
+  }
+  .Heroo img{
+    position: relative;
+    top: 15px;
   }
   .hero p {
     font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
+    width: 330px;
+    height: 78px;
   }
   .hero-2 {
-    margin-top: 300px;
+    margin-top: 70px;
+    width: 343px;
+  }
+  .hero-4 {
+    width: 343px;
+  }
+  .hero-5 {
+    width: 343px;
+  }
+  .hero-6 {
+    width: 343px;
+  }
+  .hero-7 {
+    width: 343px;
+  }
+  .hero-8 {
+    width: 343px;
+  }
+  .hero-9 {
+    width: 343px;
   }
   .hero-2Img {
     width: 44px;
@@ -1147,10 +1193,10 @@ height: 252px;
     /* margin-top: 20px; */
   }
   .card-1 {
-    margin: 10px;
+    /* margin: 10px; */
     display: flex;
     text-align: left;
-    margin-left: auto;
+    margin-left: -15px;
     margin-right: auto;
     /* margin-left: 0; */
   }
@@ -1187,10 +1233,22 @@ height: 252px;
   .hero-3 {
     height: 1150px;
     width: 343px;
+    margin-top: 50px;
   }
   .btn-3 {
     position: absolute;
     left: 220px;
+  }
+  .Btn-3{
+    position: relative;
+    top: -200px;
+    left: -30px;
+  }
+   .Btn-5{
+    position: relative;
+    top: -200px;
+    left: -30px;
+   width: 410px;
   }
   .btn-4 {
     position: absolute;
@@ -1219,6 +1277,11 @@ height: 252px;
   .hero-3 {
     /* width: 343px; */
   }
+  .Hero-3{
+    position: relative;
+    top: -80px;
+    left: -30px;
+  }
   .card-2 {
     width: 311px;
     height: 270px;
@@ -1235,43 +1298,53 @@ height: 252px;
     font-size: 18px;
   }
   .hero4-1 {
-    /* width: 343px; */
+    width: 343px;
     height: 400px;
-    gap: 416px;
-    border-radius: 16px;
-    margin-left: 0;
+    margin-left: -15px;
   }
   .hero4-2 {
-    /* width: 343px; */
+    width: 343px;
     height: 400px;
-    gap: 416px;
-    border-radius: 16px;
     margin-top: 5px;
-    margin-left: 0;
+    margin-left: -15px;
   }
-  .hero4-1 img {
+  .hero4-col{
+    position: relative;
+    margin-left: -30px !important;
+  }
+  /* .hero4-1 img {
     width: 275px;
     margin-top: -50px;
     left: 56.92px;
     position: absolute;
-  }
+  } */
   .Img3 {
-    width: 265px;
-    left: 80px;
+    width: 255px;
+    height: 241.33px;
+    left: 90px;
     margin-top: 10px;
     position: absolute;
   }
   .Img2 {
     position: absolute;
-    left: 150px;
-    width: 180px;
+    left: 90px;
+    width: 150px;
     margin-top: -45px;
+  }
+  .Img4 {
+    position: absolute;
+    left: 70px;
+    width: 150px;
+    margin-top: -45px;
+  }
+  .Img4 {
+    width: 240px;
   }
   .Img1 {
     position: absolute;
     left: 65px;
-    width: 120px;
-    margin-top: -10px;
+    width: 90px;
+    margin-top: 30px;
   }
   .Under-line {
     display: none;

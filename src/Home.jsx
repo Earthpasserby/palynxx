@@ -8,9 +8,7 @@ import {
   Nav,
   Col,
   Row,
-  Card,
   Accordion,
-  Button,
 } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -41,7 +39,7 @@ const Home = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 2,
 
     responsive: [
       {
@@ -49,7 +47,7 @@ const Home = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: false,
+          infinite: true,
           dots: false,
         },
       },
@@ -94,20 +92,20 @@ const Home = () => {
                 className="menu-event"
               >
                 <Nav className="me-auto">
-                  <Nav.Link href="#">Home</Nav.Link>
-                  <Nav.Link href="#" className="">
+                  <Nav.Link href="#home">Home</Nav.Link>
+                  <Nav.Link href="#blog" className="">
                     Blog
                   </Nav.Link>
-                  <Nav.Link href="#" className="">
+                  <Nav.Link href="#faqs" className="">
                     FAQs
                   </Nav.Link>
-                  <Nav.Link href="#" className="">
+                  <Nav.Link href="#contact" className="">
                     Contact
                   </Nav.Link>
                 </Nav>
                 <Nav>
                   <button className="btn F-btn">
-                    <Nav href="#" className="D-app">
+                    <Nav href="#donload" className="D-app">
                       Download the App
                     </Nav>
                   </button>
@@ -310,44 +308,52 @@ const Home = () => {
             </div>
           </div>
           <Row>
-          <div className="slider-container">
-            <Slider
-              ref={(slider) => {
-                sliderRef = slider;
-              }}
-              {...settings}
-            >
-              <div class="Slide-card">
-                <img
-                  src="./tick.png"
-                  alt="Ticket-img"
-                  className="pic-slide"
-                />
-              </div>
-              <div className="Slide-card">
-                <img
-                  src="./Ticket.png"
-                  alt="barcode-img"
-                  className="pic-slide"
-                />
-              </div>
-              <div className="Slide-card">
-                <img
-                  src="./c33.png"
-                  alt="palynx-img"
-                  className="pic-slide"
-                />
-              </div>
-              <div className="Slide-card">
-                <img
-                  src="./filled.png"
-                  alt="palynx-product"
-                  className="pic-slide"
-                />
-              </div>
-            </Slider>
-          </div>
-        </Row>
+            <div className="slider-container">
+              <Slider
+                ref={(slider) => {
+                  sliderRef = slider;
+                }}
+                {...settings}
+              >
+                <Col className="mx-4">
+                  <div class="Slide-card">
+                    <img
+                      src="./tick.png"
+                      alt="Ticket-img"
+                      className="pic-slide"
+                    />
+                  </div>
+                </Col>
+                <Col className="mx-4">
+                  <div className="Slide-card">
+                    <img
+                      src="./Ticket.png"
+                      alt="barcode-img"
+                      className="pic-slide"
+                    />
+                  </div>
+                </Col>
+                <Col className="mx-4">
+                  <div className="Slide-card">
+                    <img
+                      src="./c33.png"
+                      alt="palynx-img"
+                      className="pic-slide"
+                    />
+                  </div>
+                </Col>
+                <Col className="mx-4">
+                  <div className="Slide-card">
+                    <img
+                      src="./filled.png"
+                      alt="palynx-product"
+                      className="pic-slide"
+                    />
+                  </div>
+                </Col>
+              </Slider>
+            </div>
+          </Row>
         </Container>
         <Container className="hero-6">
           <Row className="">
@@ -721,29 +727,29 @@ const Home = () => {
               </Col>
               <Col md={3} xs={12} className="">
                 <p>
-                  <a href="#">About us</a>
+                  <a href="#about">About us</a>
                 </p>
                 <p>
-                  <a href="#">Blog</a>
+                  <a href="#blog">Blog</a>
                 </p>
                 <p>
-                  <a href="#">FAQs</a>
+                  <a href="#faqs">FAQs</a>
                 </p>
                 <p>
-                  <a href="#">Contact</a>
-                </p>
-              </Col>
-              <Col md={3} xs={12}>
-                <p>
-                  <a href="#">Terms of Service</a>
-                </p>
-                <p>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#contact">Contact</a>
                 </p>
               </Col>
               <Col md={3} xs={12}>
                 <p>
-                  <a href="#">Download App</a>
+                  <a href="#term">Terms of Service</a>
+                </p>
+                <p>
+                  <a href="#privacy">Privacy Policy</a>
+                </p>
+              </Col>
+              <Col md={3} xs={12}>
+                <p>
+                  <a href="#down">Download App</a>
                 </p>
                 <button className="btn btn-1 download-btn2 d-flex">
                   <img

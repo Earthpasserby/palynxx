@@ -419,14 +419,14 @@ body {
   top: 2424px;
   left: 1496px;
   padding: 72px 72px 0px 72px;
-  gap: 8px;
+  /* gap: 8px; */
   border-radius: 40px;
   background-color: #ffffff;
+  margin-left: 20px;
 }
-.slide-card{
-  margin-right: 10px;
+/* .slide-card{
   
-}
+} */
 .slider-container {
   margin-top: 150px;
 }
@@ -439,8 +439,9 @@ body {
 } */
 .pic-slide {
   width: 300px;
+  margin-left: -20px;
 }
-.Icon i{
+.Icon i {
   width: 56px;
   height: 56px;
 }
@@ -1010,10 +1011,10 @@ height: 252px;
   width: 56px;
   height: 56px;
 }
-.Avatar-up{
+.Avatar-up {
   margin-left: 70px;
 }
-.Avatar-up pre{
+.Avatar-up pre {
   margin-top: -10px;
 }
 .Blog-form {
@@ -1314,9 +1315,7 @@ height: 252px;
     width: 100px;
     height: 40px;
   }
-  .hero-3 {
-    /* width: 343px; */
-  }
+
   .Hero-3 {
     position: relative;
     top: -80px;
@@ -1389,32 +1388,34 @@ height: 252px;
   .Under-line {
     display: none;
   }
- 
+
   /*why choose palynx */
 
-.Slide-card {
-  /* width: 444px; */
-  height: 200px;
-  
-  padding: 72px 72px 0px 72px;
-  gap: 8px;
-  border-radius: 40px;
-  background-color: #ffffff;
-  margin-right: 20px;
-}
-.slider-container {
-  margin-top: 150px;
-}
-/* .Slide-card{
+  .Slide-card {
+    /* width: 444px; */
+    height: 200px;
+
+    padding: 72px 72px 0px 72px;
+    gap: 8px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    margin-right: 20px;
+  }
+  .slider-container {
+    margin-top: 150px;
+  }
+  /* .Slide-card{
   width: 420px !important;
   height: 10%;
   margin-right: 1125px !important;
   border-radius: 24px;
   background-color: #fdf4ee;
 } */
-.pic-slide {
-  width: 430px;
-}
+  .pic-slide {
+    width: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+  }
 
   .sec-1 {
     margin: 5px;
@@ -1582,14 +1583,6 @@ height: 252px;
     width: 343px;
     /* margin-left: 30px; */
   }
-  .accordion {
-    /* width: 343px; */
-    /* margin-left: 10px; */
-  }
-  .cardfooter {
-    /* width: 343px; */
-    /* height: 187px; */
-  }
   .cardfooter h2 {
     font-size: 24px;
   }
@@ -1745,27 +1738,27 @@ height: 252px;
     position: absolute;
     left: 250px;
   }
-  .tag1, .tag2 {
+  .tag1,
+  .tag2 {
     width: 67px;
     height: 32px;
   }
-   .tag3 {
+  .tag3 {
     width: 76px;
     height: 32px;
   }
-    .tag4 {
+  .tag4 {
     width: 69px;
     height: 32px;
   }
-  .blogcat-Tag a{
+  .blogcat-Tag a {
     font-size: 10px;
-    
   }
   .blogcat-Icon {
     position: absolute;
     margin-top: 50px;
   }
-  .hrline1{
+  .hrline1 {
     margin-top: 50px;
   }
   .pagination {
@@ -1792,7 +1785,7 @@ height: 252px;
   .blogCat-row4 {
     padding-left: 0;
     padding-right: 0;
-      width: 311px;
+    width: 311px;
     margin-left: -30px;
   }
   .web-pagin {
@@ -1897,15 +1890,14 @@ height: 252px;
     height: 52px !important;
   }
   .avatar {
- position: absolute;
-}
-.Avatar-up{
-  margin-left: 70px;
-}
-.Avatar-up pre{
-  margin-top: -10px;
-}
-
+    position: absolute;
+  }
+  .Avatar-up {
+    margin-left: 70px;
+  }
+  .Avatar-up pre {
+    margin-top: -10px;
+  }
 }
 .BlogCont-con h5 {
   font-family: Fixel Text;

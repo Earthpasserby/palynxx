@@ -232,9 +232,9 @@ const Blogcategory = () => {
                     alt="Avatar"
                   />
                 </div>
-                <div className="mx-4">
+                <div className="Avatar-up">
                   <p>John Dukes</p>
-                  <pre>Writer</pre>
+                  <pre >Writer</pre>
                 </div>
               </div>
             </Row>

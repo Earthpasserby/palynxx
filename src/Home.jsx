@@ -40,15 +40,15 @@ const Home = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
 
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: false,
           dots: false,
         },
@@ -64,7 +64,7 @@ const Home = () => {
       {
         breakpoint: 390,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -300,16 +300,16 @@ const Home = () => {
             <h4 className="">
               Create, Contribute, Like & <span>Share</span>
             </h4>
-            <div className="mt-5">
-              <span id="left" className="Icon" onClick={previous}>
-                <i class="bi bi-arrow-left-circle-fill"></i>
+            <div className="">
+              <span id="left" className="" onClick={previous}>
+                <i class="bi bi-arrow-left-circle-fill Icon"></i>
               </span>
               <span id="right" className="Icon mx-4" onClick={next}>
                 <i class="bi bi-arrow-right-circle-fill"></i>
               </span>
             </div>
           </div>
-          {/* <Row>
+          <Row>
           <div className="slider-container">
             <Slider
               ref={(slider) => {
@@ -321,33 +321,33 @@ const Home = () => {
                 <img
                   src="./tick.png"
                   alt="Ticket-img"
-                  className="pic-slide w-75"
+                  className="pic-slide"
                 />
               </div>
               <div className="Slide-card">
                 <img
                   src="./Ticket.png"
                   alt="barcode-img"
-                  className="pic-slide w-75"
+                  className="pic-slide"
                 />
               </div>
               <div className="Slide-card">
                 <img
                   src="./c33.png"
                   alt="palynx-img"
-                  className="pic-slide w-75"
+                  className="pic-slide"
                 />
               </div>
               <div className="Slide-card">
                 <img
                   src="./filled.png"
                   alt="palynx-product"
-                  className="pic-slide w-75"
+                  className="pic-slide"
                 />
               </div>
             </Slider>
           </div>
-        </Row> */}
+        </Row>
         </Container>
         <Container className="hero-6">
           <Row className="">

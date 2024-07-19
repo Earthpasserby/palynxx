@@ -387,11 +387,13 @@ const Blog = () => {
               <Row className="d-flex justify-content-center mt-5">
                 <Col md={6} xs={12}>
                   <div className="cardfooter">
-                    <img
-                      src="./arrow.png"
-                      alt="palynx-img"
-                      className="img-fluid arrow2"
-                    />
+                    <div className="cardfooter-arrow2">
+                      <img
+                        src="./arrow.png"
+                        alt="palynx-img"
+                        className="img-fluid arrow2"
+                      />
+                    </div>
                     <div className="fk">
                       <h2>
                         Get in<span> Touch</span>

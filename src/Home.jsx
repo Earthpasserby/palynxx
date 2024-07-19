@@ -223,7 +223,7 @@ const Home = () => {
             <Col md={4} xs={12}>
               <div className="card-2">
                 <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-                <div className="Btn-3">
+                <div className="Btn-4">
                   <button className="btn btn-4">party</button>
                 </div>
                 <div className="card-2Cont">

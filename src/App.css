@@ -222,6 +222,11 @@ body {
   border-radius: 40px;
   background-color: #ffffff;
 }
+.Hero-3{
+  position: relative;
+  left:-280px ;
+  top: -70px;
+}
 .hero-3 h4 {
   /* font-family: Fixel Text; */
   font-size: 48px;
@@ -286,14 +291,30 @@ body {
   position: absolute;
   left: 540px;
 }
+.Btn-3{
+  position: relative;
+  left: -300px;
+  top: -230px;
+}
 .btn-4 {
   position: absolute;
   left: 985px;
 }
+.Btn-4{
+  position: relative;
+  left: -710px;
+  top: -230px;
+}
 .btn-5 {
   position: absolute;
   left: 1330px;
+  width: 120px;
 }
+.Btn-5 {
+    position: relative;
+    top: -230px;
+    left: -1125px;
+  }
 .btn-3 {
   font-family: Fixel Text;
   font-size: 14px;
@@ -1244,6 +1265,11 @@ height: 252px;
     top: -200px;
     left: -30px;
   }
+  .Btn-4 {
+    position: relative;
+    top: -200px;
+    left: -30px;
+  }
   .Btn-5 {
     position: relative;
     top: -200px;
@@ -1661,7 +1687,7 @@ height: 252px;
   .Bloghero {
     height: 1450px;
     width: 343px;
-    margin-left: -5px;
+    /* margin-left: -4px; */
   }
   .Blog-col {
     width: 303px;
@@ -1675,7 +1701,7 @@ height: 252px;
     height: 2500px;
     margin-top: 70px;
     width: 343px;
-    margin-left: -5px;
+    /* margin-left: -5px; */
   }
   .blogCad {
     margin-top: 50px;

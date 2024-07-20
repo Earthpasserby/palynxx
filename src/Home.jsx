@@ -2,14 +2,7 @@ import React, { useState, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import Accordion from "react-bootstrap/Accordion";
-import {
-  Container,
-  Navbar,
-  Nav,
-  Col,
-  Row,
-  Accordion,
-} from "react-bootstrap";
+import { Container, Navbar, Nav, Col, Row, Accordion } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -21,6 +14,7 @@ import { FaXTwitter } from "react-icons/fa6";
 // import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { CrownIcon } from "./components/asset/generated";
 
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
@@ -73,178 +67,170 @@ const Home = () => {
 
   return (
     <>
-      <Container>
-        <Container fluid>
-          <Navbar collapseOnSelect expand="lg" sticky="top" className="Navbar">
-            <Container className="nbar">
-              <Navbar.Brand href="#home">
-                <img src="./palynx-logo.png" alt="logo" className="logo-img" />
-              </Navbar.Brand>
-              <Navbar.Toggle
-                aria-controls="responsive-navbar-nav"
-                className="border border-0 Nav-Toggle"
-                onClick={() => setExpanded(expanded ? false : "expanded")}
-              >
-                <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
-              </Navbar.Toggle>
-              <Navbar.Collapse
-                id="responsive-navbar-nav"
-                className="menu-event"
-              >
-                <Nav className="me-auto">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#blog" className="">
-                    Blog
-                  </Nav.Link>
-                  <Nav.Link href="#faqs" className="">
-                    FAQs
-                  </Nav.Link>
-                  <Nav.Link href="#contact" className="">
-                    Contact
-                  </Nav.Link>
-                </Nav>
-                <Nav>
-                  <button className="btn F-btn">
-                    <Nav href="#donload" className="D-app">
-                      Download the App
-                    </Nav>
-                  </button>
-                </Nav>
-              </Navbar.Collapse>
-            </Container>
-          </Navbar>
-        </Container>
-        <Container className="hero">
-          <Row>
-            <Col xs={12} md={8} className="">
-              <div className="Heroo">
-                <img src="./arrow.png" alt="palynx-img" className="img-4" />
-              </div>
-              <h2>
-                <span>Discover</span> Your City and Make New Friends with Ease
-              </h2>
-              <p>
-                Connect with people with like minds, similar interests, goals
-                and motivations and make plans all with Palynx.
-              </p>
-              <button className="btn btn-1 homebtn-1">Download the App</button>
-            </Col>
-            <Col xs={12} md={4} className="img-cont ">
-              <div className="hero4-col">
-                <img
-                  src="./content.png"
-                  alt="palynx-img"
-                  className="img-cont1"
-                />
-                <img src="./card.png" alt="palynx-img" className="img-cont2" />
-                <img
-                  src="./Underline.png"
-                  alt="palynx-img"
-                  className="img-cont3"
-                />
-              </div>
-            </Col>
-            <button className="btn btn-1 homebtn-2">Download the App</button>
-          </Row>
-        </Container>
-        <Container className="hero-2">
-          <Row className="justify-content-center">
-            <Col md={4} xs={12}>
-              <div className="card-1">
-                <img
-                  src="./search.png"
-                  alt="palynx-img"
-                  className="hero-2Img"
-                />
-                <div className="hero-cont">
-                  <h6>Find events close to you</h6>
-                  <p>
-                    You don’t need to go far, all events around your location
-                    will be shown.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col md={4} xs={12}>
-              <div className="card-1">
-                <img src="./prof.png" alt="palynx-img" className="hero-2Img" />
-                <div className="hero-cont">
-                  <h6>Meet people & connect</h6>
-                  <p>
-                    We recommend events and people that are specifically
-                    tailored to you.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col md={4} xs={12}>
-              <div className="card-1">
-                <img src="./file.png" alt="palynx-img" className="hero-2Img" />
-                <div className="hero-cont">
-                  <h6>Share memories</h6>
-                  <p>
-                    Get to know more about your connections and share memories.
-                  </p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-        <Container className="hero-3">
-          <Row className="justify-content-center">
-            <h4>
-              <span>Explore</span> Your City
-            </h4>
-            <div className="Hero-3">
+      <Container fluid>
+        <Navbar collapseOnSelect expand="lg" sticky="top" className="Navbar">
+          <Container className="nbar">
+            <Navbar.Brand href="#home">
+              <img src="./palynx-logo.png" alt="logo" className="logo-img" />
+            </Navbar.Brand>
+            <Navbar.Toggle
+              aria-controls="responsive-navbar-nav"
+              className="border border-0 Nav-Toggle"
+              onClick={() => setExpanded(expanded ? false : "expanded")}
+            >
+              <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+            </Navbar.Toggle>
+            <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
+              <Nav className="me-auto">
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#blog" className="">
+                  Blog
+                </Nav.Link>
+                <Nav.Link href="#faqs" className="">
+                  FAQs
+                </Nav.Link>
+                <Nav.Link href="#contact" className="">
+                  Contact
+                </Nav.Link>
+              </Nav>
+              <Nav>
+                <button className="btn F-btn">
+                  <Nav href="#donload" className="D-app">
+                    Download the App
+                  </Nav>
+                </button>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </Container>
+
+      <Container className="hero d-flex justify-content-center">
+        <Row className="w-100">
+          <Col xs={12} md={8} className="">
+            <div className="Heroo"></div>
+            <h2 className="header2">
+              <span className="header-span">Discover</span> Your City and{" "}
+              <span className="make">
+                Make
+                <CrownIcon className="header-icon" />
+              </span>
+              <br />
+              New Friends with Ease
+            </h2>
+            <p>
+              Connect with people with like minds, similar interests, goals and
+              motivations and make plans all with Palynx.
+            </p>
+          </Col>
+          <Col xs={12} md={4} className="">
+            <div className="hero-imgg  w-100 h-100">
               <img
-                src="./underline1.png"
+                src="./flatn.png"
                 alt="palynx-img"
-                className="underline1 img-fluid"
+                className="w-100 h-100 "
+                style={{ objectFit: "cover" }}
               />
             </div>
-            <p>
-              Discover new places, hidden gems, and popular hotspots in your
-              city.
-            </p>
-            <Col md={4} xs={12}>
-              <div className="card-2">
-                <img src="./view.png" alt="palynx-img" className="img-fluid" />
-                <div className="Btn-3">
-                  <button className="btn btn-3">Romantic</button>
-                </div>
-                <div className="card-2Cont">
-                  <h6>Sea & Romantic dinner</h6>
-                  <pre>New York, NY - August 12</pre>
-                </div>
+          </Col>
+          {/* <button className="btn btn-1 homebtn-2">Download the App</button> */}
+        </Row>
+      </Container>
+
+      <Container className="hero-2">
+        <Row className="d-flex justify-content-center">
+          <Col md={4} xs={12}>
+            <div className="card-1">
+              <img src="./search.png" alt="palynx-img" className="hero-2Img" />
+              <div className="hero-cont">
+                <h6>Find events close to you</h6>
+                <p>
+                  You don’t need to go far, all events around your location will
+                  be shown.
+                </p>
               </div>
-            </Col>
-            <Col md={4} xs={12}>
-              <div className="card-2">
-                <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-                <div className="Btn-4">
-                  <button className="btn btn-4">party</button>
-                </div>
-                <div className="card-2Cont">
-                  <h6>Yacht day & Friend’s party</h6>
-                  <pre>New York, NY - August 18</pre>
-                </div>
+            </div>
+          </Col>
+          <Col md={4} xs={12}>
+            <div className="card-1">
+              <img src="./prof.png" alt="palynx-img" className="hero-2Img" />
+              <div className="hero-cont">
+                <h6>Meet people & connect</h6>
+                <p>
+                  We recommend events and people that are specifically tailored
+                  to you.
+                </p>
               </div>
-            </Col>
-            <Col md={4} xs={12}>
-              <div className="card-2">
-                <img src="./bale.png" alt="palynx-img" className="img-fluid" />
-                <div className="Btn-5">
-                  <button className="btn btn-5">Dance classes</button>
-                </div>
-                <div className="card-2Cont">
-                  <h6>Beginner & Intermediate Ballet Class</h6>
-                  <pre>New York, NY - August 24</pre>
-                </div>
+            </div>
+          </Col>
+          <Col md={4} xs={12}>
+            <div className="card-1">
+              <img src="./file.png" alt="palynx-img" className="hero-2Img" />
+              <div className="hero-cont">
+                <h6>Share memories</h6>
+                <p>
+                  Get to know more about your connections and share memories.
+                </p>
               </div>
-            </Col>
-          </Row>
-        </Container>
-        <Container className="hero-4 ">
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="hero-3">
+        <Row className="d-flex justify-content-center">
+          <div className="Hero-3">
+            <img
+              src="./underline1.png"
+              alt="palynx-img"
+              className="underline1 img-fluid"
+            />
+          </div>
+          <h4>
+            <span>Explore</span> Your City
+          </h4>
+
+          <p>
+            Discover new places, hidden gems, and popular hotspots in your city.
+          </p>
+          <Col md={4} xs={12}>
+            <div className="card-2">
+              <img src="./view.png" alt="palynx-img" className="img-fluid w-100" />
+              <div className="Btn-3">
+                <button className="btn btn-3">Romantic</button>
+              </div>
+              <div className="card-2Cont">
+                <h6>Sea & Romantic dinner</h6>
+                <pre>New York, NY - August 12</pre>
+              </div>
+            </div>
+          </Col>
+          <Col md={4} xs={12}>
+            <div className="card-2">
+              <img src="./yatch.png" alt="palynx-img" className="img-fluid w-100" />
+              <div className="Btn-4">
+                <button className="btn btn-4">party</button>
+              </div>
+              <div className="card-2Cont">
+                <h6>Yacht day & Friend’s party</h6>
+                <pre>New York, NY - August 18</pre>
+              </div>
+            </div>
+          </Col>
+          <Col md={4} xs={12}>
+            <div className="card-2">
+              <img src="./bale.png" alt="palynx-img" className="img-fluid w-100" />
+              <div className="Btn-5">
+                <button className="btn btn-5">Dance classes</button>
+              </div>
+              <div className="card-2Cont">
+                <h6>Beginner & Intermediate Ballet Class</h6>
+                <pre>New York, NY - August 24</pre>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="hero-4 ">
           <Row className="justify-content-center">
             <Col md={5} xs={12}>
               <div className="hero4-1">
@@ -256,7 +242,7 @@ const Home = () => {
                   <img
                     src="./minute.png"
                     alt="palynx-img"
-                    className="img-fluid Img4"
+                    className="img-fluid w-75"
                   />
                 </div>
               </div>
@@ -293,7 +279,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-        <Container className="hero-5">
+      {/* <Container className="hero-5">
           <div className="d-flex justify-content-between">
             <h4 className="">
               Create, Contribute, Like & <span>Share</span>
@@ -354,8 +340,8 @@ const Home = () => {
               </Slider>
             </div>
           </Row>
-        </Container>
-        <Container className="hero-6">
+        </Container> */}
+      {/* <Container className="hero-6">
           <Row className="">
             <Col md={5} xs={6}>
               <div className="section1">
@@ -437,8 +423,8 @@ const Home = () => {
               </div>
             </Col>
           </Row>
-        </Container>
-        <Container className="hero-7">
+        </Container> */}
+      {/* <Container className="hero-7">
           <Row>
             <Col md={7} xs={12}>
               <h4>
@@ -480,8 +466,8 @@ const Home = () => {
               </div>
             </Col>
           </Row>
-        </Container>
-        <Container className="hero-8">
+        </Container> */}
+      {/* <Container className="hero-8">
           <div className="hero-8Header">
             <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
             <div className="d-flex justify-content-between">
@@ -559,8 +545,8 @@ const Home = () => {
               </div>
             </Col>
           </Row>
-        </Container>
-        <Container className="hero-9">
+        </Container> */}
+      {/* <Container className="hero-9">
           <div className="hero9-drop">
             <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
             <h5>
@@ -625,8 +611,8 @@ const Home = () => {
               </Accordion.Item>
             </Accordion>
           </Row>
-        </Container>
-        <Container>
+        </Container> */}
+      {/* <Container>
           <Row className="d-flex justify-content-center">
             <Container className="blogCad">
               <Row className="d-flex justify-content-center mt-5">
@@ -699,8 +685,8 @@ const Home = () => {
               </Row>
             </Container>
           </Row>
-        </Container>
-        <Container fluid className="footer">
+        </Container> */}
+      {/* <Container fluid className="footer">
           <Container className="tr">
             <Row class="g-5">
               <Col md={3} xs={12}>
@@ -765,8 +751,7 @@ const Home = () => {
               <h6>All rights reserved Palynx © 2024</h6>
             </div>
           </Container>
-        </Container>
-      </Container>
+        </Container> */}
     </>
   );
 };

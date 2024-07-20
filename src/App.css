@@ -279,6 +279,11 @@ body {
   text-align: left;
   color: #fff;
 }
+  .blog-icon1 {
+  position: absolute;
+  left: 350px;
+  margin-top: -25px;
+}
 @media (min-width: 768px) {
   .Blog-header h3 {
     font-size: 24px;
@@ -344,6 +349,7 @@ body {
     line-height: 32px;
     text-align: left;
     color: #1d1d1b;
+    width: 320px;
   }
   .mobile-pagin {
     display: none;
@@ -432,4 +438,9 @@ body {
     text-align: left;
     color: #fff;
   }
+  .blog-icon1 {
+  position: absolute;
+  left: 350px;
+  margin-top: -60px;
+}
 }

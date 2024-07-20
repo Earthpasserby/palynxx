@@ -140,7 +140,7 @@ const Blogcategory = () => {
                   alt="logo"
                   className="bigpitch-img mt-5 w-100"
                 />
-                <p className="mx-3 mt-2">Big Pitch</p>
+                <p className="mx-3 mt-4">Pitch plotting</p>
               </Col>
               <Col md={12} xs={12} className="mt-5">
                 <h5>
@@ -160,14 +160,14 @@ const Blogcategory = () => {
                   lectus in tellus, pharetra, porttitor.{" "}
                 </p>
 
-                <p className="mt-4">
+                <p className="mt-5 border-p">
                   "Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim
                   mauris id. Non pellentesque congue eget consectetur turpis.
                   Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt
                   aenean tempus."
                 </p>
 
-                <p className="mt-4">
+                <p className="mt-5">
                   Tristique odio senectus nam posuere ornare leo metus,
                   ultricies. Blandit duis ultricies vulputate morbi feugiat cras
                   placerat elit. Aliquam tellus lorem sed ac. Montes, sed mattis
@@ -201,59 +201,58 @@ const Blogcategory = () => {
                   Condimentum lorem posuere gravida enim posuere cursus diam.
                 </p>
               </Col>
-            </Row>
-
-            <Row className="blogCat-row4">
-              <h6>Share this post</h6>
-              <div className="d-flex justify-content-between">
-                <div className="blogCat-icon d-flex">
-                  <button className="btn btn-icon3">
-                    <BsInstagram />
-                  </button>
-                  <button className="btn btn-icon3">
-                    <BiLogoLinkedin />
-                  </button>
-                  <button className="btn btn-icon3">
-                    <FaXTwitter />
-                  </button>
-                  <button className="btn btn-icon3">
-                    <FaFacebookF />
-                  </button>
+              <Col md={12} xs={12}>
+                <h6>Share this post</h6>
+                <div className="share-button">
+                  <div className="blogCat-icon4 d-flex">
+                    <button className="btn btn-icon4">
+                      <BsInstagram className="Icon-name" />
+                    </button>
+                    <button className="btn btn-icon4">
+                      <BiLogoLinkedin className="Icon-name" />
+                    </button>
+                    <button className="btn btn-icon4">
+                      <FaXTwitter className="Icon-name" />
+                    </button>
+                    <button className="btn btn-icon4">
+                      <FaFacebookF className="Icon-name" />
+                    </button>
+                  </div>
+                  <div className="d-flex">
+                    <p className="blogcat-Tag tag1">
+                      <a href="#">Tag one</a>
+                    </p>
+                    <p className="blogcat-Tag tag2">
+                      <a href="#">Tag two</a>
+                    </p>
+                    <p className="blogcat-Tag tag3">
+                      <a href="#">Tag three</a>
+                    </p>
+                    <p className="blogcat-Tag tag4">
+                      <a href="#">Tag four</a>
+                    </p>
+                  </div>
                 </div>
-                <div className="d-flex blogcat-Icon">
-                  <p className="blogcat-Tag tag1">
-                    <a href="#">Tag one</a>
-                  </p>
-                  <p className="blogcat-Tag tag2">
-                    <a href="#">Tag two</a>
-                  </p>
-                  <p className="blogcat-Tag tag3">
-                    <a href="#">Tag three</a>
-                  </p>
-                  <p className="blogcat-Tag tag4">
-                    <a href="#">Tag four</a>
-                  </p>
+                <hr className="hrline1" />
+                <div className="d-flex justify-space-between Blogd">
+                  <div>
+                    <img
+                      src="./Avatar Image.png"
+                      className="img-fluid avatar"
+                      alt="Avatar"
+                    />
+                  </div>
+                  <div className="Avatar-up mx-3">
+                    <p>John Dukes</p>
+                    <pre>Writer</pre>
+                  </div>
                 </div>
-              </div>
-              <hr className="hrline1" />
-              <div className="d-flex justify-space-between Blogd">
-                <div>
-                  <img
-                    src="./Avatar Image.png"
-                    className="img-fluid avatar"
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="Avatar-up">
-                  <p>John Dukes</p>
-                  <pre>Writer</pre>
-                </div>
-              </div>
+              </Col>
             </Row>
           </Container>
         </Row>
       </Container>
-      {/* <Container className="blogSection">
+      <Container className="blogSection">
         <Container>
           <div className="blogSection-arrow">
             <img src="./arrow.png" alt="palynx-img" className="rrow1" />
@@ -482,7 +481,7 @@ const Blogcategory = () => {
             <h6>All rights reserved Palynx © 2024</h6>
           </div>
         </Container>
-      </Container> */}
+      </Container>
     </>
   );
 };

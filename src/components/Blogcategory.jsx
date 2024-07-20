@@ -63,18 +63,18 @@ const Blogcategory = () => {
       <Container className="BlogcategoryHead mt-5">
         <Row className="bn">
           <Col md={12} xs={8}>
-            <div className="d-flex justify-content-between bloG-cat1">
+            <div className="bloG-cat1">
               <div className="d-flex Blog-category">
-                <Link to="/Blog" className="bg-cat bgcat">
+                <Link to="/Blog" className="bg-cat bgcat2 mx-1">
                   <p className="">Blog</p>
                 </Link>
                 <FaAngleRight className="bet-icon" />
-                <Link to="/Blogcategory" className="bg-cat bgcat2">
+                <Link to="/Blogcategory" className="bg-cat bgcat2 mx-1">
                   <p className="">Cateory</p>
                 </Link>
               </div>
-              <div className="bg-cat2">
-                <p>11 Jan 2022. 5 min read</p>
+              <div>
+                <p className="bg-cat2">11 Jan 2022. 5 min read</p>
               </div>
             </div>
           </Col>
@@ -234,30 +234,36 @@ const Blogcategory = () => {
                 </div>
                 <div className="Avatar-up">
                   <p>John Dukes</p>
-                  <pre >Writer</pre>
+                  <pre>Writer</pre>
                 </div>
               </div>
             </Row>
           </Container>
         </Row>
       </Container>
-      <Container className="Bloghero">
-        <img src="./arrow.png" alt="palynx-img" className="rrow1" />
-        <h5>Recent Blog Posts</h5>
-        <Row className="blogRow">
-          <Col sm={6}>
+      {/* <Container className="blogSection">
+        <Container>
+          <div className="blogSection-arrow">
+            <img src="./arrow.png" alt="palynx-img" className="rrow1" />
+          </div>
+          <h5>Recent Blog Posts</h5>
+        </Container>
+        <Row className="">
+          <Col md={6} xs={12} className="blogRow">
             <Card
               className="border border-0"
               style={{ background: "transparent" }}
             >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+              <Card.Img src="./party.png" className="img-fluid" />
 
               <Card.Text>
-                <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                <pre className="mt-3">02/05/2024 . 12 min read</pre>
 
-                <h6>Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon" />
-                <p>
+                <h6 className="">Top 10 Hidden Gems in Your City</h6>
+                <div>
+                  <GoArrowUpRight className="blog-icon" />
+                </div>
+                <p className=" Blog-col">
                   Discover the lesser-known spots in your city that are waiting
                   to be explored. From cozy cafes to secret parks, uncover
                   places that only locals know about.
@@ -265,23 +271,23 @@ const Blogcategory = () => {
               </Card.Text>
             </Card>
           </Col>
-          <Col sm={6}>
+          <Col md={6} xs={12}>
             <Row>
-              <Col sm={6}>
+              <Col md={6} xs={12} className="blogRow">
                 <Card
-                  className="border border-0 d-flex"
+                  className="border border-0 d"
                   style={{ background: "transparent" }}
                 >
                   <Card.Img src="./pitch.png" className="img-fluid " />
                 </Card>
               </Col>
-              <Col sm={6}>
+              <Col md={6} xs={12} className="blogRow1">
                 <Card
                   className="border border-0 d-flex"
                   style={{ background: "transparent" }}
                 >
                   <Card.Text>
-                    <pre className="preM">02/05/2024 . 12 min read</pre>
+                    <pre className="preM mt-3">02/05/2024 . 12 min read</pre>
 
                     <h6>Top 10 Hidden Gems in Your City</h6>
                     <p>
@@ -293,8 +299,8 @@ const Blogcategory = () => {
                 </Card>
               </Col>
             </Row>
-            <Row className="mt-4">
-              <Col sm={6}>
+            <Row className="">
+              <Col md={6} xs={12}>
                 <Card
                   className="border border-0 d-flex"
                   style={{ background: "transparent" }}
@@ -302,13 +308,13 @@ const Blogcategory = () => {
                   <Card.Img src="./diary.png" className="img-fluid " />
                 </Card>
               </Col>
-              <Col sm={6}>
+              <Col md={6} xs={12} className="blogRow1">
                 <Card
-                  className="border border-0 d-flex"
+                  className="border border-0 d-flex "
                   style={{ background: "transparent" }}
                 >
                   <Card.Text>
-                    <pre className="preM">02/05/2024 . 12 min read</pre>
+                    <pre className="preM mt-2">02/05/2024 . 12 min read</pre>
 
                     <h6>Top 10 Hidden Gems in Your City</h6>
                     <p>
@@ -329,11 +335,13 @@ const Blogcategory = () => {
             <Row className="d-flex justify-content-center mt-5">
               <Col md={6} xs={12}>
                 <div className="cardfooter">
-                  <img
-                    src="./arrow.png"
-                    alt="palynx-img"
-                    className="img-fluid arrow2"
-                  />
+                  <div className="cardfooter-arrow2">
+                    <img
+                      src="./arrow.png"
+                      alt="palynx-img"
+                      className="img-fluid arrow2"
+                    />
+                  </div>
                   <div className="fk">
                     <h2>
                       Get in<span> Touch</span>
@@ -383,11 +391,13 @@ const Blogcategory = () => {
                         <FaXTwitter />
                       </button>
                     </div>
-                    <img
-                      src="./arrow33.png"
-                      alt="palynx-img"
-                      className="img-fluid arrow33"
-                    />
+                    <div className="cardfooter-arrow33">
+                      <img
+                        src="./arrow33.png"
+                        alt="palynx-img"
+                        className="img-fluid arrow33"
+                      />
+                    </div>
                   </div>
                 </div>
               </Col>
@@ -396,9 +406,9 @@ const Blogcategory = () => {
         </Row>
       </Container>
       <Container fluid className="footer">
-        <Container className="tr">
+        <Container className="">
           <Row class="g-5">
-            <Col md={3} xs={12}>
+            <Col md={3} xs={12} className="footerP">
               <img
                 src="./palynxwlogo.png"
                 alt="logo"
@@ -420,7 +430,7 @@ const Blogcategory = () => {
                 </button>
               </div>
             </Col>
-            <Col md={3} xs={12} className="">
+            <Col md={3} xs={12} className="footerP">
               <p>
                 <a href="#">About us</a>
               </p>
@@ -434,7 +444,7 @@ const Blogcategory = () => {
                 <a href="#">Contact</a>
               </p>
             </Col>
-            <Col md={3} xs={12}>
+            <Col md={3} xs={12} className="footerP">
               <p>
                 <a href="#">Terms of Service</a>
               </p>
@@ -442,7 +452,7 @@ const Blogcategory = () => {
                 <a href="#">Privacy Policy</a>
               </p>
             </Col>
-            <Col md={3} xs={12}>
+            <Col md={3} xs={12} className="footerP">
               <p>
                 <a href="#">Download App</a>
               </p>
@@ -460,7 +470,7 @@ const Blogcategory = () => {
             <h6>All rights reserved Palynx © 2024</h6>
           </div>
         </Container>
-      </Container>
+      </Container> */}
     </>
   );
 };

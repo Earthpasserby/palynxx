@@ -71,7 +71,7 @@ body {
   text-align: left;
   color: #1d1d1b;
 }
-.blogRow{
+.blogRow {
   margin-top: 20px;
 }
 .blogRow pre {
@@ -89,7 +89,6 @@ body {
   font-weight: 600;
   text-align: left;
   color: #1d1d1b;
-
 }
 .blogRow1 pre,
 .Linkk pre {
@@ -107,11 +106,10 @@ body {
   font-weight: 600;
   font-family: Fixel Text;
 }
- .blogSection1 {
-    height: 2500px !important;
-    margin-top: 50px !important;
-    
-  }
+.blogSection1 {
+  height: 2500px !important;
+  margin-top: 50px !important;
+}
 .Linkk {
   text-decoration: none;
 }
@@ -287,40 +285,42 @@ body {
   text-align: left;
   color: #fff;
 }
-  .blog-icon1 {
+.blog-icon1 {
   position: absolute;
   left: 250px;
   margin-top: -25px;
 }
 
- .blog-icon {
+.blog-icon {
   position: relative;
 }
- .blog-icon {
+.blog-icon {
   position: absolute;
   left: 250px;
   margin-top: -25px;
 }
- .arrow2 {
-    position: absolute;
-    left: 160px;
-    top: -20px;
-  }
-  .cardfooter-arrow2 {
-    position: relative;
-    left: -30px;
-  }
-  .arrow33 {
-    position: absolute;
-    left: 240px;
-    bottom: -50px;
-    width: 190.43px;
-    height: 158.43px;
-  }
-  .cardfooter-arrow33 {
-    position: relative;
+.arrow2 {
+  position: absolute;
+  left: 160px;
+  top: -20px;
 }
-.arrow33{display: none;}
+.cardfooter-arrow2 {
+  position: relative;
+  left: -30px;
+}
+.arrow33 {
+  position: absolute;
+  left: 240px;
+  bottom: -50px;
+  width: 190.43px;
+  height: 158.43px;
+}
+.cardfooter-arrow33 {
+  position: relative;
+}
+.arrow33 {
+  display: none;
+}
 
 .btn-icon {
   width: 58px;
@@ -337,9 +337,68 @@ body {
   left: 170px;
   bottom: -25px;
 }
-.blogSection-arrow{
+.blogSection-arrow {
   position: relative;
 }
+/*BlogCategory*/
+.BlogcategoryHead {
+  height: 2570px;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.leftArrow {
+  width: 56px;
+  height: 56px;
+  padding: 12px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 56px;
+  background-color: #fff;
+}
+.Leftarrow {
+  font-size: 30px;
+  margin-left: 14px;
+}
+.leftArrow {
+  text-decoration: none;
+  color: #1d1d1b;
+}
+.bet-icon {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.bet-icon {
+  position: relative;
+}
+.bg-cat {
+  text-decoration: none;
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #1d1d1b;
+}
+.bloG-cat1{
+  display: flex;
+  justify-content: space-between;
+}
+.bg-cat2 {
+  font-family: Fixel Text;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1d1d1b;
+  width: 145px;
+  position: absolute;
+  left: 20px;
+  margin-top: 5px;
+}
+.bg-cat2 {
+  position: relative;
+}
+
 @media (min-width: 768px) {
   .Blog-header h3 {
     font-size: 24px;
@@ -495,15 +554,15 @@ body {
     color: #fff;
   }
   .blog-icon1 {
-  position: absolute;
-  left: 350px;
-  margin-top: -60px;
-}
+    position: absolute;
+    left: 350px;
+    margin-top: -60px;
+  }
   .blog-icon {
-  position: absolute;
-  left: 580px;
-  margin-top: -25px;
-}
+    position: absolute;
+    left: 580px;
+    margin-top: -25px;
+  }
   .arrow2 {
     position: absolute;
     left: 200px;
@@ -512,8 +571,8 @@ body {
   .cardfooter-arrow2 {
     position: relative;
     left: -30px;
-}
- .arrow33 {
+  }
+  .arrow33 {
     position: absolute;
     left: 420px;
     bottom: -40px;
@@ -523,24 +582,68 @@ body {
   .cardfooter-arrow33 {
     position: relative;
     /* left: -30px; */
-}
-.btn-icon {
-  width: 88px;
-  height: 56px;
-  padding: 9.33px 0px 15.94px 0px;
-  font-size: 20px;
-  border-radius: 40px;
-  border: 1px solid #e3dbd2;
-  margin: 3px;
-  color: #fa8f42;
-}
-.arrow33{display: block;}
-.rrow1 {
-  position: absolute;
-  left: 210px;
-  bottom: -25px;
-}
-.blogSection-arrow{
-  position: relative;
-}
+  }
+  .btn-icon {
+    width: 88px;
+    height: 56px;
+    padding: 9.33px 0px 15.94px 0px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 1px solid #e3dbd2;
+    margin: 3px;
+    color: #fa8f42;
+  }
+  .arrow33 {
+    display: block;
+  }
+  .rrow1 {
+    position: absolute;
+    left: 210px;
+    bottom: -25px;
+  }
+  .blogSection-arrow {
+    position: relative;
+  }
+  /*BlogCategory*/
+  .BlogcategoryHead {
+    height: 2570px;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 40px;
+    background-color: #ffffff;
+  }
+  .bgcat p {
+    font-family: Fixel Text;
+    font-size: 12px;
+  }
+  .bgcat2 {
+    position: absolute;
+    left: -2400;
+    top: -0;
+  }
+  .bgcat2 {
+    position: relative;
+  }
+  .bet-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  .bet-icon {
+    position: relative;
+  }
+  .bg-cat {
+    text-decoration: none;
+    font-family: Fixel Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #1d1d1b;
+    /* margin-right: 21px; */
+  }
+  .bg-cat2{
+    display: inline;
+  }
+  
 }

@@ -74,13 +74,15 @@ const Blog = () => {
               className="border border-0"
               style={{ background: "transparent" }}
             >
-              <Card.Img src="./party.png" className="img-fluid blog-img" />
+              <Card.Img src="./party.png" className="img-fluid" />
 
               <Card.Text>
                 <pre className="mt-3">02/05/2024 . 12 min read</pre>
 
                 <h6 className="">Top 10 Hidden Gems in Your City</h6>
-                <GoArrowUpRight className="blog-icon" />
+                <div>
+                  <GoArrowUpRight className="blog-icon" />
+                </div>
                 <p className=" Blog-col">
                   Discover the lesser-known spots in your city that are waiting
                   to be explored. From cozy cafes to secret parks, uncover

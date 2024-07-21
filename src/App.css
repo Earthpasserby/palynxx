@@ -179,6 +179,7 @@ body {
   border-radius: 16px;
   height: 300px;
   text-align: center;
+  position: relative;
 }
 .sec-1 h5 {
   font-family: Fixel Text;
@@ -222,22 +223,7 @@ body {
 .section2 {
   margin-left: 20px;
 }
-.highlight1 {
-  width: 82px;
-  height: 49px;
-}
-.highlight1 {
-  position: absolute;
-  left: 77%;
-  bottom: -70px;
-}
 
-.cont-Highlight1 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  /* left: 70%; */
-}
 .btn-img {
   height: 48px;
   padding: 4px 32px 4px 32px;
@@ -246,31 +232,11 @@ body {
   background-color: #1d1d1b;
   color: #f8f8f8;
 }
-.btn-img {
-  position: absolute;
-  /* margin-top: 235px; */
-  left: 0;
-  bottom: 41px;
-  font-family: Fixel Text;
-  font-size: 16px;
-  font-weight: 500;
-  color: #f8f8f8;
-}
+
 .sect-Btn {
   position: relative;
   width: 100%;
 }
-.Line {
-  position: absolute;
-  /* margin-top: 235px; */
-  left: 58%;
-  top: -120px;
-}
-.High-line {
-  position: relative;
-  width: 100%;
-}
-
 .card-1 {
   background-color: #ffffff;
   margin: 15px;
@@ -327,6 +293,45 @@ body {
   font-weight: 400;
   color: #1d1d1b;
 }
+.btn-3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.Btn-3 {
+  position: relative;
+}
+.btn-3 {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 56px;
+}
+.hero-3 {
+  position: relative;
+}
+.underline1 {
+  position: absolute;
+  top: 14px;
+  right: -15px;
+}
+.Line {
+  position: absolute;
+  bottom: 30px;
+  left: 170px;
+}
+
+.btn-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8f8f8;
+}
 .logo-img {
   width: 120px;
   height: 40px;
@@ -334,6 +339,18 @@ body {
 .Navbar {
   margin-top: 15px;
   /* Ensure it stays on top of other content */
+}
+.sec-1Cont {
+  position: relative;
+}
+.highlight1 {
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.highlight1 {
+  width: 82px;
+  height: 49px;
 }
 
 .nbar {
@@ -1046,11 +1063,13 @@ body {
   }
   .hero-6 {
     margin-top: 100px;
+    position: relative;
   }
   .section1 {
     background-color: #ffeed5;
     border-radius: 40px;
     height: 459px;
+    position: relative;
   }
   .lady {
     width: 460px;
@@ -1064,22 +1083,16 @@ body {
   .lady {
     position: relative;
   }
-  .highlight1 {
-    width: 138px;
-    height: 82px;
+  .sec-1Cont {
+    position: relative;
   }
+
   .highlight1 {
     position: absolute;
-    left: 77%;
-    bottom: 0;
-    top: 0;
-    margin-top: 25px;
+    top: -35px;
+    right: 0;
   }
-  .cont-Highlight1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+
   .btn-img {
     height: 56px;
     padding: 4px 32px 4px 32px;
@@ -1089,30 +1102,21 @@ body {
     color: #f8f8f8;
   }
 
+  .Line {
+    position: absolute;
+    bottom: 45px;
+    left: 220px;
+  }
+
   .btn-img {
     position: absolute;
-    /* margin-top: 235px; */
     left: 35px;
-    bottom: 87px;
+    bottom: 15px;
     font-family: Fixel Text;
     font-size: 16px;
     font-weight: 500;
     color: #f8f8f8;
   }
-  .sect-Btn {
-    position: relative;
-    width: 100%;
-  }
-  .Line {
-    position: absolute;
-    /* margin-top: 235px; */
-    left: 40%;
-    top: -170px;
-  }
-  /* .High-line {
-    position: relative;
-    width: 100%;
-  } */
 
   .hero-2 {
     margin-top: 100px;
@@ -1171,11 +1175,35 @@ body {
     color: #fa8f42;
   }
   .hero-3 p {
-  font-family: Fixel Text;
-  font-size: 20px;
-  font-weight: 400;
-  color: #1d1d1b;
-}
+    font-family: Fixel Text;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1b;
+  }
+  .btn-3 {
+    font-family: Fixel Text;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff5db;
+    color: #1d1d1b;
+    border-radius: 56px;
+  }
+  .btn-3 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .Btn-3 {
+    position: relative;
+  }
+  .hero-3 {
+    position: relative;
+  }
+  .underline1 {
+    position: absolute;
+    top: 14px;
+    right: -45px;
+  }
   /*Blog*/
   .Blog-header h3 {
     font-size: 48px;

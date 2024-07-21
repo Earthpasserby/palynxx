@@ -3,6 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import Accordion from "react-bootstrap/Accordion";
 import { Container, Navbar, Nav, Col, Row, Accordion } from "react-bootstrap";
+import { GoArrowUpRight } from "react-icons/go";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { GoArrowRight } from "react-icons/go";
+import { GoArrowLeft } from "react-icons/go";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -180,20 +187,23 @@ const Home = () => {
           <h4>
             <span>Explore</span> Your City
           </h4>
-          {/* <div className="Hero-3">
-            <img
-              src="./underline1.png"
-              alt="palynx-img"
-              className="underline1 img-fluid"
-            />
-          </div> */}
+          <img
+            src="./underline1.png"
+            alt="palynx-img"
+            className="underline1 img-fluid w-25"
+          />
           <p>
             Discover new places, hidden gems, and popular hotspots in your city.
           </p>
           <Col md={4} xs={12}>
             <div className="card-2">
-              <img src="./view.png" alt="palynx-img" className="img-fluid w-100" />
               <div className="Btn-3">
+                <img
+                  src="./view.png"
+                  alt="palynx-img"
+                  className="img-fluid w-100"
+                />
+
                 <button className="btn btn-3">Romantic</button>
               </div>
               <div className="card-2Cont">
@@ -204,9 +214,13 @@ const Home = () => {
           </Col>
           <Col md={4} xs={12}>
             <div className="card-2">
-              <img src="./yatch.png" alt="palynx-img" className="img-fluid w-100" />
-              <div className="Btn-4">
-                <button className="btn btn-4">party</button>
+              <div className="Btn-3">
+                <img
+                  src="./yatch.png"
+                  alt="palynx-img"
+                  className="img-fluid w-100"
+                />
+                <button className="btn btn-3">party</button>
               </div>
               <div className="card-2Cont">
                 <h6>Yacht day & Friend’s party</h6>
@@ -216,9 +230,13 @@ const Home = () => {
           </Col>
           <Col md={4} xs={12}>
             <div className="card-2">
-              <img src="./bale.png" alt="palynx-img" className="img-fluid w-100" />
-              <div className="Btn-5">
-                <button className="btn btn-5">Dance classes</button>
+              <div className="Btn-3">
+                <img
+                  src="./bale.png"
+                  alt="palynx-img"
+                  className="img-fluid w-100"
+                />
+                <button className="btn btn-3">Dance classes</button>
               </div>
               <div className="card-2Cont">
                 <h6>Beginner & Intermediate Ballet Class</h6>
@@ -228,7 +246,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      {/* <Container className="hero-4 ">
+      <Container className="hero-4 ">
         <Row className="justify-content-center">
           <Col md={5} xs={12}>
             <div className="hero4-1">
@@ -276,8 +294,8 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-      </Container> */}
-      {/* <Container className="hero-5">
+      </Container>
+      <Container className="hero-5">
         <div className="d-flex justify-content-between">
           <h4 className="">
             Create, Contribute, Like & <span>Share</span>
@@ -334,7 +352,7 @@ const Home = () => {
             </Slider>
           </div>
         </Row>
-      </Container> */}
+      </Container>
       <Container className="hero-6">
         <Row className="">
           <Col md={5} xs={12}>
@@ -344,33 +362,27 @@ const Home = () => {
                 alt="palynx-img"
                 className="img-fluid lady"
               />
-              <div className="sect-Btn">
-                <button className="btn btn-1 btn-img">Download the App</button>
-              </div>
-              <div className="High-line">
-                <img
-                  src="./Highlight.png"
-                  alt="palynx-img"
-                  className="img-fluid Line"
-                />
-              </div>
+
+              <button className="btn btn-1 btn-img">Download the App</button>
+              <img
+                src="./Highlight.png"
+                alt="palynx-img"
+                className="img-fluid Line"
+              />
             </div>
           </Col>
           <Col md={7} xs={12}>
             <div className="section2">
-              <div className="cont-Highlight1">
-                <img
-                  src="./Highlight1.png"
-                  alt="palynx-img"
-                  className="img-fluid highlight1"
-                />
-              </div>
-
               <h4>
                 Why Choose <span> Palynx</span>?
               </h4>
             </div>
             <div className="sec-1Cont">
+              <img
+                src="./Highlight1.png"
+                alt="palynx-img"
+                className="img-fluid highlight1"
+              />
               <div className="sec-1 d-flex">
                 <img
                   src="./star1.png"
@@ -417,7 +429,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      {/* <Container className="hero-7">
+      <Container className="hero-7">
         <Row>
           <Col md={7} xs={12}>
             <h4>
@@ -455,8 +467,8 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-      </Container> */}
-      {/* <Container className="hero-8 mt-5">
+      </Container>
+      <Container className="hero-8 mt-5">
         <div className="hero-8Header">
           <div className="hero-dash">
             <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
@@ -536,8 +548,8 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-      </Container> */}
-      {/* <Container className="hero-9">
+      </Container>
+      <Container className="hero-9">
         <div className="hero9-drop">
           <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
         </div>
@@ -599,8 +611,8 @@ const Home = () => {
             </Accordion.Item>
           </Accordion>
         </Row>
-      </Container> */}
-      {/* <Container>
+      </Container>
+      <Container>
         <Row className="d-flex justify-content-center">
           <Container className="blogCad">
             <Row className="d-flex justify-content-center mt-5">
@@ -741,7 +753,7 @@ const Home = () => {
             <h6>All rights reserved Palynx © 2024</h6>
           </div>
         </Container>
-      </Container> */}
+      </Container>
     </>
   );
 };

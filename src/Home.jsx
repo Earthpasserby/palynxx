@@ -40,7 +40,7 @@ const Home = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -49,7 +49,7 @@ const Home = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 1,
         },
@@ -254,43 +254,24 @@ const Home = () => {
                 Last-minute <span>hangout</span> option for any spontaneous
                 plans
               </h5>
-              <div className="hero4-col">
-                <img
-                  src="./minute.png"
-                  alt="palynx-img"
-                  className="img-fluid Img4"
-                />
-              </div>
+              <img
+                src="./minute.png"
+                alt="palynx-img"
+                className="img-fluid plat-img1"
+              />
             </div>
           </Col>
-          <img
-            src="./Underline.png"
-            alt="palynx-img"
-            className="img-fluid Under-line"
-          />
+
           <Col md={7} xs={12}>
             <div className="hero4-2">
               <h5>
                 <span>Host</span> events and <span>find</span> attendees
               </h5>
-              <div className="hero4-col">
-                <img
-                  src="./company.png"
-                  alt="palynx-img"
-                  className="img-fluid Img1"
-                />
-                <img
-                  src="./following.png"
-                  alt="palynx-img"
-                  className="img-fluid Img2"
-                />
-
-                <img
-                  src="./Event Details.png"
-                  alt="palynx-img"
-                  className="img-fluid Img3"
-                />
-              </div>
+              <img
+                src="./plat-removebb2.png"
+                alt="palynx-img"
+                className="img-fluid plat-img "
+              />
             </div>
           </Col>
         </Row>
@@ -322,7 +303,7 @@ const Home = () => {
                   <img
                     src="./tick.png"
                     alt="Ticket-img"
-                    className="pic-slide"
+                    className="pic-slide w"
                   />
                 </div>
               </Col>
@@ -432,29 +413,36 @@ const Home = () => {
       <Container className="hero-7">
         <Row>
           <Col md={7} xs={12}>
-            <h4>
-              Download <span>Palynx Today!</span>
-            </h4>
-            <p>
-              Start your journey of exploration and connection. Download Palynx
-              now and take the first step towards discovering your city and
-              making meaningful connections.
-            </p>
-            <button className="btn btn-1 download-btn d-flex">
+            <div className="hero77">
+              <h4>
+                Download <span>Palynx Today!</span>
+              </h4>
+              <p>
+                Start your journey of exploration and connection. Download
+                Palynx now and take the first step towards discovering your city
+                and making meaningful connections.
+              </p>
+              <button className="btn btn-1 download-btn d-flex">
+                <img
+                  src="./apple.png"
+                  alt="palynx-img"
+                  className="img-fluid apple"
+                />
+                Download on the
+                <br /> App Store
+              </button>
               <img
-                src="./apple.png"
+                src="./arow.png"
                 alt="palynx-img"
-                className="img-fluid apple"
+                className="img-fluid arow"
               />
-              Download on the<br/> App Store
-            </button>
-            <img src="./arow.png" alt="palynx-img" className="img-fluid arow" />
-            <div className="Down-arrow">
-              <img
-                src="./aroww.png"
-                alt="palynx-img"
-                className="img-fluid aroww"
-              />
+              <div className="Down-arrow">
+                <img
+                  src="./aroww.png"
+                  alt="palynx-img"
+                  className="img-fluid aroww"
+                />
+              </div>
             </div>
           </Col>
           <Col md={5} xs={12} className="">
@@ -462,21 +450,19 @@ const Home = () => {
               <img
                 src="./download.png"
                 alt="palynx-img"
-                className="img-fluid download w-100"
+                className="img-fluid download"
               />
             </div>
           </Col>
         </Row>
       </Container>
-      <Container className="hero-8 mt-5">
+      <Container className="hero-8">
         <div className="hero-8Header">
-          <div className="hero-dash">
-            <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
-          </div>
           <div className="d-flex justify-content-between">
             <h5>
               Discover More with the Palynx <span> Blog</span>
             </h5>
+            <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
             <div>
               <Link to="/Blog">
                 <button className="btn discover-btn">
@@ -550,9 +536,8 @@ const Home = () => {
         </Row>
       </Container>
       <Container className="hero-9">
-        <div className="hero9-drop">
-          <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
-        </div>
+        <img src="./drop.png" alt="palynx-img" className="img-fluid drop" />
+
         <h5>
           Frequently asked<span> questions </span>
         </h5>
@@ -674,13 +659,11 @@ const Home = () => {
                         <FaXTwitter />
                       </button>
                     </div>
-                    <div className="cardfooter-arrow33">
-                      <img
-                        src="./arrow33.png"
-                        alt="palynx-img"
-                        className="img-fluid arrow33"
-                      />
-                    </div>
+                    <img
+                      src="./arrow33.png"
+                      alt="palynx-img"
+                      className="img-fluid arrow33 w-25"
+                    />
                   </div>
                 </div>
               </Col>

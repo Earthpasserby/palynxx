@@ -443,13 +443,11 @@ const Blog = () => {
                         <FaXTwitter />
                       </button>
                     </div>
-                    <div className="cardfooter-arrow33">
-                      <img
-                        src="./arrow33.png"
-                        alt="palynx-img"
-                        className="img-fluid arrow33"
-                      />
-                    </div>
+                    <img
+                      src="./arrow33.png"
+                      alt="palynx-img"
+                      className="img-fluid arrow33 w-25"
+                    />
                   </div>
                 </div>
               </Col>

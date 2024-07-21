@@ -41,7 +41,7 @@ body {
   font-weight: 600;
   color: #f1454f;
 }
-.hero9-drop {
+.drop {
   display: none;
 }
 .hero-8Header h5 {
@@ -62,6 +62,7 @@ body {
   border-radius: 24px;
   background-color: #ffffff;
   margin: 5px;
+  position: relative;
 }
 .discover-btn {
   padding: 16px 24px 16px 24px;
@@ -91,13 +92,10 @@ body {
 }
 .dash {
   position: absolute;
-  left: 170px;
+  left: 50px;
   top: 45px;
   width: 16.69px;
   height: 16.47px;
-}
-.dash {
-  position: relative;
 }
 .hero-7 {
   height: 650px;
@@ -220,10 +218,12 @@ body {
 .hero-6 {
   margin-top: 40px;
 }
+.hero-8Header {
+  position: relative;
+}
 .section2 {
   margin-left: 20px;
 }
-
 .btn-img {
   height: 48px;
   padding: 4px 32px 4px 32px;
@@ -232,7 +232,6 @@ body {
   background-color: #1d1d1b;
   color: #f8f8f8;
 }
-
 .sect-Btn {
   position: relative;
   width: 100%;
@@ -259,7 +258,6 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-
 .hero-3 {
   height: 100%;
   padding: 48px;
@@ -274,7 +272,6 @@ body {
   border: 3px solid #f2eee9;
   margin: 5px;
 }
-
 .hero-3 h4 {
   font-family: Fixel Text;
   font-size: 24px;
@@ -352,7 +349,45 @@ body {
   width: 82px;
   height: 49px;
 }
-
+.hero4-1 {
+  height: 330px;
+  padding: 32px;
+  gap: 48px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 20px;
+}
+.hero4-2 {
+  height: 330px;
+  padding: 32px;
+  gap: 48px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 10px;
+}
+.hero4-1 h5,
+.hero4-2 h5 {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d1d1b;
+  /* padding: 30px; */
+}
+.hero4-1 span,
+.hero4-2 span {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fa8f42;
+}
+.hero-8 {
+  margin-top: 20px;
+}
+.Blog-form {
+  margin-left: -20px;
+}
 .nbar {
   background-color: #f0ebe5;
   height: 80px;
@@ -372,6 +407,25 @@ body {
 }
 .nav-link:last-child {
   margin-right: 0; /* Remove right margin from the last link */
+}
+
+.slider-container {
+  margin-top: 150px;
+}
+.Slide-card {
+  /* width: 444px; */
+  height: 269px;
+  top: 2424px;
+  left: 1496px;
+  padding: 72px 72px 0px 72px;
+  /* gap: 8px; */
+  border-radius: 40px;
+  background-color: #ffffff;
+  margin-left: 20px;
+}
+.pic-slide {
+  width: 100px;
+  margin-left: -20px;
 }
 .F-btn,
 .F-btn:hover {
@@ -651,13 +705,13 @@ body {
   position: relative;
   left: -30px;
 }
-.arrow33 {
+/* .arrow33 {
   position: absolute;
   left: 240px;
   bottom: -50px;
   width: 190.43px;
   height: 158.43px;
-}
+} */
 .cardfooter-arrow33 {
   position: relative;
 }
@@ -879,6 +933,7 @@ body {
   }
   .hero-9 {
     margin-top: 40px;
+    position: relative;
   }
   .header-arrow {
     position: relative;
@@ -905,7 +960,7 @@ body {
     font-weight: 600;
     color: #f1454f;
   }
-  .hero9-drop {
+  .drop {
     display: block;
   }
   .accordion {
@@ -973,6 +1028,9 @@ body {
     height: 450px;
     margin-top: 40px;
   }
+  .hero77 {
+    position: relative;
+  }
   .download {
     position: absolute;
     top: -97px;
@@ -1013,8 +1071,7 @@ body {
   }
   .arow {
     position: absolute;
-    left: 700px;
-    margin-top: -40px;
+    left: 400px;
     width: 161.92px;
   }
   .aroww {
@@ -1204,6 +1261,66 @@ body {
     top: 14px;
     right: -45px;
   }
+  .hero-4 {
+    margin-top: 100px;
+  }
+  .hero4-1 {
+    height: 500px;
+    padding: 32px;
+    gap: 48px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .hero4-2 {
+    height: 500px;
+    padding: 32px;
+    gap: 48px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .plat-img {
+    position: absolute;
+    bottom: 0;
+    left: 155px;
+    width: 55%;
+  }
+  .plat-img1 {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 80%;
+  }
+  .hero4-1 h5,
+  .hero4-2 h5 {
+    font-family: Fixel Text;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #1d1d1b;
+    /* padding: 30px; */
+  }
+  .hero4-1 span,
+  .hero4-2 span {
+    font-family: Fixel Text;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fa8f42;
+  }
+  .hero-7 {
+    margin-top: 100px;
+  }
+  .hero-8 {
+    margin-top: 100px;
+  }
+  .hero-8Header {
+    position: relative;
+  }
+  .hero-5 {
+    margin-top: 100px;
+  }
   /*Blog*/
   .Blog-header h3 {
     font-size: 48px;
@@ -1285,6 +1402,7 @@ body {
     background-color: #ffffff;
     margin: 1px;
     margin-top: 10px;
+    position: relative;
   }
   .cardfooter h2 {
     font-family: Fixel Text;
@@ -1379,10 +1497,10 @@ body {
   }
   .arrow33 {
     position: absolute;
-    left: 420px;
-    bottom: -40px;
-    width: 190.43px;
-    height: 158.43px;
+    right: -20px;
+    bottom: 0;
+    /* width: 190.43px;
+    height: 158.43px; */
   }
   .cardfooter-arrow33 {
     position: relative;
@@ -1543,5 +1661,20 @@ body {
   .avatar {
     width: 56px;
     height: 56px;
+  }
+  .Slide-card {
+    /* width: 444px; */
+    height: 569px;
+    top: 2424px;
+    left: 1496px;
+    padding: 72px 72px 0px 72px;
+    /* gap: 8px; */
+    border-radius: 40px;
+    background-color: linear-gradient(to top #ff763c, #ffe5a4);
+    margin-left: 20px;
+  }
+  .pic-slide {
+    width: 300px;
+    margin-left: -20px;
   }
 }

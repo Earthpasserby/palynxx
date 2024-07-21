@@ -180,19 +180,19 @@ const Home = () => {
           <h4>
             <span>Explore</span> Your City
           </h4>
-          <div className="Hero-3">
+          {/* <div className="Hero-3">
             <img
               src="./underline1.png"
               alt="palynx-img"
               className="underline1 img-fluid"
             />
-          </div>
+          </div> */}
           <p>
             Discover new places, hidden gems, and popular hotspots in your city.
           </p>
           <Col md={4} xs={12}>
             <div className="card-2">
-              <img src="./view.png" alt="palynx-img" className="img-fluid" />
+              <img src="./view.png" alt="palynx-img" className="img-fluid w-100" />
               <div className="Btn-3">
                 <button className="btn btn-3">Romantic</button>
               </div>
@@ -204,7 +204,7 @@ const Home = () => {
           </Col>
           <Col md={4} xs={12}>
             <div className="card-2">
-              <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
+              <img src="./yatch.png" alt="palynx-img" className="img-fluid w-100" />
               <div className="Btn-4">
                 <button className="btn btn-4">party</button>
               </div>
@@ -216,7 +216,7 @@ const Home = () => {
           </Col>
           <Col md={4} xs={12}>
             <div className="card-2">
-              <img src="./bale.png" alt="palynx-img" className="img-fluid" />
+              <img src="./bale.png" alt="palynx-img" className="img-fluid w-100" />
               <div className="Btn-5">
                 <button className="btn btn-5">Dance classes</button>
               </div>
@@ -228,7 +228,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="hero-4 ">
+      {/* <Container className="hero-4 ">
         <Row className="justify-content-center">
           <Col md={5} xs={12}>
             <div className="hero4-1">
@@ -276,8 +276,8 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-      </Container>
-      <Container className="hero-5">
+      </Container> */}
+      {/* <Container className="hero-5">
         <div className="d-flex justify-content-between">
           <h4 className="">
             Create, Contribute, Like & <span>Share</span>
@@ -334,7 +334,7 @@ const Home = () => {
             </Slider>
           </div>
         </Row>
-      </Container>
+      </Container> */}
       <Container className="hero-6">
         <Row className="">
           <Col md={5} xs={12}>
@@ -344,15 +344,15 @@ const Home = () => {
                 alt="palynx-img"
                 className="img-fluid lady"
               />
-              {/* <div className="sect-Btn">
+              <div className="sect-Btn">
                 <button className="btn btn-1 btn-img">Download the App</button>
-              </div> */}
+              </div>
               <div className="High-line">
-                {/* <img
+                <img
                   src="./Highlight.png"
                   alt="palynx-img"
                   className="img-fluid Line"
-                /> */}
+                />
               </div>
             </div>
           </Col>
@@ -362,7 +362,7 @@ const Home = () => {
                 <img
                   src="./Highlight1.png"
                   alt="palynx-img"
-                  className="img-fluid highlight1 w-25"
+                  className="img-fluid highlight1"
                 />
               </div>
 

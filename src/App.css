@@ -206,7 +206,7 @@ body {
 }
 .section2 h4 {
   font-family: Fixel Text;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #1d1d1b;
 }
@@ -223,16 +223,109 @@ body {
   margin-left: 20px;
 }
 .highlight1 {
+  width: 82px;
+  height: 49px;
+}
+.highlight1 {
   position: absolute;
-  left: 230%;
-  top: 10%;
-  margin-top: 70px;
+  left: 77%;
+  bottom: -70px;
 }
 
 .cont-Highlight1 {
   position: relative;
-  width: 82px;
-  height: 49px;
+  width: 100%;
+  height: 100%;
+  /* left: 70%; */
+}
+.btn-img {
+  height: 48px;
+  padding: 4px 32px 4px 32px;
+  gap: 8px;
+  border-radius: 56px;
+  background-color: #1d1d1b;
+  color: #f8f8f8;
+}
+.btn-img {
+  position: absolute;
+  /* margin-top: 235px; */
+  left: 0;
+  bottom: 41px;
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8f8f8;
+}
+.sect-Btn {
+  position: relative;
+  width: 100%;
+}
+.Line {
+  position: absolute;
+  /* margin-top: 235px; */
+  left: 58%;
+  top: -120px;
+}
+.High-line {
+  position: relative;
+  width: 100%;
+}
+
+.card-1 {
+  background-color: #ffffff;
+  margin: 15px;
+  height: 102px;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 24px;
+  display: flex;
+}
+.hero-2Img {
+  width: 24px;
+  height: 24px;
+}
+.card-1 h6 {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-1 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero-3 {
+  height: 100%;
+  padding: 48px;
+  gap: 48px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.card-2 {
+  padding: 8px 8px 12px 8px;
+  gap: 12px;
+  border-radius: 32px;
+  border: 3px solid #f2eee9;
+  margin: 5px;
+}
+
+.hero-3 h4 {
+  font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1d1d1b;
+}
+.hero-3 span {
+  font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fa8f42;
+}
+.hero-3 p {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1d1d1b;
 }
 .logo-img {
   width: 120px;
@@ -948,8 +1041,11 @@ body {
     font-weight: 600;
     color: #f1454f;
   }
+  .section2 {
+    margin-top: 0;
+  }
   .hero-6 {
-    margin-top: 40px;
+    margin-top: 100px;
   }
   .section1 {
     background-color: #ffeed5;
@@ -969,18 +1065,117 @@ body {
     position: relative;
   }
   .highlight1 {
-    position: absolute;
-    left: 75%;
-    bottom: 0;
-    margin-top: 10px;
+    width: 138px;
+    height: 82px;
   }
-
+  .highlight1 {
+    position: absolute;
+    left: 77%;
+    bottom: 0;
+    top: 0;
+    margin-top: 25px;
+  }
   .cont-Highlight1 {
     position: relative;
     width: 100%;
-    height: 100%; 
+    height: 100%;
+  }
+  .btn-img {
+    height: 56px;
+    padding: 4px 32px 4px 32px;
+    gap: 8px;
+    border-radius: 56px;
+    background-color: #1d1d1b;
+    color: #f8f8f8;
   }
 
+  .btn-img {
+    position: absolute;
+    /* margin-top: 235px; */
+    left: 35px;
+    bottom: 87px;
+    font-family: Fixel Text;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f8f8f8;
+  }
+  .sect-Btn {
+    position: relative;
+    width: 100%;
+  }
+  .Line {
+    position: absolute;
+    /* margin-top: 235px; */
+    left: 40%;
+    top: -170px;
+  }
+  /* .High-line {
+    position: relative;
+    width: 100%;
+  } */
+
+  .hero-2 {
+    margin-top: 100px;
+  }
+  .card-1 {
+    background-color: #ffffff;
+    margin: 15px;
+    height: 190px;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 24px;
+    display: block;
+  }
+  .hero-2Img {
+    width: 56px;
+    height: 56px;
+  }
+  .card-1 h6 {
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1b;
+  }
+  .card-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1d1b;
+  }
+  .hero-3 {
+    margin-top: 100px;
+  }
+  .hero-3 {
+    height: 571px;
+    padding: 48px;
+    gap: 48px;
+    border-radius: 40px;
+    background-color: #ffffff;
+  }
+  .card-2 {
+    padding: 8px 8px 12px 8px;
+    gap: 12px;
+    border-radius: 32px;
+    border: 3px solid #f2eee9;
+    margin: 5px;
+  }
+  .hero-3 h4 {
+    font-family: Fixel Text;
+    font-size: 48px;
+    font-weight: 600;
+    color: #1d1d1b;
+  }
+  .hero-3 span {
+    font-family: Fixel Text;
+    font-size: 48px;
+    font-weight: 600;
+    color: #fa8f42;
+  }
+  .hero-3 p {
+  font-family: Fixel Text;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1d1d1b;
+}
   /*Blog*/
   .Blog-header h3 {
     font-size: 48px;

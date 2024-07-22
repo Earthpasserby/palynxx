@@ -280,10 +280,10 @@ const Home = () => {
             Create, Contribute, Like & <span>Share</span>
           </h4>
           <div className="">
-            <span id="left" className="" onClick={previous}>
+            <span id="left" className="hero-5Icon" onClick={previous}>
               <i class="bi bi-arrow-left-circle-fill Icon"></i>
             </span>
-            <span id="right" className="Icon mx-4" onClick={next}>
+            <span id="right" className="hero-5Icon mx-4" onClick={next}>
               <i class="bi bi-arrow-right-circle-fill"></i>
             </span>
           </div>

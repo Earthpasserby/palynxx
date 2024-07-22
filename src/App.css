@@ -100,7 +100,7 @@ body {
   display: none;
 }
 .hero-7 {
-  height: 650px;
+  height: 600px;
   background: linear-gradient(to top, #ffe5a4, #ff763c);
   padding: 48px 48px 0px 48px;
   gap: 48px;
@@ -222,6 +222,7 @@ body {
 }
 .hero-8Header {
   position: relative;
+  margin-top: 30px;
 }
 .section2 {
   margin-left: 20px;
@@ -393,8 +394,31 @@ body {
 .hero-8 {
   margin-top: 20px;
 }
+ .hero-5 h4,
+  span {
+    font-family: Fixel Text;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1d1b;
+  }
+  .hero-5 span {
+    color: #f1454f;
+  }
+  .hero-5Icon {
+    color: #1d1d1b !important;
+    font-size: 15px ;
+  }
 .Blog-form {
   margin-left: -20px;
+}
+.Slide-card {
+  /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
+  padding: 72px, 72px, 0px, 72px;
+  border-radius: 24px;
+}
+.pic-slide {
+  width: 140px;
+  /* margin-left: 25px; */
 }
 .nbar {
   background-color: #f0ebe5;
@@ -420,26 +444,6 @@ body {
 .hero-5 {
   margin-top: 50px;
 }
-.slider-container {
-  /* margin-top: 150px; */
-}
-/* .Slide-card {
-  width: 50%;
-  height: 50%;
-  top: 2424px;
-  left: 1496px;
-  padding: 72px 72px 0px 72px;
-  gap: 8px;
-  border-radius: 40px;
-  background-color: #ffffff;
-  margin-left: 20px;
-  margin: 20px;
-} */
-/* .pic-slide {
-  width: 100px;
-  margin-left: -47px;
-  margin-top: -70px;
-} */
 .F-btn,
 .F-btn:hover {
   width: 187px;
@@ -718,13 +722,6 @@ body {
   position: relative;
   left: -30px;
 }
-/* .arrow33 {
-  position: absolute;
-  left: 240px;
-  bottom: -50px;
-  width: 190.43px;
-  height: 158.43px;
-} */
 .cardfooter-arrow33 {
   position: relative;
 }
@@ -1344,13 +1341,25 @@ body {
   .hero-5 {
     margin-top: 100px;
   }
+  .hero-5 h4,
+  span {
+    font-family: Fixel Text;
+    font-size: 48px;
+    font-weight: 600;
+    color: #1d1d1b;
+  }
+  .hero-5 span {
+    color: #f1454f;
+  }
+  .hero-5Icon {
+    color: #1d1d1b !important;
+  }
   .foter h6 {
     font-size: 12px;
     line-height: 19.2px;
     font-weight: 400px;
   }
-  .discover-btn {
-  }
+
   /*Blog*/
   .Blog-header h3 {
     font-size: 48px;

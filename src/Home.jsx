@@ -192,7 +192,7 @@ const Home = () => {
           <img
             src="./underline1.png"
             alt="palynx-img"
-            className="underline1 img-fluid w-25"
+            className="underline1 img-fluid"
           />
           <p>
             Discover new places, hidden gems, and popular hotspots in your city.

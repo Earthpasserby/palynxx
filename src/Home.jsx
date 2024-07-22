@@ -249,13 +249,14 @@ const Home = () => {
         </Row>
       </Container>
       <Container className="hero-4 ">
-        <Row className="justify-content-center">
+        <Row className="justify-content-center hero-4Col">
           <Col md={5} xs={12}>
             <div className="hero4-1">
               <h5>
                 Last-minute <span>hangout</span> option for any spontaneous
                 plans
               </h5>
+
               <img
                 src="./minute.png"
                 alt="palynx-img"
@@ -266,6 +267,8 @@ const Home = () => {
 
           <Col md={7} xs={12}>
             <div className="hero4-2">
+              <img src="./L1.png" alt="palynx-img" className="img-fluid L1" />
+
               <h5>
                 <span>Host</span> events and <span>find</span> attendees
               </h5>

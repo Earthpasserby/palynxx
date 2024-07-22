@@ -273,9 +273,9 @@ const Home = () => {
                 <span>Host</span> events and <span>find</span> attendees
               </h5>
               <img
-                src="./plat-removebb2.png"
+                src="./three.png"
                 alt="palynx-img"
-                className="img-fluid plat-img "
+                className="img-fluid three"
               />
             </div>
           </Col>
@@ -485,14 +485,13 @@ const Home = () => {
                   <img
                     src="./party.png"
                     alt="palynx-img"
-                    className="img-fluid party w-100"
+                    className="img-fluid party"
                   />
                   <div className="discoverp">
                     <h6>Top 10 Hidden Gems in Your City</h6>
                     <p>
                       Discover the lesser-known spots in your city that are
-                      waiting to be explored. From cozy cafes to secret parks,
-                      uncover places that only locals know about.
+                      waiting to be explored. From...
                     </p>
                     <pre>02/05/2024 . 12 min read</pre>
                   </div>
@@ -507,14 +506,12 @@ const Home = () => {
                   <img
                     src="./pitch.png"
                     alt="palynx-img"
-                    className="img-fluid pitch w-100"
+                    className="img-fluid pitch"
                   />
                   <div className="discoverp">
                     <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
                     <p>
-                      Building meaningful connections is easier than you think.
-                      Learn how to find and connect with individuals who share
-                      your interests and passions.
+                      Building meaningful connections is easier...
                     </p>
                     <pre>02/05/2024 . 12 min read</pre>
                   </div>
@@ -529,14 +526,13 @@ const Home = () => {
                   <img
                     src="./diary.png"
                     alt="palynx-img"
-                    className="img-fluid diary w-100"
+                    className="img-fluid diary"
                   />
                   <div className="discoverp">
                     <h6>Top 10 Hidden Gems in Your City</h6>
                     <p>
                       Discover the lesser-known spots in your city that are
-                      waiting to be explored. From cozy cafes to secret parks,
-                      uncover places that only locals know about.
+                      waiting to be explored. From...
                     </p>
                     <pre>02/05/2024 . 12 min read</pre>
                   </div>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: fixel Text;
-  src: url(../public/FixelText-Medium.otf);
+  src: url(../public/FixelText-Regular.otf);
 }
 
 body {
@@ -250,12 +250,12 @@ body {
 }
 .card-1 {
   background-color: #ffffff;
-  margin: 15px;
   height: 102px;
   padding: 24px;
   gap: 16px;
   border-radius: 24px;
   display: flex;
+  margin-top: 20px;
 }
 .hero-2Img {
   width: 24px;
@@ -279,11 +279,10 @@ body {
 }
 .card-2 {
   padding: 8px 8px 12px 8px;
-  gap: 12px;
   border-radius: 32px;
   border: 3px solid #f2eee9;
-  margin: 5px;
 }
+
 .hero-3 h4 {
   font-family: Fixel Text;
   font-size: 24px;
@@ -952,6 +951,10 @@ span {
   width: 91px;
   height: 33px;
 }
+.card-2Cont {
+  padding: 0px, 12px, 0px, 12px;
+}
+
 @media (min-width: 768px) {
   /*Home*/
   .make {
@@ -1264,8 +1267,7 @@ span {
   }
   .card-1 {
     background-color: #ffffff;
-    margin: 15px;
-    height: 217px;
+    height: 212px;
     padding: 24px;
     gap: 16px;
     border-radius: 24px;
@@ -1277,18 +1279,20 @@ span {
   }
   .card-1 h6 {
     font-family: Fixel Text;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: #1d1d1b;
+    padding-top: 20px;
   }
   .card-1 p {
     font-family: fixel Text;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #1d1d1b;
+    padding: 0px, 8px, 0px, 8px;
   }
   .hero-3 {
-    margin-top: 100px;
+    margin-top: 120px;
   }
   .hero-3 {
     height: 571px;
@@ -1302,22 +1306,29 @@ span {
     gap: 12px;
     border-radius: 32px;
     border: 3px solid #f2eee9;
-    margin: 5px;
   }
   .card-2Cont h6 {
     font-family: fixel Text;
     margin-top: 3px;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 14px;
     color: #1d1d1b;
   }
-  .card-2Cont p {
+  .card-2Cont pre {
     font-family: fixel Text;
     margin-top: 3px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     color: #67655e;
   }
+  .card-2Cont {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+ .Btn-3 img{
+  width: 100%;
+ }
+
   .hero-3 h4 {
     font-family: Fixel Text;
     font-size: 48px;
@@ -1332,7 +1343,7 @@ span {
   }
   .hero-3 p {
     font-family: Fixel Text;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #1d1d1b;
   }

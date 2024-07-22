@@ -146,7 +146,7 @@ const Home = () => {
       </Container>
 
       <Container className="hero-2">
-        <Row className="justify-content-center">
+        <Row className="">
           <Col md={4} xs={12}>
             <div className="card-1">
               <img src="./search.png" alt="palynx-img" className="hero-2Img" />
@@ -197,13 +197,13 @@ const Home = () => {
           <p>
             Discover new places, hidden gems, and popular hotspots in your city.
           </p>
-          <Col md={4} xs={12}>
+          <Col md={4} xs={12} className="card-2headcol">
             <div className="card-2">
               <div className="Btn-3">
                 <img
                   src="./view.png"
                   alt="palynx-img"
-                  className="img-fluid w-100"
+                  className="img-fluid"
                 />
 
                 <button className="btn btn-3">Romantic</button>
@@ -214,13 +214,13 @@ const Home = () => {
               </div>
             </div>
           </Col>
-          <Col md={4} xs={12}>
+          <Col md={4} xs={12} className="card-2headcol">
             <div className="card-2">
               <div className="Btn-3">
                 <img
                   src="./yatch.png"
                   alt="palynx-img"
-                  className="img-fluid w-100"
+                  className="img-fluid"
                 />
                 <button className="btn btn-3">party</button>
               </div>
@@ -230,13 +230,13 @@ const Home = () => {
               </div>
             </div>
           </Col>
-          <Col md={4} xs={12}>
+          <Col md={4} xs={12} className="card-2headcol">
             <div className="card-2">
               <div className="Btn-3">
                 <img
                   src="./bale.png"
                   alt="palynx-img"
-                  className="img-fluid w-100"
+                  className="img-fluid"
                 />
                 <button className="btn btn-3">Dance classes</button>
               </div>

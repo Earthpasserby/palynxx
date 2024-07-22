@@ -1,3 +1,8 @@
+@font-face {
+  font-family: fixel Text;
+  src: url(../public/FixelText-Medium.otf);
+}
+
 body {
   background-color: #f9f6f3;
 }
@@ -19,6 +24,9 @@ body {
   /* line-height: 84px; */
   text-align: left;
   color: #fa8f42;
+}
+.make {
+  font-family: fixel Text;
 }
 .flatn {
   width: 100%;
@@ -109,7 +117,8 @@ body {
 }
 .download {
   position: absolute;
-  top: 39px;
+  right:40px;
+  top: 10px;
 }
 .down-Img {
   position: relative;
@@ -147,8 +156,8 @@ body {
 }
 .aroww {
   position: absolute;
-  left: 260px;
-  margin-top: -5px;
+  top: -60px;
+  right: 0;
 }
 .arow {
   display: none;
@@ -514,6 +523,13 @@ span {
   color: #6941c6;
 }
 
+.blogRow1 p,
+.Linkk p {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .blogSection h5 {
   color: #101828;
   font-size: 18px;
@@ -550,7 +566,7 @@ span {
   background-color: #ffff;
   margin-top: 10px;
 }
-.Homepage{
+.Homepage {
   text-decoration: none;
 }
 .pagination,
@@ -909,6 +925,20 @@ span {
   margin: 3px;
   color: #fa8f42;
 }
+.card-2Cont h6 {
+  font-family: fixel Text;
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d1d1b;
+}
+.card-2Cont p {
+  font-family: fixel Text;
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #67655e;
+}
 
 .foter h6 {
   font-size: 10px;
@@ -918,6 +948,9 @@ span {
 
 @media (min-width: 768px) {
   /*Home*/
+  .make {
+    font-family: fixel Text;
+  }
   .header-2 h2 {
     font-family: Fixel Text;
     font-size: 56px;
@@ -954,6 +987,7 @@ span {
     top: -30px;
     width: 49.67px;
     height: 48.54px;
+    font-family: fixel Text;
   }
   .hero-9 {
     margin-top: 40px;
@@ -961,10 +995,11 @@ span {
   }
   .header-arrow {
     position: relative;
+    font-family: fixel Text;
   }
   .drop {
     position: absolute;
-    left: 600px;
+    left: 650px;
     top: -5px;
     width: 104.8px;
     height: 87.32px;
@@ -1038,7 +1073,7 @@ span {
   }
   .dash {
     position: absolute;
-    left: 755px;
+    left: 790px;
     top: -5px;
     width: 36.14px;
     height: 35.66px;
@@ -1061,11 +1096,14 @@ span {
   }
   .download {
     position: absolute;
-    top: -97px;
+    top: -100px;
+    right: 0;
+    left:0;
+    width: 100%;
   }
-  .down-Img {
+  /* .down-Img {
     position: relative;
-  }
+  } */
   .hero-7 h4 {
     font-family: Fixel Text;
     font-size: 48px;
@@ -1080,7 +1118,7 @@ span {
   }
   .hero-7 p {
     font-family: Fixel Text;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     color: #1d1d1b;
   }
@@ -1099,8 +1137,9 @@ span {
   }
   .arow {
     position: absolute;
-    left: 400px;
-    width: 161.92px;
+    left: 550px;
+    bottom: -40px;
+    /* width: 161.92px; */
   }
   .aroww {
     display: none;
@@ -1209,7 +1248,7 @@ span {
   .card-1 {
     background-color: #ffffff;
     margin: 15px;
-    height: 190px;
+    height: 217px;
     padding: 24px;
     gap: 16px;
     border-radius: 24px;
@@ -1226,6 +1265,7 @@ span {
     color: #1d1d1b;
   }
   .card-1 p {
+    font-family: fixel Text;
     font-size: 16px;
     font-weight: 400;
     color: #1d1d1b;
@@ -1246,6 +1286,20 @@ span {
     border-radius: 32px;
     border: 3px solid #f2eee9;
     margin: 5px;
+  }
+  .card-2Cont h6 {
+    font-family: fixel Text;
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1d1d1b;
+  }
+  .card-2Cont p {
+    font-family: fixel Text;
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #67655e;
   }
   .hero-3 h4 {
     font-family: Fixel Text;
@@ -1339,6 +1393,7 @@ span {
   }
   .hero-7 {
     margin-top: 100px;
+    position: relative;
   }
   .hero-8 {
     margin-top: 100px;
@@ -1368,11 +1423,18 @@ span {
     line-height: 19.2px;
     font-weight: 400px;
   }
-  .homepage{
-  text-decoration: none;
-}
+  .homepage {
+    text-decoration: none;
+  }
 
   /*Blog*/
+  .blogRow1 p,
+  .Linkk p {
+    font-family: Fixel Text;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .Blog-header h3 {
     font-size: 48px;
   }

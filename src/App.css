@@ -394,20 +394,20 @@ body {
 .hero-8 {
   margin-top: 20px;
 }
- .hero-5 h4,
-  span {
-    font-family: Fixel Text;
-    font-size: 16px;
-    font-weight: 600;
-    color: #1d1d1b;
-  }
-  .hero-5 span {
-    color: #f1454f;
-  }
-  .hero-5Icon {
-    color: #1d1d1b !important;
-    font-size: 15px ;
-  }
+.hero-5 h4,
+span {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d1d1b;
+}
+.hero-5 span {
+  color: #f1454f;
+}
+.hero-5Icon {
+  color: #1d1d1b !important;
+  font-size: 15px;
+}
 .Blog-form {
   margin-left: -20px;
 }
@@ -550,7 +550,9 @@ body {
   background-color: #ffff;
   margin-top: 10px;
 }
-
+.Homepage{
+  text-decoration: none;
+}
 .pagination,
 .page-link,
 .page-icon {
@@ -748,6 +750,12 @@ body {
   position: relative;
 }
 /*BlogCategory*/
+.blog {
+  text-decoration: none;
+}
+.Blogpage {
+  text-decoration: none;
+}
 .BlogcategoryHead {
   height: 2780px;
   padding: 48px;
@@ -1353,12 +1361,16 @@ body {
   }
   .hero-5Icon {
     color: #1d1d1b !important;
+    font-size: 48px;
   }
   .foter h6 {
     font-size: 12px;
     line-height: 19.2px;
     font-weight: 400px;
   }
+  .homepage{
+  text-decoration: none;
+}
 
   /*Blog*/
   .Blog-header h3 {
@@ -1713,5 +1725,11 @@ body {
   .pic-slide {
     width: 70%;
     margin-left: 65px;
+  }
+  .blog {
+    text-decoration: none;
+  }
+  .Blogpage {
+    text-decoration: none;
   }
 }

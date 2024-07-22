@@ -32,10 +32,14 @@ const Blog = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
               <Nav className="me-auto">
-                <Nav.Link href="#">Home</Nav.Link>
-                <Nav.Link href="#" className="">
-                  Blog
-                </Nav.Link>
+                <Link to="/" className="Homepage">
+                  <Nav.Link href="#home">Home</Nav.Link>
+                </Link>
+                <Link to="/Blog" className="blog">
+                  <Nav.Link href="#blog" className="">
+                    Blog
+                  </Nav.Link>
+                </Link>
                 <Nav.Link href="#" className="">
                   FAQs
                 </Nav.Link>
@@ -70,80 +74,90 @@ const Blog = () => {
         </Container>
         <Row className="">
           <Col md={6} xs={12} className="blogRow">
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid" />
+            <Link to="/Blogcategory" className="Blogpage">
+              <Card
+                className="border border-0"
+                style={{ background: "transparent" }}
+              >
+                <Card.Img src="./party.png" className="img-fluid" />
 
-              <Card.Text>
-                <pre className="mt-3">02/05/2024 . 12 min read</pre>
+                <Card.Text>
+                  <pre className="mt-3">02/05/2024 . 12 min read</pre>
 
-                <h6 className="">Top 10 Hidden Gems in Your City</h6>
-                <div>
-                  <GoArrowUpRight className="blog-icon" />
-                </div>
-                <p className=" Blog-col">
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
+                  <h6 className="">Top 10 Hidden Gems in Your City</h6>
+                  <div>
+                    <GoArrowUpRight className="blog-icon" />
+                  </div>
+                  <p className=" Blog-col">
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </Card.Text>
+              </Card>
+            </Link>
           </Col>
           <Col md={6} xs={12}>
             <Row>
               <Col md={6} xs={12} className="blogRow">
-                <Card
-                  className="border border-0 d"
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Img src="./pitch.png" className="img-fluid " />
-                </Card>
+                <Link to="/Blogcategory" className="Blogpage">
+                  <Card
+                    className="border border-0 d"
+                    style={{ background: "transparent" }}
+                  >
+                    <Card.Img src="./pitch.png" className="img-fluid " />
+                  </Card>
+                </Link>
               </Col>
               <Col md={6} xs={12} className="blogRow1">
-                <Card
-                  className="border border-0 d-flex"
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Text>
-                    <pre className="preM mt-3">02/05/2024 . 12 min read</pre>
+                <Link to="/Blogcategory" className="Blogpage">
+                  <Card
+                    className="border border-0 d-flex"
+                    style={{ background: "transparent" }}
+                  >
+                    <Card.Text>
+                      <pre className="preM mt-3">02/05/2024 . 12 min read</pre>
 
-                    <h6>Top 10 Hidden Gems in Your City</h6>
-                    <p>
-                      Discover the lesser-known spots in your city that are
-                      waiting to be explored. From cozy cafes to secret parks,
-                      uncover places that only locals know about.
-                    </p>
-                  </Card.Text>
-                </Card>
+                      <h6>Top 10 Hidden Gems in Your City</h6>
+                      <p>
+                        Discover the lesser-known spots in your city that are
+                        waiting to be explored. From cozy cafes to secret parks,
+                        uncover places that only locals know about.
+                      </p>
+                    </Card.Text>
+                  </Card>
+                </Link>
               </Col>
             </Row>
             <Row className="">
               <Col md={6} xs={12}>
-                <Card
-                  className="border border-0 d-flex"
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Img src="./diary.png" className="img-fluid " />
-                </Card>
+                <Link to="/Blogcategory" className="Blogpage">
+                  <Card
+                    className="border border-0 d-flex"
+                    style={{ background: "transparent" }}
+                  >
+                    <Card.Img src="./diary.png" className="img-fluid " />
+                  </Card>
+                </Link>
               </Col>
               <Col md={6} xs={12} className="blogRow1">
-                <Card
-                  className="border border-0 d-flex "
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Text>
-                    <pre className="preM mt-2">02/05/2024 . 12 min read</pre>
+                <Link to="/Blogcategory" className="Blogpage">
+                  <Card
+                    className="border border-0 d-flex "
+                    style={{ background: "transparent" }}
+                  >
+                    <Card.Text>
+                      <pre className="preM mt-2">02/05/2024 . 12 min read</pre>
 
-                    <h6>Top 10 Hidden Gems in Your City</h6>
-                    <p>
-                      Discover the lesser-known spots in your city that are
-                      waiting to be explored. From cozy cafes to secret parks,
-                      uncover places that only locals know about.
-                    </p>
-                  </Card.Text>
-                </Card>
+                      <h6>Top 10 Hidden Gems in Your City</h6>
+                      <p>
+                        Discover the lesser-known spots in your city that are
+                        waiting to be explored. From cozy cafes to secret parks,
+                        uncover places that only locals know about.
+                      </p>
+                    </Card.Text>
+                  </Card>
+                </Link>
               </Col>
             </Row>
           </Col>

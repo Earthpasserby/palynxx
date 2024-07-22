@@ -31,10 +31,14 @@ const Blogcategory = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
               <Nav className="me-auto">
-                <Nav.Link href="#">Home</Nav.Link>
-                <Nav.Link href="#" className="">
-                  Blog
-                </Nav.Link>
+                <Link to="/" className="homepage">
+                  <Nav.Link href="#home">Home</Nav.Link>
+                </Link>
+                <Link to="/Blog" className="blog">
+                  <Nav.Link href="#blog" className="">
+                    Blog
+                  </Nav.Link>
+                </Link>
                 <Nav.Link href="#" className="">
                   FAQs
                 </Nav.Link>

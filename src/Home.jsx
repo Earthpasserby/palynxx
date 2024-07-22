@@ -40,16 +40,14 @@ const Home = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: true,
-          dots: false,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 1,
         },
@@ -303,7 +301,7 @@ const Home = () => {
                   <img
                     src="./tick.png"
                     alt="Ticket-img"
-                    className="pic-slide w"
+                    className="pic-slide"
                   />
                 </div>
               </Col>

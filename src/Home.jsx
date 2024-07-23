@@ -673,17 +673,17 @@ const Home = () => {
           </Container>
         </Row>
       </Container>
-      <Container fluid className="footer">
-        <Container className="">
-          <Row class="g-5">
-            <Col md={3} xs={12} className="footerP">
+      <Container fluid>
+        <Container fluid className="footer">
+          <div class="row">
+            <div class=" col-sm-3 footerP">
               <img
                 src="./palynxwlogo.png"
                 alt="logo"
                 className="logo-img b-ff"
               />
               <p className="text-white">Discover, Connect, Plan</p>
-              <div className="icon d-flex">
+              <div className="d-flex">
                 <button className="btn btn-icon2">
                   <BiLogoLinkedin />
                 </button>
@@ -697,8 +697,8 @@ const Home = () => {
                   <FaXTwitter />
                 </button>
               </div>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">About us</a>
               </p>
@@ -711,30 +711,29 @@ const Home = () => {
               <p>
                 <a href="#">Contact</a>
               </p>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">Terms of Service</a>
               </p>
               <p>
                 <a href="#">Privacy Policy</a>
               </p>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">Download App</a>
-              </p> 
-              <button className="btn btn-1 download-btn d-flex">
+              </p>
+              <button className="btn btn-1 download-btn2 d-flex">
                 <img
                   src="./bapple.png"
                   alt="palynx-img"
-                  className="img-fluid apple"
+                  className="img-fluid apple1"
                 />
-                Download on the
-                <br /> App Store
+                Download on the App Store
               </button>
-            </Col>
-          </Row>
+            </div>
+          </div>
           <div className="d-flex justify-content-center foter">
             <h6>All rights reserved Palynx © 2024</h6>
           </div>

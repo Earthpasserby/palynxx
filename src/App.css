@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+/* p h1, h1,h3, h4, h5, h6{
+  padding: 0;
+  margin: 0;
+} */
+
 body {
   background-color: #f9f6f3;
 }
@@ -963,6 +968,37 @@ span {
     font-family: fixel Text;
     src: url(../public/FixelText-Regular.otf);
   }
+
+  .pre-tag {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .h6-tag {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .p-tag2 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  }
+
+  .p-tag3 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  }
+
   /*Home*/
   .make {
     font-family: fixel Text;
@@ -1151,7 +1187,7 @@ span {
   }
   .hero-7 p {
     font-family: Fixel Text;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
     color: #1d1d1b;
   }
@@ -1170,8 +1206,8 @@ span {
   }
   .arow {
     position: absolute;
-    right: 400px;
-    bottom: 140px;
+    left: 500px;
+    bottom: 120px;
     /* width: 161.92px; */
   }
   .aroww {
@@ -1262,7 +1298,7 @@ span {
   .Line {
     position: absolute;
     bottom: 45px;
-    left: 220px;
+    left: 230px;
   }
 
   .btn-img {
@@ -1431,7 +1467,7 @@ span {
     color: #fa8f42;
   }
   .hero-7 {
-    margin-top: 100px;
+    margin-top: 140px;
     position: relative;
   }
   .hero-8 {
@@ -1526,7 +1562,7 @@ span {
   }
   .Linkk h6 {
     font-family: Fixel Text;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     color: #1d1d1b;
   }
@@ -1600,15 +1636,13 @@ span {
     margin-left: auto;
     margin-right: auto;
     color: #1d1d1b;
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .download-btn2 {
     font-family: Fixel Text;
     font-size: 16px;
     font-weight: 500;
-    line-height: 16px;
-    text-align: left;
-    padding-top: 15px;
+   
     background-color: #fff;
     color: #1d1d1b;
     border-radius: 50px;
@@ -1634,30 +1668,27 @@ span {
     font-family: Fixel Text;
     /* font-size: 16px; */
     font-weight: 400;
-    margin-top: 10px;
     /* text-wrap: nowrap; */
   }
   .col-sm-6 h6 {
     font-family: Fixel Text;
     font-size: 18px;
     font-weight: 600;
-    margin-top: 30px;
   }
   .col-sm-6 pre {
     font-family: Fixel Text;
     font-size: 14px;
     font-weight: 600;
-    margin-top: -20px;
   }
 
   .blog-icon1 {
     position: absolute;
-    left: 270px;
-    bottom: 105px;
+    left: 320px;
+    bottom: 110px;
   }
   .blog-icon {
     position: absolute;
-    left: 580px;
+    left: 520px;
     margin-top: -25px;
   }
   .arrow2 {

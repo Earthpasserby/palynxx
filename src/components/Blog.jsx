@@ -73,10 +73,10 @@ const Blog = () => {
           <h5>Recent Blog Posts</h5>
         </Container>
         <Row className="">
-          <div class="col-md-6">
+          <div class="col-md-5">
             <div>
-              <img src="./party.png" class="img-fluid w-100"  />
-              <pre className="mt-3">02/05/2024 . 12 min read</pre>
+              <img src="./party.png" class="img-fluid w-100" />
+              <p className="">02/05/2024 . 12 min read</p>
 
               <h6 className="">Top 10 Hidden Gems in Your City</h6>
               <div>
@@ -90,34 +90,35 @@ const Blog = () => {
             </div>
           </div>
 
-          <div class="col-md-6 ">
+          <div class="col-md-7">
             <div class="row">
               <div class="col-sm-6">
                 <img src="./pitch.png" class="img-fluid w-100" />
               </div>
               <div class="col-sm-6">
                 <div>
-                  <pre className="">02/05/2024 . 12 min read</pre>
+                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <p class="ty">
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
+                  <h6 class="h6-tag">
+                    How to Meet Like-Minded People: Tips and Tricks
+                  </h6>
+                  <p class="p-tag2">
+                    Building meaningful connections is easier than you think.
+                    Learn how to find and connect with individuals who share
+                    your interests and passions
                   </p>
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row mt-4">
               <div class="col-sm-6">
                 <img src="./diary.png" className="img-fluid w-100" />
               </div>
               <div class="col-sm-6">
                 <div>
-                  <pre class="">02/05/2024 . 12 min read</pre>
-
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <p class="ty">
+                  <p class="pre-tag">02/05/2024 . 12 min read</p>
+                  <h6 class="h6-tag">Top 10 Hidden Gems in Your City</h6>
+                  <p class="p-tag3">
                     Discover the lesser-known spots in your city that are
                     waiting to be explored. From cozy cafes to secret parks,
                     uncover places that only locals know about.
@@ -423,7 +424,7 @@ const Blog = () => {
         </Row>
       </Container>
       <Container fluid>
-        <Container className="footer">
+        <Container fluid className="footer">
           <div class="row">
             <div class=" col-sm-3 footerP">
               <img

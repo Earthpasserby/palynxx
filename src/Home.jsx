@@ -36,6 +36,7 @@ const Home = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 2,
+    centerPadding: "30px", // Space between slides
 
     responsive: [
       {
@@ -126,8 +127,8 @@ const Home = () => {
         </Navbar>
       </Container>
 
-      <Container className="hero d-flex justify-content-center">
-        <Row className="w-100">
+      <Container className="hero ">
+        <Row className="">
           <Col xs={12} md={8} className="header-2">
             <div className="Heroo"></div>
             <h2>
@@ -140,12 +141,10 @@ const Home = () => {
             </h2>
             <h2>New Friends with Ease</h2>
             <p>
-              Connect with people with like minds, similar interests, goals and
-              motivations and make plans all with Palynx.
+              Connect with people with like minds, similar interests, <br />{" "}
+              goals and motivations and make plans all with Palynx.
             </p>
-            <button className="btnbtn F-btn btn-1 homebtn-2">
-              Download the App
-            </button>
+            <button className="btn btn-1 homebtn-1">Download the App</button>
           </Col>
           <Col xs={12} md={4} className="">
             <div className="hero-imgg  w-100 h-100">
@@ -430,15 +429,12 @@ const Home = () => {
                 Palynx now and take the first step towards discovering your city
                 and making meaningful connections.
               </p>
-              <button className="btn btn-1 download-btn d-flex">
-                <img
-                  src="./apple.png"
-                  alt="palynx-img"
-                  className="img-fluid apple"
-                />
-                Download on the
-                <br /> App Store
-              </button>
+              <div className="PalynxT">
+                <button className="btn btn-1 download-btn d-flex">
+                  <i class="bi bi-apple apple"></i>
+                  Download on the App Store
+                </button>
+              </div>
               <img
                 src="./arow.png"
                 alt="palynx-img"
@@ -651,8 +647,9 @@ const Home = () => {
                       Get in<span> Touch</span>
                     </h2>
                     <p>
-                      Have questions or need support?Reach out to our friendly
-                      support team at
+                      Have questions or need support?
+                      <br />
+                      Reach out to our friendly support team at
                     </p>
                     <div className="Blog-form">
                       <form action="#">
@@ -678,8 +675,8 @@ const Home = () => {
                       We are <span>Social</span>
                     </h2>
                     <p>
-                      Follow us on social media to stay updated with the latest
-                      news, events, and features!
+                      Follow us on social media to stay updated with the <br />{" "}
+                      latest news, events, and features!
                     </p>
                     <div className="icon d-flex">
                       <button className="btn btn-icon">

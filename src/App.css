@@ -138,12 +138,14 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: #1d1d1b;
+  line-height: 62.4px;
 }
 .hero-7 p {
   font-family: Fixel Text;
   font-size: 16px;
   font-weight: 400;
   color: #1d1d1b;
+  line-height: 32px;
 }
 .apple {
   width: 28px;
@@ -458,7 +460,7 @@ span {
   width: 187px;
   height: 48px;
   padding: 4px 24px 4px 24px;
-  gap: 8px;
+  margin-top: 8px;
   border-radius: 56px;
   background-color: #1d1d1b;
   color: #f8f8f8;
@@ -594,13 +596,13 @@ span {
 
 .form-box input {
   color: #1d1d1b;
-  /* padding: 15px 10px; */
+  padding: 15px 10px;
   border-radius: 50px;
   outline: none;
   background: #ffff;
   width: 100%;
   border: 1px solid #8f8f8f;
-  height: 50px;
+  height: 54px;
   padding-left: 38px;
   font-family: Fixel Text;
   font-size: 18px;
@@ -610,6 +612,8 @@ span {
 
 ::placeholder {
   color: #1d1d1b;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .form-box button {
@@ -623,9 +627,10 @@ span {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 244px;
-  bottom: 1px;
+  left: 240px;
+  bottom:3px;
   border-radius: 40px;
+  justify-content: center;
 }
 .cardfooter {
   height: 287px;
@@ -1003,33 +1008,60 @@ span {
   .make {
     font-family: fixel Text;
   }
+  .PalynxT {
+    padding-top: 36px;
+  }
+  .download-btn {
+    padding: 9px 40px 4px 24px;
+    gap: 16px;
+    border-radius: 56px;
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+    width: 204px;
+    /* text-align: justify; */
+    font-size: 12px;
+    font-family: fixel Text;
+  }
   .header-2 h2 {
     font-family: Fixel Text;
     font-size: 56px;
     font-weight: 600;
     text-align: left;
     text-wrap: nowrap;
+    line-height: 84px;
   }
   .header-2 .Text-span {
     font-family: Fixel Text;
     font-size: 56px;
     font-weight: 600;
     text-align: left;
+    line-height: 84px;
     color: #fa8f42;
   }
   .header-2 p {
     font-family: Fixel Text;
     font-size: 24px;
     font-weight: 400;
-    text-align: left;
+    line-height: 38.4px;
   }
   .header-2 {
     margin-top: 40px;
   }
+  .homebtn-1 {
+    width: 203px;
+    height: 56px;
+    padding: 4px 32px 4px 32px;
+    gap: 8px;
+    border-radius: 56px;
+    background-color: #1d1d1b;
+    color: #fff;
+  }
   .flatn {
-    width: 120%;
+    width: 450px;
     position: absolute;
     top: 40px;
+    left: -40px;
+    /* text-align: center; */
   }
   .flatn {
     position: relative;
@@ -1140,6 +1172,12 @@ span {
     font-weight: 500;
     color: #a91703;
   }
+  .discoverp {
+    padding-left: 10px;
+  }
+  .discoverp1 {
+    padding-left: 10px;
+  }
   .discoverp1 pre {
     font-family: Fixel Text;
     font-size: 14px;
@@ -1199,28 +1237,37 @@ span {
     width: 223px;
     height: 81px;
   }
+  .hero77 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
   .hero-7 h4 {
     font-family: Fixel Text;
     font-size: 48px;
     font-weight: 600;
     color: #fff;
     text-wrap: nowrap;
+    line-height: 62.4px;
   }
   .hero-7 span {
     font-family: Fixel Text;
     font-size: 48px;
     font-weight: 600;
     color: #1d1d1b;
+    line-height: 62.4px;
   }
   .hero-7 p {
     font-family: Fixel Text;
     font-size: 20px;
     font-weight: 400;
     color: #1d1d1b;
+    line-height: 32px;
   }
   .apple {
-    width: 28px;
-    height: 32px;
+    /* width: 28px; */
+    /* height: 32px; */
+    /* margin-top: 6px; */
+    font-size: 25px;
   }
 
   .arow {
@@ -1255,9 +1302,10 @@ span {
   .sec-1 p {
     font-family: Fixel Text;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
     color: #1d1d1b;
   }
+
   .section2 h4 {
     font-family: Fixel Text;
     font-size: 48px;
@@ -1363,7 +1411,7 @@ span {
     margin-top: 120px;
   }
   .hero-3 {
-    height: 571px;
+    height: 520px;
     padding: 48px;
     gap: 48px;
     border-radius: 40px;
@@ -1440,7 +1488,9 @@ span {
     top: 14px;
     right: -45px;
   }
-
+  .hero {
+    margin-top: 45px;
+  }
   .hero4-1 {
     height: 500px;
     padding: 25px;
@@ -1611,23 +1661,29 @@ span {
   }
   .cardfooter h2 {
     font-family: Fixel Text;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
+    line-height: 52px;
     color: #1d1d1b;
   }
   .cardfooter span {
     font-family: Fixel Text;
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 52px;
     font-weight: 600;
     color: #f1454f;
   }
   .cardfooter p {
     font-family: Fixel Text;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
     color: #1d1d1b;
+      display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
   }
   .footer {
     margin-top: 100px;
@@ -1712,7 +1768,7 @@ span {
   }
   .arrow2 {
     position: absolute;
-    left: 200px;
+    left: 250px;
     top: -20px;
   }
   .cardfooter-arrow2 {
@@ -1935,8 +1991,7 @@ span {
     cursor: pointer;
     padding: 1.5em 1em; /* Optional: Adjust padding */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
-      border-radius: 0.5em; /* Add border-radius */
-
+    border-radius: 0.5em; /* Add border-radius */
   }
 
   .accordionToggleIcon {
@@ -1951,8 +2006,8 @@ span {
 
   .accordionItem .accordion-button:not(.collapsed) .accordionHeader {
     background-color: white;
-      border-bottom-left-radius: 0; /* Remove bottom-left radius */
-  border-bottom-right-radius: 0; /* Remove bottom-right radius */
+    border-bottom-left-radius: 0; /* Remove bottom-left radius */
+    border-bottom-right-radius: 0; /* Remove bottom-right radius */
   }
 
   .accordionItem .accordion-collapse {
@@ -1960,10 +2015,16 @@ span {
   }
 
   .accordionBody {
-    background-color: transparent;
-     border-radius: 0.5em; /* Add border-radius to body */
+    background-color: white;
+    border-radius: 0.5em; /* Add border-radius to body */
+    overflow: hidden;
   }
   .accordion-item {
     background-color: transparent;
   }
+  ::placeholder {
+  color: #1d1d1b;
+  font-size: 18px;
+  line-height: 20px;
+}
 }

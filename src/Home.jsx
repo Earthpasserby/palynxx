@@ -64,9 +64,6 @@ const Home = () => {
   };
 
   const [expanded, setExpanded] = useState(false);
-  
-
-
 
   return (
     <>
@@ -505,9 +502,13 @@ const Home = () => {
                     alt="palynx-img"
                     className="img-fluid pitch"
                   />
-                  <div className="discoverp">
+                  <div className="discoverp1">
                     <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
-                    <p>Building meaningful connections is easier...</p>
+                    <p>
+                      Building meaningful connections is easier than you think.
+                      Learn how to find and connect with individuals who share
+                      your interests and passions.
+                    </p>
                     <pre>02/05/2024 . 12 min read</pre>
                   </div>
                 </div>

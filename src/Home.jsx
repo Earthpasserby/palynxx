@@ -65,6 +65,15 @@ const Home = () => {
 
   const [expanded, setExpanded] = useState(false);
 
+  const handleToggle = (key) => {
+    setExpanded(expanded === key ? null : key);
+  };
+
+  const handleIconClick = (e, key) => {
+    e.stopPropagation();
+    handleToggle(key);
+  };
+
   return (
     <>
       <Container fluid>
@@ -545,14 +554,22 @@ const Home = () => {
           Frequently asked<span> questions </span>
         </h5>
         <Row className="accordion">
-          <Accordion>
-            <Accordion.Item
-              eventKey="0"
-              className="border border-0 bg-transparent accordionItem"
-            >
-              <Accordion.Header className="accordionHeader">
-                What is Palynx?
-              </Accordion.Header>
+          <Accordion activeKey={expanded}>
+            <Accordion.Item eventKey="0" className="accordionItem">
+              <div
+                className={`accordionHeader ${
+                  expanded === "0" ? "bg-white" : "bg-transparent"
+                }`}
+                onClick={() => handleToggle("0")}
+              >
+                <span>What is Palynx?</span>
+                <i
+                  className={`accordionToggleIcon fas ${
+                    expanded === "0" ? "fa-chevron-up" : "fa-chevron-down"
+                  }`}
+                  onClick={(e) => handleIconClick(e, "0")}
+                />
+              </div>
               <Accordion.Body className="accordionBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -563,13 +580,21 @@ const Home = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item
-              eventKey="1"
-              className="mt-2 border border-0 bg-transparent"
-            >
-              <Accordion.Header className="accordionHeader">
-                Connecting with Palynx
-              </Accordion.Header>
+            <Accordion.Item eventKey="1" className="accordionItem">
+              <div
+                className={`accordionHeader ${
+                  expanded === "1" ? "bg-white" : "bg-transparent"
+                }`}
+                onClick={() => handleToggle("1")}
+              >
+                <span>Connecting with Palynx</span>
+                <i
+                  className={`accordionToggleIcon fas ${
+                    expanded === "1" ? "fa-chevron-up" : "fa-chevron-down"
+                  }`}
+                  onClick={(e) => handleIconClick(e, "1")}
+                />
+              </div>
               <Accordion.Body className="accordionBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -580,13 +605,21 @@ const Home = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item
-              eventKey="2"
-              className="mt-2  border border-0 bg-transparent"
-            >
-              <Accordion.Header className="accordionHeader">
-                Do more with Palynx
-              </Accordion.Header>
+            <Accordion.Item eventKey="2" className="accordionItem">
+              <div
+                className={`accordionHeader ${
+                  expanded === "2" ? "bg-white" : "bg-transparent"
+                }`}
+                onClick={() => handleToggle("2")}
+              >
+                <span>Do more with Palynx</span>
+                <i
+                  className={`accordionToggleIcon fas ${
+                    expanded === "2" ? "fa-chevron-up" : "fa-chevron-down"
+                  }`}
+                  onClick={(e) => handleIconClick(e, "2")}
+                />
+              </div>
               <Accordion.Body className="accordionBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

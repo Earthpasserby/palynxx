@@ -72,7 +72,7 @@ const Blog = () => {
           </div>
           <h5>Recent Blog Posts</h5>
         </Container>
-        <Row className="">
+        <Row className="mt-4">
           <div class="col-md-5">
             <div>
               <img src="./party.png" class="img-fluid w-100" />

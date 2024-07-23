@@ -48,12 +48,12 @@ body {
   font-size: 24px;
   font-weight: 600;
 }
-.hero-9 span {
+/* .hero-9 span {
   font-family: Fixel Text;
   font-size: 24px;
   font-weight: 600;
   color: #f1454f;
-}
+} */
 .drop {
   display: none;
 }
@@ -1066,12 +1066,12 @@ span {
     font-size: 48px;
     font-weight: 600;
   }
-  .hero-9 span {
+  /* .hero-9 span {
     font-family: Fixel Text;
     font-size: 48px;
     font-weight: 600;
     color: #f1454f;
-  }
+  } */
   .drop {
     display: block;
   }
@@ -1107,7 +1107,7 @@ span {
     color: #1d1d1b;
     margin-top: 15px;
   }
-   .discoverp1 h6 {
+  .discoverp1 h6 {
     font-family: Fixel Text;
     font-size: 20px;
     font-weight: 600;
@@ -1119,20 +1119,20 @@ span {
     font-size: 18px;
     font-weight: 400;
     color: #1d1d1b;
-     display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
-    .discoverp1  p {
+  .discoverp1 p {
     font-family: Fixel Text;
     font-size: 18px;
     font-weight: 400;
     color: #1d1d1b;
-     display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .discoverp pre {
     font-family: Fixel Text;
@@ -1222,15 +1222,7 @@ span {
     width: 28px;
     height: 32px;
   }
-  .download-btn {
-    padding: 9px 40px 4px 24px;
-    gap: 16px;
-    border-radius: 56px;
-    background-color: ##fff;
-    color: #ffffff;
-    font-size: 12px;
-    height: 64px;
-  }
+
   .arow {
     position: absolute;
     left: 500px;
@@ -1917,5 +1909,42 @@ span {
   }
   .Blogpage {
     text-decoration: none;
+  }
+
+  .accordionHeader {
+    border: none;
+    color: #000; /* Optional: Set text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.5em 1em; /* Optional: Adjust padding */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+
+  .accordionToggleIcon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.2em;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Icon color */
+    border-radius: 50%; /* Border radius */
+    padding: 0.5em; /* Padding */
+  }
+
+  .accordionItem .accordion-button:not(.collapsed) .accordionHeader {
+    background-color: white;
+  }
+
+  .accordionItem .accordion-collapse {
+    background-color: white;
+  }
+
+  .accordionBody {
+    background-color: transparent;
+  }
+  .accordion-item{
+    background-color: transparent;
   }
 }

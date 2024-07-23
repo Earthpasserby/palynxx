@@ -1921,18 +1921,22 @@ span {
 
   .accordionItem {
     margin-bottom: 2rem; /* Adjust the value as needed for spacing */
+    border-radius: 0.5rem;
   }
 
   .accordionHeader {
     border: none;
     color: #000; /* Optional: Set text color */
     display: flex;
+    border-radius: 20px;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     cursor: pointer;
-    padding: 0.5em 1em; /* Optional: Adjust padding */
+    padding: 1.5em 1em; /* Optional: Adjust padding */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
+      border-radius: 0.5em; /* Add border-radius */
+
   }
 
   .accordionToggleIcon {
@@ -1947,6 +1951,8 @@ span {
 
   .accordionItem .accordion-button:not(.collapsed) .accordionHeader {
     background-color: white;
+      border-bottom-left-radius: 0; /* Remove bottom-left radius */
+  border-bottom-right-radius: 0; /* Remove bottom-right radius */
   }
 
   .accordionItem .accordion-collapse {
@@ -1955,6 +1961,7 @@ span {
 
   .accordionBody {
     background-color: transparent;
+     border-radius: 0.5em; /* Add border-radius to body */
   }
   .accordion-item {
     background-color: transparent;

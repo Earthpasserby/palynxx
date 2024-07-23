@@ -48,12 +48,12 @@ body {
   font-size: 24px;
   font-weight: 600;
 }
-/* .hero-9 span {
+.hero-9 span {
   font-family: Fixel Text;
   font-size: 24px;
   font-weight: 600;
   color: #f1454f;
-} */
+}
 .drop {
   display: none;
 }
@@ -1066,12 +1066,12 @@ span {
     font-size: 48px;
     font-weight: 600;
   }
-  /* .hero-9 span {
+  .hero-9 span {
     font-family: Fixel Text;
     font-size: 48px;
     font-weight: 600;
     color: #f1454f;
-  } */
+  }
   .drop {
     display: block;
   }
@@ -1911,6 +1911,18 @@ span {
     text-decoration: none;
   }
 
+  .accordionSpan {
+    font-family: fixel Text;
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1b;
+  }
+
+  .accordionItem {
+    margin-bottom: 2rem; /* Adjust the value as needed for spacing */
+  }
+
   .accordionHeader {
     border: none;
     color: #000; /* Optional: Set text color */
@@ -1944,7 +1956,7 @@ span {
   .accordionBody {
     background-color: transparent;
   }
-  .accordion-item{
+  .accordion-item {
     background-color: transparent;
   }
 }

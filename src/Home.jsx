@@ -562,7 +562,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("0")}
               >
-                <span>What is Palynx?</span>
+                <h1 className="accordionSpan">What is Palynx?</h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "0" ? "fa-chevron-up" : "fa-chevron-down"
@@ -587,7 +587,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("1")}
               >
-                <span>Connecting with Palynx</span>
+                <h1 className="accordionSpan">Connecting with Palynx</h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "1" ? "fa-chevron-up" : "fa-chevron-down"
@@ -612,7 +612,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("2")}
               >
-                <span>Do more with Palynx</span>
+                <h1 className="accordionSpan">Do more with Palynx</h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "2" ? "fa-chevron-up" : "fa-chevron-down"

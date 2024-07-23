@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 // import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
@@ -63,11 +64,20 @@ const Home = () => {
   };
 
   const [expanded, setExpanded] = useState(false);
+  
+
+
 
   return (
     <>
       <Container fluid>
-        <Navbar collapseOnSelect expand="lg" sticky="top" className="Navbar">
+        <Navbar
+          collapseOnSelect
+          sticky="top"
+          expand="lg"
+          sticky="top"
+          className="Navbar"
+        >
           <Container className="nbar">
             <Navbar.Brand href="#home">
               <img src="./palynx-logo.png" alt="logo" className="logo-img" />
@@ -82,7 +92,9 @@ const Home = () => {
             <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
               <Nav className="me-auto">
                 <Link to="/" className="homepage">
-                  <Nav.Link href="#home">Home</Nav.Link>
+                  <Nav.Link href="#home" className="">
+                    Home
+                  </Nav.Link>
                 </Link>
                 <Link to="/Blog" className="blog">
                   <Nav.Link href="#blog" className="">
@@ -113,17 +125,14 @@ const Home = () => {
           <Col xs={12} md={8} className="header-2">
             <div className="Heroo"></div>
             <h2>
-              <span className="Text-span">Discover</span> Your City and{" "}
-              <span className="make">
-                Make
-                <img
-                  src="./arrow.png"
-                  alt="palynx-img"
-                  className="header-arrow"
-                />
-              </span>
-              New Friends with Ease
+              <span className="Text-span">Discover</span> Your City and Make
+              <img
+                src="./arrow.png"
+                alt="palynx-img"
+                className="header-arrow"
+              />
             </h2>
+            <h2>New Friends with Ease</h2>
             <p>
               Connect with people with like minds, similar interests, goals and
               motivations and make plans all with Palynx.
@@ -200,11 +209,7 @@ const Home = () => {
           <Col md={4} xs={12} className="card-2headcol">
             <div className="card-2">
               <div className="Btn-3">
-                <img
-                  src="./view.png"
-                  alt="palynx-img"
-                  className="img-fluid"
-                />
+                <img src="./view.png" alt="palynx-img" className="img-fluid" />
 
                 <button className="btn btn-3">Romantic</button>
               </div>
@@ -217,11 +222,7 @@ const Home = () => {
           <Col md={4} xs={12} className="card-2headcol">
             <div className="card-2">
               <div className="Btn-3">
-                <img
-                  src="./yatch.png"
-                  alt="palynx-img"
-                  className="img-fluid"
-                />
+                <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
                 <button className="btn btn-3">party</button>
               </div>
               <div className="card-2Cont">
@@ -233,11 +234,7 @@ const Home = () => {
           <Col md={4} xs={12} className="card-2headcol">
             <div className="card-2">
               <div className="Btn-3">
-                <img
-                  src="./bale.png"
-                  alt="palynx-img"
-                  className="img-fluid"
-                />
+                <img src="./bale.png" alt="palynx-img" className="img-fluid" />
                 <button className="btn btn-3">Dance classes</button>
               </div>
               <div className="card-2Cont">
@@ -253,9 +250,9 @@ const Home = () => {
           <Col md={5} xs={12}>
             <div className="hero4-1">
               <h5>
-                Last-minute <span>hangout</span> option for any spontaneous
-                plans
+                Last-minute <span>hangout</span> option
               </h5>
+              <h5>for any spontaneous plans</h5>
 
               <img
                 src="./minute.png"
@@ -510,9 +507,7 @@ const Home = () => {
                   />
                   <div className="discoverp">
                     <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
-                    <p>
-                      Building meaningful connections is easier...
-                    </p>
+                    <p>Building meaningful connections is easier...</p>
                     <pre>02/05/2024 . 12 min read</pre>
                   </div>
                 </div>
@@ -728,14 +723,15 @@ const Home = () => {
             <Col md={3} xs={12} className="footerP">
               <p>
                 <a href="#">Download App</a>
-              </p>
-              <button className="btn btn-1 download-btn2 d-flex">
+              </p> 
+              <button className="btn btn-1 download-btn d-flex">
                 <img
                   src="./bapple.png"
                   alt="palynx-img"
-                  className="img-fluid apple1"
+                  className="img-fluid apple"
                 />
-                Download on the App Store
+                Download on the
+                <br /> App Store
               </button>
             </Col>
           </Row>

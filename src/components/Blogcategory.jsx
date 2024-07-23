@@ -82,12 +82,13 @@ const Blogcategory = () => {
               </div>
             </div>
           </Col>
-          <Col md={12} xs={12}>
+          <Col md={12} xs={12} className="categoryhead">
             <Row>
               <Col md={6} xs={12}>
                 <div className="BlogCont-con">
                   <h5 className="">
-                    How to Meet Like-Minded People: Tips and Tricks
+                    How to Meet Like-Minded People: Tips <br />
+                    and Tricks
                   </h5>
                 </div>
               </Col>

@@ -73,232 +73,185 @@ const Blog = () => {
           <h5>Recent Blog Posts</h5>
         </Container>
         <Row className="">
-          <Col md={6} xs={12} className="blogRow">
-            <Link to="/Blogcategory" className="Blogpage">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid" />
+          <div class="col-md-6">
+            <div>
+              <img src="./party.png" class="img-fluid w-100"  />
+              <pre className="mt-3">02/05/2024 . 12 min read</pre>
 
-                <Card.Text>
-                  <pre className="mt-3">02/05/2024 . 12 min read</pre>
+              <h6 className="">Top 10 Hidden Gems in Your City</h6>
+              <div>
+                <GoArrowUpRight className="blog-icon" />
+              </div>
+              <p className=" Blog-col">
+                Discover the lesser-known spots in your city that are waiting to
+                be explored. From cozy cafes to secret parks, uncover places
+                that only locals know about.
+              </p>
+            </div>
+          </div>
 
-                  <h6 className="">Top 10 Hidden Gems in Your City</h6>
-                  <div>
-                    <GoArrowUpRight className="blog-icon" />
-                  </div>
-                  <p className=" Blog-col">
+          <div class="col-md-6 ">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="./pitch.png" class="img-fluid w-100" />
+              </div>
+              <div class="col-sm-6">
+                <div>
+                  <pre className="">02/05/2024 . 12 min read</pre>
+
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <p class="ty">
                     Discover the lesser-known spots in your city that are
                     waiting to be explored. From cozy cafes to secret parks,
                     uncover places that only locals know about.
                   </p>
-                </Card.Text>
-              </Card>
-            </Link>
-          </Col>
-          <Col md={6} xs={12}>
-            <Row>
-              <Col md={6} xs={12} className="blogRow">
-                <Link to="/Blogcategory" className="Blogpage">
-                  <Card
-                    className="border border-0 d"
-                    style={{ background: "transparent" }}
-                  >
-                    <Card.Img src="./pitch.png" className="img-fluid " />
-                  </Card>
-                </Link>
-              </Col>
-              <Col md={6} xs={12} className="blogRow1">
-                <Link to="/Blogcategory" className="Blogpage">
-                  <Card
-                    className="border border-0 d-flex"
-                    style={{ background: "transparent" }}
-                  >
-                    <Card.Text>
-                      <pre className="preM mt-3">02/05/2024 . 12 min read</pre>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="./diary.png" className="img-fluid w-100" />
+              </div>
+              <div class="col-sm-6">
+                <div>
+                  <pre class="">02/05/2024 . 12 min read</pre>
 
-                      <h6>Top 10 Hidden Gems in Your City</h6>
-                      <p>
-                        Discover the lesser-known spots in your city that are
-                        waiting to be explored. From cozy cafes to secret parks,
-                        uncover places that only locals know about.
-                      </p>
-                    </Card.Text>
-                  </Card>
-                </Link>
-              </Col>
-            </Row>
-            <Row className="">
-              <Col md={6} xs={12}>
-                <Link to="/Blogcategory" className="Blogpage">
-                  <Card
-                    className="border border-0 d-flex"
-                    style={{ background: "transparent" }}
-                  >
-                    <Card.Img src="./diary.png" className="img-fluid " />
-                  </Card>
-                </Link>
-              </Col>
-              <Col md={6} xs={12} className="blogRow1">
-                <Link to="/Blogcategory" className="Blogpage">
-                  <Card
-                    className="border border-0 d-flex "
-                    style={{ background: "transparent" }}
-                  >
-                    <Card.Text>
-                      <pre className="preM mt-2">02/05/2024 . 12 min read</pre>
-
-                      <h6>Top 10 Hidden Gems in Your City</h6>
-                      <p>
-                        Discover the lesser-known spots in your city that are
-                        waiting to be explored. From cozy cafes to secret parks,
-                        uncover places that only locals know about.
-                      </p>
-                    </Card.Text>
-                  </Card>
-                </Link>
-              </Col>
-            </Row>
-          </Col>
+                  <h6>Top 10 Hidden Gems in Your City</h6>
+                  <p class="ty">
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </Row>
       </Container>
       <Container className="blogSection1">
         <Row className=" bloggCol">
           <h4 className="mb-4">All blog posts</h4>
-          <Col md={4} xs={12}>
-            <Link to="/Blogcategory" className="Linkk">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid blog-img" />
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <img src="./party.png" className="img-fluid blog-img" />
 
-                <Card.Text>
-                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <h6>Top 10 Hidden Gems in Your</h6>
+                <h6> City</h6>
+                <GoArrowUpRight className="blog-icon1" />
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <GoArrowUpRight className="blog-icon1" />
-                  <p>
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </Card.Text>
-              </Card>
-            </Link>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
           </Col>
-          <Col md={4} xs={12}>
-            <Link to="/Blogcategory" className="Linkk">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid blog-img" />
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <img src="./party.png" className="img-fluid blog-img" />
 
-                <Card.Text>
-                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <h6>Top 10 Hidden Gems in Your</h6>
+                <h6> City</h6>
+                <GoArrowUpRight className="blog-icon1" />
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <GoArrowUpRight className="blog-icon1" />
-                  <p>
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </Card.Text>
-              </Card>
-            </Link>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
           </Col>
-          <Col md={4} xs={12}>
-            <Link to="/Blogcategory" className="Linkk">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid blog-img" />
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <img src="./party.png" className="img-fluid blog-img" />
 
-                <Card.Text>
-                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <h6>Top 10 Hidden Gems in Your</h6>
+                <h6> City</h6>
+                <GoArrowUpRight className="blog-icon1" />
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <GoArrowUpRight className="blog-icon1" />
-                  <p>
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </Card.Text>
-              </Card>
-            </Link>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
           </Col>
         </Row>
         <Row className=" bloggCol">
-          <Col md={4} xs={12}>
-            <Link to="/Blogcategory" className="Linkk">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid blog-img" />
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <img src="./party.png" className="img-fluid blog-img" />
 
-                <Card.Text>
-                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <h6>Top 10 Hidden Gems in Your</h6>
+                <h6> City</h6>
+                <GoArrowUpRight className="blog-icon1" />
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <GoArrowUpRight className="blog-icon1" />
-                  <p>
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </Card.Text>
-              </Card>
-            </Link>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
           </Col>
-          <Col md={4} xs={12}>
-            <Link to="/Blogcategory" className="Linkk">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid blog-img" />
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <img src="./party.png" className="img-fluid blog-img" />
 
-                <Card.Text>
-                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <h6>Top 10 Hidden Gems in Your</h6>
+                <h6> City</h6>
+                <GoArrowUpRight className="blog-icon1" />
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <GoArrowUpRight className="blog-icon1" />
-                  <p>
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </Card.Text>
-              </Card>
-            </Link>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
           </Col>
-          <Col md={4} xs={12}>
-            <Link to="/Blogcategory" className="Linkk">
-              <Card
-                className="border border-0"
-                style={{ background: "transparent" }}
-              >
-                <Card.Img src="./party.png" className="img-fluid blog-img" />
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <img src="./party.png" className="img-fluid blog-img" />
 
-                <Card.Text>
-                  <pre className="mt-4">02/05/2024 . 12 min read</pre>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <h6>Top 10 Hidden Gems in Your</h6>
+                <h6> City</h6>
+                <GoArrowUpRight className="blog-icon1" />
 
-                  <h6>Top 10 Hidden Gems in Your City</h6>
-                  <GoArrowUpRight className="blog-icon1" />
-                  <p>
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </Card.Text>
-              </Card>
-            </Link>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
           </Col>
           <hr className="hrline" />
           <div className="web-pagin">
@@ -413,8 +366,8 @@ const Blog = () => {
                       Get in<span> Touch</span>
                     </h2>
                     <p>
-                      Have questions or need support?Reach out to our friendly
-                      support team at
+                      Have questions or need support? <br />
+                      Reach out to our friendly support team at
                     </p>
                     <div className="Blog-form">
                       <form action="#">
@@ -469,17 +422,17 @@ const Blog = () => {
           </Container>
         </Row>
       </Container>
-      <Container fluid className="footer">
-        <Container className="">
-          <Row class="g-5">
-            <Col md={3} xs={12} className="footerP">
+      <Container fluid>
+        <Container className="footer">
+          <div class="row">
+            <div class=" col-sm-3 footerP">
               <img
                 src="./palynxwlogo.png"
                 alt="logo"
                 className="logo-img b-ff"
               />
               <p className="text-white">Discover, Connect, Plan</p>
-              <div className="icon d-flex">
+              <div className="d-flex">
                 <button className="btn btn-icon2">
                   <BiLogoLinkedin />
                 </button>
@@ -493,8 +446,8 @@ const Blog = () => {
                   <FaXTwitter />
                 </button>
               </div>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">About us</a>
               </p>
@@ -507,16 +460,16 @@ const Blog = () => {
               <p>
                 <a href="#">Contact</a>
               </p>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">Terms of Service</a>
               </p>
               <p>
                 <a href="#">Privacy Policy</a>
               </p>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">Download App</a>
               </p>
@@ -528,8 +481,8 @@ const Blog = () => {
                 />
                 Download on the App Store
               </button>
-            </Col>
-          </Row>
+            </div>
+          </div>
           <div className="d-flex justify-content-center foter">
             <h6>All rights reserved Palynx © 2024</h6>
           </div>

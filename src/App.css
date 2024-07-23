@@ -367,36 +367,33 @@ body {
 }
 .hero4-1 {
   height: 330px;
-  /* padding: 32px; */
-  gap: 48px;
   border-radius: 40px;
   background-color: #ffffff;
   position: relative;
-  /* margin-top: 20px; */
 }
 .hero4-2 {
   height: 330px;
-  /* padding: 32px; */
   gap: 48px;
   border-radius: 40px;
   background-color: #ffffff;
   position: relative;
-  /* margin-top: 10px; */
 }
 .hero4-1 h5,
 .hero4-2 h5 {
-  /* font-family: Fixel Text;
-  font-size: 16px;
+  font-family: Fixel Text;
+  font-size: 26px;
   font-weight: 600;
-  color: #1d1d1b; */
+  color: #1d1d1b;
   /* padding: 30px; */
+  text-wrap: nowrap;
 }
 .hero4-1 span,
 .hero4-2 span {
   font-family: Fixel Text;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 600;
   color: #fa8f42;
+  text-wrap: nowrap;
 }
 .hero-8 {
   margin-top: 20px;
@@ -503,13 +500,12 @@ span {
   text-align: left;
   color: #6941c6;
 }
-.blogRow1 h6,
-.Linkk h6 {
+.blogRow1 h6 {
   font-family: Fixel Text;
   font-size: 14px;
   font-weight: 600;
-  text-align: left;
   color: #1d1d1b;
+  text-wrap: nowrap;
 }
 .blogRow1 pre,
 .Linkk pre {
@@ -521,10 +517,9 @@ span {
   color: #6941c6;
 }
 
-.blogRow1 p,
-.Linkk p {
+.blogRow1 p {
   font-family: Fixel Text;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -533,10 +528,6 @@ span {
   font-size: 18px;
   font-weight: 600;
   font-family: Fixel Text;
-}
-.blogSection1 {
-  height: 2500px !important;
-  margin-top: 50px !important;
 }
 .Linkk {
   text-decoration: none;
@@ -598,18 +589,22 @@ span {
 
 .form-box input {
   color: #1d1d1b;
-  padding: 15px 10px;
+  /* padding: 15px 10px; */
   border-radius: 50px;
   outline: none;
   background: #ffff;
   width: 100%;
   border: 1px solid #8f8f8f;
   height: 50px;
-  text-align: center;
+  padding-left: 38px;
   font-family: Fixel Text;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 20px;
+}
+
+::placeholder {
+  color: #1d1d1b;
 }
 
 .form-box button {
@@ -618,12 +613,13 @@ span {
   font-size: 20px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(to right, #ffe5a4, #ff763c);
+  background: linear-gradient(to right, #fa8f42, #f1454f);
   cursor: pointer;
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 245px;
+  left: 244px;
+  bottom: 1px;
   border-radius: 40px;
 }
 .cardfooter {
@@ -668,7 +664,7 @@ span {
   border-radius: 48px;
   background-color: #1d1d1b;
 }
-.btn-icon2 {
+/* .btn-icon2 {
   width: 48px;
   height: 48px;
   padding: 10px 13.47px 13.66px 13.29px;
@@ -678,7 +674,7 @@ span {
   border-radius: 40px;
   margin: 3px;
   color: #fff;
-}
+} */
 .apple1 {
   height: 32px;
   margin-left: -20px;
@@ -702,6 +698,7 @@ span {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+  text-wrap: nowrap;
 }
 .foter {
   margin-top: 100px;
@@ -718,7 +715,6 @@ span {
 .blog-icon1 {
   position: absolute;
   left: 250px;
-  margin-top: -25px;
 }
 
 .blog-icon {
@@ -954,6 +950,14 @@ span {
   padding: 0px, 12px, 0px, 12px;
 }
 
+.card {
+  /* width: 360px; */
+  height: 444px;
+  width: 100%;
+}
+.card img {
+  width: 100%;
+}
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
@@ -968,6 +972,7 @@ span {
     font-size: 56px;
     font-weight: 600;
     text-align: left;
+    text-wrap: nowrap;
   }
   .header-2 .Text-span {
     font-family: Fixel Text;
@@ -1056,7 +1061,7 @@ span {
     background-color: #ffffff;
     height: 360px;
   }
-  .hero-8Card img{
+  .hero-8Card img {
     width: 100%;
   }
   .discoverp h6 {
@@ -1136,6 +1141,7 @@ span {
     font-size: 48px;
     font-weight: 600;
     color: #fff;
+    text-wrap: nowrap;
   }
   .hero-7 span {
     font-family: Fixel Text;
@@ -1145,7 +1151,7 @@ span {
   }
   .hero-7 p {
     font-family: Fixel Text;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 400;
     color: #1d1d1b;
   }
@@ -1157,15 +1163,15 @@ span {
     padding: 9px 40px 4px 24px;
     gap: 16px;
     border-radius: 56px;
-    background-color: #1d1d1b;
+    background-color: ##fff;
     color: #ffffff;
+    font-size: 12px;
     height: 64px;
-    text-align: justify;
   }
   .arow {
     position: absolute;
-    left: 550px;
-    bottom: 100px;
+    right: 400px;
+    bottom: 140px;
     /* width: 161.92px; */
   }
   .aroww {
@@ -1314,6 +1320,7 @@ span {
     border-radius: 32px;
     border: 3px solid #f2eee9;
   }
+
   .card-2Cont h6 {
     font-family: fixel Text;
     margin-top: 3px;
@@ -1381,13 +1388,13 @@ span {
 
   .hero4-1 {
     height: 500px;
-    padding: 32px;
+    padding: 25px;
     border-radius: 40px;
     background-color: #ffffff;
   }
   .hero4-2 {
     height: 500px;
-    padding: 32px;
+    padding: 25px;
     border-radius: 40px;
     background-color: #ffffff;
   }
@@ -1395,30 +1402,31 @@ span {
     position: absolute;
     bottom: 0;
     left: 50px;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 430px;
   }
   .plat-img1 {
     position: absolute;
-    bottom: 25px;
+    bottom: 0;
     left: 60px;
-    width:75%;
-    height: 80%;
+    width: 85%;
+    height: 75%;
   }
   .hero-4 {
     margin-top: 20px;
     position: relative;
   }
-  .hero4-1, .hero4-2 {
+  .hero4-1 h5,
+  .hero4-2 h5 {
     font-family: Fixel Text;
-    font-size: 34px ;
+    font-size: 25px;
     font-weight: 600;
     color: #1d1d1b;
-    /* padding: 30px; */
   }
-  .hero4-span {
+  .hero4-1 span,
+  .hero4-2 span {
     font-family: Fixel Text;
-    font-size: 34px !important;
+    font-size: 25px;
     font-weight: 600;
     color: #fa8f42;
   }
@@ -1438,7 +1446,7 @@ span {
   .hero-5 h4,
   span {
     font-family: Fixel Text;
-    font-size: 48px;
+    font-size: 25px;
     font-weight: 600;
     color: #1d1d1b;
   }
@@ -1459,19 +1467,18 @@ span {
   }
 
   /*Blog*/
-  .blogRow1 p,
-  .Linkk p {
+  .blogRow1 p {
     font-family: Fixel Text;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
   }
 
   .Blog-header h3 {
-    font-size: 48px;
+    font-size: 35px;
   }
   .Blog-header span {
     color: #f1454f;
-    font-size: 48px;
+    font-size: 35px;
   }
   .blogSection {
     height: 560px;
@@ -1482,16 +1489,13 @@ span {
   }
   .blogSection h5 {
     color: #101828;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
   }
-  .blogRow h6,
-  .Linkk h6 {
+  .blogRow h6 {
     font-family: Fixel Text;
-    font-size: 24px;
+    font-size: 0px;
     font-weight: 600;
-    line-height: 21px;
-    text-align: left;
     color: #1d1d1b;
   }
   .blogRow pre,
@@ -1499,38 +1503,40 @@ span {
     font-family: Fixel Text;
     font-size: 14px;
     font-weight: 600;
-    line-height: 20px;
-    text-align: left;
     color: #6941c6;
   }
   .blogSection1 {
-    height: 1100px !important;
+    height: 1000px;
     padding: 48px !important;
-    gap: 32px;
     border-radius: 40px;
     background-color: #ffff;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .blogRow p,
   .Linkk p {
     font-family: Fixel Text;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
     color: #67655e;
   }
   .Linkk {
     text-decoration: none;
+    position: relative;
   }
   .Linkk h6 {
     font-family: Fixel Text;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
     color: #1d1d1b;
-    width: 320px;
+  }
+  .card {
+    /* width: 360px; */
+    height: 444px;
+    width: 360px;
+  }
+  .card img {
+    width: 360px;
   }
   .mobile-pagin {
     display: none;
@@ -1550,15 +1556,19 @@ span {
   }
   .cardfooter h2 {
     font-family: Fixel Text;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 52px;
-    text-align: left;
     color: #1d1d1b;
+  }
+  .cardfooter span {
+    font-family: Fixel Text;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f1454f;
   }
   .cardfooter p {
     font-family: Fixel Text;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
@@ -1614,16 +1624,36 @@ span {
   }
   .footerP {
     font-family: Fixel Text;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 18px;
-    text-align: left;
     color: #fff;
+    text-wrap: nowrap;
   }
+  .col-sm-6 p {
+    font-size: -1vw;
+    font-family: Fixel Text;
+    /* font-size: 16px; */
+    font-weight: 400;
+    margin-top: 10px;
+    /* text-wrap: nowrap; */
+  }
+  .col-sm-6 h6 {
+    font-family: Fixel Text;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  .col-sm-6 pre {
+    font-family: Fixel Text;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -20px;
+  }
+
   .blog-icon1 {
     position: absolute;
-    left: 350px;
-    margin-top: -60px;
+    left: 270px;
+    bottom: 105px;
   }
   .blog-icon {
     position: absolute;
@@ -1646,6 +1676,9 @@ span {
     /* width: 190.43px;
     height: 158.43px; */
   }
+  .footer {
+    margin-bottom: 15px;
+  }
   .cardfooter-arrow33 {
     position: relative;
     /* left: -30px; */
@@ -1665,7 +1698,7 @@ span {
   }
   .rrow1 {
     position: absolute;
-    left: 210px;
+    left: 170px;
     bottom: -25px;
   }
   .blogSection-arrow {
@@ -1737,12 +1770,14 @@ span {
   }
   .BlogCont-con h5 {
     font-family: Fixel Text;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #1d1d1b;
+    text-wrap: nowrap;
   }
   .blogCat-icon {
-    margin-left: 0;
+    position: absolute;
+    left: -50px;
   }
   .Icon-name {
     width: 24px;
@@ -1809,15 +1844,15 @@ span {
   .Slide-card {
     position: relative;
     top: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, #ff763c, #ffe5a4);
-    padding: 72px, 72px, 0px, 72px;
+    bottom: 10px;
+    /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
+    /* padding: 72px; */
     border-radius: 40px;
     margin: 24px;
   }
   .pic-slide {
     width: 70%;
-    margin-left: 65px;
+    /* margin-left: 65px; */
   }
   .blog {
     text-decoration: none;

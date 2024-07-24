@@ -106,7 +106,7 @@ const Home = () => {
                 Contact
               </Nav.Link>
             </Nav>
-            <Nav>
+            <Nav className="nav-btn">
               <button className="btn F-btn">
                 <Nav href="#donload" className="D-app">
                   Download the App

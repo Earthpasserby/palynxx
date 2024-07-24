@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 // import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { Link, NavLink} from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -37,8 +37,9 @@ const Home = () => {
     slidesToScroll: 1,
     initialSlide: 2,
     centerPadding: "30px",
-    nextArrow: null,
-    prevArrow: null,
+    arrows: false,
+    beforeChange: (current, next) => setActiveSlide(next),
+
     responsive: [
       {
         breakpoint: 1024,
@@ -64,6 +65,7 @@ const Home = () => {
       },
     ],
   };
+  const [activeSlide, setActiveSlide] = React.useState(0);
 
   const [expanded, setExpanded] = useState(false);
 
@@ -273,55 +275,47 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="hero-5">
-        <div className="d-flex justify-content-between">
-          <h4 className="">
-            Create, Contribute, Like & <span>Share</span>
-          </h4>
-          <div className="">
-            <span id="left" className="hero-5Icon" onClick={previous}>
-              <i class="bi bi-arrow-left-circle-fill Icon"></i>
-            </span>
-            <span id="right" className="hero-5Icon mx-4" onClick={next}>
-              <i class="bi bi-arrow-right-circle-fill"></i>
-            </span>
+      <Container fluid className="hero-5">
+        <Container>
+          <div className="d-flex justify-content-between">
+            <h4 className="">
+              Create, Contribute, Like & <span>Share</span>
+            </h4>
+            <div className="">
+              <span id="left" className="hero-5Icon" onClick={previous}>
+                <i class="bi bi-arrow-left-circle-fill Icon"></i>
+              </span>
+              <span id="right" className="hero-5Icon mx-4" onClick={next}>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </span>
+            </div>
           </div>
-        </div>
+        </Container>
         <Row>
           <div className="slider-container">
-            <Slider {...settings}>
-              <Col className="mx-4">
-                <div class="Slide-card">
-                  <img
-                    src="./tick.png"
-                    alt="Ticket-img"
-                    className="pic-slide"
-                  />
-                </div>
-              </Col>
-              <Col className="mx-4">
-                <div className="Slide-card">
-                  <img
-                    src="./Ticket.png"
-                    alt="barcode-img"
-                    className="pic-slide"
-                  />
-                </div>
-              </Col>
-              <Col className="mx-4">
-                <div className="Slide-card">
-                  <img src="./c33.png" alt="palynx-img" className="pic-slide" />
-                </div>
-              </Col>
-              <Col className="mx-4">
-                <div className="Slide-card">
-                  <img
-                    src="./filled.png"
-                    alt="palynx-product"
-                    className="pic-slide"
-                  />
-                </div>
-              </Col>
+            <Slider
+              ref={(slider) => {
+                sliderRef = slider;
+              }}
+              {...settings}
+            >
+              {["./tick.png", "./Ticket.png", "./c33.png", "./filled.png"].map(
+                (src, index) => (
+                  <Col className="mx-4" key={index}>
+                    <div
+                      className={`Slide-card ${
+                        activeSlide === index ? "active" : ""
+                      }`}
+                    >
+                      <img
+                        src={src}
+                        alt={`slide-${index}`}
+                        className="pic-slide"
+                      />
+                    </div>
+                  </Col>
+                )
+              )}
             </Slider>
           </div>
         </Row>

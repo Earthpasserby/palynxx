@@ -1716,7 +1716,7 @@ span {
   .blogRow p,
   .Linkk p {
     font-family: Fixel Text;
-    font-size: 1vw;
+    font-size: 16px;
     font-weight: 400;
     /* text-align: left; */
     color: #67655e;
@@ -2137,6 +2137,40 @@ span {
     font-size: 18px;
     line-height: 20px;
   }
+
+  .slider-container {
+    width: 80%;
+    margin: auto;
+  }
+  .slick-slide {
+    padding: 0 25px;
+  }
+
+  .pic-slide {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* margin-left: 65px; */
+  }
+  .Slide-card {
+    padding: 10px;
+    background-color: #e0e0e0; /* Default background color for non-active slides */
+    /* width: 444px; */
+    /* height: 569px; */
+    padding: 72px 72px 0px 72px;
+    gap: 8px;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+  }
+
+  .Slide-card.active {
+    background: linear-gradient(to top, #ffe5a4, #ff763c);
+    /* width: 444px; */
+    /* height: 569px; */
+    padding: 72px 72px 0px 72px;
+    gap: 8px;
+    border-radius: 40px;
+  }
 }
 .custom-sticky {
   position: -webkit-sticky; /* For Safari */
@@ -2151,40 +2185,4 @@ span {
 
 .navbar-nav .nav-link {
   color: #1d1d1b; /* Example: Black color for non-active links */
-}
-
-.slider-container {
-  width: 80%;
-  margin: auto;
-}
-.slick-slide {
-  padding: 0 15px;
-}
-.Slide-card {
-  position: relative;
-  top: 0;
-  bottom: 10px;
-  /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
-  /* padding: 72px; */
-  border-radius: 40px;
-  margin: 24px;
-}
-.pic-slide {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  /* margin-left: 65px; */
-}
-
-.slick-active .slide-card {
-  background: #f00 !important; /* Background color for active slide */
-  transition: background-color 0.3s ease; /* Smooth transition */
-}
-
-.slide-card {
-  background: blue; /* Default card background color */
-  border-radius: 10px; /* Border radius */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
-  padding: 10px; /* Padding inside the card */
-  text-align: center; /* Center content */
 }

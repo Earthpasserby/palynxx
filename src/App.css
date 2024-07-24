@@ -1112,14 +1112,14 @@ span {
     font-weight: 600;
     text-align: left;
     text-wrap: nowrap;
-    line-height: 84px;
+    line-height:70px;
   }
   .header-2 .Text-span {
     font-family: Fixel Text;
     font-size: 56px;
     font-weight: 600;
     text-align: left;
-    line-height: 84px;
+    line-height: 70px;
     color: #fa8f42;
   }
   .header-2 p {

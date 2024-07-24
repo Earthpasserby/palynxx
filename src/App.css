@@ -426,12 +426,25 @@ body {
 }
 
 .hero-5Icon:active {
-  background-color: #000;
+  background-color: #1d1d1b;
   color: #fff;
 }
-
 .hero-5Icon:focus {
-  background-color: #000;
+  background-color: #1d1d1b;
+  color: #fff;
+}
+.Arrow-left:active,
+.Right-left:active {
+  color: #fff;
+  font-size: 20px;
+}
+.Arrow-left:focus,
+.Right-left:focus {
+  color: #fff;
+  font-size: 20px;
+}
+.hero-5Icon:focus {
+  background-color: #1d1d1b;
   color: #fff;
 }
 
@@ -1037,7 +1050,28 @@ body {
     line-height: 24px;
     color: #667085;
   }
-
+  .hero-5Icon:active {
+    background-color: #1d1d1b;
+    color: #fff;
+  }
+  .hero-5Icon:focus {
+    background-color: #1d1d1b;
+    color: #fff;
+  }
+  .Arrow-left:active,
+  .Right-left:active {
+    color: #fff;
+    font-size: 20px;
+  }
+  .Arrow-left:focus,
+  .Right-left:focus {
+    color: #fff;
+    font-size: 20px;
+  }
+  .hero-5Icon:focus {
+    background-color: #1d1d1b;
+    color: #fff;
+  }
   /*Home*/
   .make {
     font-family: fixel Text;
@@ -1451,7 +1485,9 @@ body {
     top: -35px;
     right: 0;
   }
-
+  .hero-5Button {
+    margin-top: 20px;
+  }
   .btn-img {
     height: 56px;
     padding: 4px 32px 4px 32px;
@@ -1534,7 +1570,6 @@ body {
     border-radius: 32px;
     border: 3px solid #f2eee9;
   }
-
   .card-2Cont h6 {
     font-family: fixel Text;
     margin-top: 3px;
@@ -1556,7 +1591,6 @@ body {
   .Btn-3 img {
     width: 100%;
   }
-
   .hero-3 h4 {
     font-family: Fixel Text;
     font-size: 48px;
@@ -1678,13 +1712,23 @@ body {
     color: #1d1d1b;
     font-size: 20px;
   }
+  .hero-5Icon i {
+  transition: color 0.3s ease;
+}
+
+.hero-5Icon.active i {
+  color: #fff; /* Icon color when active */
+}
   .hero-5Icon {
-    margin-top: 10px;
+    /* padding-top: 100px; */
     width: 50px;
     height: 50px;
     border-radius: 56px;
     padding: 16px;
     border: 1px solid #e7e1db;
+    background-color: transparent;
+    cursor: pointer;
+    transition:  0.3s ease, color 0.3s ease;
   }
   .foter h6 {
     font-size: 12px;

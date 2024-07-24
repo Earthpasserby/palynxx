@@ -285,7 +285,7 @@ const Home = () => {
                 <h4 className="">
                   Create, Contribute, Like & <span className="hero-5Share">Share</span>
                 </h4>
-                <div className="">
+                <div className="hero-5Button">
                   <span id="left" className="hero-5Icon" onClick={previous}>
                     <i class="bi bi-arrow-left Arrow-left"></i>
                   </span>

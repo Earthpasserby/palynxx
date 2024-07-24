@@ -93,7 +93,7 @@ const Blogcategory = () => {
                 </div>
               </Col>
               <Col md={6} xs={12}>
-                <div className="blogCat-icon w-100 h-100 d-flex justify-content-end">
+                <div className="blogCat-icon w-100 d-flex justify-content-end">
                   <button className="btn btn-icon3">
                     <BsInstagram className="Icon-name" />
                   </button>
@@ -257,92 +257,74 @@ const Blogcategory = () => {
           </Container>
         </Row>
       </Container>
-      <Container className="blogSection">
+      <Container className="blogSection mt-5">
         <Container>
           <div className="blogSection-arrow">
             <img src="./arrow.png" alt="palynx-img" className="rrow1" />
           </div>
           <h5>Recent Blog Posts</h5>
         </Container>
-        <Row className="">
-          <Col md={6} xs={12} className="blogRow">
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="./party.png" className="img-fluid" />
+        <Row className="mt-4">
+          <div class="col-md-5 Blog-post">
+            <Link to="/Blogcategory" className="blog">
+              <div>
+                <img src="./party.png" class="img-fluid w-100" />
+              </div>
+            </Link>
+            <pre className="">02/05/2024 . 12 min read</pre>
 
-              <Card.Text>
-                <pre className="mt-3">02/05/2024 . 12 min read</pre>
+            <h6 className="">Top 10 Hidden Gems in Your City</h6>
+            <div>
+              <GoArrowUpRight className="blog-icon" />
+            </div>
+            <p className=" Blog-col">
+              Discover the lesser-known spots in your city that are waiting to
+              be explored. From cozy cafes to secret parks, uncover places that
+              only locals know about.
+            </p>
+          </div>
 
-                <h6 className="">Top 10 Hidden Gems in Your City</h6>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-sm-6">
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./pitch.png" class="img-fluid w-100" />
+                </Link>
+              </div>
+              <div class="col-sm-6">
                 <div>
-                  <GoArrowUpRight className="blog-icon" />
+                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
+
+                  <h6 class="h6-tag">
+                    How to Meet Like-Minded People: Tips and Tricks
+                  </h6>
+                  <p class="p-tag2">
+                    Building meaningful connections is easier than you think.
+                    Learn how to find and connect with individuals who share
+                    your interests and passions
+                  </p>
                 </div>
-                <p className=" Blog-col">
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafes to secret parks, uncover
-                  places that only locals know about.
-                </p>
-              </Card.Text>
-            </Card>
-          </Col>
-          <Col md={6} xs={12}>
-            <Row>
-              <Col md={6} xs={12} className="blogRow">
-                <Card
-                  className="border border-0 d"
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Img src="./pitch.png" className="img-fluid " />
-                </Card>
-              </Col>
-              <Col md={6} xs={12} className="blogRow1">
-                <Card
-                  className="border border-0 d-flex"
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Text>
-                    <pre className="preM mt-3">02/05/2024 . 12 min read</pre>
-
-                    <h6>Top 10 Hidden Gems in Your City</h6>
-                    <p>
-                      Discover the lesser-known spots in your city that are
-                      waiting to be explored. From cozy cafes to secret parks,
-                      uncover places that only locals know about.
-                    </p>
-                  </Card.Text>
-                </Card>
-              </Col>
-            </Row>
-            <Row className="">
-              <Col md={6} xs={12}>
-                <Card
-                  className="border border-0 d-flex"
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Img src="./diary.png" className="img-fluid " />
-                </Card>
-              </Col>
-              <Col md={6} xs={12} className="blogRow1">
-                <Card
-                  className="border border-0 d-flex "
-                  style={{ background: "transparent" }}
-                >
-                  <Card.Text>
-                    <pre className="preM mt-2">02/05/2024 . 12 min read</pre>
-
-                    <h6>Top 10 Hidden Gems in Your City</h6>
-                    <p>
-                      Discover the lesser-known spots in your city that are
-                      waiting to be explored. From cozy cafes to secret parks,
-                      uncover places that only locals know about.
-                    </p>
-                  </Card.Text>
-                </Card>
-              </Col>
-            </Row>
-          </Col>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-6">
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./diary.png" className="img-fluid w-100" />
+                </Link>
+              </div>
+              <div class="col-sm-6">
+                <div>
+                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
+                  <h6 class="h6-tag">Top 10 Hidden Gems in Your City</h6>
+                  <p class="p-tag3">
+                    Discover the lesser-known spots in your city that are
+                    waiting to be explored. From cozy cafes to secret parks,
+                    uncover places that only locals know about.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </Row>
       </Container>
       <Container>
@@ -419,17 +401,17 @@ const Blogcategory = () => {
           </Container>
         </Row>
       </Container>
-      <Container fluid className="footer">
-        <Container className="">
-          <Row class="g-5">
-            <Col md={3} xs={12} className="footerP">
+      <Container fluid>
+        <Container fluid className="footer">
+          <div class="row">
+            <div class=" col-sm-3 footerP">
               <img
                 src="./palynxwlogo.png"
                 alt="logo"
                 className="logo-img b-ff"
               />
-              <p className="text-white">Discover, Connect, Plan</p>
-              <div className="icon d-flex">
+              <p className="">Discover, Connect, Plan</p>
+              <div className="d-flex">
                 <button className="btn btn-icon2">
                   <BiLogoLinkedin />
                 </button>
@@ -443,8 +425,8 @@ const Blogcategory = () => {
                   <FaXTwitter />
                 </button>
               </div>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">About us</a>
               </p>
@@ -457,29 +439,26 @@ const Blogcategory = () => {
               <p>
                 <a href="#">Contact</a>
               </p>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">Terms of Service</a>
               </p>
               <p>
                 <a href="#">Privacy Policy</a>
               </p>
-            </Col>
-            <Col md={3} xs={12} className="footerP">
+            </div>
+            <div class="col-sm-3 footerp">
               <p>
                 <a href="#">Download App</a>
               </p>
-              <button className="btn btn-1 download-btn2 d-flex">
-                <img
-                  src="./bapple.png"
-                  alt="palynx-img"
-                  className="img-fluid apple1"
-                />
+              <button className="btn btn-1 download-btn3 d-flex">
+                <i class="bi bi-apple apple3"></i>
                 Download on the App Store
               </button>
-            </Col>
-          </Row>
+              <div className="PalynxT"></div>
+            </div>
+          </div>
           <div className="d-flex justify-content-center foter">
             <h6>All rights reserved Palynx © 2024</h6>
           </div>

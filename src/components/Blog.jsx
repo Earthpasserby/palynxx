@@ -73,27 +73,31 @@ const Blog = () => {
           <h5>Recent Blog Posts</h5>
         </Container>
         <Row className="mt-4">
-          <div class="col-md-5">
-            <div>
-              <img src="./party.png" class="img-fluid w-100" />
-              <p className="">02/05/2024 . 12 min read</p>
-
-              <h6 className="">Top 10 Hidden Gems in Your City</h6>
+          <div class="col-md-5 Blog-post">
+            <Link to="/Blogcategory" className="blog">
               <div>
-                <GoArrowUpRight className="blog-icon" />
+                <img src="./party.png" class="img-fluid w-100" />
               </div>
-              <p className=" Blog-col">
-                Discover the lesser-known spots in your city that are waiting to
-                be explored. From cozy cafes to secret parks, uncover places
-                that only locals know about.
-              </p>
+            </Link>
+            <pre className="">02/05/2024 . 12 min read</pre>
+
+            <h6 className="">Top 10 Hidden Gems in Your City</h6>
+            <div>
+              <GoArrowUpRight className="blog-icon" />
             </div>
+            <p className=" Blog-col">
+              Discover the lesser-known spots in your city that are waiting to
+              be explored. From cozy cafes to secret parks, uncover places that
+              only locals know about.
+            </p>
           </div>
 
           <div class="col-md-7">
             <div class="row">
               <div class="col-sm-6">
-                <img src="./pitch.png" class="img-fluid w-100" />
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./pitch.png" class="img-fluid w-100" />
+                </Link>
               </div>
               <div class="col-sm-6">
                 <div>
@@ -112,11 +116,13 @@ const Blog = () => {
             </div>
             <div class="row mt-4">
               <div class="col-sm-6">
-                <img src="./diary.png" className="img-fluid w-100" />
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./diary.png" className="img-fluid w-100" />
+                </Link>
               </div>
               <div class="col-sm-6">
                 <div>
-                  <p class="pre-tag">02/05/2024 . 12 min read</p>
+                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
                   <h6 class="h6-tag">Top 10 Hidden Gems in Your City</h6>
                   <p class="p-tag3">
                     Discover the lesser-known spots in your city that are
@@ -135,8 +141,9 @@ const Blog = () => {
           <Col md={4} xs={12} className="Linkk">
             <div className="">
               <div className="Btn-3">
-                <img src="./party.png" className="img-fluid blog-img" />
-
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
@@ -155,8 +162,9 @@ const Blog = () => {
           <Col md={4} xs={12} className="Linkk">
             <div className="">
               <div className="Btn-3">
-                <img src="./party.png" className="img-fluid blog-img" />
-
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
@@ -175,8 +183,9 @@ const Blog = () => {
           <Col md={4} xs={12} className="Linkk">
             <div className="">
               <div className="Btn-3">
-                <img src="./party.png" className="img-fluid blog-img" />
-
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
@@ -197,8 +206,9 @@ const Blog = () => {
           <Col md={4} xs={12} className="Linkk">
             <div className="">
               <div className="Btn-3">
-                <img src="./party.png" className="img-fluid blog-img" />
-
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
@@ -217,8 +227,9 @@ const Blog = () => {
           <Col md={4} xs={12} className="Linkk">
             <div className="">
               <div className="Btn-3">
-                <img src="./party.png" className="img-fluid blog-img" />
-
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
@@ -237,8 +248,9 @@ const Blog = () => {
           <Col md={4} xs={12} className="Linkk">
             <div className="">
               <div className="Btn-3">
-                <img src="./party.png" className="img-fluid blog-img" />
-
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
@@ -432,7 +444,7 @@ const Blog = () => {
                 alt="logo"
                 className="logo-img b-ff"
               />
-              <p className="text-white">Discover, Connect, Plan</p>
+              <p className="">Discover, Connect, Plan</p>
               <div className="d-flex">
                 <button className="btn btn-icon2">
                   <BiLogoLinkedin />
@@ -474,14 +486,11 @@ const Blog = () => {
               <p>
                 <a href="#">Download App</a>
               </p>
-              <button className="btn btn-1 download-btn2 d-flex">
-                <img
-                  src="./bapple.png"
-                  alt="palynx-img"
-                  className="img-fluid apple1"
-                />
+              <button className="btn btn-1 download-btn3 d-flex">
+                <i class="bi bi-apple apple3"></i>
                 Download on the App Store
               </button>
+              <div className="PalynxT"></div>
             </div>
           </div>
           <div className="d-flex justify-content-center foter">

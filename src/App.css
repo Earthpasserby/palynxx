@@ -458,8 +458,7 @@ span {
 .nav-btn {
   margin-top: -9px;
 }
-.F-btn,
-.F-btn:hover {
+.F-btn {
   width: 187px;
   height: 48px;
   padding: 4px 24px 4px 24px;
@@ -468,7 +467,8 @@ span {
   background-color: #1d1d1b;
   color: #f8f8f8;
 }
-.D-app,
+
+.F-btn:hover .D-app,
 .D-app:hover {
   color: #f8f8f8;
 }
@@ -971,7 +971,7 @@ span {
 .card img {
   width: 100%;
 }
-  
+
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
@@ -1029,6 +1029,27 @@ span {
   .PalynxT {
     padding-top: 36px;
   }
+  .F-btn {
+    width: 187px;
+    height: 48px;
+    padding: 4px 24px 4px 24px;
+    margin-top: 8px;
+    border-radius: 56px;
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+ .F-btn:active{
+     background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+   .F-btn:focus{
+     background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+  .F-btn:hover{
+     background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
   .download-btn {
     padding: 14px 40px 4px 24px;
     gap: 16px;
@@ -1040,6 +1061,18 @@ span {
     /* text-align: justify; */
     font-size: 12px;
     font-family: fixel Text;
+  }
+  .download-btn:hover {
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+  .download-btn:active {
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+  .download-btn:focus {
+    background-color: #1d1d1b;
+    color: #f8f8f8;
   }
   .download-btn3 {
     padding: 2px 32px 4px 16px;
@@ -1054,6 +1087,18 @@ span {
     font-size: 14px;
     font-weight: 500;
     font-family: fixel Text;
+  }
+  .download-btn3:hover {
+    background-color: #ffffff;
+    color: #1d1d1b;
+  }
+  .download-btn3:active {
+    background-color: #ffffff;
+    color: #1d1d1b;
+  }
+  .download-btn3:focus {
+    background-color: #ffffff;
+    color: #1d1d1b;
   }
 
   .apple3 {
@@ -1397,6 +1442,18 @@ span {
     padding: 4px 32px 4px 32px;
     gap: 8px;
     border-radius: 56px;
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+  .btn-img:active{
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+    .btn-img:focus{
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+  }
+    .btn-img:hover{
     background-color: #1d1d1b;
     color: #f8f8f8;
   }

@@ -2090,6 +2090,7 @@ span {
   .accordionItem {
     margin-bottom: 2rem; /* Adjust the value as needed for spacing */
     border-radius: 0.5rem;
+    overflow: hidden;
   }
 
   .accordionHeader {
@@ -2101,6 +2102,7 @@ span {
     cursor: pointer;
     padding: 1.5em 1em; /* Optional: Adjust padding */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
+    overflow: hidden;
   }
 
   .accordionToggleIcon {

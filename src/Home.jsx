@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 // import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -78,54 +78,44 @@ const Home = () => {
 
   return (
     <>
-      <Container fluid>
-        <Navbar
-          collapseOnSelect
-          sticky="top"
-          expand="lg"
-          className="Navbar"
-        >
-          <Container className="nbar">
-            <Navbar.Brand href="#home">
-              <img src="./palynx-logo.png" alt="logo" className="logo-img" />
-            </Navbar.Brand>
-            <Navbar.Toggle
-              aria-controls="responsive-navbar-nav"
-              className="border border-0 Nav-Toggle"
-              onClick={() => setExpanded(expanded ? false : "expanded")}
-            >
-              <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
-            </Navbar.Toggle>
-            <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
-              <Nav className="me-auto">
-                <Link to="/" className="homepage">
-                  <Nav.Link href="#home" className="">
-                    Home
-                  </Nav.Link>
-                </Link>
-                <Link to="/Blog" className="blog">
-                  <Nav.Link href="#blog" className="">
-                    Blog
-                  </Nav.Link>
-                </Link>
-                <Nav.Link href="#faqs" className="">
-                  FAQs
-                </Nav.Link>
-                <Nav.Link href="#contact" className="">
-                  Contact
-                </Nav.Link>
-              </Nav>
-              <Nav>
-                <button className="btn F-btn">
-                  <Nav href="#donload" className="D-app">
-                    Download the App
-                  </Nav>
-                </button>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      </Container>
+      <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
+        <Container className="nbar">
+          <Navbar.Brand href="#home">
+            <img src="./palynx-logo.png" alt="logo" className="logo-img" />
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            className="border border-0 Nav-Toggle"
+            onClick={() => setExpanded(expanded ? false : "expanded")}
+          >
+            <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
+            <Nav className="me-auto">
+              <Nav.Link as={NavLink} to="/" className="">
+                Home
+              </Nav.Link>
+
+              <Nav.Link as={NavLink} to="/Blog" className="">
+                Blog
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/aqs" className="">
+                FAQS
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/faqs" className="">
+                Contact
+              </Nav.Link>
+            </Nav>
+            <Nav>
+              <button className="btn F-btn">
+                <Nav href="#donload" className="D-app">
+                  Download the App
+                </Nav>
+              </button>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
       <Container className="hero ">
         <Row className="">
@@ -299,9 +289,7 @@ const Home = () => {
         </div>
         <Row>
           <div className="slider-container">
-            <Slider
-              {...settings}
-            >
+            <Slider {...settings}>
               <Col className="mx-4">
                 <div class="Slide-card">
                   <img

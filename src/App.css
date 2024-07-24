@@ -2078,6 +2078,22 @@ span {
     font-size: 18px;
     line-height: 20px;
   }
+  
+}
+.custom-sticky{
+   position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Make sure it's above other content */
+}
+
+.navbar-nav .nav-link.active {
+  color: #fa8f42; /* Example: White color for active links */
+ 
+}
+
+.navbar-nav .nav-link {
+  color: #1d1d1b; /* Example: Black color for non-active links */
 }
 
  .slider-container{

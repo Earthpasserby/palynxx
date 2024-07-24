@@ -2010,19 +2010,7 @@ span {
   .Avatar-up pre{
     margin-top: -15px;
   }
-  .Slide-card {
-    position: relative;
-    top: 0;
-    bottom: 10px;
-    /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
-    /* padding: 72px; */
-    border-radius: 40px;
-    margin: 24px;
-  }
-  .pic-slide {
-    width: 70%;
-    /* margin-left: 65px; */
-  }
+ 
   .blog {
     text-decoration: none;
   }
@@ -2090,4 +2078,40 @@ span {
     font-size: 18px;
     line-height: 20px;
   }
+}
+
+ .slider-container{
+    width: 80%;
+    margin: auto;
+  }
+  .slick-slide{
+    padding: 0 15px;
+  }
+  .Slide-card {
+    position: relative;
+    top: 0;
+    bottom: 10px;
+    /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
+    /* padding: 72px; */
+    border-radius: 40px;
+    margin: 24px;
+  }
+  .pic-slide {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* margin-left: 65px; */
+  }
+
+  .slick-active .slide-card {
+  background: #f00 !important; /* Background color for active slide */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.slide-card {
+  background: blue; /* Default card background color */
+  border-radius: 10px; /* Border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+  padding: 10px; /* Padding inside the card */
+  text-align: center; /* Center content */
 }

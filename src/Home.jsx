@@ -36,8 +36,9 @@ const Home = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 2,
-    centerPadding: "30px", // Space between slides
-
+    centerPadding: "30px",
+    nextArrow: null,
+    prevArrow: null,
     responsive: [
       {
         breakpoint: 1024,
@@ -82,7 +83,6 @@ const Home = () => {
           collapseOnSelect
           sticky="top"
           expand="lg"
-          sticky="top"
           className="Navbar"
         >
           <Container className="nbar">
@@ -300,9 +300,6 @@ const Home = () => {
         <Row>
           <div className="slider-container">
             <Slider
-              ref={(slider) => {
-                sliderRef = slider;
-              }}
               {...settings}
             >
               <Col className="mx-4">

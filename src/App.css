@@ -17,17 +17,17 @@ body {
   font-size: 24px;
   font-weight: 600;
   /* line-height: 84px; */
-  text-align: left;
+  /* text-align: left; */
 }
 .header-2 {
   margin-top: 20px;
 }
-.header-2 .Text-span {
+.header-2 span {
   font-family: Fixel Text;
   font-size: 24px;
   font-weight: 600;
   /* line-height: 84px; */
-  text-align: left;
+  /* text-align: left; */
   color: #fa8f42;
 }
 .make {
@@ -405,8 +405,7 @@ body {
 .hero-8 {
   margin-top: 20px;
 }
-.hero-5 h4,
-span {
+.hero-5 h4 {
   font-family: Fixel Text;
   font-size: 16px;
   font-weight: 600;
@@ -416,9 +415,26 @@ span {
   color: #f1454f;
 }
 .hero-5Icon {
-  color: #1d1d1b !important;
-  font-size: 15px;
+  color: #1d1d1b;
+  /* font-size: 10px; */
+  width: 56px;
+  height: 56px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 56px;
+  border: 1px solid #e7e1db;
 }
+
+.hero-5Icon:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-5Icon:focus {
+  background-color: #000;
+  color: #fff;
+}
+
 .Blog-form {
   margin-left: -20px;
 }
@@ -1112,14 +1128,13 @@ span {
     font-weight: 600;
     text-align: left;
     text-wrap: nowrap;
-    line-height: 70px;
+    line-height: 84px;
   }
   .header-2 .Text-span {
     font-family: Fixel Text;
     font-size: 56px;
     font-weight: 600;
-    text-align: left;
-    line-height: 70px;
+    line-height: 84px;
     color: #fa8f42;
   }
   .header-2 p {
@@ -1406,7 +1421,7 @@ span {
     margin-top: 0;
   }
   .hero-6 {
-    margin-top: 100px;
+    margin-top: 200px;
     position: relative;
   }
   .section1 {
@@ -1643,20 +1658,33 @@ span {
   }
   .hero-5 {
     margin-top: 100px;
+    width: 100%;
   }
   .hero-5 h4,
-  span {
+  .hero-5Share {
     font-family: Fixel Text;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 600;
     color: #1d1d1b;
+    line-height: 62.8px;
+    text-align: center;
   }
-  .hero-5 span {
+  .hero-5Share {
     color: #f1454f;
   }
+
+  .Arrow-left,
+  .Right-left {
+    color: #1d1d1b;
+    font-size: 20px;
+  }
   .hero-5Icon {
-    color: #1d1d1b !important;
-    font-size: 48px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 56px;
+    padding: 16px;
+    border: 1px solid #e7e1db;
   }
   .foter h6 {
     font-size: 12px;
@@ -1888,7 +1916,7 @@ span {
   }
   .arrow2 {
     position: absolute;
-    left: 250px;
+    left: 270px;
     top: -20px;
   }
   .cardfooter-arrow2 {
@@ -2154,7 +2182,7 @@ span {
   }
   .Slide-card {
     padding: 10px;
-    background-color: #e0e0e0; /* Default background color for non-active slides */
+    background-color: #ffff; /* Default background color for non-active slides */
     /* width: 444px; */
     /* height: 569px; */
     padding: 72px 72px 0px 72px;

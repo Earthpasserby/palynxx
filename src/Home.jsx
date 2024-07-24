@@ -34,9 +34,9 @@ const Home = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     initialSlide: 2,
-    centerPadding: "30px",
+    centerPadding: "130px",
     arrows: false,
     beforeChange: (current, next) => setActiveSlide(next),
 
@@ -122,15 +122,17 @@ const Home = () => {
       <Container className="hero ">
         <Row className="">
           <Col xs={12} md={8} className="header-2">
-            <div className="Heroo"></div>
-            <h2>
-              <span className="Text-span">Discover</span> Your City and Make
-              <img
-                src="./arrow.png"
-                alt="palynx-img"
-                className="header-arrow"
-              />
-            </h2>
+            <div className="Heroo">
+              <h2>
+                <span className="Text-span"> Discover </span>Your City and Make
+                <img
+                  src="./arrow.png"
+                  alt="palynx-img"
+                  className="header-arrow"
+                />
+              </h2>
+            </div>
+
             <h2>New Friends with Ease</h2>
             <p>
               Connect with people with like minds, similar interests, <br />{" "}
@@ -276,31 +278,38 @@ const Home = () => {
         </Row>
       </Container>
       <Container fluid className="hero-5">
-        <Container>
-          <div className="d-flex justify-content-between">
-            <h4 className="">
-              Create, Contribute, Like & <span>Share</span>
-            </h4>
-            <div className="">
-              <span id="left" className="hero-5Icon" onClick={previous}>
-                <i class="bi bi-arrow-left-circle-fill Icon"></i>
-              </span>
-              <span id="right" className="hero-5Icon mx-4" onClick={next}>
-                <i class="bi bi-arrow-right-circle-fill"></i>
-              </span>
-            </div>
-          </div>
-        </Container>
-        <Row>
-          <div className="slider-container">
-            <Slider
-              ref={(slider) => {
-                sliderRef = slider;
-              }}
-              {...settings}
-            >
-              {["./tick.png", "./Ticket.png", "./c33.png", "./filled.png"].map(
-                (src, index) => (
+        <Container fluid>
+          <Container>
+            <Row>
+              <div className="d-flex justify-content-between">
+                <h4 className="">
+                  Create, Contribute, Like & <span className="hero-5Share">Share</span>
+                </h4>
+                <div className="">
+                  <span id="left" className="hero-5Icon" onClick={previous}>
+                    <i class="bi bi-arrow-left Arrow-left"></i>
+                  </span>
+                  <span id="right" className="hero-5Icon mx-4" onClick={next}>
+                    <i class="bi bi-arrow-right Right-left"></i>
+                  </span>
+                </div>
+              </div>
+            </Row>
+          </Container>
+          <Row className="mt-4">
+            <div className="slider-container">
+              <Slider
+                ref={(slider) => {
+                  sliderRef = slider;
+                }}
+                {...settings}
+              >
+                {[
+                  "./tick.png",
+                  "./Ticket.png",
+                  "./c33.png",
+                  "./filled.png",
+                ].map((src, index) => (
                   <Col className="mx-4" key={index}>
                     <div
                       className={`Slide-card ${
@@ -314,11 +323,11 @@ const Home = () => {
                       />
                     </div>
                   </Col>
-                )
-              )}
-            </Slider>
-          </div>
-        </Row>
+                ))}
+              </Slider>
+            </div>
+          </Row>
+        </Container>
       </Container>
       <Container className="hero-6">
         <Row className="">

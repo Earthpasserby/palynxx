@@ -1022,6 +1022,26 @@ span {
     font-size: 12px;
     font-family: fixel Text;
   }
+   .download-btn3 {
+    padding: 4px 32px 4px 16px;
+    gap: 5px;
+    border-radius: 56px;
+    background-color: #ffffff;
+    color: #1d1d1b;
+    width: 205px;
+    height:48px ;
+    text-align: justify;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: fixel Text;
+  }
+  
+  .apple3{
+    font-size: 28px;
+    height: 24px;
+    margin-top: -3px;
+  }
   .header-2 h2 {
     font-family: Fixel Text;
     font-size: 56px;
@@ -1723,7 +1743,9 @@ span {
     border-radius: 50px;
   }
   .footer p a {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
     color: #fff;
     text-decoration: none;
   }
@@ -1733,10 +1755,14 @@ span {
   }
   .footerP {
     font-family: Fixel Text;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
+    line-height: 32px;
     color: #fff;
     text-wrap: nowrap;
+  }
+  .b-ff{
+    margin-bottom: 20px;
   }
   .col-sm-6 p {
     font-size: -1vw;

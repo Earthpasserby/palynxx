@@ -713,7 +713,7 @@ const Home = () => {
                 alt="logo"
                 className="logo-img b-ff"
               />
-              <p className="text-white">Discover, Connect, Plan</p>
+              <p className="">Discover, Connect, Plan</p>
               <div className="d-flex">
                 <button className="btn btn-icon2">
                   <BiLogoLinkedin />
@@ -755,14 +755,11 @@ const Home = () => {
               <p>
                 <a href="#">Download App</a>
               </p>
-              <button className="btn btn-1 download-btn2 d-flex">
-                <img
-                  src="./bapple.png"
-                  alt="palynx-img"
-                  className="img-fluid apple1"
-                />
+              <button className="btn btn-1 download-btn3 d-flex">
+                <i class="bi bi-apple apple3"></i>
                 Download on the App Store
               </button>
+              <div className="PalynxT"></div>
             </div>
           </div>
           <div className="d-flex justify-content-center foter">

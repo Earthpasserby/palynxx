@@ -1038,16 +1038,16 @@ span {
     background-color: #1d1d1b;
     color: #f8f8f8;
   }
- .F-btn:active{
-     background-color: #1d1d1b;
+  .F-btn:active {
+    background-color: #1d1d1b;
     color: #f8f8f8;
   }
-   .F-btn:focus{
-     background-color: #1d1d1b;
+  .F-btn:focus {
+    background-color: #1d1d1b;
     color: #f8f8f8;
   }
-  .F-btn:hover{
-     background-color: #1d1d1b;
+  .F-btn:hover {
+    background-color: #1d1d1b;
     color: #f8f8f8;
   }
   .download-btn {
@@ -1112,7 +1112,7 @@ span {
     font-weight: 600;
     text-align: left;
     text-wrap: nowrap;
-    line-height:70px;
+    line-height: 70px;
   }
   .header-2 .Text-span {
     font-family: Fixel Text;
@@ -1445,15 +1445,15 @@ span {
     background-color: #1d1d1b;
     color: #f8f8f8;
   }
-  .btn-img:active{
+  .btn-img:active {
     background-color: #1d1d1b;
     color: #f8f8f8;
   }
-    .btn-img:focus{
+  .btn-img:focus {
     background-color: #1d1d1b;
     color: #f8f8f8;
   }
-    .btn-img:hover{
+  .btn-img:hover {
     background-color: #1d1d1b;
     color: #f8f8f8;
   }
@@ -2093,17 +2093,14 @@ span {
   }
 
   .accordionHeader {
-    border: none;
     color: #000; /* Optional: Set text color */
     display: flex;
-    border-radius: 20px;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     cursor: pointer;
     padding: 1.5em 1em; /* Optional: Adjust padding */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
-    border-radius: 0.5em; /* Add border-radius */
   }
 
   .accordionToggleIcon {
@@ -2118,8 +2115,7 @@ span {
 
   .accordionItem .accordion-button:not(.collapsed) .accordionHeader {
     background-color: white;
-    border-bottom-left-radius: 0; /* Remove bottom-left radius */
-    border-bottom-right-radius: 0; /* Remove bottom-right radius */
+    border-radius: 10.5rem;
   }
 
   .accordionItem .accordion-collapse {
@@ -2128,8 +2124,8 @@ span {
 
   .accordionBody {
     background-color: white;
-    border-radius: 0.5em; /* Add border-radius to body */
     overflow: hidden;
+    padding: -20px;
   }
   .accordion-item {
     background-color: transparent;

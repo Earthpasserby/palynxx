@@ -400,65 +400,67 @@ const Blogcategory = () => {
       </Container>
       <Container fluid>
         <Container fluid className="footer">
-          <div class="row">
-            <div class=" col-sm-3 footerP">
-              <img
-                src="./palynxwlogo.png"
-                alt="logo"
-                className="logo-img b-ff"
-              />
-              <p className="">Discover, Connect, Plan</p>
-              <div className="d-flex">
-                <button className="btn btn-icon2">
-                  <BiLogoLinkedin />
+          <Container>
+            <div class="row">
+              <div class=" col-sm-3 footerP">
+                <img
+                  src="./palynxwlogo.png"
+                  alt="logo"
+                  className="logo-img b-ff"
+                />
+                <p className="">Discover, Connect, Plan</p>
+                <div className="d-flex">
+                  <button className="btn btn-icon2">
+                    <BiLogoLinkedin />
+                  </button>
+                  <button className="btn btn-icon2">
+                    <BsInstagram />
+                  </button>
+                  <button className="btn btn-icon2">
+                    <FaFacebookF />
+                  </button>
+                  <button className="btn btn-icon2">
+                    <FaXTwitter />
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-3 footerp">
+                <p>
+                  <a href="#">About us</a>
+                </p>
+                <p>
+                  <a href="#">Blog</a>
+                </p>
+                <p>
+                  <a href="#">FAQs</a>
+                </p>
+                <p>
+                  <a href="#">Contact</a>
+                </p>
+              </div>
+              <div class="col-sm-3 footerp">
+                <p>
+                  <a href="#">Terms of Service</a>
+                </p>
+                <p>
+                  <a href="#">Privacy Policy</a>
+                </p>
+              </div>
+              <div class="col-sm-3 footerp">
+                <p>
+                  <a href="#">Download App</a>
+                </p>
+                <button className="btn btn-1 download-btn3 d-flex">
+                  <i class="bi bi-apple apple3"></i>
+                  Download on the App Store
                 </button>
-                <button className="btn btn-icon2">
-                  <BsInstagram />
-                </button>
-                <button className="btn btn-icon2">
-                  <FaFacebookF />
-                </button>
-                <button className="btn btn-icon2">
-                  <FaXTwitter />
-                </button>
+                <div className="PalynxT"></div>
               </div>
             </div>
-            <div class="col-sm-3 footerp">
-              <p>
-                <a href="#">About us</a>
-              </p>
-              <p>
-                <a href="#">Blog</a>
-              </p>
-              <p>
-                <a href="#">FAQs</a>
-              </p>
-              <p>
-                <a href="#">Contact</a>
-              </p>
+            <div className="d-flex justify-content-center foter">
+              <h6>All rights reserved Palynx © 2024</h6>
             </div>
-            <div class="col-sm-3 footerp">
-              <p>
-                <a href="#">Terms of Service</a>
-              </p>
-              <p>
-                <a href="#">Privacy Policy</a>
-              </p>
-            </div>
-            <div class="col-sm-3 footerp">
-              <p>
-                <a href="#">Download App</a>
-              </p>
-              <button className="btn btn-1 download-btn3 d-flex">
-                <i class="bi bi-apple apple3"></i>
-                Download on the App Store
-              </button>
-              <div className="PalynxT"></div>
-            </div>
-          </div>
-          <div className="d-flex justify-content-center foter">
-            <h6>All rights reserved Palynx © 2024</h6>
-          </div>
+          </Container>
         </Container>
       </Container>
     </>

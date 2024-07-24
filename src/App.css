@@ -455,7 +455,7 @@ span {
 .hero-5 {
   margin-top: 50px;
 }
-.nav-btn{
+.nav-btn {
   margin-top: -9px;
 }
 .F-btn,
@@ -971,12 +971,12 @@ span {
 .card img {
   width: 100%;
 }
+  
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
     src: url(../public/FixelText-Regular.otf);
   }
-
   .pre-tag {
     padding: 0;
     margin-top: 0;
@@ -1015,7 +1015,7 @@ span {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
-     font-family: Fixel Text;
+    font-family: Fixel Text;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -1030,12 +1030,13 @@ span {
     padding-top: 36px;
   }
   .download-btn {
-    padding: 9px 40px 4px 24px;
+    padding: 14px 40px 4px 24px;
     gap: 16px;
     border-radius: 56px;
     background-color: #1d1d1b;
     color: #f8f8f8;
     width: 204px;
+    height: 64px;
     /* text-align: justify; */
     font-size: 12px;
     font-family: fixel Text;
@@ -1165,7 +1166,7 @@ span {
     gap: 16px;
     border-radius: 24px;
     background-color: #ffffff;
-    height: 360px;
+    height: 365px;
   }
   .hero-8Card img {
     width: 100%;
@@ -1782,7 +1783,7 @@ span {
   .b-ff {
     margin-bottom: 20px;
   }
- 
+
   .col-sm-6 h6 {
     font-family: Fixel Text;
     font-size: 18px;
@@ -1793,30 +1794,30 @@ span {
     font-size: 14px;
     font-weight: 600;
   }
-  .Blog-post pre{
-     font-family: Fixel Text;
+  .Blog-post pre {
+    font-family: Fixel Text;
     font-size: 14px;
     font-weight: 600;
     color: #6941c6;
     margin-top: 10px;
   }
-.Blog-post h6{
-     font-family: Fixel Text;
+  .Blog-post h6 {
+    font-family: Fixel Text;
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     color: #1d1d1b;
   }
-  .Blog-post p{
-     font-family: Fixel Text;
+  .Blog-post p {
+    font-family: Fixel Text;
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
     color: #67655e;
-     display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .blog-icon1 {
     position: absolute;
@@ -2010,10 +2011,10 @@ span {
     width: 56px;
     height: 56px;
   }
-  .Avatar-up pre{
+  .Avatar-up pre {
     margin-top: -15px;
   }
- 
+
   .blog {
     text-decoration: none;
   }
@@ -2081,10 +2082,9 @@ span {
     font-size: 18px;
     line-height: 20px;
   }
-  
 }
-.custom-sticky{
-   position: -webkit-sticky; /* For Safari */
+.custom-sticky {
+  position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
   z-index: 1020; /* Make sure it's above other content */
@@ -2092,37 +2092,36 @@ span {
 
 .navbar-nav .nav-link.active {
   color: #fa8f42; /* Example: White color for active links */
- 
 }
 
 .navbar-nav .nav-link {
   color: #1d1d1b; /* Example: Black color for non-active links */
 }
 
- .slider-container{
-    width: 80%;
-    margin: auto;
-  }
-  .slick-slide{
-    padding: 0 15px;
-  }
-  .Slide-card {
-    position: relative;
-    top: 0;
-    bottom: 10px;
-    /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
-    /* padding: 72px; */
-    border-radius: 40px;
-    margin: 24px;
-  }
-  .pic-slide {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    /* margin-left: 65px; */
-  }
+.slider-container {
+  width: 80%;
+  margin: auto;
+}
+.slick-slide {
+  padding: 0 15px;
+}
+.Slide-card {
+  position: relative;
+  top: 0;
+  bottom: 10px;
+  /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
+  /* padding: 72px; */
+  border-radius: 40px;
+  margin: 24px;
+}
+.pic-slide {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* margin-left: 65px; */
+}
 
-  .slick-active .slide-card {
+.slick-active .slide-card {
   background: #f00 !important; /* Background color for active slide */
   transition: background-color 0.3s ease; /* Smooth transition */
 }

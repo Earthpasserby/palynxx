@@ -459,8 +459,8 @@ const Home = () => {
             <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
             <div>
               <Link to="/Blog">
-                <button className="btn discover-btn">
-                  More <i class="bi bi-arrow-right iiicon"></i>
+                <button className="discover-btn">
+                  More <i class="bi bi-arrow-right"></i>
                 </button>
               </Link>
             </div>

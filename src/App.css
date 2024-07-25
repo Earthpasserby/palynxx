@@ -1345,13 +1345,18 @@ body {
     color: #a91703;
   }
   .discover-btn {
-    font-family: "Rubik";
+    font-family: fixel Text;
     padding: 16px 24px 16px 24px;
     gap: 8px;
     border-radius: 56px;
     font-size: 14px;
     border: 1px solid #e7e1db;
     color: #1d1d1b;
+    font-weight: 400;
+  }
+  .discover-btn i{
+    font-size: 14px;
+    margin-right: 5px;
   }
   .dash {
     position: absolute;

@@ -109,7 +109,7 @@ const Home = () => {
               </Nav.Link>
             </Nav>
             <Nav className="nav-btn">
-              <button className="btn F-btn">
+              <button className="F-btn">
                 <Nav href="#donload" className="D-app">
                   Download the App
                 </Nav>
@@ -138,7 +138,7 @@ const Home = () => {
               Connect with people with like minds, similar interests, <br />{" "}
               goals and motivations and make plans all with Palynx.
             </p>
-            <button className="btn btn-1 homebtn-1">Download the App</button>
+            <button className="btn-1 homebtn-1">Download the App</button>
           </Col>
           <Col xs={12} md={4} className="">
             <div className="hero-imgg  w-100 h-100">
@@ -210,7 +210,7 @@ const Home = () => {
               <div className="Btn-3">
                 <img src="./view.png" alt="palynx-img" className="img-fluid" />
 
-                <button className="btn btn-3">Romantic</button>
+                <button className="btn-2">Romantic</button>
               </div>
               <div className="card-2Cont">
                 <h6>Sea & Romantic dinner</h6>
@@ -222,7 +222,7 @@ const Home = () => {
             <div className="card-2">
               <div className="Btn-3">
                 <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn btn-3">party</button>
+                <button className="btn-3">party</button>
               </div>
               <div className="card-2Cont">
                 <h6>Yacht day & Friend’s party</h6>
@@ -234,7 +234,7 @@ const Home = () => {
             <div className="card-2">
               <div className="Btn-3">
                 <img src="./bale.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn btn-3">Dance classes</button>
+                <button className="btn-4">Dance classes</button>
               </div>
               <div className="card-2Cont">
                 <h6>Beginner & Intermediate Ballet Class</h6>
@@ -283,7 +283,8 @@ const Home = () => {
             <Row>
               <div className="d-flex justify-content-between">
                 <h4 className="">
-                  Create, Contribute, Like & <span className="hero-5Share">Share</span>
+                  Create, Contribute, Like &{" "}
+                  <span className="hero-5Share">Share</span>
                 </h4>
                 <div className="hero-5Button">
                   <span id="left" className="hero-5Icon" onClick={previous}>
@@ -339,7 +340,7 @@ const Home = () => {
                 className="img-fluid lady"
               />
 
-              <button className="btn btn-1 btn-img">Download the App</button>
+              <button className="btn-img">Download the App</button>
               <img
                 src="./Highlight.png"
                 alt="palynx-img"
@@ -410,19 +411,20 @@ const Home = () => {
           <Col md={7} xs={12}>
             <div className="hero77">
               <h4>
-                Download <span>Palynx Today!</span>
+                Download <span className="hero77-Span">Palynx Today!</span>
               </h4>
               <p>
                 Start your journey of exploration and connection. Download
                 Palynx now and take the first step towards discovering your city
                 and making meaningful connections.
               </p>
-              <div className="PalynxT">
-                <button className="btn btn-1 download-btn d-flex">
-                  <i class="bi bi-apple apple"></i>
-                  Download on the App Store
-                </button>
-              </div>
+              <button className="download-button-1">
+                <i className="bi bi-apple"></i>
+                <div className="text-container">
+                  Download on the <br /> <span>App Store</span>
+                </div>
+              </button>
+              <div className="PalynxT"></div>
               <img
                 src="./arow.png"
                 alt="palynx-img"
@@ -744,10 +746,13 @@ const Home = () => {
                 <p>
                   <a href="#">Download App</a>
                 </p>
-                <button className="btn btn-1 download-btn3 d-flex">
-                  <i class="bi bi-apple apple3"></i>
-                  Download on the App Store
+                <button className="download-button">
+                  <i className="bi bi-apple"></i>
+                  <div className="text-container">
+                    Download on the <br /> <span>App Store</span>
+                  </div>
                 </button>
+
                 <div className="PalynxT"></div>
               </div>
             </div>

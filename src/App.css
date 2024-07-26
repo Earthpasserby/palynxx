@@ -811,7 +811,7 @@ body {
   font-family: Fixel Text;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
+  /* line-height: 16px; */
   color: #1d1d1b;
 }
 .nav-link {
@@ -829,7 +829,7 @@ body {
   margin-top: -9px;
 }
 .F-btn {
-  width: 187px;
+  width: 100;
   height: 48px;
   padding: 4px 24px 4px 24px;
   margin-top: 8px;
@@ -1386,20 +1386,68 @@ body {
     justify-content: end;
     margin-top: -15px;
   }
+
+   .footer-Angle{
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+  }
+  
+   .footer-Angle2{
+    display: none;
+    
+  }
   .blogSection-arrow {
     position: relative;
+  }
+  .bav-btn{
+    margin-top: 20px;
   }
   .menu-event {
   background-color: #F0EBE5; /* Change to match your Navbar background color */
   margin-top: 30px;
-  margin-left: -19px;
+  /* margin-left: -19px; */
   border-radius: 12px;
   padding: 16px;
   /* width: 343px; */
 }
-.nbar{
-  padding-left: -139px;
+ .Navbar-icon-Cont{
+    display: block;
+    margin-top: 20px
+  }
+   .Navbar-icon-Cont h6{
+   font-family: Fixel Text;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.8px;
+text-align: left;
+  }
+     .Navbar-icon-Cont span{
+   font-family: Fixel Text;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.8px;
+text-align: left;
+color: #a91703;
+  }
+  
+.btn-icon7 {
+    width: 48px;
+    height: 48px;
+    padding: 10px 13.47px 13.66px 13.29px;
+    gap: 8px;
+    border-radius: 40px;
+    border: 1px solid #404040;
+    border-radius: 40px;
+    margin: 3px;
+    color: #fa8f42;
+    background-color: #fff;
+    border: none;
+  }
+.tem{
+  margin-left: -60px;
   text-align: left;
+  /* justify-content: start; */
 }
 @media (min-width: 768px) {
   @font-face {
@@ -1410,8 +1458,13 @@ body {
   .menu-event {
   background-color: transparent; 
   margin-top: 0;
-
 }
+.tem{
+  margin-left: 0;
+}
+ .bav-btn{
+    margin-top: 0;
+  }
    .footer-Angle{
     display: none;
   }
@@ -1492,6 +1545,9 @@ body {
   .make {
     font-family: fixel Text;
   }
+  .Navbar-icon-Cont{
+    display: none;
+  }
   .PalynxT {
     padding-top: 36px;
   }
@@ -1504,6 +1560,7 @@ body {
     background-color: #1d1d1b;
     color: #f8f8f8;
     border: none;
+    margin-top: -3px;
   }
   .F-btn:active {
     background-color: #1d1d1b;

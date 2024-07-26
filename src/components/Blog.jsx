@@ -30,16 +30,28 @@ const Blog = () => {
             <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
-            <Nav className="me-auto">
+            <Nav className="me-auto tem">
               <Nav.Link as={NavLink} to="/" className="">
                 Home
+                <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
 
               <Nav.Link as={NavLink} to="/Blog" className="">
                 Blog
+                <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
-              <Nav.Link className="">FAQS</Nav.Link>
-              <Nav.Link className="">Contact</Nav.Link>
+              <Nav.Link className="">
+                FAQS
+                <i class="bi bi-chevron-right footer-Angle"></i>
+              </Nav.Link>
+              <Nav.Link className="">
+                Contact
+                <i class="bi bi-chevron-right footer-Angle"></i>
+              </Nav.Link>
+              <Nav.Link className="footer-Angle2">
+                Contact
+                <i class="bi bi-chevron-right footer-Angle2"></i>
+              </Nav.Link>
             </Nav>
             <Nav className="bav-btn">
               <button className="F-btn">
@@ -48,6 +60,26 @@ const Blog = () => {
                 </Nav>
               </button>
             </Nav>
+
+            <div className="Navbar-icon-Cont">
+              <h6>
+                We are <span>Social</span>
+              </h6>
+              <div className="d-flex Navbar-iconMobile">
+                <button className="btn-icon7">
+                  <BiLogoLinkedin />
+                </button>
+                <button className="btn-icon7">
+                  <BsInstagram />
+                </button>
+                <button className="btn-icon7">
+                  <FaFacebookF />
+                </button>
+                <button className="btn-icon7">
+                  <FaXTwitter />
+                </button>
+              </div>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -75,9 +107,7 @@ const Blog = () => {
             <pre className="">02/05/2024 . 12 min read</pre>
 
             <h6 className="">Top 10 Hidden Gems in Your City</h6>
-            <div>
-              {/* <GoArrowUpRight className="blog-icon" /> */}
-            </div>
+            <div>{/* <GoArrowUpRight className="blog-icon" /> */}</div>
             <p className=" Blog-col">
               Discover the lesser-known spots in your city that are waiting to
               be explored. From cozy cafes to secret parks, uncover places that

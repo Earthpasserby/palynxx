@@ -41,7 +41,7 @@ const Blogcategory = () => {
               <Nav.Link className="">Contact</Nav.Link>
             </Nav>
             <Nav className="bav-btn">
-              <button className="btn F-btn">
+              <button className="F-btn">
                 <Nav href="#donload" className="D-app">
                   Download the App
                 </Nav>
@@ -405,7 +405,7 @@ const Blogcategory = () => {
                   className="logo-img b-ff"
                 />
                 <p className="">Discover, Connect, Plan</p>
-                <div className="d-flex">
+                <div className="d-flex footerp-iconMobile">
                   <button className="btn btn-icon2">
                     <BiLogoLinkedin />
                   </button>
@@ -422,24 +422,42 @@ const Blogcategory = () => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">About us</a>
+                  <a href="#">
+                    About us
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">Blog</a>
+                  <a href="#">
+                    Blog
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">FAQs</a>
+                  <a href="#">
+                    FAQs
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">Contact</a>
+                  <a href="#">
+                    Contact
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">Terms of Service</a>
+                  <a href="#">
+                    Terms of Service
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#">
+                    Privacy Policy
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
               </div>
               <div class="col-sm-3 footerp">

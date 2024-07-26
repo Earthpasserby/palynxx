@@ -1090,7 +1090,8 @@ body {
 }
 .blog-icon1 {
   position: absolute;
-  left: 250px;
+    left: 5px;
+    bottom: 5px;
 }
 
 .blog-icon {
@@ -1103,8 +1104,10 @@ body {
 }
 .arrow2 {
   position: absolute;
-  left: 160px;
-  top: -20px;
+  left: 170px;
+  top: 10px;
+  width: 17px;
+  height: 19px;
 }
 .cardfooter-arrow2 {
   position: relative;
@@ -1378,14 +1381,39 @@ body {
     width: 19px;
     height: 21px;
   }
-  
+  .footer-Angle{
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+  }
   .blogSection-arrow {
     position: relative;
   }
+  .menu-event {
+  background-color: #F0EBE5; /* Change to match your Navbar background color */
+  margin-top: 30px;
+  margin-left: -19px;
+  border-radius: 12px;
+  padding: 16px;
+  /* width: 343px; */
+}
+.nbar{
+  padding-left: -139px;
+  text-align: left;
+}
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
     src: url(../public/FixelText-Regular.otf);
+  }
+
+  .menu-event {
+  background-color: transparent; 
+  margin-top: 0;
+
+}
+   .footer-Angle{
+    display: none;
   }
   .pre-tag {
     padding: 0;
@@ -2020,6 +2048,8 @@ body {
   .card-2Cont {
     padding-left: 10px;
     padding-top: 10px;
+    position: relative;
+    z-index: 1;
   }
   .Btn-3 img {
     width: 100%;
@@ -2359,6 +2389,7 @@ body {
     gap: 65px;
     border-radius: 48px;
     background-color: #1d1d1b;
+    height: 355px;
   }
   .btn-icon2 {
     width: 48px;
@@ -2446,20 +2477,26 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  
   .blog-icon1 {
     position: absolute;
-    left: 320px;
-    bottom: 110px;
+    left: 330px;
+    top: 55px;
+    font-size: 0.9rem;
   }
-  .blog-icon {
+
+
+  /* .blog-icon {
     position: absolute;
-    left: 520px;
-    margin-top: -25px;
-  }
+    left: 550px;
+    top: 110px;
+  } */
   .arrow2 {
     position: absolute;
     left: 260px;
-    top: -20px;
+    top: -10px;
+    width: 33px;
+    height: 37px;
   }
   .cardfooter-arrow2 {
     position: relative;
@@ -2505,7 +2542,7 @@ body {
   }
   /*BlogCategory*/
   .BlogcategoryHead {
-    height: 2580px;
+    height: 2680px;
     padding: 48px;
     gap: 32px;
     border-radius: 40px;

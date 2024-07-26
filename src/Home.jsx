@@ -731,24 +731,42 @@ const Home = () => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">About us</a>
+                  <a href="#">
+                    About us
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">Blog</a>
+                  <a href="#">
+                    Blog
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">FAQs</a>
+                  <a href="#">
+                    FAQs
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">Contact</a>
+                  <a href="#">
+                    Contact
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">Terms of Service</a>
+                  <a href="#">
+                    Terms of Service
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
                 <p>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#">
+                    Privacy Policy
+                    <i class="bi bi-chevron-right footer-Angle"></i>
+                  </a>
                 </p>
               </div>
               <div class="col-sm-3 footerp">

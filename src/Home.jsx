@@ -336,7 +336,7 @@ const Home = () => {
           </Container>
           <Row className="mt-4">
             <div className="slider-container">
-              <img src="./vector.png" alt="palynx-img" className="Vector" />
+              <img src="./Vector.png" alt="palynx-img" className="Vector" />
               <Slider
                 ref={(slider) => {
                   sliderRef = slider;

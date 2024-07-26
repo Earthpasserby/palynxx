@@ -112,7 +112,7 @@ body {
   width: 106px;
   background-color: transparent;
 }
-.blog{
+.blog {
   text-decoration: none;
 }
 .discoverp h6 {
@@ -171,12 +171,12 @@ body {
   position: relative;
 }
 .download {
-    position: absolute;
-    top: -300px;
-    left: -40px;
-    width: 311px;
-    height: 312.5px;
-  }
+  position: absolute;
+  top: -300px;
+  left: -40px;
+  width: 311px;
+  height: 312.5px;
+}
 .download {
   position: absolute;
   right: 40px;
@@ -294,150 +294,150 @@ body {
 .hero-6 {
   margin-top: 40px;
 }
-  .hero77 {
-    padding-top: 20px;
-    padding-bottom: 50px;
-  }
-  .hero-7 h4 {
-    font-family: Fixel Text;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-    text-wrap: nowrap;
-    line-height: 62.4px;
-  }
-  .hero77-Span {
-    font-family: Fixel Text;
-    font-size: 24px;
-    font-weight: 600;
-    color: #1d1d1b;
-    line-height: 62.4px;
-  }
-  .hero-7 p {
-    font-family: Fixel Text;
-    font-size: 20px;
-    font-weight: 400;
-    color: #1d1d1b;
-    line-height: 32px;
-  }
-    .download-button {
-    display: flex;
-    align-items: center;
-    padding: 4px, 32px, 4px, 16px;
-    background-color: #f8f8f8;
-    color: #1d1d1b;
-    font-size: 10px;
-    font-weight: 500;
-    font-family: fixel Text;
-    border: none;
-    border-radius: 56px;
-    cursor: pointer;
-    width: 165px;
-    height: 48px;
-    text-align: left; /* Align text to the left */
-  }
-  .download-button-1 {
-    display: flex;
-    align-items: center;
-    padding: 4px, 32px, 4px, 16px;
-    background-color: #1d1d1b;
-    color: #f8f8f8;
-    font-size: 10px;
-    font-weight: 500;
-    font-family: fixel Text;
-    border: none;
-    border-radius: 56px;
-    cursor: pointer;
-    width: 165px;
-    height: 48px;
-    text-align: left; /* Align text to the left */
-  }
-  .download-button-1 i {
-    margin-right: 8px; /* Space between icon and text */
-    padding-top: -25px; /* Adjust padding-top as needed */
-    font-size: 28px;
-    padding-left: 16px;
-  }
-  .download-button i {
-    margin-right: 5px; /* Space between icon and text */
-    padding-top: -25px; /* Adjust padding-top as needed */
-    font-size: 24px;
-    padding-left: 16px;
-  }
+.hero77 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.hero-7 h4 {
+  font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-wrap: nowrap;
+  line-height: 62.4px;
+}
+.hero77-Span {
+  font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1d1d1b;
+  line-height: 62.4px;
+}
+.hero-7 p {
+  font-family: Fixel Text;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1d1d1b;
+  line-height: 32px;
+}
+.download-button {
+  display: flex;
+  align-items: center;
+  padding: 4px, 32px, 4px, 16px;
+  background-color: #f8f8f8;
+  color: #1d1d1b;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: fixel Text;
+  border: none;
+  border-radius: 56px;
+  cursor: pointer;
+  width: 165px;
+  height: 48px;
+  text-align: left; /* Align text to the left */
+}
+.download-button-1 {
+  display: flex;
+  align-items: center;
+  padding: 4px, 32px, 4px, 16px;
+  background-color: #1d1d1b;
+  color: #f8f8f8;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: fixel Text;
+  border: none;
+  border-radius: 56px;
+  cursor: pointer;
+  width: 165px;
+  height: 48px;
+  text-align: left; /* Align text to the left */
+}
+.download-button-1 i {
+  margin-right: 8px; /* Space between icon and text */
+  padding-top: -25px; /* Adjust padding-top as needed */
+  font-size: 28px;
+  padding-left: 16px;
+}
+.download-button i {
+  margin-right: 5px; /* Space between icon and text */
+  padding-top: -25px; /* Adjust padding-top as needed */
+  font-size: 24px;
+  padding-left: 16px;
+}
 
-  .text-container {
-    display: flex;
-    flex-direction: column;
-  }
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
 
-  .text-container span {
-    font-size: 14px; /* Adjust the font size of the App Store text if needed */
-    font-weight: 500;
-    font-family: fixel Text;
-  }
-    .hero-9 {
-    margin-top: 40px;
-    position: relative;
-  }
-  .accordionSpan {
-    font-family: fixel Text;
-    font-family: Fixel Text;
-    font-size: 24px;
-    font-weight: 600;
-    color: #1d1d1b;
-  }
+.text-container span {
+  font-size: 14px; /* Adjust the font size of the App Store text if needed */
+  font-weight: 500;
+  font-family: fixel Text;
+}
+.hero-9 {
+  margin-top: 40px;
+  position: relative;
+}
+.accordionSpan {
+  font-family: fixel Text;
+  font-family: Fixel Text;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1d1d1b;
+}
 
-  .accordionItem {
-    margin-bottom: 2rem; /* Adjust the value as needed for spacing */
-    border-radius: 0.5rem;
-    overflow: hidden;
-    margin-top: 20px;
-  }
+.accordionItem {
+  margin-bottom: 2rem; /* Adjust the value as needed for spacing */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-top: 20px;
+}
 
-  .accordionHeader {
-    color: #000; /* Optional: Set text color */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    cursor: pointer;
-    padding: 1.5em 1em; /* Optional: Adjust padding */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
-    overflow: hidden;
-  }
+.accordionHeader {
+  color: #000; /* Optional: Set text color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  padding: 1.5em 1em; /* Optional: Adjust padding */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  overflow: hidden;
+}
 
-  .accordionToggleIcon {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 1.1em;
-    background-color: #333; /* Dark background */
-    color: #fff; /* Icon color */
-    border-radius: 50%; /* Border radius */
-    padding: 0.5em; /* Padding */
-  }
+.accordionToggleIcon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.1em;
+  background-color: #333; /* Dark background */
+  color: #fff; /* Icon color */
+  border-radius: 50%; /* Border radius */
+  padding: 0.5em; /* Padding */
+}
 
-  .accordionItem .accordion-button:not(.collapsed) .accordionHeader {
-    background-color: white;
-    border-radius: 10.5rem;
-  }
+.accordionItem .accordion-button:not(.collapsed) .accordionHeader {
+  background-color: white;
+  border-radius: 10.5rem;
+}
 
-  .accordionItem .accordion-collapse {
-    background-color: white;
-  }
+.accordionItem .accordion-collapse {
+  background-color: white;
+}
 
-  .accordionBody {
-    background-color: white;
-    overflow: hidden;
-    padding: -20px;
-  }
-  .accordion-item {
-    background-color: transparent;
-  }
-  ::placeholder {
-    color: #1d1d1b;
-    font-size: 18px;
-    line-height: 20px;
-  }
+.accordionBody {
+  background-color: white;
+  overflow: hidden;
+  padding: -20px;
+}
+.accordion-item {
+  background-color: transparent;
+}
+::placeholder {
+  color: #1d1d1b;
+  font-size: 18px;
+  line-height: 20px;
+}
 .hero-8Header {
   position: relative;
   margin-top: 30px;
@@ -581,16 +581,16 @@ body {
 .flatn-2 {
   display: block;
 }
- .flatn-2 {
-    width: 300px;
-    position: absolute;
-    top: -20px;
-    left: 40px;
-    /* text-align: center; */
-  }
-  .flatn-2 {
-    position: relative;
-  }
+.flatn-2 {
+  width: 300px;
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  /* text-align: center; */
+}
+.flatn-2 {
+  position: relative;
+}
 .flatn {
   display: none;
 }
@@ -1088,21 +1088,7 @@ body {
   text-align: left;
   color: #fff;
 }
-.blog-icon1 {
-  /* position: absolute; */
-    /* left: 5px; */
-    /* bottom: 5px; */
-    /* display: none; */
-}
 
-.blog-icon {
-  position: relative;
-}
-.blog-icon {
-  position: absolute;
-  left: 250px;
-  margin-top: -25px;
-}
 .arrow2 {
   position: absolute;
   left: 170px;
@@ -1133,21 +1119,21 @@ body {
   background-color: transparent;
 }
 .btn-icon2 {
-    width: 48px;
-    height: 48px;
-    padding: 10px 13.47px 13.66px 13.29px;
-    gap: 8px;
-    border-radius: 40px;
-    border: 1px solid #404040;
-    border-radius: 40px;
-    margin: 3px;
-    color: #fff;
-    background-color: transparent;
-  }
-  .footerp-iconMobile{
-    margin-left: -10px;
-    margin-bottom: 20px;
-  }
+  width: 48px;
+  height: 48px;
+  padding: 10px 13.47px 13.66px 13.29px;
+  gap: 8px;
+  border-radius: 40px;
+  border: 1px solid #404040;
+  border-radius: 40px;
+  margin: 3px;
+  color: #fff;
+  background-color: transparent;
+}
+.footerp-iconMobile {
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
 .rrow1 {
   position: absolute;
   left: 170px;
@@ -1358,98 +1344,117 @@ body {
 .card img {
   width: 100%;
 }
- .pre-tag {
-    padding: 0;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #6941c6;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-    font-family: fixel Text;
-  }
-  .Blog-post pre {
-    font-family: Fixel Text;
-    font-size: 14px;
-    font-weight: 600;
-    color: #6941c6;
-    margin-top: 10px;
-  }
-    .rrow1 {
-    position: absolute;
-    left: 150px;
-    top: -10px;
-    width: 19px;
-    height: 21px;
-  }
-  .footer-Angle{
-    display: flex;
-    justify-content: end;
-    margin-top: -15px;
-  }
+.pre-tag {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #6941c6;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: fixel Text;
+}
+.Blog-post pre {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin-top: 10px;
+}
+.rrow1 {
+  position: absolute;
+  left: 150px;
+  top: -10px;
+  width: 19px;
+  height: 21px;
+}
+.footer-Angle {
+  display: flex;
+  justify-content: end;
+  margin-top: -15px;
+}
 
-   .footer-Angle{
-    display: flex;
-    justify-content: end;
-    margin-top: -15px;
-  }
-  
-   .footer-Angle2{
-    display: none;
-    
-  }
-  .blogSection-arrow {
-    position: relative;
-  }
-  .bav-btn{
-    margin-top: 20px;
-  }
-  .menu-event {
-  background-color: #F0EBE5; /* Change to match your Navbar background color */
+.footer-Angle {
+  display: flex;
+  justify-content: end;
+  margin-top: -15px;
+}
+
+.footer-Angle2 {
+  display: none;
+}
+.blogSection-arrow {
+  position: relative;
+}
+.bav-btn {
+  margin-top: 20px;
+}
+.menu-event {
+  background-color: #f0ebe5; /* Change to match your Navbar background color */
   margin-top: 30px;
   /* margin-left: -19px; */
   border-radius: 12px;
   padding: 16px;
   /* width: 343px; */
 }
- .Navbar-icon-Cont{
-    display: block;
-    margin-top: 20px
-  }
-   .Navbar-icon-Cont h6{
-   font-family: Fixel Text;
-font-size: 16px;
-font-weight: 600;
-line-height: 20.8px;
-text-align: left;
-  }
-     .Navbar-icon-Cont span{
-   font-family: Fixel Text;
-font-size: 16px;
-font-weight: 600;
-line-height: 20.8px;
-text-align: left;
-color: #a91703;
-  }
-  
+.Navbar-icon-Cont {
+  display: block;
+  margin-top: 20px;
+}
+.Navbar-icon-Cont h6 {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: left;
+}
+.Navbar-icon-Cont span {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: left;
+  color: #a91703;
+}
+
 .btn-icon7 {
-    width: 48px;
-    height: 48px;
-    padding: 10px 13.47px 13.66px 13.29px;
-    gap: 8px;
-    border-radius: 40px;
-    border: 1px solid #404040;
-    border-radius: 40px;
-    margin: 3px;
-    color: #fa8f42;
-    background-color: #fff;
-    border: none;
-  }
-.tem{
+  width: 48px;
+  height: 48px;
+  padding: 10px 13.47px 13.66px 13.29px;
+  gap: 8px;
+  border-radius: 40px;
+  border: 1px solid #404040;
+  border-radius: 40px;
+  margin: 3px;
+  color: #fa8f42;
+  background-color: #fff;
+  border: none;
+}
+.tem {
   margin-left: -60px;
   text-align: left;
   /* justify-content: start; */
 }
+  .Kant {
+    display: flex;
+    gap: 55px;
+    align-items: start;
+    width: 100%;
+  }
+  .blog-icon1 {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+    .Rant {
+    display: flex;
+    gap: 30px;
+    align-items: start;
+    width: 100%;
+  }
+  .blog-icon {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
@@ -1457,16 +1462,16 @@ color: #a91703;
   }
 
   .menu-event {
-  background-color: transparent; 
-  margin-top: 0;
-}
-.tem{
-  margin-left: 0;
-}
- .bav-btn{
+    background-color: transparent;
     margin-top: 0;
   }
-   .footer-Angle{
+  .tem {
+    margin-left: 0;
+  }
+  .bav-btn {
+    margin-top: 0;
+  }
+  .footer-Angle {
     display: none;
   }
   .pre-tag {
@@ -1498,19 +1503,28 @@ color: #a91703;
     line-height: 24px;
     color: #667085;
   }
-  .Kant{
+  .Kant {
     display: flex;
     gap: 55px;
-    /* justify-content: center; */
     align-items: start;
     width: 100%;
   }
+    .Rant {
+    display: flex;
+    gap: 115px;
+    align-items: start;
+    width: 100%;
+  }
+  .blog-icon {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
   .blog-icon1 {
-    /* position: absolute; */
-    /* left: 330px; */
     margin-top: 10px;
     font-size: 0.9rem;
   }
+
+  
   .p-tag3 {
     padding: 0;
     margin-top: 10px;
@@ -1548,17 +1562,17 @@ color: #a91703;
     color: #fff;
   }
   .blogcategory-Row p {
-  font-family: Fixel Text;
-  font-size: 15px;
-  font-weight: 700;
-  color: #1d1d1b;
-  margin-top: 0;
-}
+    font-family: Fixel Text;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1d1d1b;
+    margin-top: 0;
+  }
   /*Home*/
   .make {
     font-family: fixel Text;
   }
-  .Navbar-icon-Cont{
+  .Navbar-icon-Cont {
     display: none;
   }
   .PalynxT {
@@ -1715,7 +1729,7 @@ color: #a91703;
     display: block;
   }
 
-  .flatn-2{
+  .flatn-2 {
     display: none;
   }
 
@@ -2548,19 +2562,6 @@ color: #a91703;
     overflow: hidden;
   }
   
-  .blog-icon1 {
-    /* position: absolute; */
-    /* left: 330px; */
-    /* top: 55px; */
-    /* font-size: 0.9rem; */
-  }
-
-
-  /* .blog-icon {
-    position: absolute;
-    left: 550px;
-    top: 110px;
-  } */
   .arrow2 {
     position: absolute;
     left: 260px;

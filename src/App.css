@@ -2280,6 +2280,7 @@ body {
     transform: translateY(-50%); /* Center horizontally */
     z-index: 10; /* Ensure it is on top */
     display: block;
+    opacity: 0;
   }
   .hero-5 h4,
   .hero-5Share {

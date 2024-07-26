@@ -40,7 +40,7 @@ const Blogcategory = () => {
               <Nav.Link className="">FAQS</Nav.Link>
               <Nav.Link className="">Contact</Nav.Link>
             </Nav>
-            <Nav className="nav-btn">
+            <Nav className="bav-btn">
               <button className="btn F-btn">
                 <Nav href="#donload" className="D-app">
                   Download the App

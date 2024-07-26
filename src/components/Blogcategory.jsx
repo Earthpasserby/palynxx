@@ -297,11 +297,13 @@ const Blogcategory = () => {
               </div>
             </Link>
             <pre className="">02/05/2024 . 12 min read</pre>
-
-            <h6 className="">Top 10 Hidden Gems in Your City</h6>
-            <div>
+            <div className="Rant">
+              <div>
+                <h6 className="">Top 10 Hidden Gems in Your City</h6>
+              </div>
               <GoArrowUpRight className="blog-icon" />
             </div>
+
             <p className=" Blog-col">
               Discover the lesser-known spots in your city that are waiting to
               be explored. From cozy cafes to secret parks, uncover places that

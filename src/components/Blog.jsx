@@ -312,7 +312,7 @@ const Blog = () => {
               </div>
             </div>
           </Col>
-          <hr className="hrline" />
+          <hr className="hrline mt-5" />
           <div className="web-pagin">
             <ul className="pagination d-flex justify-content-between">
               <div>

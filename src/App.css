@@ -979,7 +979,7 @@ body {
   width: 100%;
   border: 1px solid #8f8f8f;
   height: 54px;
-  padding-left: 38px;
+  padding-left: 30px;
   font-family: Fixel Text;
   font-size: 18px;
   font-weight: 600;
@@ -2366,7 +2366,7 @@ body {
     color: #6941c6;
   }
   .blogSection1 {
-    height: 1050px;
+    height: 1080px;
     padding: 48px !important;
     border-radius: 40px;
     background-color: #ffff;

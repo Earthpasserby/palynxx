@@ -171,9 +171,37 @@ const Blog = () => {
               </div>
               <div className="card-2Cont">
                 <pre className="">02/05/2024 . 12 min read</pre>
-                <h6>Top 10 Hidden Gems in Your</h6>
-                <h6> City</h6>
-                <GoArrowUpRight className="blog-icon1" />
+                <div className="Kant">
+                  <div className="">
+                    <h6>Top 10 Hidden Gems in Your</h6>
+                    <h6> City</h6>
+                  </div>
+                  <GoArrowUpRight className="blog-icon1" />
+                </div>
+                <p>
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafe...
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col md={4} xs={12} className="Linkk">
+            <div className="">
+              <div className="Btn-3">
+                <Link to="/Blogcategory" className="blog">
+                  <img src="./party.png" className="img-fluid blog-img" />
+                </Link>
+                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
+              </div>
+              <div className="card-2Cont">
+                <pre className="">02/05/2024 . 12 min read</pre>
+                <div className="Kant">
+                  <div className="">
+                    <h6>Top 10 Hidden Gems in Your</h6>
+                    <h6> City</h6>
+                  </div>
+                  <GoArrowUpRight className="blog-icon1" />
+                </div>
 
                 <p>
                   Discover the lesser-known spots in your city that are waiting
@@ -192,31 +220,13 @@ const Blog = () => {
               </div>
               <div className="card-2Cont">
                 <pre className="">02/05/2024 . 12 min read</pre>
-                <h6>Top 10 Hidden Gems in Your</h6>
-                <h6> City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-
-                <p>
-                  Discover the lesser-known spots in your city that are waiting
-                  to be explored. From cozy cafe...
-                </p>
-              </div>
-            </div>
-          </Col>
-          <Col md={4} xs={12} className="Linkk">
-            <div className="">
-              <div className="Btn-3">
-                <Link to="/Blogcategory" className="blog">
-                  <img src="./party.png" className="img-fluid blog-img" />
-                </Link>
-                {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
-              </div>
-              <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
-                <h6>Top 10 Hidden Gems in Your</h6>
-                <h6> City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-
+                <div className="Kant">
+                  <div className="">
+                    <h6>Top 10 Hidden Gems in Your</h6>
+                    <h6> City</h6>
+                  </div>
+                  <GoArrowUpRight className="blog-icon1" />
+                </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
                   to be explored. From cozy cafe...
@@ -236,10 +246,13 @@ const Blog = () => {
               </div>
               <div className="card-2Cont">
                 <pre className="">02/05/2024 . 12 min read</pre>
-                <h6>Top 10 Hidden Gems in Your</h6>
-                <h6> City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-
+                <div className="Kant">
+                  <div className="">
+                    <h6>Top 10 Hidden Gems in Your</h6>
+                    <h6> City</h6>
+                  </div>
+                  <GoArrowUpRight className="blog-icon1" />
+                </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
                   to be explored. From cozy cafe...
@@ -257,10 +270,13 @@ const Blog = () => {
               </div>
               <div className="card-2Cont">
                 <pre className="">02/05/2024 . 12 min read</pre>
-                <h6>Top 10 Hidden Gems in Your</h6>
-                <h6> City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-
+                <div className="Kant">
+                  <div className="">
+                    <h6>Top 10 Hidden Gems in Your</h6>
+                    <h6> City</h6>
+                  </div>
+                  <GoArrowUpRight className="blog-icon1" />
+                </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
                   to be explored. From cozy cafe...
@@ -278,10 +294,13 @@ const Blog = () => {
               </div>
               <div className="card-2Cont">
                 <pre className="">02/05/2024 . 12 min read</pre>
-                <h6>Top 10 Hidden Gems in Your</h6>
-                <h6> City</h6>
-                <GoArrowUpRight className="blog-icon1" />
-
+                <div className="Kant">
+                  <div className="">
+                    <h6>Top 10 Hidden Gems in Your</h6>
+                    <h6> City</h6>
+                  </div>
+                  <GoArrowUpRight className="blog-icon1" />
+                </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
                   to be explored. From cozy cafe...

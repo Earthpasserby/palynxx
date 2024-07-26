@@ -1089,9 +1089,10 @@ body {
   color: #fff;
 }
 .blog-icon1 {
-  position: absolute;
-    left: 5px;
-    bottom: 5px;
+  /* position: absolute; */
+    /* left: 5px; */
+    /* bottom: 5px; */
+    /* display: none; */
 }
 
 .blog-icon {
@@ -1320,14 +1321,14 @@ body {
 }
 .card-2Cont h6 {
   font-family: fixel Text;
-  margin-top: 3px;
+  /* margin-top: 3px; */
   font-weight: 600;
   font-size: 16px;
   color: #1d1d1b;
 }
 .card-2Cont p {
   font-family: fixel Text;
-  margin-top: 3px;
+  /* margin-top: 3px; */
   font-weight: 600;
   font-size: 14px;
   color: #67655e;
@@ -1497,7 +1498,19 @@ color: #a91703;
     line-height: 24px;
     color: #667085;
   }
-
+  .Kant{
+    display: flex;
+    gap: 55px;
+    /* justify-content: center; */
+    align-items: start;
+    width: 100%;
+  }
+  .blog-icon1 {
+    /* position: absolute; */
+    /* left: 330px; */
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
   .p-tag3 {
     padding: 0;
     margin-top: 10px;
@@ -2090,7 +2103,7 @@ color: #a91703;
   }
   .card-2Cont h6 {
     font-family: fixel Text;
-    margin-top: 3px;
+    /* margin-top: 3px; */
     font-weight: 700;
     font-size: 14px;
     color: #1d1d1b;
@@ -2536,10 +2549,10 @@ color: #a91703;
   }
   
   .blog-icon1 {
-    position: absolute;
-    left: 330px;
-    top: 55px;
-    font-size: 0.9rem;
+    /* position: absolute; */
+    /* left: 330px; */
+    /* top: 55px; */
+    /* font-size: 0.9rem; */
   }
 
 

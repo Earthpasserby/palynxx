@@ -116,6 +116,7 @@ body {
   border-radius: 24px;
   background-color: #ffffff;
   position: relative;
+  margin: 5px;
 }
 .discover-btn {
   padding: 16px 24px 16px 24px;
@@ -1482,64 +1483,7 @@ body {
 .slick-dots {
   bottom: -30px;
 }
- 
-.hero-3 {
-  padding: 2rem 0;
-}
 
-.underline1 {
-  width: 100px; /* Adjust size as needed */
-  margin-bottom: 1rem;
-}
-
-.card-2 {
-  background-color: #fff;
-  border-radius: 10px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-}
-
-.Btn-3 {
-  position: relative;
-}
-
-.Btn-3 img {
-  width: 100%;
-  height: auto;
-}
-
-/* .btn-2,
-.btn-3,
-.btn-4 {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-} */
-
-.card-2Cont {
-  /* padding: 1rem; */
-}
-
-.card-2Cont h6 {
-  /* margin-top: 0.5rem; */
-  /* margin-bottom: 0.5rem; */
-}
-
-.card-2Cont pre {
-  /* margin: 0; */
-  /* color: #6c757d; */
-}
-
-.card-2Cont p {
-  /* color: #6c757d; */
-}
   
 @media (min-width: 768px) {
   @font-face {

@@ -61,7 +61,7 @@ const Home = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots:true,
+          dots: true,
         },
       },
       {
@@ -71,48 +71,88 @@ const Home = () => {
     ],
   };
 
-   const settings1 = {
-     dots: false,
-     infinite: true,
-     speed: 500,
-     slidesToShow: 3,
-     slidesToScroll: 3,
-     initialSlide: 2,
-     centerPadding: "130px",
-     arrows: false,
-     beforeChange: (current, next) => setActiveSlide(next),
+  const settings1 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 3,
+    centerPadding: "130px",
+    arrows: false,
+    beforeChange: (current, next) => setActiveSlide(next),
 
-     responsive: [
-       {
-         breakpoint: 1024,
-         settings: {
-           slidesToShow: 3,
-           slidesToScroll: 1,
-         },
-       },
-       {
-         breakpoint: 600,
-         settings: {
-           slidesToShow:1 ,
-           slidesToScroll:2,
-           initialSlide: 1,
-           dots:true,
-         },
-       },
-       {
-         breakpoint: 320,
-         settings: {
-           slidesToShow: 1,
-           slidesToScroll: 3,
-           dots: true,
-         },
-       },
-       {
-         breakpoint: 992, // For larger screens
-         settings: "unslick", // Disable slick
-       },
-     ],
-   };
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 3,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 992, // For larger screens
+        settings: "unslick", // Disable slick
+      },
+    ],
+  };
+  const settings3 = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 2,
+    centerPadding: "130px",
+    arrows: false,
+    beforeChange: (current, next) => setActiveSlide(next),
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 992, // For larger screens
+        settings: "unslick", // Disable slick
+      },
+    ],
+  };
   const [activeSlide, setActiveSlide] = React.useState(0);
 
   const [expanded, setExpanded] = useState(false);
@@ -695,70 +735,73 @@ const Home = () => {
           </Col>
         </Row>
         <Row className="justify-content-center d-block d-md-none">
-          <Slider {...settings1}>
+          <Slider {...settings3}>
             <Col md={4} xs={12}>
-              <Link to="Blog" className="blog">
-                <div className="hero-8Card">
-                  <div>
+              <div className="hero-8Card">
+                <div>
+                  <Link to="Blog" className="blog">
                     <img
                       src="./party.png"
                       alt="palynx-img"
                       className="img-fluid party"
                     />
-                    <div className="discoverp">
-                      <h6>Top 10 Hidden Gems in Your City</h6>
-                      <p>
-                        Discover the lesser-known spots in your city that are
-                        waiting to be explored. From...
-                      </p>
-                      <pre>02/05/2024 . 12 min read</pre>
-                    </div>
+                  </Link>
+
+                  <div className="discoverp">
+                    <h6>Top 10 Hidden Gems in Your City</h6>
+                    <p>
+                      Discover the lesser-known spots in your city that are
+                      waiting to be explored. From...
+                    </p>
+                    <pre>02/05/2024 . 12 min read</pre>
                   </div>
                 </div>
-              </Link>
+              </div>
             </Col>
             <Col md={4} xs={12}>
-              <Link to="Blog" className="blog">
-                <div className="hero-8Card">
-                  <div>
-                    <img
-                      src="./pitch.png"
-                      alt="palynx-img"
-                      className="img-fluid pitch"
-                    />
-                    <div className="discoverp1">
-                      <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
-                      <p>
-                        Building meaningful connections is easier than you
-                        think. Learn how to find and connect with individuals
-                        who share your interests and passions.
-                      </p>
-                      <pre>02/05/2024 . 12 min read</pre>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </Col>
-            <Col md={4} xs={12}>
-              <Link to="Blog" className="blog">
-                <div className="hero-8Card">
-                  <div>
+              <div className="hero-8Card">
+                <div>
+                  {" "}
+                  <Link to="Blog" className="blog">
                     <img
                       src="./diary.png"
                       alt="palynx-img"
                       className="img-fluid diary"
                     />
-                    <div className="discoverp">
-                      <h6>Top 10 Hidden Gems in Your City</h6>
-                      <p>
-                        Discover the lesser-known spots in your city that are
-                        waiting to be explored. From...
-                      </p>
-                      <pre>02/05/2024 . 12 min read</pre>
-                    </div>
+                  </Link>
+                  <div className="discoverp">
+                    <h6>Top 10 Hidden Gems in Your City</h6>
+                    <p>
+                      Discover the lesser-known spots in your city that are
+                      waiting to be explored. From...
+                    </p>
+                    <pre>02/05/2024 . 12 min read</pre>
                   </div>
                 </div>
-              </Link>
+              </div>
+            </Col>
+            <Col md={4} xs={12}>
+              <div className="hero-8Card">
+                <div>
+                  <Link to="Blog" className="blog">
+                    {" "}
+                    <img
+                      src="./diary.png"
+                      alt="palynx-img"
+                      className="img-fluid diary"
+                    />
+                  </Link>
+
+                  <div className="discoverp">
+                    <h6>Top 10 Hidden Gems in Your City</h6>
+                    <p>
+                      Discover the lesser-known spots in your city that are
+                      waiting to be explored. From...
+                    </p>
+                    <pre>02/05/2024 . 12 min read</pre>
+                  </div>
+                </div>
+              </div>
             </Col>
           </Slider>
         </Row>

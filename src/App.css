@@ -1202,6 +1202,7 @@ body {
 .bloG-cat1 {
   display: flex;
   justify-content: space-between;
+  margin-left: -5px;
 }
 .bg-cat2 {
   font-family: Fixel Text;
@@ -1230,6 +1231,7 @@ body {
 .blogCat-icon {
   position: absolute;
   left: -40px;
+  margin-left: -50px;
 }
 .blogCat-icon {
   position: relative;
@@ -1292,6 +1294,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   color: #1d1d1b;
+  margin-top: 15px;
 }
 .border-p {
   border-left: 2px solid #1d1d1b;
@@ -1375,6 +1378,7 @@ body {
     width: 19px;
     height: 21px;
   }
+  
   .blogSection-arrow {
     position: relative;
   }
@@ -1449,6 +1453,13 @@ body {
     background-color: #1d1d1b;
     color: #fff;
   }
+  .blogcategory-Row p {
+  font-family: Fixel Text;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1d1d1b;
+  margin-top: 0;
+}
   /*Home*/
   .make {
     font-family: fixel Text;
@@ -2568,6 +2579,7 @@ body {
   .blogCat-icon {
     position: absolute;
     left: -50px;
+    margin-left: 0;
   }
   .Icon-name {
     width: 24px;
@@ -2621,6 +2633,7 @@ body {
     border-radius: 40px;
     background-color: #f0ebe5;
     margin: 2px;
+    margin-top: 0;
   }
   .share-button {
     display: flex;

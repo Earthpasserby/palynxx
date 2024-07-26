@@ -27,6 +27,20 @@ body {
     padding-top: 220px;
   }
 }
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+.slick-dots {
+  bottom: 30px;
+  color: #000;
+}
 
 .nav-btn .F-btn .D-app {
   color: inherit;
@@ -1435,26 +1449,98 @@ body {
   text-align: left;
   /* justify-content: start; */
 }
-  .Kant {
-    display: flex;
-    gap: 55px;
-    align-items: start;
-    width: 100%;
-  }
-  .blog-icon1 {
-    margin-top: 10px;
-    font-size: 0.9rem;
-  }
-    .Rant {
-    display: flex;
-    gap: 30px;
-    align-items: start;
-    width: 100%;
-  }
-  .blog-icon {
-    font-size: 0.9rem;
-    margin-top: 5px;
-  }
+.Kant {
+  display: flex;
+  gap: 55px;
+  align-items: start;
+  width: 100%;
+}
+.blog-icon1 {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.Rant {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+  width: 100%;
+}
+.blog-icon {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+ 
+.hero-3 {
+  padding: 2rem 0;
+}
+
+.underline1 {
+  width: 100px; /* Adjust size as needed */
+  margin-bottom: 1rem;
+}
+
+.card-2 {
+  background-color: #fff;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.Btn-3 {
+  position: relative;
+}
+
+.Btn-3 img {
+  width: 100%;
+  height: auto;
+}
+
+/* .btn-2,
+.btn-3,
+.btn-4 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.card-2Cont {
+  /* padding: 1rem; */
+}
+
+.card-2Cont h6 {
+  /* margin-top: 0.5rem; */
+  /* margin-bottom: 0.5rem; */
+}
+
+.card-2Cont pre {
+  /* margin: 0; */
+  /* color: #6c757d; */
+}
+
+.card-2Cont p {
+  /* color: #6c757d; */
+}
+  
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
@@ -1509,7 +1595,7 @@ body {
     align-items: start;
     width: 100%;
   }
-    .Rant {
+  .Rant {
     display: flex;
     gap: 115px;
     align-items: start;
@@ -1523,8 +1609,13 @@ body {
     margin-top: 10px;
     font-size: 0.9rem;
   }
+  .SlidesMobile {
+    display: none !important;
+  }
+  .SlidesMobile2 {
+    display: block;
+  }
 
-  
   .p-tag3 {
     padding: 0;
     margin-top: 10px;
@@ -2561,7 +2652,7 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  
+
   .arrow2 {
     position: absolute;
     left: 260px;

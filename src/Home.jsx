@@ -57,14 +57,62 @@ const Home = () => {
         },
       },
       {
-        breakpoint: 390,
+        breakpoint: 320,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
+          dots:true,
         },
+      },
+      {
+        breakpoint: 992, // For larger screens
+        settings: "unslick", // Disable slick
       },
     ],
   };
+
+   const settings1 = {
+     dots: false,
+     infinite: true,
+     speed: 500,
+     slidesToShow: 3,
+     slidesToScroll: 3,
+     initialSlide: 2,
+     centerPadding: "130px",
+     arrows: false,
+     beforeChange: (current, next) => setActiveSlide(next),
+
+     responsive: [
+       {
+         breakpoint: 1024,
+         settings: {
+           slidesToShow: 3,
+           slidesToScroll: 1,
+         },
+       },
+       {
+         breakpoint: 600,
+         settings: {
+           slidesToShow:1 ,
+           slidesToScroll:2,
+           initialSlide: 1,
+           dots:true,
+         },
+       },
+       {
+         breakpoint: 320,
+         settings: {
+           slidesToShow: 1,
+           slidesToScroll: 3,
+           dots: true,
+         },
+       },
+       {
+         breakpoint: 992, // For larger screens
+         settings: "unslick", // Disable slick
+       },
+     ],
+   };
   const [activeSlide, setActiveSlide] = React.useState(0);
 
   const [expanded, setExpanded] = useState(false);
@@ -83,7 +131,7 @@ const Home = () => {
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="#home">
-            <img src="./palynx-logo.png" alt="logo" className="logo-img" />
+            <img src="./loogo.png" alt="logo" className="logo-img" />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -237,43 +285,116 @@ const Home = () => {
           <p>
             Discover new places, hidden gems, and popular hotspots in your city.
           </p>
-          <Col md={4} xs={12} className="card-2headcol">
-            <div className="card-2">
-              <div className="Btn-3">
-                <img src="./view.png" alt="palynx-img" className="img-fluid" />
-
-                <button className="btn-2">Romantic</button>
+          <Row className="justify-content-center d-block d-md-none">
+            <Slider {...settings1}>
+              <div>
+                <Col md={4} xs={12} className="card-2headcol">
+                  <div className="card-2">
+                    <div className="Btn-3">
+                      <img
+                        src="./view.png"
+                        alt="palynx-img"
+                        className="img-fluid"
+                      />
+                      <button className="btn-2">Romantic</button>
+                    </div>
+                    <div className="card-2Cont">
+                      <h6>Sea & Romantic dinner</h6>
+                      <pre>New York, NY - August 12</pre>
+                    </div>
+                  </div>
+                </Col>
               </div>
-              <div className="card-2Cont">
-                <h6>Sea & Romantic dinner</h6>
-                <pre>New York, NY - August 12</pre>
+              <div>
+                <Col md={4} xs={12} className="card-2headcol">
+                  <div className="card-2">
+                    <div className="Btn-3">
+                      <img
+                        src="./yatch.png"
+                        alt="palynx-img"
+                        className="img-fluid"
+                      />
+                      <button className="btn-3">Party</button>
+                    </div>
+                    <div className="card-2Cont">
+                      <h6>Yacht day & Friend’s party</h6>
+                      <pre>New York, NY - August 18</pre>
+                    </div>
+                  </div>
+                </Col>
               </div>
-            </div>
-          </Col>
-          <Col md={4} xs={12} className="card-2headcol">
-            <div className="card-2">
-              <div className="Btn-3">
-                <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn-3">Party</button>
+              <div>
+                <Col md={4} xs={12} className="card-2headcol">
+                  <div className="card-2">
+                    <div className="Btn-3">
+                      <img
+                        src="./bale.png"
+                        alt="palynx-img"
+                        className="img-fluid"
+                      />
+                      <button className="btn-4">Dance classes</button>
+                    </div>
+                    <div className="card-2Cont">
+                      <h6>Beginner & Intermediate Ballet Class</h6>
+                      <pre>New York, NY - August 24</pre>
+                    </div>
+                  </div>
+                </Col>
               </div>
-              <div className="card-2Cont">
-                <h6>Yacht day & Friend’s party</h6>
-                <pre>New York, NY - August 18</pre>
-              </div>
-            </div>
-          </Col>
-          <Col md={4} xs={12} className="card-2headcol">
-            <div className="card-2">
-              <div className="Btn-3">
-                <img src="./bale.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn-4">Dance classes</button>
-              </div>
-              <div className="card-2Cont">
-                <h6>Beginner & Intermediate Ballet Class</h6>
-                <pre>New York, NY - August 24</pre>
-              </div>
-            </div>
-          </Col>
+            </Slider>
+          </Row>
+          <Row {...settings}>
+            <Row className="justify-content-center d-none d-md-flex">
+              <Col md={4} xs={12} className="card-2headcol">
+                <div className="card-2">
+                  <div className="Btn-3">
+                    <img
+                      src="./view.png"
+                      alt="palynx-img"
+                      className="img-fluid"
+                    />
+                    <button className="btn-2">Romantic</button>
+                  </div>
+                  <div className="card-2Cont">
+                    <h6>Sea & Romantic dinner</h6>
+                    <pre>New York, NY - August 12</pre>
+                  </div>
+                </div>
+              </Col>
+              <Col md={4} xs={12} className="card-2headcol">
+                <div className="card-2">
+                  <div className="Btn-3">
+                    <img
+                      src="./yatch.png"
+                      alt="palynx-img"
+                      className="img-fluid"
+                    />
+                    <button className="btn-3">Party</button>
+                  </div>
+                  <div className="card-2Cont">
+                    <h6>Yacht day & Friend’s party</h6>
+                    <pre>New York, NY - August 18</pre>
+                  </div>
+                </div>
+              </Col>
+              <Col md={4} xs={12} className="card-2headcol">
+                <div className="card-2">
+                  <div className="Btn-3">
+                    <img
+                      src="./bale.png"
+                      alt="palynx-img"
+                      className="img-fluid"
+                    />
+                    <button className="btn-4">Dance classes</button>
+                  </div>
+                  <div className="card-2Cont">
+                    <h6>Beginner & Intermediate Ballet Class</h6>
+                    <pre>New York, NY - August 24</pre>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Row>
         </Row>
       </Container>
       <Container className="hero-4 ">
@@ -507,7 +628,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Row className="d-flex justify-content-center mt-4">
+        <Row className="d-flex justify-content-center mt-4 d-none d-md-flex">
           <Col md={4} xs={12}>
             <Link to="Blog" className="blog">
               <div className="hero-8Card">
@@ -572,6 +693,74 @@ const Home = () => {
               </div>
             </Link>
           </Col>
+        </Row>
+        <Row className="justify-content-center d-block d-md-none">
+          <Slider {...settings1}>
+            <Col md={4} xs={12}>
+              <Link to="Blog" className="blog">
+                <div className="hero-8Card">
+                  <div>
+                    <img
+                      src="./party.png"
+                      alt="palynx-img"
+                      className="img-fluid party"
+                    />
+                    <div className="discoverp">
+                      <h6>Top 10 Hidden Gems in Your City</h6>
+                      <p>
+                        Discover the lesser-known spots in your city that are
+                        waiting to be explored. From...
+                      </p>
+                      <pre>02/05/2024 . 12 min read</pre>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </Col>
+            <Col md={4} xs={12}>
+              <Link to="Blog" className="blog">
+                <div className="hero-8Card">
+                  <div>
+                    <img
+                      src="./pitch.png"
+                      alt="palynx-img"
+                      className="img-fluid pitch"
+                    />
+                    <div className="discoverp1">
+                      <h6>How to Meet Like-Minded People: Tips and Tricks</h6>
+                      <p>
+                        Building meaningful connections is easier than you
+                        think. Learn how to find and connect with individuals
+                        who share your interests and passions.
+                      </p>
+                      <pre>02/05/2024 . 12 min read</pre>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </Col>
+            <Col md={4} xs={12}>
+              <Link to="Blog" className="blog">
+                <div className="hero-8Card">
+                  <div>
+                    <img
+                      src="./diary.png"
+                      alt="palynx-img"
+                      className="img-fluid diary"
+                    />
+                    <div className="discoverp">
+                      <h6>Top 10 Hidden Gems in Your City</h6>
+                      <p>
+                        Discover the lesser-known spots in your city that are
+                        waiting to be explored. From...
+                      </p>
+                      <pre>02/05/2024 . 12 min read</pre>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </Col>
+          </Slider>
         </Row>
       </Container>
       <Container className="hero-9">

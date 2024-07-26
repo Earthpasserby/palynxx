@@ -19,7 +19,7 @@ const Blogcategory = () => {
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="#home">
-            <img src="./palynx-logo.png" alt="logo" className="logo-img" />
+            <img src="./loogo.png" alt="logo" className="logo-img" />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -89,7 +89,7 @@ const Blogcategory = () => {
           </div>
         </Link>
       </Container>
-      <Container className="BlogcategoryHead mt-5">
+      <Container className="BlogcategoryHead mt-4">
         <Row className="bn">
           <Col md={12} xs={8}>
             <div className="bloG-cat1">
@@ -282,7 +282,7 @@ const Blogcategory = () => {
           </Container>
         </Row>
       </Container>
-      <Container className="blogSection mt-5">
+      <Container className="blogSection mt-4">
         <Container>
           <div className="blogSection-arrow">
             <img src="./arrow.png" alt="palynx-img" className="rrow1" />

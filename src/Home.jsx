@@ -254,7 +254,7 @@ const Home = () => {
             <div className="card-2">
               <div className="Btn-3">
                 <img src="./yatch.png" alt="palynx-img" className="img-fluid" />
-                <button className="btn-3">party</button>
+                <button className="btn-3">Party</button>
               </div>
               <div className="card-2Cont">
                 <h6>Yacht day & Friend’s party</h6>

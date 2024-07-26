@@ -365,7 +365,7 @@ const Home = () => {
               </div>
               <div>
                 <Col md={4} xs={12} className="card-2headcol">
-                  <div className="card-2">
+                  <div className="card-2 last-card">
                     <div className="Btn-3">
                       <img
                         src="./bale.png"
@@ -656,9 +656,17 @@ const Home = () => {
         <div className="hero-8Header">
           <div className="d-flex justify-content-between">
             <h5>
-              Discover More with the Palynx <span> Blog</span>
+              Discover More with the Palynx{" "}
+              <span>
+                {" "}
+                Blog
+                <img
+                  src="./dash.png"
+                  alt="palynx-img"
+                  className="img-fluid dash"
+                />
+              </span>
             </h5>
-            <img src="./dash.png" alt="palynx-img" className="img-fluid dash" />
             <div>
               <Link to="/Blog">
                 <button className="discover-btn">

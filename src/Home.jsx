@@ -101,12 +101,8 @@ const Home = () => {
               <Nav.Link as={NavLink} to="/Blog" className="">
                 Blog
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/aqs" className="">
-                FAQS
-              </Nav.Link>
-              <Nav.Link as={NavLink} to="/faqs" className="">
-                Contact
-              </Nav.Link>
+              <Nav.Link className="">FAQS</Nav.Link>
+              <Nav.Link className="">Contact</Nav.Link>
             </Nav>
             <Nav className="nav-btn">
               <button className="F-btn">
@@ -138,12 +134,13 @@ const Home = () => {
               Connect with people with like minds, similar interests, <br />{" "}
               goals and motivations and make plans all with Palynx.
             </p>
-            <button className="btn-1 homebtn-1">Download the App</button>
+            <button className="btn-1 homebtn-1 mt-5">Download the App</button>
           </Col>
           <Col xs={12} md={4} className="">
             <div className="hero-imgg  w-100 h-100">
+              <img src="./hero-pic.png" alt="palynx-img" className="flatn-2" />
               <img
-                src="./flatn.png"
+                src="./hero-pic.png"
                 alt="palynx-img"
                 className="flatn"
                 // style={{ objectFit: "cover" }}
@@ -151,6 +148,9 @@ const Home = () => {
             </div>
           </Col>
         </Row>
+        <div>
+          <button className="btn-mobile">Download the App</button>
+        </div>
       </Container>
 
       <Container className="hero-2">
@@ -273,6 +273,11 @@ const Home = () => {
                 alt="palynx-img"
                 className="img-fluid three"
               />
+              <img
+                src="./mobile.png"
+                alt="palynx-img"
+                className="img-fluid mobile"
+              />
             </div>
           </Col>
         </Row>
@@ -299,6 +304,7 @@ const Home = () => {
           </Container>
           <Row className="mt-4">
             <div className="slider-container">
+              <img src="./vector.png" alt="palynx-img" className="Vector" />
               <Slider
                 ref={(slider) => {
                   sliderRef = slider;
@@ -404,6 +410,9 @@ const Home = () => {
               </div>
             </div>
           </Col>
+          <div>
+            <button className="btn-mobile">Download the App</button>
+          </div>
         </Row>
       </Container>
       <Container className="hero-7">
@@ -573,7 +582,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("1")}
               >
-                <h1 className="accordionSpan">Connecting with Palynx</h1>
+                <h1 className="accordionSpan">What is Palynx?</h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "1" ? "fa-chevron-up" : "fa-chevron-down"
@@ -598,7 +607,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("2")}
               >
-                <h1 className="accordionSpan">Do more with Palynx</h1>
+                <h1 className="accordionSpan">What is Palynx?</h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "2" ? "fa-chevron-up" : "fa-chevron-down"
@@ -669,16 +678,16 @@ const Home = () => {
                       latest news, events, and features!
                     </p>
                     <div className="icon d-flex">
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <BiLogoLinkedin />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <BsInstagram />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <FaFacebookF />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <FaXTwitter />
                       </button>
                     </div>
@@ -705,7 +714,7 @@ const Home = () => {
                   className="logo-img b-ff"
                 />
                 <p className="">Discover, Connect, Plan</p>
-                <div className="d-flex">
+                <div className="d-flex footerp-iconMobile">
                   <button className="btn btn-icon2">
                     <BiLogoLinkedin />
                   </button>

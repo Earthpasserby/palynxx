@@ -38,12 +38,8 @@ const Blog = () => {
               <Nav.Link as={NavLink} to="/Blog" className="">
                 Blog
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/aqs" className="">
-                FAQS
-              </Nav.Link>
-              <Nav.Link as={NavLink} to="/faqs" className="">
-                Contact
-              </Nav.Link>
+              <Nav.Link className="">FAQS</Nav.Link>
+              <Nav.Link className="">Contact</Nav.Link>
             </Nav>
             <Nav className="nav-btn">
               <button className="btn F-btn">
@@ -268,8 +264,8 @@ const Blog = () => {
             <ul className="pagination d-flex justify-content-between">
               <div>
                 <li class="page-item">
-                  <a class="page-link" href="#">
-                    <GoArrowLeft className="webpagin-Icon" />
+                  <a class="page-link previous-pagination" href="#">
+                    <GoArrowLeft className="webpagin-Icon1" />
                     Previous
                   </a>
                 </li>
@@ -313,9 +309,9 @@ const Blog = () => {
               </div>
               <div>
                 <li class="page-item">
-                  <a class="page-link" href="#">
+                  <a class="page-link   next-pagination" href="#">
                     Next
-                    <GoArrowRight className="webpagin-Icon" />
+                    <GoArrowRight className="webpagin-Icon2" />
                   </a>
                 </li>
               </div>
@@ -407,16 +403,16 @@ const Blog = () => {
                       news, events, and features!
                     </p>
                     <div className="icon d-flex">
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <BiLogoLinkedin />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <BsInstagram />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <FaFacebookF />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <FaXTwitter />
                       </button>
                     </div>
@@ -443,7 +439,7 @@ const Blog = () => {
                   className="logo-img b-ff"
                 />
                 <p className="">Discover, Connect, Plan</p>
-                <div className="d-flex">
+                <div className="d-flex footerp-iconMobile">
                   <button className="btn btn-icon2">
                     <BiLogoLinkedin />
                   </button>
@@ -484,10 +480,13 @@ const Blog = () => {
                 <p>
                   <a href="#">Download App</a>
                 </p>
-                <button className="btn btn-1 download-btn3 d-flex">
-                  <i class="bi bi-apple apple3"></i>
-                  Download on the App Store
+                <button className="download-button">
+                  <i className="bi bi-apple"></i>
+                  <div className="text-container">
+                    Download on the <br /> <span>App Store</span>
+                  </div>
                 </button>
+
                 <div className="PalynxT"></div>
               </div>
             </div>

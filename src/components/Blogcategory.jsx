@@ -37,12 +37,8 @@ const Blogcategory = () => {
               <Nav.Link as={NavLink} to="/Blog" className="">
                 Blog
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/aqs" className="">
-                FAQS
-              </Nav.Link>
-              <Nav.Link as={NavLink} to="/faqs" className="">
-                Contact
-              </Nav.Link>
+              <Nav.Link className="">FAQS</Nav.Link>
+              <Nav.Link className="">Contact</Nav.Link>
             </Nav>
             <Nav className="nav-btn">
               <button className="btn F-btn">
@@ -373,16 +369,16 @@ const Blogcategory = () => {
                       news, events, and features!
                     </p>
                     <div className="icon d-flex">
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <BiLogoLinkedin />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <BsInstagram />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <FaFacebookF />
                       </button>
-                      <button className="btn btn-icon">
+                      <button className="btn-icon">
                         <FaXTwitter />
                       </button>
                     </div>
@@ -450,10 +446,13 @@ const Blogcategory = () => {
                 <p>
                   <a href="#">Download App</a>
                 </p>
-                <button className="btn btn-1 download-btn3 d-flex">
-                  <i class="bi bi-apple apple3"></i>
-                  Download on the App Store
+                <button className="download-button">
+                  <i className="bi bi-apple"></i>
+                  <div className="text-container">
+                    Download on the <br /> <span>App Store</span>
+                  </div>
                 </button>
+
                 <div className="PalynxT"></div>
               </div>
             </div>

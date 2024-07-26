@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 /* p h1, h1,h3, h4, h5, h6{
   padding: 0;
   margin: 0;
@@ -12,6 +11,34 @@ body {
   background-color: #f9f6f3;
 }
 /*Home*/
+.logo-img {
+  height: 40px; /* Adjust as needed */
+}
+@font-face {
+  font-family: fixel Text;
+  src: url(../public/FixelText-Regular.otf);
+}
+
+@media (min-width: 320px) {
+  .card-2 {
+    padding: 8px 8px 12px 8px;
+    border-radius: 32px;
+    border: 3px solid #f2eee9;
+    padding-top: 220px;
+  }
+}
+
+.nav-btn .F-btn .D-app {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-btn .F-btn:hover {
+  background-color: #e0e0e0; /* Adjust hover background color as needed */
+}
+.hero-section {
+  margin-top: 70px; /* Adjust based on your navbar height */
+}
 .header-2 h2 {
   font-family: Fixel Text;
   font-size: 24px;
@@ -83,8 +110,19 @@ body {
   font-size: 12px;
   color: #1d1d1b;
   width: 106px;
+  background-color: transparent;
+}
+.blog{
+  text-decoration: none;
 }
 .discoverp h6 {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d1d1b;
+  margin-top: 5px;
+}
+.discoverp1 h6 {
   font-family: Fixel Text;
   font-size: 16px;
   font-weight: 600;
@@ -103,6 +141,18 @@ body {
   font-weight: 500;
   color: #a91703;
 }
+.discoverp1 p {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d1d1b;
+}
+.discoverp1 pre {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a91703;
+}
 .dash {
   position: absolute;
   left: 50px;
@@ -112,13 +162,21 @@ body {
   display: none;
 }
 .hero-7 {
-  height: 600px;
+  height: 800px;
   background: linear-gradient(to top, #ffe5a4, #ff763c);
   padding: 48px 48px 0px 48px;
   gap: 48px;
   border-radius: 40px;
   margin-top: 40px;
+  position: relative;
 }
+.download {
+    position: absolute;
+    top: -300px;
+    left: -40px;
+    width: 311px;
+    height: 312.5px;
+  }
 .download {
   position: absolute;
   right: 40px;
@@ -225,6 +283,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   color: #1d1d1b;
+  margin-top: 15px;
 }
 .section2 span {
   font-family: Fixel Text;
@@ -235,6 +294,150 @@ body {
 .hero-6 {
   margin-top: 40px;
 }
+  .hero77 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .hero-7 h4 {
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-wrap: nowrap;
+    line-height: 62.4px;
+  }
+  .hero77-Span {
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1b;
+    line-height: 62.4px;
+  }
+  .hero-7 p {
+    font-family: Fixel Text;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1b;
+    line-height: 32px;
+  }
+    .download-button {
+    display: flex;
+    align-items: center;
+    padding: 4px, 32px, 4px, 16px;
+    background-color: #f8f8f8;
+    color: #1d1d1b;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: fixel Text;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+    width: 165px;
+    height: 48px;
+    text-align: left; /* Align text to the left */
+  }
+  .download-button-1 {
+    display: flex;
+    align-items: center;
+    padding: 4px, 32px, 4px, 16px;
+    background-color: #1d1d1b;
+    color: #f8f8f8;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: fixel Text;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+    width: 165px;
+    height: 48px;
+    text-align: left; /* Align text to the left */
+  }
+  .download-button-1 i {
+    margin-right: 8px; /* Space between icon and text */
+    padding-top: -25px; /* Adjust padding-top as needed */
+    font-size: 28px;
+    padding-left: 16px;
+  }
+  .download-button i {
+    margin-right: 5px; /* Space between icon and text */
+    padding-top: -25px; /* Adjust padding-top as needed */
+    font-size: 24px;
+    padding-left: 16px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-container span {
+    font-size: 14px; /* Adjust the font size of the App Store text if needed */
+    font-weight: 500;
+    font-family: fixel Text;
+  }
+    .hero-9 {
+    margin-top: 40px;
+    position: relative;
+  }
+  .accordionSpan {
+    font-family: fixel Text;
+    font-family: Fixel Text;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1b;
+  }
+
+  .accordionItem {
+    margin-bottom: 2rem; /* Adjust the value as needed for spacing */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .accordionHeader {
+    color: #000; /* Optional: Set text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    padding: 1.5em 1em; /* Optional: Adjust padding */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    overflow: hidden;
+  }
+
+  .accordionToggleIcon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.1em;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Icon color */
+    border-radius: 50%; /* Border radius */
+    padding: 0.5em; /* Padding */
+  }
+
+  .accordionItem .accordion-button:not(.collapsed) .accordionHeader {
+    background-color: white;
+    border-radius: 10.5rem;
+  }
+
+  .accordionItem .accordion-collapse {
+    background-color: white;
+  }
+
+  .accordionBody {
+    background-color: white;
+    overflow: hidden;
+    padding: -20px;
+  }
+  .accordion-item {
+    background-color: transparent;
+  }
+  ::placeholder {
+    color: #1d1d1b;
+    font-size: 18px;
+    line-height: 20px;
+  }
 .hero-8Header {
   position: relative;
   margin-top: 30px;
@@ -249,6 +452,7 @@ body {
   border-radius: 56px;
   background-color: #1d1d1b;
   color: #f8f8f8;
+  display: none;
 }
 .sect-Btn {
   position: relative;
@@ -279,6 +483,7 @@ body {
 .hero-3 {
   height: 100%;
   padding: 48px;
+  margin-top: 50px;
   gap: 48px;
   border-radius: 40px;
   background-color: #ffffff;
@@ -287,6 +492,7 @@ body {
   padding: 8px 8px 12px 8px;
   border-radius: 32px;
   border: 3px solid #f2eee9;
+  margin: 10px;
 }
 
 .hero-3 h4 {
@@ -307,7 +513,39 @@ body {
   font-weight: 400;
   color: #1d1d1b;
 }
+.btn-2 {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 55px;
+  border: none;
+  width: 86px;
+}
 .btn-3 {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 55px;
+  border: none;
+  width: 56px;
+}
+.btn-4 {
+  font-family: Fixel Text;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff5db;
+  color: #1d1d1b;
+  border-radius: 55px;
+  border: none;
+  width: 118px;
+}
+.btn-2,
+.btn-3,
+.btn-4 {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -335,6 +573,26 @@ body {
   position: absolute;
   bottom: 30px;
   left: 180px;
+  display: none;
+}
+.homebtn-1 {
+  display: none;
+}
+.flatn-2 {
+  display: block;
+}
+ .flatn-2 {
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    /* text-align: center; */
+  }
+  .flatn-2 {
+    position: relative;
+  }
+.flatn {
+  display: none;
 }
 
 .three {
@@ -342,6 +600,23 @@ body {
   bottom: 0;
   /* left: 155px; */
   width: 75%;
+}
+.mobile {
+  display: block;
+  width: 79%;
+}
+.btn-mobile {
+  display: block;
+  width: 100%;
+}
+.btn-mobile {
+  height: 56px;
+  padding: 4px 32px 4px 32px;
+  gap: 8px;
+  border-radius: 56px;
+  background-color: #1d1d1b;
+  color: #f8f8f8;
+  border: none;
 }
 .btn-img {
   position: absolute;
@@ -372,11 +647,16 @@ body {
   width: 82px;
   height: 49px;
 }
+.hero-4 {
+  margin-top: 20px;
+  position: relative;
+}
 .hero4-1 {
   height: 330px;
   border-radius: 40px;
   background-color: #ffffff;
   position: relative;
+  padding: 25px;
 }
 .hero4-2 {
   height: 330px;
@@ -384,23 +664,37 @@ body {
   border-radius: 40px;
   background-color: #ffffff;
   position: relative;
+  padding: 25px;
+  margin-top: 20px;
 }
+
 .hero4-1 h5,
 .hero4-2 h5 {
   font-family: Fixel Text;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   color: #1d1d1b;
   /* padding: 30px; */
-  text-wrap: nowrap;
+  line-height: 30px;
+  /* text-wrap: nowrap; */
 }
 .hero4-1 span,
 .hero4-2 span {
   font-family: Fixel Text;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   color: #fa8f42;
-  text-wrap: nowrap;
+  /* text-wrap: nowrap; */
+}
+.plat-img1 {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  width: 250px;
+  height: 75%;
+}
+.three {
+  display: none;
 }
 .hero-8 {
   margin-top: 20px;
@@ -411,18 +705,26 @@ body {
   font-weight: 600;
   color: #1d1d1b;
 }
-.hero-5 span {
-  color: #f1454f;
+.hero-5Share {
+  font-family: Fixel Text;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d1d1b;
+  color: #a91703;
 }
 .hero-5Icon {
   color: #1d1d1b;
   /* font-size: 10px; */
-  width: 56px;
-  height: 56px;
-  padding: 16px;
+  width: 4px;
+  height: 4px;
+  /* padding: 16px; */
   gap: 8px;
   border-radius: 56px;
+  padding: 10px;
   border: 1px solid #e7e1db;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s ease, color 0.3s ease;
 }
 
 .hero-5Icon:active {
@@ -433,6 +735,7 @@ body {
   background-color: #1d1d1b;
   color: #fff;
 }
+
 .Arrow-left:active,
 .Right-left:active {
   color: #fff;
@@ -447,19 +750,57 @@ body {
   background-color: #1d1d1b;
   color: #fff;
 }
+.Arrow-left,
+.Right-left {
+  font-size: 10px;
+}
+.hero-5Button {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+}
+.hero-5Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
+.mx-4 {
+  margin-left: 1.5rem; /* Adjust margin as needed */
+  margin-right: 1.5rem; /* Adjust margin as needed */
+}
+
+.Vector {
+  display: none;
+}
+.pic-slide {
+  width: 100px;
+  /* height: auto; */
+  border-radius: 10px;
+  /* margin-left: 65px; */
+}
+
+.Slide-card {
+  /* padding: 10px; */
+  background-color: #ffff; /* Default background color for non-active slides */
+  width: 100%;
+  /* height: 569px; */
+  padding: 30px 30px 0;
+  gap: 8px;
+  border-radius: 16px;
+  transition: background-color 0.3s ease;
+  margin: 0;
+  z-index: 1; /* Ensure it is below the vector image */
+}
+
+.Slide-card.active {
+  background: linear-gradient(to top, #ffe5a4, #ff763c);
+}
 
 .Blog-form {
   margin-left: -20px;
 }
-.Slide-card {
-  /* background: linear-gradient(to bottom, #ff763c, #ffe5a4); */
-  padding: 72px, 72px, 0px, 72px;
-  border-radius: 24px;
-}
-.pic-slide {
-  width: 140px;
-  /* margin-left: 25px; */
-}
+
 .nbar {
   background-color: #f0ebe5;
   height: 80px;
@@ -507,6 +848,7 @@ body {
   margin-top: 20px;
   font-size: 24px;
   font-weight: 600;
+  /* text-wrap: wrap; */
 }
 
 .Blog-header span {
@@ -555,6 +897,7 @@ body {
   line-height: 20px;
   text-align: left;
   color: #6941c6;
+  margin-top: 10px;
 }
 
 .blogRow1 p {
@@ -588,7 +931,7 @@ body {
   display: none;
 }
 .blogSection1 {
-  height: 2800px;
+  height: 2150px;
   padding: 48px !important;
   gap: 32px;
   border-radius: 40px;
@@ -700,24 +1043,14 @@ body {
 }
 .footer {
   margin-top: 100px;
-  height: 700px;
+  height: 600px;
   top: 6333px;
-  padding: 40px 92px 16px 92px;
+  padding: 24px;
   gap: 65px;
-  border-radius: 48px;
+  border-radius: 16px;
   background-color: #1d1d1b;
+  text-align: left;
 }
-/* .btn-icon2 {
-  width: 48px;
-  height: 48px;
-  padding: 10px 13.47px 13.66px 13.29px;
-  gap: 8px;
-  border-radius: 40px;
-  border: 1px solid #404040;
-  border-radius: 40px;
-  margin: 3px;
-  color: #fff;
-} */
 .apple1 {
   height: 32px;
   margin-left: -20px;
@@ -744,7 +1077,7 @@ body {
   text-wrap: nowrap;
 }
 .foter {
-  margin-top: 100px;
+  margin-top: 50px;
   color: #e7e7e7;
 }
 .footerP {
@@ -793,7 +1126,24 @@ body {
   border: 1px solid #e3dbd2;
   margin: 3px;
   color: #fa8f42;
+  background-color: transparent;
 }
+.btn-icon2 {
+    width: 48px;
+    height: 48px;
+    padding: 10px 13.47px 13.66px 13.29px;
+    gap: 8px;
+    border-radius: 40px;
+    border: 1px solid #404040;
+    border-radius: 40px;
+    margin: 3px;
+    color: #fff;
+    background-color: transparent;
+  }
+  .footerp-iconMobile{
+    margin-left: -10px;
+    margin-bottom: 20px;
+  }
 .rrow1 {
   position: absolute;
   left: 170px;
@@ -1001,7 +1351,33 @@ body {
 .card img {
   width: 100%;
 }
-
+ .pre-tag {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #6941c6;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: fixel Text;
+  }
+  .Blog-post pre {
+    font-family: Fixel Text;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6941c6;
+    margin-top: 10px;
+  }
+    .rrow1 {
+    position: absolute;
+    left: 150px;
+    top: -10px;
+    width: 19px;
+    height: 21px;
+  }
+  .blogSection-arrow {
+    position: relative;
+  }
 @media (min-width: 768px) {
   @font-face {
     font-family: fixel Text;
@@ -1215,17 +1591,25 @@ body {
     background-color: #1d1d1b;
     color: #fff;
     border: none;
+    display: block;
+    margin-top: 20px;
   }
   .flatn {
     width: 450px;
     position: absolute;
-    top: 40px;
-    left: -40px;
+    top: 0;
+    left: -100px;
     /* text-align: center; */
   }
   .flatn {
     position: relative;
+    display: block;
   }
+
+  .flatn-2{
+    display: none;
+  }
+
   .header-arrow {
     position: absolute;
     left: 0;
@@ -1354,7 +1738,7 @@ body {
     color: #1d1d1b;
     font-weight: 400;
   }
-  .discover-btn i{
+  .discover-btn i {
     font-size: 14px;
     margin-right: 5px;
   }
@@ -1399,7 +1783,7 @@ body {
     display: block;
   }
   .underline1 {
-    width: 223px;
+    width: 220px;
     height: 81px;
   }
   .hero77 {
@@ -1470,6 +1854,7 @@ body {
     font-size: 48px;
     font-weight: 600;
     color: #1d1d1b;
+    margin-top: 0;
   }
   .section2 span {
     font-family: Fixel Text;
@@ -1508,8 +1893,12 @@ body {
 
   .highlight1 {
     position: absolute;
-    top: -35px;
+    top: -55px;
     right: 0;
+  }
+  .highlight1 {
+    width: 138px;
+    height: 82px;
   }
   .hero-5Button {
     margin-top: 20px;
@@ -1522,6 +1911,10 @@ body {
     background-color: #1d1d1b;
     color: #f8f8f8;
     border: none;
+    display: block;
+  }
+  .btn-mobile {
+    display: none;
   }
   .btn-img:active {
     background-color: #1d1d1b;
@@ -1540,6 +1933,7 @@ body {
     position: absolute;
     bottom: 45px;
     left: 230px;
+    display: block;
   }
 
   .btn-img {
@@ -1596,6 +1990,7 @@ body {
     gap: 12px;
     border-radius: 32px;
     border: 3px solid #f2eee9;
+    margin: 0;
   }
   .card-2Cont h6 {
     font-family: fixel Text;
@@ -1698,6 +2093,7 @@ body {
     padding: 25px;
     border-radius: 40px;
     background-color: #ffffff;
+    margin-top: 0;
   }
   .three {
     position: absolute;
@@ -1705,6 +2101,10 @@ body {
     left: 50px;
     width: 85%;
     height: 430px;
+    display: block;
+  }
+  .mobile {
+    display: none;
   }
   .plat-img1 {
     position: absolute;
@@ -1744,6 +2144,17 @@ body {
   .hero-5 {
     margin-top: 100px;
     width: 100%;
+    position: relative;
+  }
+  .Vector {
+    width: 160px;
+    height: 47px;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    transform: translateY(-50%); /* Center horizontally */
+    z-index: 10; /* Ensure it is on top */
+    display: block;
   }
   .hero-5 h4,
   .hero-5Share {
@@ -1830,7 +2241,7 @@ body {
     color: #6941c6;
   }
   .blogSection1 {
-    height: 1000px;
+    height: 1050px;
     padding: 48px !important;
     border-radius: 40px;
     background-color: #ffff;
@@ -1847,6 +2258,16 @@ body {
   .Linkk {
     text-decoration: none;
     position: relative;
+  }
+  .bloggCol {
+    margin-top: 30px;
+  }
+  .pagination,
+  .page-link,
+  .page-icon {
+    border: none; /* Remove border from page links */
+    background-color: transparent; /* Ensure background is transparent */
+    color: #1d1d1b;
   }
   .Linkk h6 {
     font-family: Fixel Text;
@@ -1867,6 +2288,21 @@ body {
   }
   .web-pagin {
     display: block;
+  }
+  .webpagin-Icon1 {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .webpagin-Icon2 {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .previous-pagination,
+  .next-pagination {
+    font-family: Fixel Text;
+    font-size: 14px;
+    font-weight: 500;
+    color: #67655e;
   }
   .cardfooter {
     height: 300px;
@@ -2041,6 +2477,7 @@ body {
     border: 1px solid #e3dbd2;
     margin: 3px;
     color: #fa8f42;
+    background-color: transparent;
   }
   .arrow33 {
     display: block;
@@ -2048,14 +2485,16 @@ body {
   .rrow1 {
     position: absolute;
     left: 170px;
-    bottom: -25px;
+    top: -15px;
+    width: 33px;
+    height: 37px;
   }
   .blogSection-arrow {
     position: relative;
   }
   /*BlogCategory*/
   .BlogcategoryHead {
-    height: 2500px;
+    height: 2580px;
     padding: 48px;
     gap: 32px;
     border-radius: 40px;
@@ -2214,6 +2653,7 @@ body {
     margin-bottom: 2rem; /* Adjust the value as needed for spacing */
     border-radius: 0.5rem;
     overflow: hidden;
+    margin-top: 0;
   }
 
   .accordionHeader {
@@ -2264,6 +2704,7 @@ body {
   .slider-container {
     width: 80%;
     margin: auto;
+    position: relative;
   }
   .slick-slide {
     padding: 0 25px;
@@ -2283,7 +2724,9 @@ body {
     padding: 72px 72px 0px 72px;
     gap: 8px;
     border-radius: 40px;
+    margin: 0;
     transition: background-color 0.3s ease;
+    z-index: 1; /* Ensure it is below the vector image */
   }
 
   .Slide-card.active {

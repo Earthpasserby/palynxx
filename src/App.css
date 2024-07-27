@@ -2767,6 +2767,7 @@ body {
     border-radius: 40px;
     margin: 3px;
     color: #fa8f42;
+    background: transparent;
   }
   .bg-cat2 {
     font-family: Fixel Text;
@@ -2831,6 +2832,7 @@ body {
     border-radius: 40px;
     margin: 3px;
     color: #fa8f42;
+    background: transparent;
   }
   .blogcat-Tag a {
     font-family: Fixel Text;

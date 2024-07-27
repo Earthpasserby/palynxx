@@ -119,18 +119,38 @@ const Blogcategory = () => {
               </Col>
               <Col md={6} xs={12}>
                 <div className="blogCat-icon w-100 d-flex justify-content-end">
-                  <button className="btn btn-icon3">
-                    <BsInstagram className="Icon-name" />
-                  </button>
-                  <button className="btn btn-icon3">
-                    <BiLogoLinkedin className="Icon-name" />
-                  </button>
-                  <button className="btn btn-icon3">
-                    <FaXTwitter className="Icon-name" />
-                  </button>
-                  <button className="btn btn-icon3">
-                    <FaFacebookF className="Icon-name" />
-                  </button>
+                  <Link
+                    to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                    className=""
+                  >
+                    <button className="btn-icon3">
+                      <BsInstagram className="Icon-name" />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.linkedin.com/company/palynxapp/"
+                    className=""
+                  >
+                    <button className="btn-icon3">
+                      <BiLogoLinkedin className="Icon-name" />
+                    </button>
+                  </Link>
+
+                  <Link to="https://x.com/palynxapp" className="">
+                    <button className="btn-icon3">
+                      <FaXTwitter className="Icon-name" />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className=""
+                  >
+                    <button className="btn-icon3">
+                      <FaFacebookF className="Icon-name" />
+                    </button>
+                  </Link>
                 </div>
               </Col>
             </Row>
@@ -235,18 +255,38 @@ const Blogcategory = () => {
                 <h6>Share this post</h6>
                 <div className="share-button">
                   <div className="blogCat-icon4 d-flex">
-                    <button className="btn btn-icon4">
-                      <BsInstagram className="Icon-name" />
-                    </button>
-                    <button className="btn btn-icon4">
-                      <BiLogoLinkedin className="Icon-name" />
-                    </button>
-                    <button className="btn btn-icon4">
-                      <FaXTwitter className="Icon-name" />
-                    </button>
-                    <button className="btn btn-icon4">
-                      <FaFacebookF className="Icon-name" />
-                    </button>
+                    <Link
+                      to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                      className=""
+                    >
+                      <button className="btn-icon4">
+                        <BsInstagram className="Icon-name" />
+                      </button>
+                    </Link>
+
+                    <Link
+                      to="https://www.linkedin.com/company/palynxapp/"
+                      className=""
+                    >
+                      <button className="btn-icon4">
+                        <BiLogoLinkedin className="Icon-name" />
+                      </button>
+                    </Link>
+
+                    <Link to="https://x.com/palynxapp" className="">
+                      <button className="btn-icon4">
+                        <FaXTwitter className="Icon-name" />
+                      </button>
+                    </Link>
+
+                    <Link
+                      to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                      className=""
+                    >
+                      <button className="btn-icon4">
+                        <FaFacebookF className="Icon-name" />
+                      </button>
+                    </Link>
                   </div>
                   <div className="d-flex">
                     <p className="blogcat-Tag tag1">

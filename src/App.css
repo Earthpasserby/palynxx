@@ -805,9 +805,9 @@ body {
 }
 .hero-5Icon {
   color: #1d1d1b;
-  /* font-size: 10px; */
-  width: 4px;
-  height: 4px;
+  font-size: 10px;
+  width: 24px;
+  height: 24px;
   /* padding: 16px; */
   gap: 8px;
   border-radius: 56px;
@@ -847,7 +847,6 @@ body {
 }
 .hero-5Button {
   display: flex;
-  align-items: center; /* Align items vertically centered */
 }
 .hero-5Icon {
   display: flex;
@@ -1107,7 +1106,7 @@ body {
   border-radius: 32px;
   background-color: #ffffff;
   margin: 1px;
-  margin-top: -20px;
+  margin-top: 15px;
 }
 .cardfooter h2 {
   font-family: Fixel Text;

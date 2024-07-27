@@ -9,7 +9,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 
-const Policy = () => {
+const Terms = () => {
   const [expanded, setExpanded] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -84,7 +84,7 @@ const Policy = () => {
       </Navbar>
       <Container className="policy">
         <Row>
-          <Col md={12} sm={12}>
+          <Col md={12} sm={12} className="policy-Tag">
             <div>
               <h3>Terms of use</h3>
               <pre>Last modified: May 6, 2024</pre>
@@ -689,11 +689,11 @@ const Policy = () => {
               <h6>Your Comments and Concerns</h6>
               <p>
                 This website is operated by Palynx. All notices of copyright
-                infringement claims should be sent to admin@palynx.com in the
-                manner and by the means set out therein. All other feedback,
-                comments, requests for technical support, and other
-                communications relating to the Website should be directed to:
-                admin@palynx.com.
+                infringement claims should be sent to{" "}
+                <span>admin@palynx.com</span> in the manner and by the means set
+                out therein. All other feedback, comments, requests for
+                technical support, and other communications relating to the
+                Website should be directed to: <span>admin@palynx.com</span>.
               </p>
             </div>
           </Col>
@@ -784,7 +784,7 @@ const Policy = () => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Policy" className="footer-links">
+                  <Link to="/Terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -823,4 +823,4 @@ const Policy = () => {
     </>
   );
 };
-export default Policy;
+export default Terms;

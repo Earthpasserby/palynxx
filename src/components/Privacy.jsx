@@ -85,7 +85,7 @@ const Privacy = () => {
       <Container className="policy">
         <Row>
           <Col md={12} sm={12}>
-            <div>
+            <div className="policy-Tag">
               <h3>Privacy Policy</h3>
               <pre>Last modified: May 6, 2024</pre>
               <h6>Introduction</h6>
@@ -503,7 +503,7 @@ const Privacy = () => {
               <h6>Contact Information</h6>
               <p>
                 To ask questions or comment about this privacy policy and our
-                privacy practices, contact us at: admin@palynx.com
+                privacy practices, contact us at: <span>admin@palynx.com</span>
               </p>
             </div>
           </Col>
@@ -594,7 +594,7 @@ const Privacy = () => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Policy" className="footer-links">
+                  <Link to="/Terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>

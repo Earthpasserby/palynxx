@@ -165,9 +165,9 @@ const Home = () => {
     e.stopPropagation();
     handleToggle(key);
   };
-useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
@@ -1089,7 +1089,7 @@ useEffect(() => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Policy" className="footer-links">
+                  <Link to="/Terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>

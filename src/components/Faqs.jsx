@@ -164,7 +164,7 @@ useEffect(() => {
             </div>
             <div>
               <p>
-                $0.99 per message. Q: What is the Profile Enhancer feature? A:
+                Q: What is the Profile Enhancer feature? A:
                 The Profile Enhancer feature adds a temporary decorative border
                 or badge to your profile picture to help you stand out in the
                 crowd.
@@ -269,7 +269,7 @@ useEffect(() => {
                 you.
               </p>
               <p>
-                you. Q: How do I find places on Palynx? A: You can explore
+                Q: How do I find places on Palynx? A: You can explore
                 places such as restaurants, bars, and cafes by browsing the
                 "Places" tab. Use filters to narrow down your search based on
                 your preferences.
@@ -405,7 +405,7 @@ useEffect(() => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Policy" className="footer-links">
+                  <Link to="/Terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>

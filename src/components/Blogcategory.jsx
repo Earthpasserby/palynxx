@@ -577,7 +577,7 @@ useEffect(() => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Policy" className="footer-links">
+                  <Link to="/Terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>

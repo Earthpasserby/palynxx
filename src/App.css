@@ -48,14 +48,15 @@ body {
 }
 .policy h6 {
   font-family: Fixel Text;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #6941c6;
 }
 .policy h3 {
   font-family: Fixel Text;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
+  color: #1d1d1b;
 }
 .policy pre {
   font-family: Fixel Text;

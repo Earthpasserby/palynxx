@@ -805,11 +805,11 @@ body {
 }
 .hero-5Icon {
   color: #1d1d1b;
-  font-size: 10px;
+  font-size: 110px;
   width: 24px;
   height: 24px;
   /* padding: 16px; */
-  gap: 8px;
+  /* gap: 8px; */
   border-radius: 56px;
   padding: 10px;
   border: 1px solid #e7e1db;
@@ -830,12 +830,12 @@ body {
 .Arrow-left:active,
 .Right-left:active {
   color: #fff;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .Arrow-left:focus,
 .Right-left:focus {
   color: #fff;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .hero-5Icon:focus {
   background-color: #1d1d1b;

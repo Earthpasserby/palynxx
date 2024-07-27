@@ -187,11 +187,11 @@ const Home = () => {
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/Blog" className="">
+              <Nav.Link as={NavLink} to="/blog" className="">
                 Blog
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
-              <Nav.Link className="">
+              <Nav.Link as={NavLink} to="/faqs" className="">
                 FAQS
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -254,7 +254,9 @@ const Home = () => {
               Connect with people with like minds, similar interests, <br />{" "}
               goals and motivations and make plans all with Palynx.
             </p>
-            <button className="btn-1 homebtn-1 mt-5">Download the App</button>
+            <Link to="https://x.com/palynxapp" className="Linked-btn">
+              <button className="btn-1 homebtn-1 mt-5">Download the App</button>
+            </Link>
           </Col>
           <Col xs={12} md={4} className="">
             <div className="hero-imgg  w-100 h-100">
@@ -269,7 +271,9 @@ const Home = () => {
           </Col>
         </Row>
         <div>
-          <button className="btn-mobile">Download the App</button>
+          <Link to="https://x.com/palynxapp" className="Linked-btn">
+            <button className="btn-mobile">Download the App</button>
+          </Link>
         </div>
       </Container>
 
@@ -538,8 +542,9 @@ const Home = () => {
                 alt="palynx-img"
                 className="img-fluid lady"
               />
-
-              <button className="btn-img">Download the App</button>
+              <Link to="https://x.com/palynxapp" className="Linked-btn">
+                <button className="btn-img">Download the App</button>
+              </Link>
               <img
                 src="./Highlight.png"
                 alt="palynx-img"
@@ -604,7 +609,9 @@ const Home = () => {
             </div>
           </Col>
           <div>
-            <button className="btn-mobile">Download the App</button>
+            <Link to="https://x.com/palynxapp" className="Linked-btn">
+              <button className="btn-mobile">Download the App</button>
+            </Link>
           </div>
         </Row>
       </Container>
@@ -950,18 +957,38 @@ const Home = () => {
                       latest news, events, and features!
                     </p>
                     <div className="icon d-flex">
-                      <button className="btn-icon">
-                        <BiLogoLinkedin />
-                      </button>
-                      <button className="btn-icon">
-                        <BsInstagram />
-                      </button>
-                      <button className="btn-icon">
-                        <FaFacebookF />
-                      </button>
-                      <button className="btn-icon">
-                        <FaXTwitter />
-                      </button>
+                      <Link
+                        to=" https://www.linkedin.com/company/palynxapp/"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <BiLogoLinkedin />
+                        </button>
+                      </Link>
+                      <Link
+                        to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <BsInstagram />
+                        </button>
+                      </Link>
+                      <Link
+                        to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <FaFacebookF />
+                        </button>
+                      </Link>
+                      <Link
+                        to="https://x.com/palynxapp"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <FaXTwitter />
+                        </button>
+                      </Link>
                     </div>
                     <img
                       src="./arrow33.png"
@@ -987,58 +1014,93 @@ const Home = () => {
                 />
                 <p className="">Discover, Connect, Plan</p>
                 <div className="d-flex footerp-iconMobile">
-                  <button className="btn btn-icon2">
-                    <BiLogoLinkedin />
-                  </button>
-                  <button className="btn btn-icon2">
-                    <BsInstagram />
-                  </button>
-                  <button className="btn btn-icon2">
-                    <FaFacebookF />
-                  </button>
-                  <button className="btn btn-icon2">
-                    <FaXTwitter />
-                  </button>
+                  <Link
+                    to="https://www.linkedin.com/company/palynxapp/"
+                    className="Linked-btn"
+                  >
+                    <button className="btn-icon2">
+                      <BiLogoLinkedin />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                    className="Linked-btn"
+                  >
+                    <button className="btn-icon2">
+                      <BsInstagram />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className="Linked-btn"
+                  >
+                    <button className="btn-icon2">
+                      <FaFacebookF />
+                    </button>
+                  </Link>
+
+                  <Link to="https://x.com/palynxapp" className="Linked-btn">
+                    <button className="btn-icon2">
+                      <FaXTwitter />
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">
-                    About us
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className="footer-links"
+                  >
+                    <a>
+                      About us
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    Blog
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Blog" className="footer-links">
+                    <a>
+                      Blog
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    FAQs
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Faqs" className="footer-links">
+                    <a>
+                      Faqs
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    Contact
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/" className="footer-links">
+                    <a>
+                      Contact
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">
-                    Terms of Service
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Policy" className="footer-links">
+                    <a>
+                      Terms of Service
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    Privacy Policy
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Privacy" className="footer-links">
+                    <a>
+                      Privacy & Policy
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
               </div>
               <div class="col-sm-3 footerp">

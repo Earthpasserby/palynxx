@@ -35,11 +35,11 @@ const Blogcategory = () => {
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/Blog" className="">
+              <Nav.Link as={NavLink} to="/blog" className="">
                 Blog
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
-              <Nav.Link className="">
+              <Nav.Link as={NavLink} to="/faqs" className="">
                 FAQS
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -372,8 +372,9 @@ const Blogcategory = () => {
                       Get in<span> Touch</span>
                     </h2>
                     <p>
-                      Have questions or need support?Reach out to our friendly
-                      support team at
+                      Have questions or need support?
+                      <br />
+                      Reach out to our friendly support team at
                     </p>
                     <div className="Blog-form">
                       <form action="#">
@@ -399,22 +400,42 @@ const Blogcategory = () => {
                       We are <span>Social</span>
                     </h2>
                     <p>
-                      Follow us on social media to stay updated with the latest
-                      news, events, and features!
+                      Follow us on social media to stay updated with the <br />{" "}
+                      latest news, events, and features!
                     </p>
                     <div className="icon d-flex">
-                      <button className="btn-icon">
-                        <BiLogoLinkedin />
-                      </button>
-                      <button className="btn-icon">
-                        <BsInstagram />
-                      </button>
-                      <button className="btn-icon">
-                        <FaFacebookF />
-                      </button>
-                      <button className="btn-icon">
-                        <FaXTwitter />
-                      </button>
+                      <Link
+                        to=" https://www.linkedin.com/company/palynxapp/"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <BiLogoLinkedin />
+                        </button>
+                      </Link>
+                      <Link
+                        to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <BsInstagram />
+                        </button>
+                      </Link>
+                      <Link
+                        to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <FaFacebookF />
+                        </button>
+                      </Link>
+                      <Link
+                        to="https://x.com/palynxapp"
+                        className="Linked-btn2"
+                      >
+                        <button className="btn-icon">
+                          <FaXTwitter />
+                        </button>
+                      </Link>
                     </div>
                     <img
                       src="./arrow33.png"
@@ -440,58 +461,93 @@ const Blogcategory = () => {
                 />
                 <p className="">Discover, Connect, Plan</p>
                 <div className="d-flex footerp-iconMobile">
-                  <button className="btn btn-icon2">
-                    <BiLogoLinkedin />
-                  </button>
-                  <button className="btn btn-icon2">
-                    <BsInstagram />
-                  </button>
-                  <button className="btn btn-icon2">
-                    <FaFacebookF />
-                  </button>
-                  <button className="btn btn-icon2">
-                    <FaXTwitter />
-                  </button>
+                  <Link
+                    to="https://www.linkedin.com/company/palynxapp/"
+                    className="Linked-btn"
+                  >
+                    <button className="btn-icon2">
+                      <BiLogoLinkedin />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                    className="Linked-btn"
+                  >
+                    <button className="btn-icon2">
+                      <BsInstagram />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className="Linked-btn"
+                  >
+                    <button className="btn-icon2">
+                      <FaFacebookF />
+                    </button>
+                  </Link>
+
+                  <Link to="https://x.com/palynxapp" className="Linked-btn">
+                    <button className="btn-icon2">
+                      <FaXTwitter />
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">
-                    About us
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className="footer-links"
+                  >
+                    <a>
+                      About us
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    Blog
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Blog" className="footer-links">
+                    <a>
+                      Blog
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    FAQs
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Faqs" className="footer-links">
+                    <a>
+                      Faqs
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    Contact
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/" className="footer-links">
+                    <a>
+                      Contact
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <a href="#">
-                    Terms of Service
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Policy" className="footer-links">
+                    <a>
+                      Terms of Service
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#">
-                    Privacy Policy
-                    <i class="bi bi-chevron-right footer-Angle"></i>
-                  </a>
+                  <Link to="/Privacy" className="footer-links">
+                    <a>
+                      Privacy & Policy
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
                 </p>
               </div>
               <div class="col-sm-3 footerp">

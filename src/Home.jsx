@@ -397,7 +397,7 @@ const Home = () => {
                     <img
                       src="./view.png"
                       alt="palynx-img"
-                      className="img-fluid"
+                      className="img-fluid w-100"
                     />
                     <button className="btn-2">Romantic</button>
                   </div>
@@ -413,7 +413,7 @@ const Home = () => {
                     <img
                       src="./yatch.png"
                       alt="palynx-img"
-                      className="img-fluid"
+                      className="img-fluid w-100"
                     />
                     <button className="btn-3">Party</button>
                   </div>
@@ -429,7 +429,7 @@ const Home = () => {
                     <img
                       src="./bale.png"
                       alt="palynx-img"
-                      className="img-fluid"
+                      className="img-fluid w-100"
                     />
                     <button className="btn-4">Dance classes</button>
                   </div>

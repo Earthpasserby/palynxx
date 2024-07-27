@@ -48,7 +48,7 @@ body {
   text-align: justify;
   line-height: 30px;
 }
-.policy-Tag span{
+.policy-Tag span {
   color: #fa8f42;
 }
 .policy h6 {
@@ -82,7 +82,7 @@ body {
   font-family: fixel Text;
   src: url(../public/FixelText-Regular.otf);
 }
-.Linked-btn{
+.Linked-btn {
   text-decoration: none;
   color: #fff;
 }
@@ -583,7 +583,7 @@ body {
   /* margin: 10px; */
 }
 .last-card {
-  height: 239px;
+  height: 250px;
 }
 
 .hero-3 h4 {
@@ -854,7 +854,6 @@ body {
   justify-content: center;
   padding: 10px; /* Adjust as needed */
   cursor: pointer;
-
 }
 .mx-4 {
   margin-left: 1.5rem; /* Adjust margin as needed */

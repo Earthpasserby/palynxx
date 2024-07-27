@@ -218,20 +218,38 @@ const Home = () => {
               <h6>
                 We are <span>Social</span>
               </h6>
-              <div className="d-flex Navbar-iconMobile">
-                <button className="btn-icon7">
-                  <BiLogoLinkedin />
-                </button>
-                <button className="btn-icon7">
-                  <BsInstagram />
-                </button>
-                <button className="btn-icon7">
-                  <FaFacebookF />
-                </button>
-                <button className="btn-icon7">
-                  <FaXTwitter />
-                </button>
+              <div className="d-flex  Navbar-iconMobile">
+                <Link
+                  to=" https://www.linkedin.com/company/palynxapp/"
+                  className="Linked-btn2"
+                >
+                  <button className="btn-icon7">
+                    <BiLogoLinkedin />
+                  </button>
+                </Link>
+                <Link
+                  to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                  className="Linked-btn2"
+                >
+                  <button className="btn-icon7">
+                    <BsInstagram />
+                  </button>
+                </Link>
+                <Link
+                  to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                  className="Linked-btn2"
+                >
+                  <button className="btn-icon7">
+                    <FaFacebookF />
+                  </button>
+                </Link>
+                <Link to="https://x.com/palynxapp" className="Linked-btn2">
+                  <button className="btn-icon7">
+                    <FaXTwitter />
+                  </button>
+                </Link>
               </div>
+             
             </div>
           </Navbar.Collapse>
         </Container>

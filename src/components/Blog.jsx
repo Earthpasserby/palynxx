@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Container, Navbar, Nav, Col, Row, Card } from "react-bootstrap";
@@ -14,7 +14,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Blog = () => {
   const [expanded, setExpanded] = useState(false);
-
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">

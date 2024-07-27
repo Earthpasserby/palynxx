@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import Accordion from "react-bootstrap/Accordion";
@@ -165,7 +165,9 @@ const Home = () => {
     e.stopPropagation();
     handleToggle(key);
   };
-
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">

@@ -450,7 +450,7 @@ const Blogcategory = () => {
                     <div className="Blog-form">
                       <div className="form-box">
                         <p>support@palynx.com</p>
-                        <Link to="/Contact">
+                        <Link to="mailto: support@palynx.com">
                           <button type="submit" className="Blog-btn">
                             <GoArrowUpRight />
                           </button>

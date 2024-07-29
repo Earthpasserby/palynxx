@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 /* p h1, h1,h3, h4, h5, h6{
   padding: 0;
@@ -582,10 +581,9 @@ body {
   border-radius: 12px;
   border: 3px solid #f2eee9;
   /* margin: 10px; */
-   height: 270px;
+  height: 270px;
 }
 .last-card {
- 
 }
 
 .hero-3 h4 {
@@ -1084,7 +1082,8 @@ body {
   font-size: 17px;
   line-height: 20px;
 }
-.bi-filter-right, .bi-x{
+.bi-filter-right,
+.bi-x {
   font-size: 40px;
   outline: none;
 }

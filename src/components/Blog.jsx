@@ -14,14 +14,14 @@ import { Link, NavLink } from "react-router-dom";
 
 const Blog = () => {
   const [expanded, setExpanded] = useState(false);
-useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src="./loogo.png" alt="logo" className="logo-img" />
           </Navbar.Brand>
           <Navbar.Toggle
@@ -474,7 +474,7 @@ useEffect(() => {
                     </p>
                     <div className="icon d-flex">
                       <Link
-                        to=" https://www.linkedin.com/company/palynxapp/"
+                        to="https://www.linkedin.com/company/palynxapp/"
                         className="Linked-btn2"
                       >
                         <button className="btn-icon">

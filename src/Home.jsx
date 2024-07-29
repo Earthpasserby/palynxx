@@ -172,7 +172,7 @@ const Home = () => {
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src="./loogo.png" alt="logo" className="logo-img" />
           </Navbar.Brand>
           <Navbar.Toggle

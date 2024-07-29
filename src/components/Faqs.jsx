@@ -11,14 +11,14 @@ import { Link, NavLink } from "react-router-dom";
 
 const Faqs = () => {
   const [expanded, setExpanded] = useState(false);
-useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src="./loogo.png" alt="logo" className="logo-img" />
           </Navbar.Brand>
           <Navbar.Toggle

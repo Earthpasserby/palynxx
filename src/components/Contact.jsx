@@ -136,7 +136,7 @@ const Contact = () => {
                   <div>
                     <p className="contactSupport">
                       <i class="bi bi-envelope mx-2"></i>
-                      Support@palynx.com
+                      <b>support@palynx.com</b>
                     </p>
                   </div>
                 </Col>

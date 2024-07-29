@@ -3002,7 +3002,15 @@ body {
   .contact-details p {
     font-family: fixel Text;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .contact-details pre{
+    font-family: fixel Text;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .contactLine{
+    color: #fa8f42;
   }
   .lastName {
     height: 60px;

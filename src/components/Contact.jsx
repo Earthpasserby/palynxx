@@ -114,7 +114,7 @@ const Contact = () => {
                 <Col>
                   <h4>Get in touch with us. </h4>
                   <p>Reach out for any inquiry.</p>
-                  <hr />
+                  <hr className="contactLine" />
                   <pre>Send us an email on:</pre>
                   <div>
                     <p className="contactSupport">

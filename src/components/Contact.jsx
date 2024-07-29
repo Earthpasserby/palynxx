@@ -21,7 +21,6 @@ import { FaPhone } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import RenderJSON from "./.well-known/assetlinks.json";
 const Contact = () => {
   const [expanded, setExpanded] = useState(false);
 
@@ -158,7 +157,6 @@ const Contact = () => {
             </Col>
           </Row>
         </Container>
-        <RenderJSON />
       </Container>
     </>
   );

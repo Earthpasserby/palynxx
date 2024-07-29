@@ -174,7 +174,7 @@ const Contact = () => {
                     className="bg-transparent"
                   />
                 </Form.Group>
-                <Link to="/" style={{ textDecoration: "none" }}>
+                <Link to="/">
                   <button className="contact-btn">Submit</button>
                 </Link>
               </Form>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,21 +15,28 @@ body {
 
 .Faqs h5 {
   font-family: Fixel Text;
-  font-size: 25px;
-  font-weight: 600;
-  color: #6941c6;
+  font-size: 28px;
+  font-weight: 900;
+  color: #1d1d1b;
 }
 .Faqs h6 {
   font-family: Fixel Text;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
-  color: #6941c6;
+  color: #1d1d1b;
+  margin-top: 20px;
 }
 .Faqs p {
   font-family: Fixel Text;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
+  line-height: 50px;
+  color: #333;
 }
+.B-Text{
+    font-size: 20px;
+    color: #1d1d1b;
+  }
 .Faqs {
   margin-top: 25px;
   text-align: justify;
@@ -53,9 +62,11 @@ body {
 }
 .policy h6 {
   font-family: Fixel Text;
-  font-size: 18px;
-  font-weight: 600;
-  color: #6941c6;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 40px;
+
+  color: #1d1d1b;
 }
 .policy h3 {
   font-family: Fixel Text;
@@ -65,13 +76,15 @@ body {
 }
 .policy pre {
   font-family: Fixel Text;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
 }
 .policy p {
   font-family: Fixel Text;
   font-size: 17px;
   font-weight: 600;
+  line-height: 50px;
+  color: #333;
 }
 /*Home*/
 
@@ -887,9 +900,9 @@ body {
   background: linear-gradient(to top, #ffe5a4, #ff763c);
 }
 
-.Blog-form {
+/* .Blog-form {
   margin-left: -20px;
-}
+} */
 
 .nbar {
   background-color: #f0ebe5;
@@ -1049,11 +1062,11 @@ body {
   background-color: #fff5db; /* Ensure active background is transparent */
   color: #1d1d1b;
 }
-.Blog-form {
+/* .Blog-form {
   width: 293px;
   height: 56px;
   padding-left: 15px;
-}
+} */
 .form-box {
   width: 400px;
   max-width: 100%;
@@ -1061,20 +1074,20 @@ body {
   /* padding-top: 30px; */
 }
 
-.form-box input {
+.Blog-form  {
   color: #1d1d1b;
-  padding: 15px 10px;
+  padding: 9px;
   border-radius: 50px;
   outline: none;
   background: #ffff;
-  width: 100%;
+  width: 280px;
   border: 1px solid #8f8f8f;
   height: 54px;
-  padding-left: 30px;
+  padding-left: 20px;
   font-family: Fixel Text;
   font-size: 20px;
   font-weight: 600;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 ::placeholder {
@@ -1099,8 +1112,9 @@ body {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 225px;
-  bottom: 3px;
+  left: 208px;
+  top: -7px;
+  bottom: 0;
   border-radius: 40px;
   justify-content: center;
 }
@@ -2976,6 +2990,87 @@ body {
     gap: 8px;
     border-radius: 40px;
   }
+  .contact {
+    margin-top: 50px;
+  }
+  .contact-details h4 {
+    font-family: fixel Text;
+    font-weight: 900;
+    font-size: 80px;
+    color: #1d1d1b;
+  }
+  .contact-details p {
+    font-family: fixel Text;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .lastName {
+    height: 60px;
+  }
+
+  .contact-btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #1d1d1b;
+    color: #fff;
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .contact-form .form-control {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .bi-envelope {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    /* width: 35px; */
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .contactSupport {
+    margin-left: -10px;
+    font-weight: 900;
+    color: #1d1d1b;
+  }
+  .Error h6 {
+    font-family: Fixel Text;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    color: linear-gradient (from top #fa8f42, #F1454F );
+  }
+  .Error p {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #1d1d1b;
+  }
+  .Error-btn {
+    height: 56px;
+    padding: 4px 32px 4px 32px;
+    gap: 8px;
+    border-radius: 56px;
+    background-color: #1d1d1b;
+    border: none;
+    color: #fff;
+    font-family: Fixel Text;
+  }
+  .error-Btn{
+    text-decoration: none;
+    margin-top: 27px;
+  }
+  .Error {
+    margin-top: 14px;
+  }
+  .Error img {
+    /* width: 992px; */
+    height: 540px;
+  }
+  
 }
 .custom-sticky {
   position: -webkit-sticky; /* For Safari */

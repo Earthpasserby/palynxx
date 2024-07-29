@@ -35,7 +35,7 @@ const Privacy = () => {
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/blog" className="">
+              <Nav.Link as={NavLink} to="/blog" className="d-none">
                 Blog
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -43,7 +43,7 @@ const Privacy = () => {
                 FAQS
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
-              <Nav.Link className="">
+              <Nav.Link as={NavLink} to="/contact" className="">
                 Contact
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -524,6 +524,8 @@ const Privacy = () => {
                   <Link
                     to="https://www.linkedin.com/company/palynxapp/"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <BiLogoLinkedin />
@@ -533,6 +535,8 @@ const Privacy = () => {
                   <Link
                     to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <BsInstagram />
@@ -542,13 +546,20 @@ const Privacy = () => {
                   <Link
                     to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <FaFacebookF />
                     </button>
                   </Link>
 
-                  <Link to="https://x.com/palynxapp" className="Linked-btn">
+                  <Link
+                    to="https://x.com/palynxapp"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="btn-icon2">
                       <FaXTwitter />
                     </button>
@@ -556,7 +567,7 @@ const Privacy = () => {
                 </div>
               </div>
               <div class="col-sm-3 footerp">
-                <p>
+                {/* <p>
                   <Link
                     to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                     className="footer-links"
@@ -566,7 +577,7 @@ const Privacy = () => {
                       <i class="bi bi-chevron-right footer-Angle"></i>
                     </a>
                   </Link>
-                </p>
+                </p> */}
                 <p>
                   <Link to="/Blog" className="footer-links">
                     <a>
@@ -584,7 +595,7 @@ const Privacy = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="footer-links">
+                  <Link to="/Contact" className="footer-links">
                     <a>
                       Contact
                       <i class="bi bi-chevron-right footer-Angle"></i>

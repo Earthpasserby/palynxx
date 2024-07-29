@@ -16,9 +16,6 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { MdMail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 const Contact = () => {
@@ -45,7 +42,7 @@ const Contact = () => {
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/blog" className="">
+              <Nav.Link as={NavLink} to="/blog" className="d-none">
                 Blog
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -53,7 +50,7 @@ const Contact = () => {
                 FAQS
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
-              <Nav.Link className="">
+              <Nav.Link as={NavLink} to="/contact" className="">
                 Contact
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -111,25 +108,45 @@ const Contact = () => {
       </Navbar>
       <Container>
         <Container>
-          <Row className="Contact">
-            <Col xs={12} md={6} className="Contact-details">
+          <Row className="contact">
+            <Col xs={12} md={5} className="contact-details">
               <Row>
                 <Col>
-                  <div className="line"></div>
-                  <h4>GET IN TOUCH!</h4>
+                  <h4>Get in touch with us. </h4>
                   <p>Reach out for any inquiry.</p>
+                  <hr />
+                  <pre>Send us an email on:</pre>
+                  <div>
+                    <p className="contactSupport">
+                      <i class="bi bi-envelope mx-2"></i>
+                      Support@palynx.com
+                    </p>
+                  </div>
                 </Col>
               </Row>
             </Col>
-            <Col className="Contact-form" xs={12} md={6}>
+            <Col className="Contact-form" xs={12} md={7}>
               <Form className="contact-form">
                 <Form.Group className="mb-2" controlId="formBasicEmail">
-                  <Form.Label>Name</Form.Label>
-                  <Form.Control type="email" placeholder="Enter your name" />
+                  <Form.Control
+                    type="text"
+                    placeholder="First name"
+                    className="lastName bg-transparent outline-0"
+                  />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                  <Form.Label>Email address</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Control
+                    type="text"
+                    placeholder="Last name"
+                    className="lastName bg-transparent"
+                  />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control
+                    type="text"
+                    placeholder="Phone number"
+                    className="lastName bg-transparent"
+                  />
                 </Form.Group>
 
                 <Form.Group controlId="floatingTextarea2" label="Comments">
@@ -137,25 +154,147 @@ const Contact = () => {
                     as="textarea"
                     placeholder="Leave a comment here"
                     style={{ height: "200px" }}
+                    className="bg-transparent"
                   />
                 </Form.Group>
                 <Link to="/" style={{ textDecoration: "none" }}>
-                  <div
-                    className=" LinkButton mx-auto mt-3 Contact-Button"
-                    style={{ width: "427px" }}
-                  >
-                    <button
-                      type="btn"
-                      variant="Secondary"
-                      className="d-flex justify-content-center"
-                    >
-                      Submit
-                    </button>
-                  </div>
+                  <button className="contact-btn">Submit</button>
                 </Link>
               </Form>
             </Col>
           </Row>
+        </Container>
+      </Container>
+      <Container fluid>
+        <Container fluid className="footer">
+          <Container>
+            <div class="row">
+              <div class=" col-sm-3 footerP">
+                <img
+                  src="./palynxwlogo.png"
+                  alt="logo"
+                  className="logo-img b-ff"
+                />
+                <p className="">Discover, Connect, Plan</p>
+                <div className="d-flex footerp-iconMobile">
+                  <Link
+                    to="https://www.linkedin.com/company/palynxapp/"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="btn-icon2">
+                      <BiLogoLinkedin />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="btn-icon2">
+                      <BsInstagram />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="btn-icon2">
+                      <FaFacebookF />
+                    </button>
+                  </Link>
+
+                  <Link
+                    to="https://x.com/palynxapp"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="btn-icon2">
+                      <FaXTwitter />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div class="col-sm-3 footerp">
+                {/* <p>
+                  <Link
+                    to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                    className="footer-links"
+                  >
+                    <a>
+                      About us
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
+                </p> */}
+                <p>
+                  <Link to="/Blog" className="footer-links">
+                    <a>
+                      Blog
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/Faqs" className="footer-links">
+                    <a>
+                      Faqs
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/Contact" className="footer-links">
+                    <a>
+                      Contact
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
+                </p>
+              </div>
+              <div class="col-sm-3 footerp">
+                <p>
+                  <Link to="/Terms" className="footer-links">
+                    <a>
+                      Terms of Service
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/Privacy" className="footer-links">
+                    <a>
+                      Privacy & Policy
+                      <i class="bi bi-chevron-right footer-Angle"></i>
+                    </a>
+                  </Link>
+                </p>
+              </div>
+              <div class="col-sm-3 footerp">
+                <p>
+                  <a href="#">Download App</a>
+                </p>
+                <button className="download-button">
+                  <i className="bi bi-apple"></i>
+                  <div className="text-container">
+                    Download on the <br /> <span>App Store</span>
+                  </div>
+                </button>
+
+                <div className="PalynxT"></div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-center foter">
+              <h6>All rights reserved Palynx © 2024</h6>
+            </div>
+          </Container>
         </Container>
       </Container>
     </>

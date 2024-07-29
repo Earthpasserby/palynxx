@@ -8,6 +8,7 @@ import Faqs from "./components/Faqs.jsx";
 import Privacy from "./components/Privacy.jsx";
 import Terms from "./components/Terms.jsx";
 import Contact from "./components/Contact.jsx";
+import Error from "./components/Error.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Terms" element={<Terms />} />
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Error" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>

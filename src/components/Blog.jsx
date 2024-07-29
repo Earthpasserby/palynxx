@@ -38,7 +38,7 @@ const Blog = () => {
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/blog" className="">
+              <Nav.Link as={NavLink} to="/blog" className="d-none">
                 Blog
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -46,7 +46,7 @@ const Blog = () => {
                 FAQS
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
-              <Nav.Link className="">
+              <Nav.Link as={NavLink} to="/contact" className="">
                 Contact
                 <i class="bi bi-chevron-right footer-Angle"></i>
               </Nav.Link>
@@ -446,18 +446,23 @@ const Blog = () => {
                       Reach out to our friendly support team at
                     </p>
                     <div className="Blog-form">
-                      <form action="#">
+                      <div className="form-box">
+                        <p>support@palynx.com</p>
+                        <Link to="/Contact">
+                          <button type="submit" className="Blog-btn">
+                            <GoArrowUpRight />
+                          </button>
+                        </Link>
+                      </div>
+                      {/* <form action="#">
                         <div className="form-box">
                           <input
                             type="text"
                             name="EmailAddress"
                             placeholder="support@palynx.com"
                           />
-                          <button type="submit">
-                            <GoArrowUpRight className="" />
-                          </button>
                         </div>
-                      </form>
+                      </form> */}
                     </div>
                   </div>
                 </div>
@@ -474,8 +479,10 @@ const Blog = () => {
                     </p>
                     <div className="icon d-flex">
                       <Link
-                        to="https://www.linkedin.com/company/palynxapp/"
+                        to=" https://www.linkedin.com/company/palynxapp/"
                         className="Linked-btn2"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <button className="btn-icon">
                           <BiLogoLinkedin />
@@ -484,6 +491,8 @@ const Blog = () => {
                       <Link
                         to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
                         className="Linked-btn2"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <button className="btn-icon">
                           <BsInstagram />
@@ -492,6 +501,8 @@ const Blog = () => {
                       <Link
                         to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                         className="Linked-btn2"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <button className="btn-icon">
                           <FaFacebookF />
@@ -500,6 +511,8 @@ const Blog = () => {
                       <Link
                         to="https://x.com/palynxapp"
                         className="Linked-btn2"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <button className="btn-icon">
                           <FaXTwitter />
@@ -533,6 +546,8 @@ const Blog = () => {
                   <Link
                     to="https://www.linkedin.com/company/palynxapp/"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <BiLogoLinkedin />
@@ -542,6 +557,8 @@ const Blog = () => {
                   <Link
                     to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <BsInstagram />
@@ -551,13 +568,20 @@ const Blog = () => {
                   <Link
                     to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <FaFacebookF />
                     </button>
                   </Link>
 
-                  <Link to="https://x.com/palynxapp" className="Linked-btn">
+                  <Link
+                    to="https://x.com/palynxapp"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="btn-icon2">
                       <FaXTwitter />
                     </button>
@@ -565,7 +589,7 @@ const Blog = () => {
                 </div>
               </div>
               <div class="col-sm-3 footerp">
-                <p>
+                {/* <p>
                   <Link
                     to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                     className="footer-links"
@@ -575,7 +599,7 @@ const Blog = () => {
                       <i class="bi bi-chevron-right footer-Angle"></i>
                     </a>
                   </Link>
-                </p>
+                </p> */}
                 <p>
                   <Link to="/Blog" className="footer-links">
                     <a>
@@ -593,7 +617,7 @@ const Blog = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="footer-links">
+                  <Link to="/Contact" className="footer-links">
                     <a>
                       Contact
                       <i class="bi bi-chevron-right footer-Angle"></i>

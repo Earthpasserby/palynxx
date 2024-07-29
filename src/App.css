@@ -1054,6 +1054,7 @@ body {
 .Blog-form {
   width: 293px;
   height: 56px;
+  padding-left: 15px;
 }
 .form-box {
   width: 400px;
@@ -1073,8 +1074,8 @@ body {
   height: 54px;
   padding-left: 30px;
   font-family: Fixel Text;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 20px;
 }
 
@@ -1082,6 +1083,10 @@ body {
   color: #1d1d1b;
   font-size: 17px;
   line-height: 20px;
+}
+.bi-filter-right, .bi-x{
+  font-size: 40px;
+  outline: none;
 }
 
 .form-box button {
@@ -1095,7 +1100,7 @@ body {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 240px;
+  left: 225px;
   bottom: 3px;
   border-radius: 40px;
   justify-content: center;

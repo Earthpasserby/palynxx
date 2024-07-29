@@ -29,7 +29,7 @@ useEffect(() => {
             className="border border-0 Nav-Toggle"
             onClick={() => setExpanded(expanded ? false : "expanded")}
           >
-            <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+            <i className={`bi ${expanded ? "bi-x" : "bi-filter-right"}`}></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
             <Nav className="me-auto tem">
@@ -106,12 +106,14 @@ useEffect(() => {
                 <img src="./party.png" class="img-fluid w-100" />
               </div>
             </Link>
-            <pre className="">02/05/2024 . 12 min read</pre>
+            <pre className="">02/05/2024 • 12 min read</pre>
             <div className="Rant">
               <div>
                 <h6 className="">Top 10 Hidden Gems in Your City</h6>
               </div>
-              <GoArrowUpRight className="blog-icon" />
+              <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+              {/* <GoArrowUpRight className="blog-icon" /> */}
             </div>
 
             <p className=" Blog-col">
@@ -130,7 +132,7 @@ useEffect(() => {
               </div>
               <div class="col-sm-6">
                 <div>
-                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
+                  <pre class="pre-tag">02/05/2024 • 12 min read</pre>
 
                   <h6 class="h6-tag">
                     How to Meet Like-Minded People: Tips and Tricks
@@ -151,7 +153,7 @@ useEffect(() => {
               </div>
               <div class="col-sm-6">
                 <div>
-                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
+                  <pre class="pre-tag">02/05/2024 • 12 min read</pre>
                   <h6 class="h6-tag">Top 10 Hidden Gems in Your City</h6>
                   <p class="p-tag3">
                     Discover the lesser-known spots in your city that are
@@ -176,13 +178,15 @@ useEffect(() => {
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
+                <pre className="">02/05/2024 • 12 min read</pre>
                 <div className="Kant">
                   <div className="">
                     <h6>Top 10 Hidden Gems in Your</h6>
                     <h6> City</h6>
                   </div>
-                  <GoArrowUpRight className="blog-icon1" />
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon1" /> */}
                 </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
@@ -200,13 +204,15 @@ useEffect(() => {
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
+                <pre className="">02/05/2024 • 12 min read</pre>
                 <div className="Kant">
                   <div className="">
                     <h6>Top 10 Hidden Gems in Your</h6>
                     <h6> City</h6>
                   </div>
-                  <GoArrowUpRight className="blog-icon1" />
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon1" /> */}
                 </div>
 
                 <p>
@@ -225,13 +231,15 @@ useEffect(() => {
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
+                <pre className="">02/05/2024 • 12 min read</pre>
                 <div className="Kant">
                   <div className="">
                     <h6>Top 10 Hidden Gems in Your</h6>
                     <h6> City</h6>
                   </div>
-                  <GoArrowUpRight className="blog-icon1" />
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon1" /> */}
                 </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
@@ -251,13 +259,15 @@ useEffect(() => {
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
+                <pre className="">02/05/2024 • 12 min read</pre>
                 <div className="Kant">
                   <div className="">
                     <h6>Top 10 Hidden Gems in Your</h6>
                     <h6> City</h6>
                   </div>
-                  <GoArrowUpRight className="blog-icon1" />
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon1" /> */}
                 </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
@@ -275,13 +285,15 @@ useEffect(() => {
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
+                <pre className="">02/05/2024 • 12 min read</pre>
                 <div className="Kant">
                   <div className="">
                     <h6>Top 10 Hidden Gems in Your</h6>
                     <h6> City</h6>
                   </div>
-                  <GoArrowUpRight className="blog-icon1" />
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon1" /> */}
                 </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
@@ -299,13 +311,15 @@ useEffect(() => {
                 {/* <img src="./bale.png" alt="palynx-img" className="img-fluid" /> */}
               </div>
               <div className="card-2Cont">
-                <pre className="">02/05/2024 . 12 min read</pre>
+                <pre className="">02/05/2024 • 12 min read</pre>
                 <div className="Kant">
                   <div className="">
                     <h6>Top 10 Hidden Gems in Your</h6>
                     <h6> City</h6>
                   </div>
-                  <GoArrowUpRight className="blog-icon1" />
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon1" /> */}
                 </div>
                 <p>
                   Discover the lesser-known spots in your city that are waiting
@@ -437,7 +451,7 @@ useEffect(() => {
                           <input
                             type="text"
                             name="EmailAddress"
-                            placeholder="Support@palynx.com"
+                            placeholder="support@palynx.com"
                           />
                           <button type="submit">
                             <GoArrowUpRight className="" />

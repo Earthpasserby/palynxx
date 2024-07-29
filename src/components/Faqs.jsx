@@ -26,7 +26,7 @@ useEffect(() => {
             className="border border-0 Nav-Toggle"
             onClick={() => setExpanded(expanded ? false : "expanded")}
           >
-            <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+            <i className={`bi ${expanded ? "bi-x" : "bi-filter-right"}`}></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
             <Nav className="me-auto tem">
@@ -164,10 +164,9 @@ useEffect(() => {
             </div>
             <div>
               <p>
-                Q: What is the Profile Enhancer feature? A:
-                The Profile Enhancer feature adds a temporary decorative border
-                or badge to your profile picture to help you stand out in the
-                crowd.
+                Q: What is the Profile Enhancer feature? A: The Profile Enhancer
+                feature adds a temporary decorative border or badge to your
+                profile picture to help you stand out in the crowd.
               </p>
             </div>
             <div>
@@ -269,10 +268,10 @@ useEffect(() => {
                 you.
               </p>
               <p>
-                Q: How do I find places on Palynx? A: You can explore
-                places such as restaurants, bars, and cafes by browsing the
-                "Places" tab. Use filters to narrow down your search based on
-                your preferences.
+                Q: How do I find places on Palynx? A: You can explore places
+                such as restaurants, bars, and cafes by browsing the "Places"
+                tab. Use filters to narrow down your search based on your
+                preferences.
               </p>
               <p>
                 Q: How do I connect with new friends on Palynx? A: Palynx

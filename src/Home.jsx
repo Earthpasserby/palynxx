@@ -180,7 +180,7 @@ const Home = () => {
             className="border border-0 Nav-Toggle"
             onClick={() => setExpanded(expanded ? false : "expanded")}
           >
-            <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+            <i className={`bi ${expanded ? "bi-x" : "bi-filter-right"}`}></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
             <Nav className="me-auto tem">
@@ -249,7 +249,6 @@ const Home = () => {
                   </button>
                 </Link>
               </div>
-             
             </div>
           </Navbar.Collapse>
         </Container>
@@ -719,7 +718,7 @@ const Home = () => {
                       Discover the lesser-known spots in your city that are
                       waiting to be explored. From...
                     </p>
-                    <pre>02/05/2024 . 12 min read</pre>
+                    <pre>02/05/2024 • 12 min read</pre>
                   </div>
                 </div>
               </div>
@@ -741,7 +740,7 @@ const Home = () => {
                       Learn how to find and connect with individuals who share
                       your interests and passions.
                     </p>
-                    <pre>02/05/2024 . 12 min read</pre>
+                    <pre>02/05/2024 • 12 min read</pre>
                   </div>
                 </div>
               </div>
@@ -762,7 +761,7 @@ const Home = () => {
                       Discover the lesser-known spots in your city that are
                       waiting to be explored. From...
                     </p>
-                    <pre>02/05/2024 . 12 min read</pre>
+                    <pre>02/05/2024 • 12 min read</pre>
                   </div>
                 </div>
               </div>
@@ -955,7 +954,7 @@ const Home = () => {
                           <input
                             type="text"
                             name="EmailAddress"
-                            placeholder="Support@palynx.com"
+                            placeholder="support@palynx.com"
                           />
                           <button type="submit">
                             <GoArrowUpRight className="" />

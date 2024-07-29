@@ -26,7 +26,7 @@ const Privacy = () => {
             className="border border-0 Nav-Toggle"
             onClick={() => setExpanded(expanded ? false : "expanded")}
           >
-            <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+            <i className={`bi ${expanded ? "bi-x" : "bi-filter-right"}`}></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
             <Nav className="me-auto tem">

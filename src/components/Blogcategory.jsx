@@ -13,9 +13,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Blogcategory = () => {
   const [expanded, setExpanded] = useState(false);
-useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
@@ -28,7 +28,7 @@ useEffect(() => {
             className="border border-0 Nav-Toggle"
             onClick={() => setExpanded(expanded ? false : "expanded")}
           >
-            <i className={`bi ${expanded ? "bi-x" : "bi-list"}`}></i>
+            <i className={`bi ${expanded ? "bi-x" : "bi-filter-right"}`}></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="menu-event">
             <Nav className="me-auto tem">
@@ -84,7 +84,7 @@ useEffect(() => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      
+
       <Container>
         <Link to="/Blog" className="BlogbackLink">
           <div className="leftArrow mt-5">
@@ -106,7 +106,7 @@ useEffect(() => {
                 </Link>
               </div>
               <div>
-                <p className="bg-cat2">11 Jan 2022 . 5 min read</p>
+                <p className="bg-cat2">11 Jan 2022 • 5 min read</p>
               </div>
             </div>
           </Col>
@@ -325,77 +325,83 @@ useEffect(() => {
           </Container>
         </Row>
       </Container>
-      <Container className="blogSection mt-4">
-        <Container>
-          <div className="blogSection-arrow">
-            <img src="./arrow.png" alt="palynx-img" className="rrow1" />
-          </div>
-          <h5>Recent Blog Posts</h5>
+      <Container fluid>
+        <Container className="blogSection mt-4">
+          <Container>
+            <Container>
+              <div className="blogSection-arrow">
+                <img src="./arrow.png" alt="palynx-img" className="rrow1" />
+              </div>
+              <h5>Recent Blog Posts</h5>
+            </Container>
+            <Row className="mt-4">
+              <div class="col-md-5 Blog-post">
+                <Link to="/Blogcategory" className="blog">
+                  <div>
+                    <img src="./party.png" class="img-fluid w-100" />
+                  </div>
+                </Link>
+                <pre className="">02/05/2024 • 12 min read</pre>
+                <div className="Rant">
+                  <div>
+                    <h6 className="">Top 10 Hidden Gems in Your City</h6>
+                  </div>
+                  <img src="./right-Icon.png" class="img-fluid blog-icon" />
+
+                  {/* <GoArrowUpRight className="blog-icon" /> */}
+                </div>
+
+                <p className=" Blog-col">
+                  Discover the lesser-known spots in your city that are waiting
+                  to be explored. From cozy cafes to secret parks, uncover
+                  places that only locals know about.
+                </p>
+              </div>
+
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <Link to="/Blogcategory" className="blog">
+                      <img src="./pitch.png" class="img-fluid w-100" />
+                    </Link>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <pre class="pre-tag">02/05/2024 • 12 min read</pre>
+
+                      <h6 class="h6-tag">
+                        How to Meet Like-Minded People: Tips and Tricks
+                      </h6>
+                      <p class="p-tag2">
+                        Building meaningful connections is easier than you
+                        think. Learn how to find and connect with individuals
+                        who share your interests and passions
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-sm-6">
+                    <Link to="/Blogcategory" className="blog">
+                      <img src="./diary.png" className="img-fluid w-100" />
+                    </Link>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <pre class="pre-tag">02/05/2024 • 12 min read</pre>
+                      <h6 class="h6-tag">Top 10 Hidden Gems in Your City</h6>
+                      <p class="p-tag3">
+                        Discover the lesser-known spots in your city that are
+                        waiting to be explored. From cozy cafes to secret parks,
+                        uncover places that only locals know about.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Row>
+          </Container>
         </Container>
-        <Row className="mt-4">
-          <div class="col-md-5 Blog-post">
-            <Link to="/Blogcategory" className="blog">
-              <div>
-                <img src="./party.png" class="img-fluid w-100" />
-              </div>
-            </Link>
-            <pre className="">02/05/2024 . 12 min read</pre>
-            <div className="Rant">
-              <div>
-                <h6 className="">Top 10 Hidden Gems in Your City</h6>
-              </div>
-              <GoArrowUpRight className="blog-icon" />
-            </div>
-
-            <p className=" Blog-col">
-              Discover the lesser-known spots in your city that are waiting to
-              be explored. From cozy cafes to secret parks, uncover places that
-              only locals know about.
-            </p>
-          </div>
-
-          <div class="col-md-7">
-            <div class="row">
-              <div class="col-sm-6">
-                <Link to="/Blogcategory" className="blog">
-                  <img src="./pitch.png" class="img-fluid w-100" />
-                </Link>
-              </div>
-              <div class="col-sm-6">
-                <div>
-                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
-
-                  <h6 class="h6-tag">
-                    How to Meet Like-Minded People: Tips and Tricks
-                  </h6>
-                  <p class="p-tag2">
-                    Building meaningful connections is easier than you think.
-                    Learn how to find and connect with individuals who share
-                    your interests and passions
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-sm-6">
-                <Link to="/Blogcategory" className="blog">
-                  <img src="./diary.png" className="img-fluid w-100" />
-                </Link>
-              </div>
-              <div class="col-sm-6">
-                <div>
-                  <pre class="pre-tag">02/05/2024 . 12 min read</pre>
-                  <h6 class="h6-tag">Top 10 Hidden Gems in Your City</h6>
-                  <p class="p-tag3">
-                    Discover the lesser-known spots in your city that are
-                    waiting to be explored. From cozy cafes to secret parks,
-                    uncover places that only locals know about.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Row>
       </Container>
       <Container>
         <Row className="d-flex justify-content-center">
@@ -425,7 +431,7 @@ useEffect(() => {
                           <input
                             type="text"
                             name="EmailAddress"
-                            placeholder="Support@palynx.com"
+                            placeholder="support@palynx.com"
                           />
                           <button type="submit">
                             <GoArrowUpRight className="" />

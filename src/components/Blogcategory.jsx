@@ -481,7 +481,7 @@ const Blogcategory = () => {
                     </p>
                     <div className="icon d-flex">
                       <Link
-                        to=" https://www.linkedin.com/company/palynxapp/"
+                        to="https://www.linkedin.com/company/palynxapp/"
                         className="Linked-btn2"
                         target="_blank"
                         rel="noopener noreferrer"

@@ -129,7 +129,9 @@ const Contact = () => {
             <Col xs={12} md={5} className="contact-details">
               <Row>
                 <Col>
-                  <h4>Get in touch with us. </h4>
+                  <h4>
+                    <b>Get in touch with us.</b>{" "}
+                  </h4>
                   <p>Reach out for any inquiry.</p>
                   <hr className="contactLine" />
                   <pre>Send us an email on:</pre>

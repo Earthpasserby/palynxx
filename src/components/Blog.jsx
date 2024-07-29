@@ -55,7 +55,13 @@ const Blog = () => {
                 <i class="bi bi-chevron-right footer-Angle2"></i>
               </Nav.Link>
             </Nav>
-            <Nav className="bav-btn">
+            <Nav
+              as={NavLink}
+              to="https://play.google.com/store/apps/details?id=com.palynx.app"
+              className="bav-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="F-btn">
                 <Nav href="#donload" className="D-app">
                   Download the App
@@ -67,19 +73,47 @@ const Blog = () => {
               <h6>
                 We are <span>Social</span>
               </h6>
-              <div className="d-flex Navbar-iconMobile">
-                <button className="btn-icon7">
-                  <BiLogoLinkedin />
-                </button>
-                <button className="btn-icon7">
-                  <BsInstagram />
-                </button>
-                <button className="btn-icon7">
-                  <FaFacebookF />
-                </button>
-                <button className="btn-icon7">
-                  <FaXTwitter />
-                </button>
+              <div className="d-flex  Navbar-iconMobile">
+                <Link
+                  to=" https://www.linkedin.com/company/palynxapp/"
+                  className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn-icon7">
+                    <BiLogoLinkedin />
+                  </button>
+                </Link>
+                <Link
+                  to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
+                  className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn-icon7">
+                    <BsInstagram />
+                  </button>
+                </Link>
+                <Link
+                  to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
+                  className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn-icon7">
+                    <FaFacebookF />
+                  </button>
+                </Link>
+                <Link
+                  to="https://x.com/palynxapp"
+                  className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn-icon7">
+                    <FaXTwitter />
+                  </button>
+                </Link>
               </div>
             </div>
           </Navbar.Collapse>

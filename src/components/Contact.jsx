@@ -59,7 +59,13 @@ const Contact = () => {
                 <i class="bi bi-chevron-right footer-Angle2"></i>
               </Nav.Link>
             </Nav>
-            <Nav className="bav-btn">
+            <Nav
+              as={NavLink}
+              to="https://play.google.com/store/apps/details?id=com.palynx.app"
+              className="bav-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="F-btn">
                 <Nav href="#donload" className="D-app">
                   Download the App
@@ -75,6 +81,8 @@ const Contact = () => {
                 <Link
                   to=" https://www.linkedin.com/company/palynxapp/"
                   className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="btn-icon7">
                     <BiLogoLinkedin />
@@ -83,6 +91,8 @@ const Contact = () => {
                 <Link
                   to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
                   className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="btn-icon7">
                     <BsInstagram />
@@ -91,12 +101,19 @@ const Contact = () => {
                 <Link
                   to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                   className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="btn-icon7">
                     <FaFacebookF />
                   </button>
                 </Link>
-                <Link to="https://x.com/palynxapp" className="Linked-btn2">
+                <Link
+                  to="https://x.com/palynxapp"
+                  className="Linked-btn2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="btn-icon7">
                     <FaXTwitter />
                   </button>

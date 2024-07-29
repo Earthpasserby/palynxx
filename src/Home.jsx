@@ -1036,6 +1036,8 @@ const Home = () => {
                   <Link
                     to="https://www.linkedin.com/company/palynxapp/"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <BiLogoLinkedin />
@@ -1045,6 +1047,8 @@ const Home = () => {
                   <Link
                     to="https://www.instagram.com/palynxapp?igsh=cTd0Zmp5eG42NGgw"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <BsInstagram />
@@ -1054,13 +1058,20 @@ const Home = () => {
                   <Link
                     to="https://www.facebook.com/palynxapp?mibextid=JRoKGi"
                     className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="btn-icon2">
                       <FaFacebookF />
                     </button>
                   </Link>
 
-                  <Link to="https://x.com/palynxapp" className="Linked-btn">
+                  <Link
+                    to="https://x.com/palynxapp"
+                    className="Linked-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="btn-icon2">
                       <FaXTwitter />
                     </button>

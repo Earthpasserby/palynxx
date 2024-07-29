@@ -6,7 +6,9 @@ import Blog from "./components/Blog.jsx";
 import Blogcategory from "./components/Blogcategory.jsx";
 import Faqs from "./components/Faqs.jsx";
 import Privacy from "./components/Privacy.jsx";
-import Terms from "./components/Terms.jsx"
+import Terms from "./components/Terms.jsx";
+import Contact from "./components/Contact.jsx";
+import assetlinks from "./components/well-known/assetlinksjson.jsx";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/Faqs" element={<Faqs />} />
           <Route path="/Terms" element={<Terms />} />
           <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/assetlinks.json" element={<assetlinks.json />} />
         </Route>
       </Routes>
     </BrowserRouter>

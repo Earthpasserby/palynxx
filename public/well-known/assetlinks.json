@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.palynx.app",
+      "sha256_cert_fingerprints": [
+        "A3:39:24:BD:AF:D6:90:05:38:C4:F1:87:48:34:E1:EA:74:C5:F2:D8:17:FA:75:5C:45:62:4A:D0:4E:77:DA:6F"
+      ]
+    }
+  }
+]

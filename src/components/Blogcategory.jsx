@@ -10,6 +10,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
+import Title from "./Title";
 
 const Blogcategory = () => {
   const [expanded, setExpanded] = useState(false);
@@ -18,6 +19,7 @@ const Blogcategory = () => {
   }, []);
   return (
     <>
+      <Title title="Blog | Palynx" />
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="/">

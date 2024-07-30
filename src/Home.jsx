@@ -17,6 +17,7 @@ import Slider from "react-slick";
 import { Link, NavLink } from "react-router-dom";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Title from "./components/Title";
 
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
@@ -170,6 +171,7 @@ const Home = () => {
   }, []);
   return (
     <>
+      <Title title="Palynx | The People Pairing App" />
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="/">

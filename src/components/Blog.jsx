@@ -11,6 +11,7 @@ import { GoArrowRight } from "react-icons/go";
 import { GoArrowLeft } from "react-icons/go";
 // import Pagination from "react-bootstrap/Pagination";
 import { Link, NavLink } from "react-router-dom";
+import Title from "./Title";
 
 const Blog = () => {
   const [expanded, setExpanded] = useState(false);
@@ -19,6 +20,7 @@ const Blog = () => {
   }, []);
   return (
     <>
+      <Title title="Blog | Palynx" />
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="/">

@@ -130,11 +130,10 @@ const Contact = () => {
               <Row>
                 <Col>
                   <h4>
-                    <b>Get in touch with us.</b>{" "}
+                    <b className="Touch">Get in touch with us.</b>{" "}
                   </h4>
                   <p>Reach out for any inquiry.</p>
-                  <hr className="contactLine" />
-                  <pre>Send us an email on:</pre>
+                  <pre className="mt-5">Send us an email on:</pre>
                   <div>
                     <p className="contactSupport">
                       <i class="bi bi-envelope mx-2"></i>
@@ -300,12 +299,19 @@ const Contact = () => {
                 <p>
                   <a href="#">Download App</a>
                 </p>
-                <button className="download-button">
-                  <i className="bi bi-apple"></i>
-                  <div className="text-container">
-                    Download on the <br /> <span>App Store</span>
-                  </div>
-                </button>
+                <Link
+                  to="https://apps.apple.com/us/app/palynx/id6480189332"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-btn"
+                >
+                  <button className="download-button">
+                    <i className="bi bi-apple"></i>
+                    <div className="text-container ">
+                      Download on the <br /> <span>App Store</span>
+                    </div>
+                  </button>
+                </Link>
 
                 <div className="PalynxT"></div>
               </div>

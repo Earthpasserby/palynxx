@@ -4,13 +4,13 @@ function Title({ title }) {
   return (
     <Helmet>
       <title>{title}</title>
-      <meta
+      {/* <meta
         name="description"
         content="Find the perfect companion for your next event with our app! Our app pairs you up with like-minded people who share your interests - from music festivals to sporting events. Join the waitlist!"
       />
-      <meta name="keywords" content="HTML, SEO" />
+      <meta name="keywords" content="HTML, SEO" /> */}
       <meta property="og:title" content={title} />
-      <meta property="og:type" content="website" />
+      {/* <meta property="og:type" content="website" />
       <meta
         property="og:description"
         content="Find the perfect companion for your next event with our app! Our app pairs you up with like-minded people who share your interests - from music festivals to sporting events. Join the waitlist!"
@@ -24,7 +24,7 @@ function Title({ title }) {
         property="twitter:image"
       />
       <meta property="og:url" content="https://www.palynx.com/" />
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary_large_image" /> */}
     </Helmet>
   );
 }

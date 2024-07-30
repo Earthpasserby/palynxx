@@ -676,12 +676,21 @@ const Home = () => {
                 Palynx now and take the first step towards discovering your city
                 and making meaningful connections.
               </p>
-              <button className="download-button-1">
-                <i className="bi bi-apple"></i>
-                <div className="text-container">
-                  Download on the <br /> <span>App Store</span>
-                </div>
-              </button>
+
+              <Link
+                to="https://apps.apple.com/us/app/palynx/id6480189332"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-btn"
+              >
+                <button className="download-button-1">
+                  <i className="bi bi-apple"></i>
+                  <div className="text-container">
+                    Download on the <br /> <span>App Store</span>
+                  </div>
+                </button>
+              </Link>
+
               <div className="PalynxT"></div>
               <img
                 src="./arow.png"
@@ -1180,12 +1189,19 @@ const Home = () => {
                 <p>
                   <a href="#">Download App</a>
                 </p>
-                <button className="download-button">
-                  <i className="bi bi-apple"></i>
-                  <div className="text-container">
-                    Download on the <br /> <span>App Store</span>
-                  </div>
-                </button>
+                <Link
+                  to="https://apps.apple.com/us/app/palynx/id6480189332"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-btn"
+                >
+                  <button className="download-button">
+                    <i className="bi bi-apple"></i>
+                    <div className="text-container ">
+                      Download on the <br /> <span>App Store</span>
+                    </div>
+                  </button>
+                </Link>
 
                 <div className="PalynxT"></div>
               </div>

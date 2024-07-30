@@ -9,14 +9,14 @@ const Error = () => {
     <>
       <Container>
         <Row className="Error">
-          <Col xs={12} md={12}>
+          <Col xs={12} md={12} className="errorCont">
             <div className="text-center">
               <h6>Oops!</h6>
               <p>You are lost</p>
               <img src="./Error.png" alt="Error-img" className="img-fluid " />
             </div>
 
-            <Link to="/" className="d-flex justify-content-center error-Btn">
+            <Link to="/" className="d-flex justify-content-center  error-Btn">
               <button className="Error-btn">Go Home</button>
             </Link>
           </Col>

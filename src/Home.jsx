@@ -717,7 +717,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="hero-8">
+      <Container className="hero-8 d-none">
         <div className="hero-8Header">
           <div className="d-flex justify-content-between">
             <h5>
@@ -903,13 +903,10 @@ const Home = () => {
                 />
               </div>
               <Accordion.Body className="accordionBody">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Palynx is a social app designed to help you discover events,
+                places, and friends. Whether you're looking for a fun outing, a
+                great restaurant, or new connections, Palynx is your go-to app
+                for creating unforgettable experiences.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1" className="accordionItem">
@@ -919,7 +916,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("1")}
               >
-                <h1 className="accordionSpan">What is Palynx?</h1>
+                <h1 className="accordionSpan">How does Palynx work? </h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "1" ? "fa-chevron-up" : "fa-chevron-down"
@@ -928,13 +925,10 @@ const Home = () => {
                 />
               </div>
               <Accordion.Body className="accordionBody">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Palynx uses an advanced algorithm to match you with events,
+                places, and people based on your interests and preferences. You
+                can explore personalized recommendations, join last-minute
+                hangouts, and connect with new friends.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2" className="accordionItem">
@@ -944,7 +938,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleToggle("2")}
               >
-                <h1 className="accordionSpan">What is Palynx?</h1>
+                <h1 className="accordionSpan">Is Palynx free to use?</h1>
                 <i
                   className={`accordionToggleIcon fas ${
                     expanded === "2" ? "fa-chevron-up" : "fa-chevron-down"
@@ -953,13 +947,8 @@ const Home = () => {
                 />
               </div>
               <Accordion.Body className="accordionBody">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Yes, Palynx is free to download and use. We also offer premium
+                features and bundles to enhance your experience.
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
@@ -1143,7 +1132,7 @@ const Home = () => {
                   </Link>
                 </p> */}
                 <p>
-                  <Link to="/Blog" className="footer-links">
+                  <Link to="/blog" className="footer-links  d-none">
                     <a>
                       Blog
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -1151,7 +1140,7 @@ const Home = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Faqs" className="footer-links">
+                  <Link to="/faqs" className="footer-links">
                     <a>
                       Faqs
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -1159,7 +1148,7 @@ const Home = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Contact" className="footer-links">
+                  <Link to="/contact" className="footer-links">
                     <a>
                       Contact
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -1169,7 +1158,7 @@ const Home = () => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Terms" className="footer-links">
+                  <Link to="/terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -1177,7 +1166,7 @@ const Home = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Privacy" className="footer-links">
+                  <Link to="/privacy" className="footer-links">
                     <a>
                       Privacy & Policy
                       <i class="bi bi-chevron-right footer-Angle"></i>

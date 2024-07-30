@@ -639,7 +639,7 @@ const Blogcategory = () => {
                   </Link>
                 </p> */}
                 <p>
-                  <Link to="/Blog" className="footer-links">
+                  <Link to="/blog" className="footer-links  d-none">
                     <a>
                       Blog
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -647,7 +647,7 @@ const Blogcategory = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Faqs" className="footer-links">
+                  <Link to="/faqs" className="footer-links">
                     <a>
                       Faqs
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -655,7 +655,7 @@ const Blogcategory = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Contact" className="footer-links">
+                  <Link to="/contact" className="footer-links">
                     <a>
                       Contact
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -665,7 +665,7 @@ const Blogcategory = () => {
               </div>
               <div class="col-sm-3 footerp">
                 <p>
-                  <Link to="/Terms" className="footer-links">
+                  <Link to="/terms" className="footer-links">
                     <a>
                       Terms of Service
                       <i class="bi bi-chevron-right footer-Angle"></i>
@@ -673,7 +673,7 @@ const Blogcategory = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Privacy" className="footer-links">
+                  <Link to="/privacy" className="footer-links">
                     <a>
                       Privacy & Policy
                       <i class="bi bi-chevron-right footer-Angle"></i>

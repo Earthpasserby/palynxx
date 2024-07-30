@@ -18,11 +18,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Title from "./Title";
 const Contact = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <>
+      <Title title="Contact us | Palynx" />
+
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="/">

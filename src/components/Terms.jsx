@@ -8,6 +8,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
+import Title from "./Title";
 
 const Terms = () => {
   const [expanded, setExpanded] = useState(false);
@@ -16,6 +17,7 @@ const Terms = () => {
   }, []);
   return (
     <>
+      <Title title="Terms | Palynx" />
       <Navbar collapseOnSelect expand="lg" className="Navbar custom-sticky">
         <Container className="nbar">
           <Navbar.Brand href="/">

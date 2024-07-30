@@ -11,6 +11,8 @@ import { GoArrowRight } from "react-icons/go";
 import { GoArrowLeft } from "react-icons/go";
 // import Pagination from "react-bootstrap/Pagination";
 import { Link, NavLink } from "react-router-dom";
+import NavbarBtn from "./NavbarBtn";
+
 import Title from "./Title";
 
 const Blog = () => {
@@ -57,7 +59,9 @@ const Blog = () => {
                 <i class="bi bi-chevron-right footer-Angle2"></i>
               </Nav.Link>
             </Nav>
-            <Nav
+            <NavbarBtn />
+
+            {/* <Nav
               as={NavLink}
               to="https://play.google.com/store/apps/details?id=com.palynx.app"
               className="bav-btn"
@@ -69,7 +73,7 @@ const Blog = () => {
                   Download the App
                 </Nav>
               </button>
-            </Nav>
+            </Nav> */}
 
             <div className="Navbar-icon-Cont">
               <h6>
@@ -121,6 +125,7 @@ const Blog = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
       <Container>
         <div className="Blog-header d-flex justify-content-center">
           <h3>

@@ -10,6 +10,9 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
+import NavbarBtn from "./NavbarBtn";
+
+
 import Title from "./Title";
 
 const Blogcategory = () => {
@@ -56,7 +59,7 @@ const Blogcategory = () => {
                 <i class="bi bi-chevron-right footer-Angle2"></i>
               </Nav.Link>
             </Nav>
-            <Nav
+            {/* <Nav
               as={NavLink}
               to="https://play.google.com/store/apps/details?id=com.palynx.app"
               className="bav-btn"
@@ -68,7 +71,8 @@ const Blogcategory = () => {
                   Download the App
                 </Nav>
               </button>
-            </Nav>
+            </Nav> */}
+            <NavbarBtn />
 
             <div className="Navbar-icon-Cont">
               <h6>

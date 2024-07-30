@@ -15,6 +15,90 @@ body {
   background-color: #f9f6f3;
 }
 
+.icon-popup-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-popup {
+  position: absolute;
+  top: 95%; /* Adjust based on your design */
+  left: 90%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  margin-top: 10px;
+}
+.icon-popup2 {
+  position: absolute;
+  top: 95%; /* Adjust based on your design */
+  left: 15%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  margin-top: 10px;
+}
+.icon-popup33 {
+  position: absolute;
+  bottom: -30px; /* Adjust based on your design */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer-btn {
+  text-decoration: none;
+}
+
+.download-button-3,
+.download-button-2 {
+  display: flex;
+  align-items: center;
+  background-color: #000; /* Adjust background color */
+  color: #fff; /* Adjust text color */
+  border: none;
+  padding: 5px 20px; /* Adjust padding */
+  border-radius: 10px; /* Adjust border radius */
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.download-button-3:hover,
+.download-button-2:hover {
+  background-color: #333; /* Adjust hover background color */
+  color: #fa8f42;
+}
+
+.download-button-3 .bi,
+.download-button-2 .bi {
+  font-size: 20px; /* Adjust icon size */
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.download-button-3 .text-container,
+.download-button-2 .text-container {
+  text-align: center;
+  width:80px;
+}
+
+@media (max-width: 768px) {
+  .icon-popup {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .download-button-3,
+  .download-button-2 {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
 .Faqs h5 {
   font-family: "poppins" sans-serif;
   font-size: 28px;
@@ -525,14 +609,14 @@ body {
 .text-container {
   display: flex;
   flex-direction: column;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .text-container span {
   font-size: 14px; /* Adjust the font size of the App Store text if needed */
   font-weight: 500;
   font-family: fixel Text;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 .hero-9 {
   margin-top: 40px;
@@ -1833,6 +1917,11 @@ body {
     height: 48px;
     text-align: left; /* Align text to the left */
   }
+   .btn-download {
+    background-color: #1d1d1b;
+    color: #ffff;
+    
+  }
   .download-button-1 {
     display: flex;
     align-items: center;
@@ -1865,14 +1954,14 @@ body {
   .text-container {
     display: flex;
     flex-direction: column;
-    text-decoration: none;
+    /* text-decoration: none; */
   }
 
   .text-container span {
     font-size: 14px; /* Adjust the font size of the App Store text if needed */
     font-weight: 500;
     font-family: fixel Text;
-    text-decoration: none;
+    /* text-decoration: none; */
   }
 
   .header-2 h2 {
@@ -2255,8 +2344,8 @@ body {
 
   .btn-img {
     position: absolute;
-    left: 35px;
-    bottom: 15px;
+    left: 40px;
+    bottom:15px;
     font-family: Fixel Text;
     font-size: 16px;
     font-weight: 500;
@@ -3152,6 +3241,55 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .popup-icons {
+  position: absolute;
+  bottom: -60px; /* Adjust as necessary */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 18px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.popup-icons-1 {
+  width: 20%;
+  /* position: absolute; */
+  /* bottom: 120px;  */
+  /* left: 200px; */
+  /* transform: translateY(-20%); */
+  /* display: flex; */
+  /* gap: 18px; */
+  /* padding: 10px; */
+  /* background-color: #fff; */
+  /* border: 1px solid #ddd; */
+  /* border-radius: 15px; */
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+.popup-icons-1 a {
+  color: #ff763c;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.popup-icons-1 a:hover {
+  color: #f1454f;
+}
+
+
+.popup-icons a {
+  color: #ff763c;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.popup-icons a:hover {
+  color: #f1454f;
+}
+
 }
 .custom-sticky {
   position: -webkit-sticky; /* For Safari */

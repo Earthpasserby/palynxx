@@ -15,9 +15,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 // import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
+import NavbarBtn from "./components/NavbarBtn";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Title from "./components/Title";
+import Download from "./components/Download";
 
 // import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
@@ -169,6 +171,13 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const [showIcons, setShowIcons] = useState(false);
+
+  const toggleIcons = () => {
+    setShowIcons(!showIcons);
+  };
+
   return (
     <>
       <Title title="Palynx | The People Pairing App" />
@@ -208,7 +217,7 @@ const Home = () => {
                 <i class="bi bi-chevron-right footer-Angle2"></i>
               </Nav.Link>
             </Nav>
-            <Nav
+            {/* <Nav
               as={NavLink}
               to="https://play.google.com/store/apps/details?id=com.palynx.app"
               className="bav-btn"
@@ -220,7 +229,8 @@ const Home = () => {
                   Download the App
                 </Nav>
               </button>
-            </Nav>
+            </Nav> */}
+            <NavbarBtn />
 
             <div className="Navbar-icon-Cont">
               <h6>
@@ -292,14 +302,45 @@ const Home = () => {
               Connect with people with like minds, similar interests, <br />{" "}
               goals and motivations and make plans all with Palynx.
             </p>
-            <Link
+            {/* <Link
               to="https://play.google.com/store/apps/details?id=com.palynx.app"
               className="Linked-btn"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="btn-1 homebtn-1 mt-5">Download the App</button>
-            </Link>
+            </Link> */}
+            <div className="icon-popup-container">
+              <button className="btn-1 homebtn-1 mt-5" onClick={toggleIcons}>
+                Download the App
+              </button>
+              {showIcons && (
+                <div className="icon-popup">
+                  <Link
+                    to="https://apps.apple.com/us/app/palynx/id6480189332"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-btn"
+                  >
+                    <button className="download-button-3">
+                      <i className="bi bi-apple"></i>
+                      <div className="text-container">App Store</div>
+                    </button>
+                  </Link>
+                  <Link
+                    to="https://play.google.com/store/apps/details?id=com.palynx.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-btn"
+                  >
+                    <button className="download-button-2">
+                      <i className="bi bi-google-play"></i>
+                      <div className="text-container">Google Play</div>
+                    </button>
+                  </Link>
+                </div>
+              )}
+            </div>
           </Col>
           <Col xs={12} md={4} className="">
             <div className="hero-imgg  w-100 h-100">
@@ -585,15 +626,7 @@ const Home = () => {
                 alt="palynx-img"
                 className="img-fluid lady"
               />
-
-              <Link
-                to="https://play.google.com/store/apps/details?id=com.palynx.app"
-                className="Linked-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn-img">Download the App</button>
-              </Link>
+              <Download />
               <img
                 src="./Highlight.png"
                 alt="palynx-img"
@@ -683,14 +716,13 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="footer-btn"
               >
-                <button className="download-button-1">
+                <button className="download-button btn-download">
                   <i className="bi bi-apple"></i>
-                  <div className="text-container">
+                  <div className="text-container ">
                     Download on the <br /> <span>App Store</span>
                   </div>
                 </button>
               </Link>
-
               <div className="PalynxT"></div>
               <img
                 src="./arow.png"

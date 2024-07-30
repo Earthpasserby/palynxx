@@ -8,6 +8,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
+import NavbarBtn from "./NavbarBtn";
 import Title from "./Title";
 
 const Terms = () => {
@@ -54,7 +55,9 @@ const Terms = () => {
                 <i class="bi bi-chevron-right footer-Angle2"></i>
               </Nav.Link>
             </Nav>
-            <Nav
+            <NavbarBtn />
+
+            {/* <Nav
               as={NavLink}
               to="https://play.google.com/store/apps/details?id=com.palynx.app"
               className="bav-btn"
@@ -66,7 +69,7 @@ const Terms = () => {
                   Download the App
                 </Nav>
               </button>
-            </Nav>
+            </Nav> */}
 
             <div className="Navbar-icon-Cont">
               <h6>
@@ -118,6 +121,7 @@ const Terms = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
       <Container className="policy">
         <Row>
           <Col md={12} sm={12} className="policy-Tag">

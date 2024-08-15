@@ -48,8 +48,8 @@ const Events = () => {
             alt="event-img"
             className="event-img"
           />
-          <div className="Main-Img d-flex mt-4">
-            <div className="side-img">
+          <div className="Main-Img d-flex mt-3 ">
+            <div className="side-img ">
               <img
                 src={data.event_images[0].event_image_url}
                 alt="event-img"
@@ -75,12 +75,13 @@ const Events = () => {
         <Col xs={12} md={7}>
           <div key={data.id}>
             <h1>{data.event_name}</h1>
+            <p className="Ap-PP">Details</p>
           </div>
           <div>
-            <p>{data.details}</p>
+            <p className="Ap-P">{data.details}</p>
           </div>
           <div>
-            <button className="border-0">#{data.hash_tags}</button>
+            <button className="Apbtn">#{data.hash_tags}</button>
           </div>
         </Col>
       </Row>

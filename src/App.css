@@ -20,10 +20,30 @@ body {
   border-radius: 20px;
 }
 .eventSide-img{
-   width: 80px;
+   width:70px;
   height: 70px;
   border-radius: 10px;
   margin-left: 7px;
+}
+.Apbtn{
+  font-family: fixel Text;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px;
+  border:none ;
+}
+.Ap-P{
+  line-height: 30px !important;
+  font-family: fixel Text;
+  font-size:20px !important ;
+  font-weight: 600 !important;
+}
+.Ap-PP{
+  line-height: 30px !important;
+  font-family: fixel Text !important;
+  font-size:20px !important ;
+  font-weight: 600 !important;
+  color: #000 !important;
 }
 .icon-popup-container {
   position: relative;

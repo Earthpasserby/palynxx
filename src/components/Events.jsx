@@ -74,14 +74,15 @@ const Events = () => {
         </Col>
         <Col xs={12} md={7}>
           <div key={data.id}>
-            <h1>{data.event_name}</h1>
+            <h1 className="Ap-title">{data.event_name}</h1>
             <p className="Ap-PP">Details</p>
           </div>
           <div>
             <p className="Ap-P">{data.details}</p>
-          </div>
-          <div>
             <button className="Apbtn">#{data.hash_tags}</button>
+          </div>
+          <div className="App-btn mt-4">
+
           </div>
         </Col>
       </Row>

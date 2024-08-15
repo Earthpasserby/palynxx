@@ -9,6 +9,7 @@ import Privacy from "./components/Privacy.jsx";
 import Terms from "./components/Terms.jsx";
 import Contact from "./components/Contact.jsx";
 import Error from "./components/Error.jsx";
+import Events from "./components/Events.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Blogcategory" element={<Blogcategory />} />
+          <Route path="/Blogcategory/:id" element={<Events />} />
           <Route path="/Faqs" element={<Faqs />} />
           <Route path="/Terms" element={<Terms />} />
           <Route path="/Privacy" element={<Privacy />} />

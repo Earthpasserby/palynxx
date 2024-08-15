@@ -23,7 +23,7 @@ const Events = () => {
   const getData = () => {
     const ENDPOINT = "https://app.palynx.com/api/general/events/6763";
     axios(ENDPOINT)
-      .then(response => {
+      .then((response) => {
         setIsLoading(false);
         console.log("Response Data", response.data.data);
         if (Array.isArray(response.data.data)) {
@@ -43,7 +43,34 @@ const Events = () => {
     <Container>
       <Row>
         <Col xs={12} md={5}>
-          <img src="/loogo.png" alt="logo" className="logo-img" />
+          <img
+            src={data.event_images[0].event_image_url}
+            alt="event-img"
+            className="event-img"
+          />
+          <div className="Main-Img d-flex mt-4">
+            <div className="side-img">
+              <img
+                src={data.event_images[0].event_image_url}
+                alt="event-img"
+                className="eventSide-img"
+              />
+            </div>
+            <div className="side-img">
+              <img
+                src={data.event_images[1].event_image_url}
+                alt="event-img"
+                className="eventSide-img"
+              />
+            </div>
+            <div className="side-img">
+              <img
+                src={data.event_images[2].event_image_url}
+                alt="event-img"
+                className="eventSide-img"
+              />
+            </div>
+          </div>
         </Col>
         <Col xs={12} md={7}>
           <div key={data.id}>

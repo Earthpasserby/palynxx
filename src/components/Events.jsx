@@ -82,7 +82,16 @@ const Events = () => {
             <button className="Apbtn">#{data.hash_tags}</button>
           </div>
           <div className="App-btn mt-4">
-
+            <div className="d-flex justify-space-between">
+              <div className="APp">
+                Fee <p className="Ap-Price">${data.price}</p>
+              </div>
+              <div className="Ap-btn2">
+                <button className="btn-lg btn-ap">
+                  Download the app to book a spot
+                </button>
+              </div>
+            </div>
           </div>
         </Col>
       </Row>
@@ -231,7 +240,7 @@ const Events = () => {
         </Row> */}
         <Row>
           <h1>
-            {id} {content}
+            {id} {content} 
           </h1>
           {/* <Link to="/Blogcategory">Cateory</Link> */}
         </Row>
